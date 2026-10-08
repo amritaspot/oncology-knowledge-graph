@@ -1,0 +1,139 @@
+{
+  "molecule_name": "Anti-TROP2/EGFR Bispecific Antibody-drug Conjugate DM001",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-drug conjugate",
+  "modality": "ADC",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A bispecific antibody-drug conjugate that targets TROP2 and EGFR to deliver cytotoxic agents directly to tumor cells.",
+    "molecular_action": "Conjugated to an auristatin derivative, it binds to TROP2 and EGFR, leading to internalization and cell death.",
+    "targets": [
+      "TROP2",
+      "EGFR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death in TROP2 and EGFR expressing tumors"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid tumors expressing TROP2 and EGFR",
+    "histology": null,
+    "clinical_settings": [
+      "Oncology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Curated from clinical trial abstracts and drug descriptions.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": null,
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TACSTD2",
+      "EGFR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TROP2",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "1M17",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met769",
+              "Glu770",
+              "Ala767"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TROP2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      },
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.cell.2002.10.032"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

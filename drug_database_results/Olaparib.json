@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Olaparib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 23725625,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "PARP inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Olaparib inhibits the enzyme poly(ADP-ribose) polymerase (PARP), which is involved in DNA repair.",
+    "molecular_action": "Inhibition of PARP leads to accumulation of DNA damage in cancer cells, particularly those with BRCA1/2 mutations.",
+    "targets": [
+      "PARP1",
+      "PARP2"
+    ],
+    "relevant_variants": [
+      "BRCA1",
+      "BRCA2"
+    ],
+    "downstream_effects": [
+      "Increased DNA damage",
+      "Cell death in BRCA-mutated tumors"
+    ],
+    "selectivity": "Selective for cancer cells with homologous recombination repair deficiencies.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian cancer, breast cancer, prostate cancer, pancreatic cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Maintenance therapy in ovarian cancer",
+      "Treatment of BRCA-mutated breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Olaparib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02693535",
+      "NCT03432897",
+      "NCT02506816"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PARP1",
+      "PARP2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 23725625,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23725625/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PARP1",
+        "pdb_id": "4R6E",
+        "alphafold_id": "P09874",
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PARP1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.bmcl.2004.12.042"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "SPLENIC_MARGINAL_ZONE": {
+    "name": "Splenic marginal zone lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "spleen + bone_marrow + peripheral_blood",
+      "characteristic_features": [
+        "massive splenomegaly",
+        "villous lymphocytes in blood",
+        "BM involvement common"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "CD20+, CD5- (usually), CD10-, DBA.44 (KLH-1)+",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Diagnostic panel; villous lymphocytes in blood; sinusoidal BM infiltration"
+      },
+      {
+        "name": "NOTCH2, KLF2, TP53, TNFAIP3 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "NOTCH2 ~10-25%; KLF2 ~20-40%",
+        "clinical_use": "Molecular characterization"
+      },
+      {
+        "name": "del(7q)",
+        "type": "cytogenetic / FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~30-40%",
+        "clinical_use": "Characteristic \u2014 supports SMZL diagnosis"
+      },
+      {
+        "name": "HCV serology",
+        "type": "serology",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Association (variable by region)",
+        "clinical_use": "HCV eradication may induce lymphoma remission \u2014 antiviral therapy first-line if HCV+"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Biphasic architecture with small round cells at centre and larger cells at periphery of splenic white pulp nodules; villous lymphocytes in blood",
+      "variants": [
+        "classic splenic MZL",
+        "hairy cell leukaemia variant (HCL-v \u2014 distinct from SMZL though can overlap morphologically)"
+      ],
+      "grading": "Indolent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "HCV association in some cohorts suggests antigen-driven biology",
+      "stromal_features": "Splenic white pulp nodule expansion with biphasic morphology; sinusoidal BM infiltration"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Splenic marginal zone B cells \u2014 memory B cells populating the splenic marginal zone (mantle zone-adjacent region around white pulp)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (splenic marginal zone B cells)",
+      "differentiation_state": "Splenic marginal zone B cell differentiation with biphasic architecture (small round cells at centre and larger cells at periphery of splenic white pulp nodules); villous lymphocytes in blood",
+      "lineage_plasticity": "Same marginal zone B-cell lineage as other MZL entities; NOTCH2 mutations, KLF2 mutations, del7q characteristic; HCV association suggests antigen-driven biology"
+    }
+  }
+}

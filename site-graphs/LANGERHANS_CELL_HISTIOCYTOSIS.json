@@ -1,0 +1,107 @@
+{
+  "LANGERHANS_CELL_HISTIOCYTOSIS": {
+    "name": "Langerhans cell histiocytosis",
+    "heme_involvement_pattern": {
+      "primary_compartment": "variable (single_system_or_multi_system)",
+      "characteristic_organ_involvement": [
+        "bone (osteolytic lesions \u0014 skull, femur, ribs classical)",
+        "skin (seborrhoeic-like rash)",
+        "pituitary/hypothalamus (diabetes insipidus)",
+        "lung (cystic-nodular; adult smoker association)",
+        "liver",
+        "spleen",
+        "lymph nodes",
+        "bone marrow (multi-system 'risk-organ' involvement)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "BRAF V600E",
+        "type": "mutation / IHC (VE1)",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~50-60%",
+        "clinical_use": "Vemurafenib and dabrafenib are highly active, particularly in relapsed/refractory or multisystem disease. BRAF V600E cell-free DNA can be used for disease monitoring in some settings"
+      },
+      {
+        "name": "MAP2K1 (MEK1) mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Typically mutually exclusive with BRAF V600E; MEK inhibitors (for example trametinib, cobimetinib) are active"
+      },
+      {
+        "name": "Other MAPK pathway mutations and fusions (for example ARAF, MAP3K1, NRAS, KRAS, ERBB3, BRAF fusions)",
+        "type": "mutation / fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset of remaining BRAF-wild-type cases",
+        "clinical_use": "LCH shows near-universal MAPK-ERK pathway activation; MEK inhibitor therapy is active in non-BRAF V600E disease"
+      },
+      {
+        "name": "CD1a, S100, langerin (CD207)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive",
+        "clinical_use": "Diagnostic hallmark \u0014 langerin is most specific"
+      },
+      {
+        "name": "Birbeck granules on electron microscopy",
+        "type": "electron microscopy",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic (historical marker)",
+        "clinical_use": "Now largely replaced by langerin IHC"
+      },
+      {
+        "name": "Risk-organ involvement (liver, spleen, BM)",
+        "type": "clinical",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset of multi-system",
+        "clinical_use": "Defines high-risk multi-system LCH (LCH-RO+); worse prognosis; requires intensive therapy"
+      },
+      {
+        "name": "CNS involvement / neurodegenerative LCH",
+        "type": "clinical / imaging",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Late complication",
+        "clinical_use": "Often shows cerebellar and brainstem T2 hyperintensity on MRI; associated with chronic disease activity. BRAF/MEK inhibitors are active in some cases"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Aggregates of Langerhans cells (grooved reniform 'coffee-bean' nuclei) with abundant pale cytoplasm, admixed with eosinophils, lymphocytes, and multinucleated giant cells",
+      "variants": [
+        "single-system unifocal (eosinophilic granuloma)",
+        "single-system multifocal",
+        "multi-system without risk-organ involvement",
+        "multi-system with risk-organ involvement (LCH-RO+, worse prognosis)",
+        "adult pulmonary LCH (smoker-associated)"
+      ],
+      "grading": "Not graded; risk-organ involvement drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Mixed inflammatory infiltrate with eosinophil predominance surrounding Langerhans cell aggregates; MAPK pathway activation is near-universal (BRAF V600E or other MAPK alterations)",
+      "stromal_features": "Aggregates of grooved Langerhans cells with abundant pale cytoplasm; eosinophilic granuloma-like appearance; Birbeck granules on EM (historical)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Langerhans cells or, more likely, their myeloid dendritic cell precursors (not epidermal Langerhans cells specifically)",
+      "developmental_lineage": "Mesoderm \u0014 haematopoietic (myeloid dendritic cell lineage)",
+      "differentiation_state": "Langerhans cell differentiation with grooved reniform 'coffee-bean' nuclei, abundant pale cytoplasm; CD1a+, CD207/Langerin+, S100+; Birbeck granules on EM (historical marker)",
+      "lineage_plasticity": "MAPK pathway activation is near-universal \u0014 BRAF V600E (~50-60%), with other MAPK pathway alterations in many of the remaining cases; represents myeloid-derived histiocytic proliferation with dendritic cell features; multi-system with risk-organ involvement (LCH-RO+) has worse prognosis and may reflect earlier developmental origin"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "molecule_name": "Adenosine A2A Receptor Antagonist JNJ-86974680",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "JNJ-86974680"
+    ],
+    "identifier_scope": "JNJ-86974680 is an investigational code."
+  },
+  "brand_names": [],
+  "drug_class": "Small Molecule",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "JNJ-86974680 is designed to block the adenosine A2A receptor, potentially modulating immune responses in cancer.",
+    "molecular_action": "Antagonizes the adenosine A2A receptor.",
+    "targets": [
+      "ADORA2A"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate Cancer",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "JNJ-86974680 is an investigational drug with limited publicly available data.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOIs are available for the mechanism of action.",
+    "null_meaning": "Null indicates no data is available or applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07319871"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ADORA2A"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ADORA2A",
+        "pdb_id": "3EML",
+        "alphafold_id": "P29274",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [
+              "Tyr9",
+              "Phe168",
+              "Leu249",
+              "His250",
+              "Ile274"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ADORA2A",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 1.2,
+        "doi_or_source": "10.1021/jm900364u"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

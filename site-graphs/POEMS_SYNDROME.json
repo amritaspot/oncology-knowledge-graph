@@ -1,0 +1,87 @@
+{
+  "POEMS_SYNDROME": {
+    "name": "POEMS syndrome",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow (small clonal plasma cell population)",
+      "characteristic_features": [
+        "Polyneuropathy (demyelinating, sensorimotor)",
+        "Organomegaly (hepatosplenomegaly, lymphadenopathy)",
+        "Endocrinopathy (hypogonadism, hypothyroidism)",
+        "M-protein (usually IgA or IgG lambda)",
+        "Skin changes (hyperpigmentation, hypertrichosis)"
+      ],
+      "characteristic_lesions": [
+        "osteosclerotic bone lesions (in contrast to lytic in MM)",
+        "Castleman disease association"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Serum VEGF (markedly elevated)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in most POEMS cases",
+        "clinical_use": "Distinctive marker; often markedly above normal. Response monitoring and supportive for diagnosis/prognosis"
+      },
+      {
+        "name": "M-protein (typically IgA or IgG lambda light chain)",
+        "type": "serum (SPEP / IFE)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in most cases; monoclonal plasma cell disorder is a mandatory major criterion",
+        "clinical_use": "Lambda light chain restriction is characteristic"
+      },
+      {
+        "name": "Osteosclerotic lesions on skeletal survey / CT",
+        "type": "imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common but not universal",
+        "clinical_use": "Distinguishing from MM (typically lytic); PET-CT can help detect lesions"
+      },
+      {
+        "name": "HHV-8 (Castleman variant)",
+        "type": "IHC / PCR",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Not a defining feature of POEMS; may be present in HHV-8-associated multicentric Castleman disease, which is considered distinct from classic POEMS",
+        "clinical_use": "Helps distinguish HHV-8-associated multicentric Castleman disease from classic POEMS"
+      },
+      {
+        "name": "Endocrine screening (thyroid, gonadal, adrenal, glucose)",
+        "type": "serum panel",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Endocrinopathy is common",
+        "clinical_use": "One of the minor diagnostic criteria"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small clonal plasma cell population in marrow producing IgA or IgG lambda M-protein; often with sclerotic bone lesions (in contrast to MM's typically lytic lesions)",
+      "variants": [
+        "classic POEMS",
+        "Castleman disease-associated POEMS"
+      ],
+      "grading": "Not graded; VEGF level and organ involvement drive management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "VEGF elevation drives multiorgan syndrome \u2014 polyneuropathy, organomegaly, endocrinopathy, skin changes; anti-VEGF therapy is not established standard treatment",
+      "stromal_features": "Osteosclerotic bone lesions (unlike lytic MM); Castleman-like nodal architecture may be seen in Castleman disease-associated cases"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Small clonal plasma cell population associated with VEGF overproduction driving multiorgan syndrome",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (plasma cells)",
+      "differentiation_state": "Terminal plasma cell differentiation with strong lambda light chain predominance; usually IgA or IgG subtype; often associated with sclerotic (not lytic) bone lesions",
+      "lineage_plasticity": "Distinctive plasma cell biology \u2014 small clone associated with VEGF overproduction driving multiorgan syndrome; lambda light chain restriction is highly characteristic; overlap with Castleman disease-associated cases is recognized, while HHV-8-associated multicentric Castleman disease is considered a distinct entity"
+    }
+  }
+}

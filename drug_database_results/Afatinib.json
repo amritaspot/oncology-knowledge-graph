@@ -1,0 +1,207 @@
+{
+  "molecule_name": "Afatinib",
+  "identifiers": {
+    "FDA_UNII": "18LM4F3H8I",
+    "PubChem_CID": 10184653,
+    "CAS_number": "439081-18-2",
+    "NCI_Thesaurus_code": "C71576",
+    "development_codes": [
+      "BIBW2992"
+    ],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Gilotrif",
+    "Giotrif"
+  ],
+  "drug_class": "Tyrosine kinase inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Japan",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Afatinib irreversibly inhibits the kinase activity of EGFR and other ErbB family members, blocking downstream signaling pathways involved in cancer cell proliferation and survival.",
+    "molecular_action": "Irreversible inhibitor",
+    "targets": [
+      "EGFR",
+      "ERBB2",
+      "ERBB4"
+    ],
+    "relevant_variants": [
+      "EGFR exon 19 deletion",
+      "EGFR L858R mutation"
+    ],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for EGFR and other ErbB family members",
+    "doi": [
+      "10.1016/j.drudis.2011.06.007"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Non-small cell lung cancer",
+    "histology": "Adenocarcinoma",
+    "clinical_settings": [
+      "First-line treatment",
+      "EGFR mutation-positive"
+    ],
+    "scope": "Approved",
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/201292s000lbl.pdf"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe hypersensitivity to afatinib or any of its components"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/201292s000lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of EGFR in the gastrointestinal tract",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": [
+        "10.1016/j.drudis.2011.06.007"
+      ]
+    },
+    {
+      "effect": "Rash",
+      "organ_system": "Dermatological",
+      "biological_explanation": "EGFR inhibition in skin cells",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Infection",
+        "Skin irritation"
+      ],
+      "mechanism_doi": [
+        "10.1016/j.drudis.2011.06.007"
+      ]
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Stomatitis",
+        "Paronychia",
+        "Decreased appetite"
+      ],
+      "biological_explanation": "Off-target effects and EGFR inhibition in non-cancerous tissues",
+      "mechanism_status": "Established"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "P-glycoprotein inhibitors",
+      "examples": [
+        "Ritonavir",
+        "Ketoconazole"
+      ],
+      "biological_basis": "Afatinib is a substrate of P-glycoprotein, and inhibitors can increase its plasma concentration."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/10184653"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/201292s000lbl.pdf"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive pharmacology and precision oncology data for Afatinib",
+    "mechanism_doi_meaning": "DOIs provide evidence for the mechanism of action and adverse effects.",
+    "empty_mechanism_doi_meaning": "No DOI available for this entry.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 37.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00949650",
+      "NCT01121393"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "40 mg daily",
+    "objective_response_rate_pct": 60.0,
+    "median_pfs_months": 11.1
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "EGFR",
+      "ERBB2",
+      "ERBB4"
+    ],
+    "pathways": [
+      "RTK-RAS Pathway",
+      "PI3K-Akt Signalling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 10184653,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10184653/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "4G5J",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.ccr.2011.12.028"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

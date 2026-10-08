@@ -1,0 +1,64 @@
+{
+  "ETP_ALL": {
+    "name": "Early T-cell precursor ALL",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "ETP immunophenotype (CD5 dim, CD1a-, CD8-, \u22651 myeloid marker+)",
+        "type": "flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Distinct immunophenotype defines the entity"
+      },
+      {
+        "name": "FLT3, NRAS/KRAS, JAK, DNMT3A, IDH1/2 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Enriched subset (myeloid/stem-cell-associated mutational profile)",
+        "clinical_use": "Supports the characteristic stem cell/myeloid-like biology of ETP-ALL; does not by itself establish indication for AML-directed therapy"
+      },
+      {
+        "name": "NOTCH1 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Generally less frequent than in typical non-ETP T-ALL",
+        "clinical_use": "Helps distinguish biology from typical T-ALL"
+      },
+      {
+        "name": "Venetoclax response",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Investigational",
+        "clinical_use": "ETP-ALL often shows relative BCL2 dependence in preclinical/translational studies; venetoclax-based combinations are under clinical investigation, not an established validated predictive biomarker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Immature lymphoblasts with T-cell lineage assignment but incomplete T-cell differentiation and expression of \u22651 myeloid marker",
+      "variants": [
+        "classic ETP-ALL (CD5 dim, CD1a-, CD8-, \u22651 myeloid marker+)",
+        "near-ETP (partial ETP features)"
+      ],
+      "grading": "Not graded; historically considered high-risk/adverse-risk, though prognosis is influenced by treatment era and MRD response"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Biology overlaps partly with stem cell/myeloid programs, but ETP-ALL is treated within ALL paradigms in most contemporary protocols; venetoclax-based approaches remain investigational",
+      "stromal_features": "As per T-ALL"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Early thymic/immature T-cell precursor arrested at a very early developmental stage, with retention of stem cell/myeloid features",
+      "developmental_lineage": "Mesoderm \u2014 hematopoietic lymphoid lineage (immature T-lineage precursor with retained stem/myeloid features)",
+      "differentiation_state": "Early T-cell precursor phenotype: CD5 dim, CD1a-, CD8-, with expression of \u22651 myeloid/stem cell marker (for example CD117, CD34, HLA-DR, CD13, CD33, CD11b, or CD65) \u2014 bridging phenotype between T-ALL and myeloid/stem-cell programs",
+      "lineage_plasticity": "Reflects biology of an early thymic progenitor with retained multilineage/stem-cell features; molecular landscape shows overlap with stem cell/myeloid neoplasia more than typical mature T-ALL, including enrichment of FLT3, RAS-pathway, JAK/IL7R-pathway, DNMT3A, EZH2, RUNX1, and occasionally IDH1/2 alterations"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "molecule_name": "SPH4336",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 168429476,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "CDK4/6 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "SPH4336 inhibits cyclin-dependent kinases 4 and 6, which are involved in cell cycle regulation.",
+    "molecular_action": "Inhibition of CDK4/6 leads to cell cycle arrest in cancer cells.",
+    "targets": [
+      "CDK4",
+      "CDK6"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell cycle arrest",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": "High selectivity for CDK4/6",
+    "doi": [
+      "10.1093/oncolo/oyaf077"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer, Liposarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Locally Advanced Breast Cancer",
+      "Metastatic Breast Cancer",
+      "Locally Advanced Liposarcoma",
+      "Metastatic Liposarcoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and preclinical studies",
+    "mechanism_doi_meaning": "DOI for the mechanism of action study",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT05580588",
+      "NCT05860465",
+      "NCT05905614",
+      "NCT05872347",
+      "NCT05944224"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CDK4",
+      "CDK6"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

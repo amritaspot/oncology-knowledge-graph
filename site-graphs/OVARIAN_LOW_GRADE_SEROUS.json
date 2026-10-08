@@ -1,0 +1,90 @@
+{
+  "OVARIAN_LOW_GRADE_SEROUS": {
+    "name": "Ovarian low-grade serous carcinoma",
+    "biomarkers": [
+      {
+        "name": "KRAS mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "Common MAPK pathway driver in LGSC; supports MAPK pathway dependence and rationale for MEK inhibitor benefit, although mutation is not required for trametinib activity"
+      },
+      {
+        "name": "BRAF mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~2-10%",
+        "clinical_use": "Less common MAPK pathway driver than KRAS; supports MEK inhibitor rationale"
+      },
+      {
+        "name": "NRAS mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Less common MAPK activator in LGSC"
+      },
+      {
+        "name": "Trametinib response signature",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Trametinib (MEK inhibitor) improved PFS versus standard-of-care in recurrent LGSC in NRG-GOG 281/LOGS; benefit was observed irrespective of MAPK mutation status. Practice-changing standard systemic option in recurrent disease"
+      },
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually ER-positive; PR often positive",
+        "clinical_use": "Supports use of endocrine therapy; hormonal therapy (for example, letrozole) has clinical activity"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare; wild-type p53 pattern is typical in LGSC and helps distinguish from HGSC",
+        "clinical_use": "Pathogenic TP53 mutation or aberrant p53 pattern should prompt review for high-grade serous carcinoma"
+      },
+      {
+        "name": "CA-125",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Often elevated",
+        "clinical_use": "Monitoring"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Micropapillary and macropapillary architecture with mild-to-moderate nuclear atypia; often arises in serous borderline tumours",
+      "variants": [
+        "invasive micropapillary LGSC",
+        "invasive macropapillary LGSC"
+      ],
+      "grading": "Low-grade by definition (2-tier serous grading system); commonly MAPK-driven"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; typically less inflamed than HGSC",
+      "stromal_features": "Fibrous/desmoplastic stroma; often associated with invasive peritoneal implants"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Often arises via a serous borderline tumour (atypical proliferative serous tumour) precursor pathway rather than the tubal fimbria pathway typical of HGSC",
+      "developmental_lineage": "Mesoderm \u2014 M\u00fcllerian-type serous lineage",
+      "differentiation_state": "Well-differentiated serous (typically WT1+, PAX8+, CK7+, ER+; PR often positive); relatively low proliferation index",
+      "lineage_plasticity": "Distinct precursor pathway (SBT \u2192 LGSC) with KRAS/BRAF/NRAS and other MAPK-pathway alterations driving tumorigenesis; biologically distinct from HGSC"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "SOLITARY_PLASMACYTOMA": {
+    "name": "Solitary plasmacytoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "single_osseous_or_extraosseous_lesion",
+      "characteristic_sites": {
+        "osseous (SBP)": [
+          "axial skeleton (vertebrae most common)"
+        ],
+        "extraosseous (EMP)": [
+          "upper aerodigestive tract (sinonasal, nasopharynx, oropharynx, larynx)",
+          "GI tract",
+          "lymph node",
+          "skin"
+        ]
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "SPEP / IFE / UPEP / FLC \u2014 minimal or absent M-protein",
+        "type": "serum / urine",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Often absent or low-level; not universal",
+        "clinical_use": "Baseline monoclonal protein assessment and follow-up; persistent serum M-protein after RT is associated with higher risk of progression to MM"
+      },
+      {
+        "name": "MRI / PET-CT of full skeleton",
+        "type": "imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "Confirms solitary lesion and excludes additional lesions; detection of additional lesions indicates systemic plasma cell neoplasm rather than true solitary plasmacytoma"
+      },
+      {
+        "name": "BM biopsy + flow cytometry",
+        "type": "biopsy / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "Bone marrow evaluation is required; solitary plasmacytoma generally requires absent or minimal marrow involvement, with <10% clonal plasma cells if no other lesions are present"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Localised mass of clonal plasma cells with cytologic atypia in bone or soft tissue; identical morphology to multiple myeloma plasma cells",
+      "variants": [
+        "solitary bone plasmacytoma (SBP \u2014 axial skeleton, especially vertebrae)",
+        "extraosseous / extramedullary plasmacytoma (EMP \u2014 upper aerodigestive tract most common)"
+      ],
+      "grading": "Not graded; progression risk stratifies management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Solitary lesion without systemic disease \u2014 RT is often curative locally; monitor for MM progression",
+      "stromal_features": "Focal sheet-like plasma cell infiltrate; normal marrow at distant sites"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Plasma cells forming localised mass without systemic dissemination \u2014 bone-based (SBP, from marrow-resident plasma cells) or soft tissue-based (EMP, from extramedullary plasma cells at UAT and other mucosal sites)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (plasma cells)",
+      "differentiation_state": "Same terminal plasma cell differentiation as MM but with localised distribution rather than systemic marrow involvement",
+      "lineage_plasticity": "Same underlying plasma cell lineage biology as MM but confined to single site; progression to MM: ~50-70% of SBP over 10 years vs ~10-30% of EMP; EMP arising at mucosal sites (upper aerodigestive tract most common) may reflect distinct extramedullary plasma cell biology"
+    }
+  }
+}

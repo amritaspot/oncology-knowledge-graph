@@ -1,0 +1,162 @@
+{
+  "molecule_name": "Vorinostat",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5311,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "SAHA",
+    "MK0683"
+  ],
+  "drug_class": "Histone Deacetylase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Vorinostat works by inhibiting histone deacetylases, leading to an increase in acetylation of histones and non-histone proteins, which can result in cell cycle arrest and apoptosis in cancer cells.",
+    "molecular_action": "Inhibition of histone deacetylases (HDACs)",
+    "targets": [
+      "HDACs"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell cycle arrest",
+      "Apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer, Metastatic Breast Cancer, Non-Hodgkin Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors",
+      "Metastatic breast cancer",
+      "Non-Hodgkin lymphoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Vorinostat clinical trials and pharmacological data",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT00473889",
+      "NCT00121277",
+      "NCT00992446"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HDAC1",
+      "HDAC2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 5311,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5311/SDF?record_type=3d",
+    "rotatable_bonds": 8,
+    "target_structures": [
+      {
+        "target_symbol": "HDAC1",
+        "pdb_id": "4BKX",
+        "alphafold_id": "P56524",
+        "resolution_angstroms": 2.05,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "HIS141",
+              "HIS142",
+              "ASP176",
+              "PHE150",
+              "PHE205"
+            ],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "HDAC2",
+        "pdb_id": "4LXZ",
+        "alphafold_id": "Q92769",
+        "resolution_angstroms": 1.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "HIS145",
+              "HIS146",
+              "ASP181",
+              "PHE155",
+              "PHE210"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HDAC1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 10.0,
+        "doi_or_source": "10.1016/j.jmb.2013.08.013"
+      },
+      {
+        "target_symbol": "HDAC2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 20.0,
+        "doi_or_source": "10.1016/j.jmb.2013.08.013"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

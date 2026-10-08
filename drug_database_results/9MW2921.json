@@ -1,0 +1,109 @@
+{
+  "molecule_name": "9MW2921",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "9MW2921"
+    ],
+    "identifier_scope": "Investigational development code"
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-drug conjugate",
+  "modality": "ADC",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "9MW2921 is an investigational antibody-drug conjugate designed to bind Nectin-4 on tumor cells and deliver a cytotoxic payload after internalization.",
+    "molecular_action": "Nectin-4-directed monoclonal antibody conjugated to a cytotoxic payload; target binding is expected to trigger internalization and intracellular payload release, leading to tumor cell death.",
+    "targets": [
+      "Nectin-4"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Target-mediated internalization",
+      "Intracellular payload release",
+      "Cytotoxic tumor cell killing"
+    ],
+    "selectivity": "Tumor-associated targeting via Nectin-4 expression",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced solid tumors",
+    "histology": "Nectin-4-positive malignancies",
+    "clinical_settings": [
+      "Early-phase clinical development"
+    ],
+    "scope": "Investigational oncology use",
+    "reference_urls": [
+      "https://clinicaltrials.gov/search?term=9MW2921"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.gov/search?term=9MW2921"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/search?term=9MW2921"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Publicly accessible information for investigational agent 9MW2921 appears limited; fields with no directly documented evidence are left null or empty per instruction.",
+    "mechanism_doi_meaning": "Listed DOIs would correspond to primary literature directly supporting mechanism or toxicity mechanisms.",
+    "empty_mechanism_doi_meaning": "No directly verified DOI was identified in the accessible evidence reviewed.",
+    "null_meaning": "Null indicates a specific field was not directly documented or could not be verified from accessible sources.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05990452"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "NECTIN4"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

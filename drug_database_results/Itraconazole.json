@@ -1,0 +1,133 @@
+{
+  "molecule_name": "Itraconazole",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 55283,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Lozanoc",
+    "Onmel",
+    "Oriconazole"
+  ],
+  "drug_class": "Antifungal",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Itraconazole works by inhibiting the synthesis of ergosterol, an essential component of fungal cell membranes.",
+    "molecular_action": "Inhibits fungal cytochrome P450-dependent 14-alpha demethylation of lanosterol.",
+    "targets": [
+      "CYP51A1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Disruption of fungal cell membrane integrity"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Treatment of fungal infections",
+      "Management of chronic pulmonary aspergillosis (CPA)"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to itraconazole or any component of the formulation",
+      "Concurrent use of certain medications that may interact adversely"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Itraconazole clinical data and trials",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT06658964",
+      "NCT03928327",
+      "NCT03920527"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP51A1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 55283,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/55283/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CYP51A1",
+        "pdb_id": "5V5Z",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.56,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CYP51A1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.19,
+        "doi_or_source": "10.1126/science.aan0482"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

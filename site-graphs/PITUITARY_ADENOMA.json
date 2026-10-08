@@ -1,0 +1,91 @@
+{
+  "PITUITARY_ADENOMA": {
+    "name": "Pituitary adenoma",
+    "biomarkers": [
+      {
+        "name": "Hormonal secretion profile",
+        "type": "serum + IHC",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Prolactinoma (prolactin), acromegaly (GH/IGF-1), Cushing disease (ACTH/cortisol), TSH-oma. Non-functioning: silent variants. Guides medical therapy (cabergoline for prolactinoma, somatostatin analogues for GH/TSH)"
+      },
+      {
+        "name": "Transcription factor lineage (PIT1, SF-1, T-PIT)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "WHO 2022 uses TF lineage for classification (PIT1: GH/PRL/TSH; SF-1: gonadotroph; T-PIT: corticotroph)"
+      },
+      {
+        "name": "Ki-67, mitotic count, p53",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Higher proliferative activity and extensive p53 staining are associated with more aggressive behaviour, but no single validated grading cutoff is sufficient alone; used with radiologic invasion and clinical course when considering closer follow-up or adjuvant therapy"
+      },
+      {
+        "name": "MEN1 (germline)",
+        "type": "germline",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Subset of pituitary adenomas; pituitary tumours occur in ~30-40% of MEN1 patients",
+        "clinical_use": "MEN1 \u0007 parathyroid + pancreatic/duodenal NET + pituitary"
+      },
+      {
+        "name": "AIP (germline)",
+        "type": "germline",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset of familial isolated pituitary adenoma; found in ~15-30% of FIPA families",
+        "clinical_use": "Genetic counselling in young acromegaly / gigantism or familial cases"
+      },
+      {
+        "name": "USP8 mutations (Cushing)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20-60% of corticotroph adenomas causing Cushing disease",
+        "clinical_use": "Molecular subtyping of corticotroph tumours"
+      },
+      {
+        "name": "GNAS mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~30-40% of somatotroph adenomas",
+        "clinical_use": "Common driver in GH-secreting somatotroph tumours; supports molecular subtyping"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Sheets, cords, or nested growth of monomorphic cells with variable cytoplasm; classification by hormone lineage rather than morphology",
+      "variants": [
+        "by lineage: PIT1 (GH/PRL/TSH), SF-1 (gonadotroph, mostly silent), T-PIT (corticotroph)",
+        "by hormone: prolactinoma, somatotroph, corticotroph, thyrotroph, gonadotroph, null cell",
+        "by aggressiveness: typical, atypical, pituitary carcinoma"
+      ],
+      "grading": "Renamed 'pituitary neuroendocrine tumours' (PitNET) in WHO 2022; there is no formal WHO grading system based solely on Ki-67, mitoses, and p53. The former 'atypical adenoma' category was removed; proliferation markers are used as adjunct prognostic features"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; likely reflects endocrine cell of origin",
+      "stromal_features": "Delicate fibrovascular stroma; often hypervascular"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Anterior pituitary cell types with distinct lineages: lactotrophs (prolactin), somatotrophs (GH), corticotrophs (ACTH), gonadotrophs (LH/FSH), thyrotrophs (TSH); each with distinct transcription factor programme (Pit-1 for lactotroph/somatotroph/thyrotroph; T-Pit for corticotroph; SF-1 for gonadotroph)",
+      "developmental_lineage": "Oral ectoderm (Rathke's pouch); the anterior pituitary derives from oral ectoderm invagination, distinct from the neurohypophysis of neuroectodermal origin",
+      "differentiation_state": "Retains differentiation programme of cell of origin with hormone-specific transcription factors (Pit-1, T-Pit, SF-1) and hormone production; classification is now transcription-factor-based rather than immunohistochemistry-based alone",
+      "lineage_plasticity": "Modern WHO classification recognises lineage-based tumour subtypes: Pit-1 lineage tumours (somatotroph, lactotroph, mammosomatotroph, mixed somatotroph-lactotroph, thyrotroph, plurihormonal Pit-1-positive), T-Pit lineage (corticotroph), SF-1 lineage (gonadotroph), null cell"
+    }
+  }
+}

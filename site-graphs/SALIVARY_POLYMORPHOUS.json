@@ -1,0 +1,43 @@
+{
+  "SALIVARY_POLYMORPHOUS": {
+    "name": "Polymorphous adenocarcinoma (salivary)",
+    "biomarkers": [
+      {
+        "name": "PRKD1 E710D hotspot mutation",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70-80% classic subtype",
+        "clinical_use": "Diagnostic; supports polymorphous adenocarcinoma and helps distinguish classic polymorphous adenocarcinoma from adenoid cystic carcinoma"
+      },
+      {
+        "name": "PRKD1/PRKD2/PRKD3 rearrangements",
+        "type": "fusion/rearrangement",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Enriched in cribriform adenocarcinoma / cribriform variant; uncommon in classic PRKD1 E710D-mutant tumours",
+        "clinical_use": "Diagnostic; recurrent PRKD-family rearrangements support the cribriform adenocarcinoma/polymorphous adenocarcinoma spectrum"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Multiple architectural patterns within same tumour \u2014 solid, papillary, cribriform, ductal, streaming",
+      "variants": [
+        "classic polymorphous adenocarcinoma",
+        "cribriform variant (formerly cribriform adenocarcinoma of tongue/minor salivary glands)"
+      ],
+      "grading": "Low-grade behaviour typical; cribriform adenocarcinoma/cribriform variant can show greater propensity for regional nodal metastasis, but polymorphous adenocarcinoma is generally regarded as low-grade"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised",
+      "stromal_features": "Variable; can have hyalinized stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Likely salivary gland ductal reserve/intercalated duct-type cells; exact cell of origin remains uncertain",
+      "developmental_lineage": "Endoderm \u2014 salivary ductal system",
+      "differentiation_state": "Polymorphous \u2014 recapitulates multiple architectural growth patterns (ductal, papillary, cribriform, streaming)",
+      "lineage_plasticity": "PRKD pathway activation, most commonly by PRKD1 E710D and less often by PRKD-family rearrangements, is a hallmark molecular feature associated with the characteristic polymorphous architecture"
+    }
+  }
+}

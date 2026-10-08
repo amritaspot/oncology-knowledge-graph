@@ -1,0 +1,73 @@
+{
+  "PARATHYROID_CARCINOMA": {
+    "name": "Parathyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "CDC73 (HRPT2)",
+        "type": "mutation (germline and/or somatic)",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common in parathyroid carcinoma; reported in a substantial subset of cases (somatic and/or germline), with germline variants characteristic of hyperparathyroidism-jaw tumour syndrome",
+        "clinical_use": "Diagnostic support; genetic counselling/testing if germline suspected; adverse prognostic association in some series"
+      },
+      {
+        "name": "Parafibromin (encoded by CDC73)",
+        "type": "IHC (nuclear loss)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Loss of nuclear staining is frequent in parathyroid carcinoma",
+        "clinical_use": "IHC surrogate for CDC73 inactivation; supports distinction of carcinoma from adenoma, though not entirely specific"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Often elevated relative to adenoma; no single validated diagnostic cutoff",
+        "clinical_use": "Adjunct only; higher proliferative index may support malignancy and worse prognosis but does not by itself distinguish carcinoma from adenoma"
+      },
+      {
+        "name": "PTH",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Typically markedly elevated",
+        "clinical_use": "Diagnosis of functional hyperparathyroidism; monitoring of residual/recurrent disease burden"
+      },
+      {
+        "name": "Serum calcium",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Usually elevated",
+        "clinical_use": "Clinical monitoring; severe hypercalcaemia is a common presenting and potentially lethal feature"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Trabecular, nested, or solid growth with dense fibrous bands; diagnosis rests on unequivocal invasive growth (capsular, vascular, soft tissue, or perineural invasion) and/or metastasis rather than cytology alone",
+      "variants": [
+        "conventional parathyroid carcinoma",
+        "atypical parathyroid neoplasm (uncertain malignant potential)"
+      ],
+      "grading": "Requires unequivocal invasion (capsular, vascular, soft tissue, or perineural) or metastasis for diagnosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised",
+      "stromal_features": "Thick fibrous bands dividing tumour into lobules; hyalinised stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Parathyroid chief cells (PTH-producing)",
+      "developmental_lineage": "Endoderm \u2014 third (inferior) and fourth (superior) pharyngeal pouches",
+      "differentiation_state": "Usually retains chief cell differentiation with PTH production; hypercalcaemia is common but not universal",
+      "lineage_plasticity": "CDC73 loss (encoding parafibromin) is a hallmark molecular event in many cases; loss of parafibromin nuclear IHC supports the diagnosis"
+    }
+  }
+}

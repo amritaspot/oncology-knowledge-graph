@@ -1,0 +1,128 @@
+{
+  "molecule_name": "HRYZ-T101",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Immunotherapy",
+  "modality": "TCR-engineered T cells",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "HRYZ-T101 is a preparation of genetically engineered T lymphocytes that target and kill tumor cells expressing HPV-18.",
+    "molecular_action": "TCR-engineered T cells bind to tumor cells expressing the HPV-18 tumor-associated antigen, leading to selective cytotoxicity.",
+    "targets": [
+      "HPV-18 TAA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Selective cytotoxicity in HPV-18 expressing tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "HPV-18 Positive Solid Tumor",
+    "histology": null,
+    "clinical_settings": [
+      "Phase I clinical trials"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "HRYZ-T101 TCR-engineered T cells for HPV-18 positive tumors",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT05952947",
+      "NCT05787535"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HPV18"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "5UG9",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met793",
+              "Leu718",
+              "Thr790"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/acs.jmedchem.6b00754"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Monoclonal Antibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

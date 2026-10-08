@@ -1,0 +1,298 @@
+{
+  "molecule_name": "Temozolomide Perillyl Alcohol Conjugate NEO212",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "DNA alkylating agent",
+  "modality": "Conjugate",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [
+    "United Arab Emirates"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "NEO212 combines Temozolomide, which damages DNA in cancer cells, with Perillyl Alcohol, which may enhance the effects of Temozolomide.",
+    "molecular_action": "Alkylation of DNA leading to cell death in cancer cells.",
+    "targets": [
+      "DNA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cancer cell growth"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Anaplastic astrocytoma and glioblastoma multiforme",
+    "histology": null,
+    "clinical_settings": [
+      "Oncology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Cervical Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Colorectal Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Esophageal Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Esophageal Squamous Cell Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Gastric Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Gastroesophageal Junction Adenocarcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Head and Neck Squamous Cell Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Melanoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Merkel Cell Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Microsatellite Instability-High Solid Malignant Tumor",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Mismatch Repair Deficient Solid Malignant Tumor",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Microsatellite Instability-High Colorectal Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Mismatch Repair Deficient Colorectal Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Non-small Cell Lung Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Renal Cell Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Small Cell Lung Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Squamous Cell Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Urothelial Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "NEO212 clinical development and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT06047379"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "610 mg",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

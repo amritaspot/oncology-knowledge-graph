@@ -1,0 +1,95 @@
+{
+  "molecule_name": "Allogeneic Natural Killer Cell Line NK-92",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": "Allogeneic Natural Killer Cell Line NK-92 is an investigational cell therapy product, not a small molecule or biologic drug, hence lacks traditional identifiers like CAS or PubChem CID."
+  },
+  "brand_names": [],
+  "drug_class": "Cell therapy",
+  "modality": "Cell therapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "NK-92 cells are a line of natural killer cells that can target and kill cancer cells.",
+    "molecular_action": "NK-92 cells recognize and bind to cancer cells, leading to their destruction through cytotoxic activity.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Glioblastoma",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record pertains to the investigational cell therapy product Allogeneic Natural Killer Cell Line NK-92, focusing on its clinical and pharmacological profile.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action are not provided as the mechanism is based on general knowledge of NK cell activity.",
+    "empty_mechanism_doi_meaning": "No specific DOIs are available for the mechanism of action of NK-92 cells.",
+    "null_meaning": "Null indicates that specific data is not available or applicable for this cell therapy.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00900809",
+      "NCT02843204",
+      "NCT03383978",
+      "NCT02892695",
+      "NCT03853317"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

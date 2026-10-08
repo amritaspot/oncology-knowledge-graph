@@ -1,0 +1,126 @@
+{
+  "molecule_name": "Testosterone Enanthate",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 9416,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Androgen",
+  "modality": "Biologic",
+  "route": "Intramuscular (IM)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Testosterone enanthate is a synthetic form of testosterone that acts as an androgen, promoting the development of male characteristics and influencing various physiological processes.",
+    "molecular_action": "Binds to androgen receptors to exert androgenic effects.",
+    "targets": [
+      "AR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased muscle mass",
+      "Improved physical function"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Hormone replacement therapy",
+      "Treatment of hypogonadism"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Prostate cancer",
+      "Breast cancer in men",
+      "Severe liver disease"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Acne",
+      "organ_system": "Skin",
+      "biological_explanation": "Increased sebaceous gland activity due to androgenic effects.",
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Mood swings",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Fluctuations in testosterone levels can affect mood regulation.",
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Testosterone Enanthate clinical data and trials",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 4.5,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02679274",
+      "NCT00399165",
+      "NCT00004771"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "AR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

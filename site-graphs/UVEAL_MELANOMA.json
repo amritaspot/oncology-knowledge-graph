@@ -1,0 +1,118 @@
+{
+  "UVEAL_MELANOMA": {
+    "name": "Uveal melanoma",
+    "biomarkers": [
+      {
+        "name": "GNAQ / GNA11 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": ">85% (near-universal driver)",
+        "clinical_use": "Defining feature of uveal melanoma; distinguishes from most cutaneous melanoma. Activates MAPK/YAP signaling; supports pathway-directed clinical trials"
+      },
+      {
+        "name": "BAP1 loss (germline or somatic)",
+        "type": "IHC / mutation",
+        "categories": [
+          "prognostic",
+          "screening"
+        ],
+        "prevalence": "~45-50% somatic/inactivated in primary tumours; germline causes BAP1 tumour predisposition syndrome",
+        "clinical_use": "Strong predictor of metastasis and poor survival; often associated with monosomy 3. Germline: family screening/counseling (including mesothelioma, RCC, cutaneous melanoma, and other BAP1-TPDS-associated tumours)"
+      },
+      {
+        "name": "SF3B1 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Intermediate prognosis; associated with later-onset metastasis pattern"
+      },
+      {
+        "name": "EIF1AX mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Best prognosis subset; low metastatic risk"
+      },
+      {
+        "name": "Monosomy 3",
+        "type": "cytogenetic / FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50%",
+        "clinical_use": "Strong adverse prognostic marker; often co-occurs with BAP1 loss"
+      },
+      {
+        "name": "Chromosome 8q gain",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Adverse"
+      },
+      {
+        "name": "Class 1 vs Class 2 gene expression profile (Castle Biosciences)",
+        "type": "multi-gene assay",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Class 1A/1B (lower risk), Class 2 (high risk of metastasis) \u2014 guides surveillance intensity"
+      },
+      {
+        "name": "HLA-A*02:01 typing",
+        "type": "HLA typing",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40-50% in populations of European ancestry",
+        "clinical_use": "Tebentafusp (gp100 \u00d7 CD3 bispecific T-cell receptor therapy) \u2014 approved for unresectable/metastatic uveal melanoma in HLA-A*02:01+ patients; first therapy to show an overall survival benefit in this disease"
+      },
+      {
+        "name": "gp100",
+        "type": "IHC / expression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Expressed in melanocytic tumours including most uveal melanomas",
+        "clinical_use": "Target antigen recognized by tebentafusp"
+      },
+      {
+        "name": "LDH",
+        "type": "serum",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Prognostic in metastatic disease"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Melanocytic neoplasm arising from uveal tract (choroid ~85-90%, ciliary body, iris); spindle cell or epithelioid morphology",
+      "variants": [
+        "spindle cell (spindle A, spindle B \u2014 better prognosis)",
+        "epithelioid (worse prognosis)",
+        "mixed"
+      ],
+      "grading": "Modified Callender classification (spindle < mixed < epithelioid); tumour size (COMS categories) drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "'Cold' \u2014 low TMB (not UV-driven despite ocular exposure), sparse TIL, immune-privileged eye microenvironment; IO monotherapy is largely ineffective",
+      "stromal_features": "Uveal architecture; no dermal appendages"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uveal melanocytes of choroid (~85-90%), ciliary body, or iris",
+      "developmental_lineage": "Neural crest \u2014 uveal melanocytes migrated to ocular sites",
+      "differentiation_state": "Melanocytic differentiation with same lineage markers as cutaneous (S100+, HMB-45+, Melan-A+, SOX10+, MITF+); Callender classification (spindle \u2192 epithelioid) reflects lineage state",
+      "lineage_plasticity": "Distinct genomic biology from cutaneous \u2014 GNAQ/GNA11 mutations activate G\u03b1q-PLC\u03b2 signaling rather than canonical BRAF-driven melanoma biology; BAP1 loss (often with chromosome 3 monosomy) drives metastatic potential; SF3B1 mutations produce distinct behaviour"
+    }
+  }
+}

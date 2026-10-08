@@ -1,0 +1,84 @@
+{
+  "molecule_name": "Suvemcitug",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Suvemcitug is designed to target specific cancer cells, enhancing the efficacy of chemotherapy.",
+    "molecular_action": null,
+    "targets": [
+      "Folate Receptor Alpha"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian Cancer, Colorectal Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Platinum-resistant Recurrent Ovarian Cancer",
+      "Refractory Metastatic Colorectal Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and efficacy studies",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT07361003",
+      "NCT07741630",
+      "NCT07774754"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": 31.0,
+    "median_pfs_months": 5.4
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLR1"
+    ],
+    "pathways": []
+  }
+}

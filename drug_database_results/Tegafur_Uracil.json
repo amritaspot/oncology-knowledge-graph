@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Tegafur, Uracil",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "UFT"
+  ],
+  "drug_class": "Chemotherapy",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Tegafur is a prodrug that is converted to 5-fluorouracil (5-FU) in the body, which inhibits DNA synthesis and is used in cancer treatment.",
+    "molecular_action": "Inhibits thymidylate synthase, leading to decreased DNA synthesis in cancer cells.",
+    "targets": [
+      "TYMS"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal Cancer, Gastric Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant chemotherapy",
+      "Perioperative chemotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Tegafur and Uracil as a combination therapy",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from known pharmacological properties.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT01972503",
+      "NCT01516944",
+      "NCT00009815"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TYMS"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

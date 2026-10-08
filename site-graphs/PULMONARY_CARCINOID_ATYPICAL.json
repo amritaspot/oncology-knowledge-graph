@@ -1,0 +1,61 @@
+{
+  "PULMONARY_CARCINOID_ATYPICAL": {
+    "name": "Pulmonary carcinoid, atypical",
+    "biomarkers": [
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Usually <30%; often overlaps ~5-20%, not a strict definitional criterion",
+        "clinical_use": "Supportive proliferative marker; distinction from typical relies primarily on mitotic count and necrosis rather than Ki-67 alone"
+      },
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Confirms NE differentiation"
+      },
+      {
+        "name": "SSTR2",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Positive in a majority/subset; may be lower or more heterogeneous than typical carcinoid",
+        "clinical_use": "Identifies somatostatin receptor expression and potential PRRT candidate"
+      },
+      {
+        "name": "MEN1, ATRX/DAXX mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "MEN1 in a subset; ATRX/DAXX alterations uncommon in pulmonary carcinoid",
+        "clinical_use": "Molecular characterization"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Similar to typical carcinoid but with 2-10 mitoses/2 mm\u00b2 and/or foci of necrosis",
+      "variants": [
+        "atypical carcinoid"
+      ],
+      "grading": "Intermediate-grade; Ki-67 is often higher than in typical carcinoid but is not itself the formal grading criterion"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Minimal inflammation",
+      "stromal_features": "Similar to typical carcinoid"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pulmonary neuroendocrine cells (PNEC) with intermediate differentiation state",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative with neuroendocrine differentiation",
+      "differentiation_state": "Intermediate-grade neuroendocrine \u2014 retains synaptophysin/chromogranin/SSTR2 but with higher proliferative activity, mitoses (2-10/2 mm\u00b2), and focal necrosis",
+      "lineage_plasticity": "Intermediate position on pulmonary NET differentiation spectrum between typical carcinoid and LCNEC/SCLC"
+    }
+  }
+}

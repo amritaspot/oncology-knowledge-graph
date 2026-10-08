@@ -1,0 +1,136 @@
+{
+  "molecule_name": "Celecoxib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 2662,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Nonsteroidal Anti-Inflammatory Drug (NSAID)",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Celecoxib works by inhibiting the COX-2 enzyme, which is involved in inflammation and pain.",
+    "molecular_action": "Selective inhibition of cyclooxygenase-2 (COX-2)",
+    "targets": [
+      "COX-2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced production of prostaglandins leading to decreased inflammation and pain."
+    ],
+    "selectivity": "Selective for COX-2 over COX-1",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various cancers including colorectal cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Pain management in osteoarthritis",
+      "Adjunct therapy in cancer treatment"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to celecoxib or any component of the formulation",
+      "History of asthma, urticaria, or allergic-type reactions after taking aspirin or other NSAIDs"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Celecoxib clinical data and trials",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 11.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP2C9"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT02192190",
+      "NCT04558840",
+      "NCT03921034"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PTGS2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 2662,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2662/SDF?record_type=3d",
+    "rotatable_bonds": 4,
+    "target_structures": [
+      {
+        "target_symbol": "PTGS2",
+        "pdb_id": "5IKR",
+        "alphafold_id": "P35354",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Arg120",
+              "Tyr355",
+              "Glu524",
+              "Ser530"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PTGS2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 40.0,
+        "doi_or_source": "10.1016/S0960-894X(00)00147-0"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

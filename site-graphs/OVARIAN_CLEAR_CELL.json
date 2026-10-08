@@ -1,0 +1,99 @@
+{
+  "OVARIAN_CLEAR_CELL": {
+    "name": "Ovarian clear cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "ARID1A",
+        "type": "mutation / IHC (BAF250a loss)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Frequent loss-of-function alteration; SWI/SNF complex; supports diagnosis in context but is not specific"
+      },
+      {
+        "name": "PIK3CA mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~30-50%",
+        "clinical_use": "Common driver; PI3K/AKT/mTOR pathway trials"
+      },
+      {
+        "name": "Napsin A, HNF1B",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Diagnostic panel for clear cell subtype"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2-10%",
+        "clinical_use": "Predicts benefit from immune checkpoint blockade if MSI-H/dMMR; prompts Lynch syndrome workup when present"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Not an established subtype-specific standard biomarker; may support immunotherapy decision-making in selected settings depending on regimen/tumor context"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Uncommon",
+        "clinical_use": "Wild-type TP53 pattern is typical and helps distinguish from high-grade serous carcinoma"
+      },
+      {
+        "name": "CA-125",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Variable \u2014 often lower than HGSC",
+        "clinical_use": "Monitoring"
+      },
+      {
+        "name": "PPP2R1A",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Recurrent somatic driver seen in a subset of ovarian clear cell carcinomas"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Clear cells with hobnail features arranged in tubulocystic, papillary, or solid patterns; hyaline stromal globules characteristic",
+      "variants": [
+        "classic tubulocystic",
+        "papillary",
+        "solid"
+      ],
+      "grading": "Considered a high-grade carcinoma by conventional ovarian grading concepts, although the classic HGSC 2-tier grading system is not routinely applied to clear cell carcinoma; Ki-67 is often lower than in HGSC"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "A minority show MSI-H/dMMR (~2-10%) and may represent a more inflamed subset; PD-L1 expression is variable",
+      "stromal_features": "Distinctive hyalinised basement membrane-like stromal deposits ('hyaline globules')"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Endometriosis-associated (often arising from ovarian endometriotic cysts) with distinct genital tract M\u00fcllerian origin",
+      "developmental_lineage": "Mesoderm \u2014 M\u00fcllerian-related epithelium through endometriotic implants",
+      "differentiation_state": "Clear cell / hobnail differentiation (HNF-1\u03b2+, napsin A+, PAX8+, WT1-negative \u2014 distinct from serous); glycogen-rich cytoplasm",
+      "lineage_plasticity": "Endometriotic cyst \u2192 atypical endometriosis \u2192 clear cell carcinoma progression; ARID1A loss is an early and characteristic event affecting SWI/SNF chromatin remodelling"
+    }
+  }
+}

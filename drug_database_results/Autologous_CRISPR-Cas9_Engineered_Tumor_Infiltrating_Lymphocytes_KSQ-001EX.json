@@ -1,0 +1,103 @@
+{
+  "molecule_name": "Autologous CRISPR-Cas9 Engineered Tumor Infiltrating Lymphocytes KSQ-001EX",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "KSQ-001EX"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cell Therapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "The engineered TILs specifically recognize and kill tumor cells by targeting the SOCS1 gene, which is a negative regulator of T cell function.",
+    "molecular_action": "Inactivation of the SOCS1 gene using CRISPR/Cas9 technology enhances TIL anti-tumor function, engraftment, and persistence.",
+    "targets": [
+      "SOCS1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T cell survival",
+      "Improved T cell differentiation",
+      "Increased T cell function"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced solid tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Investigational therapy",
+    "mechanism_doi_meaning": "Mechanism of action is based on CRISPR/Cas9 technology targeting SOCS1.",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCTXXXXXXX"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "SOCS1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

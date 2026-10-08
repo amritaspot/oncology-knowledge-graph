@@ -1,0 +1,44 @@
+{
+  "CRANIOPHARYNGIOMA": {
+    "name": "Craniopharyngioma",
+    "biomarkers": [
+      {
+        "name": "BRAF V600E (papillary craniopharyngioma)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~90-95% of papillary subtype",
+        "clinical_use": "Diagnostic hallmark of papillary craniopharyngioma and predictive of marked response to BRAF/MEK inhibition; dabrafenib + trametinib showed high activity in the Alliance A071601 study reported by Brastianos et al. (NEJM 2023), potentially reducing need for morbid surgery/RT"
+      },
+      {
+        "name": "CTNNB1 (\u03b2-catenin) mutation (adamantinomatous)",
+        "type": "mutation / IHC (nuclear \u03b2-catenin)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70-95% of adamantinomatous",
+        "clinical_use": "Molecular hallmark of adamantinomatous craniopharyngioma; nuclear \u03b2-catenin helps distinguish adamantinomatous from papillary craniopharyngioma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Epithelial tumour arising from remnants of Rathke's pouch; two distinct histologic subtypes with different biology",
+      "variants": [
+        "adamantinomatous craniopharyngioma (more common in children but also occurs in adults; wet keratin, palisading squamous epithelium, stellate reticulum, cyst with 'machine oil' fluid, calcification)",
+        "papillary craniopharyngioma (almost exclusively adult; solid/papillary architecture, well-differentiated non-keratinizing squamous epithelium without wet keratin)"
+      ],
+      "grading": "Benign histology but locally invasive; WHO grade 1"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; predominantly reactive inflammation around cyst contents, especially in adamantinomatous lesions",
+      "stromal_features": "Wet keratin nodules and calcification (adamantinomatous); fibrovascular cores and solid squamous nests/papillae (papillary)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Rathke's pouch remnant epithelium / sellar-suprasellar epithelial remnants of oral ectoderm origin; both major subtypes are thought to arise within this lineage, with papillary lesions showing squamous epithelial differentiation",
+      "developmental_lineage": "Oral ectoderm (Rathke's pouch) during pituitary development",
+      "differentiation_state": "Two distinct entities: adamantinomatous (often paediatric, resembles ameloblastoma/tooth enamel organ) with wet keratin, palisaded basal cells, stellate reticulum; papillary (adult, squamous papillary architecture, lacking wet keratin and stellate reticulum)",
+      "lineage_plasticity": "Two distinct molecular pathways: adamantinomatous \u2014 CTNNB1 mutations activating Wnt/\u03b2-catenin; papillary \u2014 BRAF V600E activating MAPK"
+    }
+  }
+}

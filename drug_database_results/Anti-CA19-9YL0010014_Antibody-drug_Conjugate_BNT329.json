@@ -1,0 +1,105 @@
+{
+  "molecule_name": "BNT329",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "BNT329"
+    ],
+    "identifier_scope": "BioNTech SE"
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "BNT329 is an antibody-drug conjugate targeting the CA19-9 antigen, delivering a cytotoxic payload to cancer cells expressing this marker.",
+    "molecular_action": "The drug binds to the CA19-9 antigen on tumor cells, facilitating the internalization of the conjugated cytotoxic agent YL0010014, leading to cell death.",
+    "targets": [
+      "CA19-9"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": "Selective for CA19-9 expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced Malignant Solid Neoplasm"
+    ],
+    "scope": "Investigational",
+    "reference_urls": [
+      "https://clinicaltrials.biontech.com/trials/BNT329-01",
+      "https://trial.medpath.com/clinical-trial/b9d8cf05976783d6/nct07186842-bnt329-advanced-solid-tumors-ca19-9-trial"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.biontech.com/trials/BNT329-01",
+      "https://trial.medpath.com/clinical-trial/b9d8cf05976783d6/nct07186842-bnt329-advanced-solid-tumors-ca19-9-trial",
+      "https://synapse.patsnap.com/drug/a4fdb1d6f9d04a5dbc36085089e137c6",
+      "https://ichgcp.net/clinical-trials-registry/NCT07186842"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "BNT329 as an investigational drug for CA19-9 expressing advanced solid tumors",
+    "mechanism_doi_meaning": "DOI references for mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOI references provided for mechanism of action.",
+    "null_meaning": "Information not available or not applicable.",
+    "last_checked": "2023-10-05"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT07186842"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

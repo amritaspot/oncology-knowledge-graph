@@ -1,0 +1,66 @@
+{
+  "NASOPHARYNGEAL_CARCINOMA": {
+    "name": "Nasopharyngeal carcinoma (EBV-associated)",
+    "biomarkers": [
+      {
+        "name": "Plasma EBV DNA",
+        "type": "PCR / cfDNA",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring",
+          "screening"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "Widely used in endemic settings (Hong Kong, southern China): population screening (Chan et al. NEJM 2017), staging refinement, treatment response monitoring, and MRD detection. Baseline high EBV DNA and non-clearance post-treatment predict relapse."
+      },
+      {
+        "name": "EBER (in situ hybridisation)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Nearly 100% in endemic non-keratinizing EBV-associated NPC; much less frequent in keratinizing NPC",
+        "clinical_use": "Confirms EBV association in tissue"
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently expressed; reported in a substantial proportion of NPCs, but assay/cutoff-dependent rather than uniformly ~90%",
+        "clinical_use": "Anti-PD-1 agents (including toripalimab and camrelizumab in NPC, with pembrolizumab/nivolumab showing activity) are active in R/M NPC; PD-L1 expression is common but not a definitive standalone selection biomarker in NPC."
+      },
+      {
+        "name": "PD-L1 amplification (9p24.1)",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare subset",
+        "clinical_use": "Reported in a subset; may associate with immune checkpoint sensitivity, but not an established routine clinical biomarker in NPC"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Non-keratinizing carcinoma (differentiated or undifferentiated); undifferentiated variant classical 'lymphoepithelioma-like'",
+      "variants": [
+        "non-keratinizing undifferentiated (most common, EBV-driven)",
+        "non-keratinizing differentiated",
+        "keratinizing SCC (more common in non-endemic populations)",
+        "basaloid squamous cell carcinoma (rare)"
+      ],
+      "grading": "Traditional WHO classification: keratinizing squamous cell carcinoma, non-keratinizing carcinoma (differentiated), and non-keratinizing carcinoma (undifferentiated); the non-keratinizing undifferentiated type predominates in endemic areas"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Highly inflamed / 'hot' \u2014 dense lymphocytic infiltrate is characteristic ('lymphoepithelioma')",
+      "stromal_features": "Rich lymphoplasmacytic stroma; syncytial epithelial nests intermixed with lymphocytes"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Nasopharyngeal epithelial cells (classically arising in the fossa of Rosenm\u00fcller region)",
+      "developmental_lineage": "Endoderm \u2014 pharyngeal derivatives",
+      "differentiation_state": "Non-keratinizing (differentiated or undifferentiated); 'lymphoepithelioma-like' in endemic EBV-driven form",
+      "lineage_plasticity": "Distinct lineage biology from other UAT SCCs \u2014 EBV establishes latency in nasopharyngeal epithelium"
+    }
+  }
+}

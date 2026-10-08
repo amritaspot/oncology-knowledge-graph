@@ -1,0 +1,63 @@
+{
+  "LARYNGEAL_SCC": {
+    "name": "Laryngeal SCC",
+    "biomarkers": [
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u00111 in a majority of HNSCC including laryngeal SCC",
+        "clinical_use": "Pembrolizumab first-line R/M HNSCC"
+      },
+      {
+        "name": "EGFR",
+        "type": "IHC / overexpression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Overexpression common (~80-90%)",
+        "clinical_use": "Cetuximab"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~70-85%",
+        "clinical_use": "Prognostic"
+      },
+      {
+        "name": "CDKN2A",
+        "type": "loss",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Prognostic"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Keratinizing SCC; supraglottic, glottic, or subglottic origin",
+      "variants": [
+        "conventional keratinizing",
+        "verrucous (glottis)",
+        "basaloid",
+        "spindle-cell"
+      ],
+      "grading": "Traditional SCC grading; glottic tumours often better differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; similar to other UAT SCC",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal keratinocytes of laryngeal mucosa (supraglottic, glottic, or subglottic)",
+      "developmental_lineage": "Endoderm \u0014 foregut (embryologic pharyngoesophageal segment)",
+      "differentiation_state": "Keratinizing squamous; glottic tumours often better differentiated than supraglottic",
+      "lineage_plasticity": "Verrucous variant maintains high-degree squamous differentiation with broad pushing borders and minimal metastatic potential"
+    }
+  }
+}

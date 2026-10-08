@@ -1,0 +1,160 @@
+{
+  "molecule_name": "Romidepsin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5352062,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Histone Deacetylase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Romidepsin works by inhibiting histone deacetylases, leading to an increase in acetylated histones and modulation of gene expression.",
+    "molecular_action": "Inhibition of histone deacetylases (HDACs)",
+    "targets": [
+      "HDAC1",
+      "HDAC2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis",
+      "Cell cycle arrest"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Cutaneous T-Cell Lymphoma, Peripheral T-Cell Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or refractory T-cell lymphomas"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Temporary anemia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of normal hematopoiesis due to HDAC inhibition.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Fatigue",
+        "Weakness"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Romidepsin clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01445340",
+      "NCT01913119",
+      "NCT00085540"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": 25.0,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HDAC1",
+      "HDAC2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 5352062,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5352062/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HDAC1",
+        "pdb_id": "4BKX",
+        "alphafold_id": "P56524",
+        "resolution_angstroms": 1.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "HDAC2",
+        "pdb_id": "4LXZ",
+        "alphafold_id": "Q92769",
+        "resolution_angstroms": 1.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HDAC1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 36.0,
+        "doi_or_source": "10.1016/j.jmb.2013.08.013"
+      },
+      {
+        "target_symbol": "HDAC2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 47.0,
+        "doi_or_source": "10.1016/j.jmb.2013.08.013"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

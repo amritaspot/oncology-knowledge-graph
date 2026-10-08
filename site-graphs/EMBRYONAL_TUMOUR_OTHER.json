@@ -1,0 +1,73 @@
+{
+  "EMBRYONAL_TUMOUR_OTHER": {
+    "name": "Other CNS embryonal tumour",
+    "biomarkers": [
+      {
+        "name": "C19MC amplification (ETMR)",
+        "type": "copy number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in most ETMR; defining when identified, with a minority of ETMR being DICER1-mutant and C19MC-nonaltered",
+        "clinical_use": "Diagnostic"
+      },
+      {
+        "name": "DICER1 germline (subset of ETMR)",
+        "type": "germline",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Identifies DICER1 syndrome in a subset of ETMR"
+      },
+      {
+        "name": "Methylation profiling",
+        "type": "methylation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Essential for classification of embryonal tumours per WHO CNS5"
+      },
+      {
+        "name": "FOXR2 activation (CNS neuroblastoma, FOXR2-activated)",
+        "type": "expression",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining for CNS neuroblastoma, FOXR2-activated",
+        "clinical_use": "Diagnostic"
+      },
+      {
+        "name": "BCOR internal tandem duplication",
+        "type": "structural variant",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining for CNS tumour with BCOR internal tandem duplication",
+        "clinical_use": "Diagnostic"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Primitive neuroectodermal cells with variable rosette formation",
+      "variants": [
+        "embryonal tumour with multilayered rosettes (ETMR \u2014 C19MC-altered or DICER1-mutant)",
+        "CNS neuroblastoma, FOXR2-activated",
+        "CNS tumour with BCOR internal tandem duplication",
+        "medulloepithelioma"
+      ],
+      "grading": "WHO grade 4"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Distinctive multilayered rosettes in ETMR"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Undifferentiated neural stem/progenitor cells with distinct molecular signatures for each subtype",
+      "developmental_lineage": "Neuroectoderm \u2014 CNS",
+      "differentiation_state": "Embryonal undifferentiated with variable focal neural or other differentiation; specific WHO 2021/2022 entities (ETMR \u2014 embryonal tumour with multilayered rosettes, CNS neuroblastoma, FOXR2-activated, CNS tumour with BCOR internal tandem duplication, others) each with characteristic morphology",
+      "lineage_plasticity": "Each subtype has distinct molecular signature: ETMR (usually C19MC amplification, with DICER1 alteration in some), CNS neuroblastoma, FOXR2-activated, CNS tumour with BCOR internal tandem duplication, medulloepithelioma"
+    }
+  }
+}

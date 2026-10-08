@@ -1,0 +1,138 @@
+{
+  "molecule_name": "Tagraxofusp-erzs",
+  "identifiers": {
+    "FDA_UNII": "D0B1D1F1F1",
+    "PubChem_CID": 10120312,
+    "CAS_number": "1432020-73-0",
+    "NCI_Thesaurus_code": "C100202",
+    "development_codes": [
+      "IMGN632"
+    ],
+    "identifier_scope": "NCI"
+  },
+  "brand_names": [
+    "Elzonris"
+  ],
+  "drug_class": "Cytotoxin",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Tagraxofusp-erzs is a CD123-directed cytotoxin that targets and kills cancer cells expressing CD123.",
+    "molecular_action": "It binds to CD123 on the surface of blastic plasmacytoid dendritic cells, leading to cell death.",
+    "targets": [
+      "CD123"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death in CD123-expressing neoplasms"
+    ],
+    "selectivity": "High selectivity for CD123-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Blastic plasmacytoid dendritic cell neoplasm (BPDCN)",
+    "histology": "Blastic plasmacytoid dendritic cell neoplasm",
+    "clinical_settings": [
+      "Treatment of BPDCN",
+      "Combination therapy for myelodysplastic syndromes"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/tagraxofusp-erzs"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to tagraxofusp-erzs or any component of the formulation"
+    ],
+    "reference_urls": [
+      "https://www.drugs.com/elzonris.html"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Cytopenias",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Cytotoxic effects on bone marrow leading to reduced blood cell production.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Anemia",
+        "Thrombocytopenia",
+        "Neutropenia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Infusion-related reactions",
+      "organ_system": "Immune",
+      "biological_explanation": "Immune response to the cytotoxic agent during infusion.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Fever",
+        "Chills",
+        "Rash"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT03386513",
+      "NCT05038592",
+      "NCT02661022"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for BPDCN treatment",
+      "Reported adverse effects include cytopenias and infusion reactions"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Tagraxofusp-erzs clinical and pharmacological data",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Not established",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 6.0,
+    "clearance_route": [
+      "Renal",
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT03386513",
+      "NCT05038592",
+      "NCT02661022"
+    ],
+    "regulatory_designations": [
+      "FDA approved for BPDCN"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "12 mcg/kg",
+    "objective_response_rate_pct": 50.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL3RA"
+    ],
+    "pathways": [
+      "Cytotoxicity pathway",
+      "CD123 signaling pathway"
+    ]
+  }
+}

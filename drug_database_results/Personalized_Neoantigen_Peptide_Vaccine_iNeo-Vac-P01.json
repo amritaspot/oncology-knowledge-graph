@@ -1,0 +1,97 @@
+{
+  "molecule_name": "Personalized Neoantigen Peptide Vaccine iNeo-Vac-P01",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Vaccine",
+  "modality": "Biologic",
+  "route": "Subcutaneous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Stimulates an immune response against cancer cells by presenting neoantigens.",
+    "molecular_action": "Activates T-cells to target and destroy cancer cells expressing specific neoantigens.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal Cancer, Non-Small Cell Lung Cancer, Esophageal Cancer, Pancreatic Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Consolidation therapy after standard adjuvant treatment",
+      "Following neoadjuvant therapy and surgical resection",
+      "Following surgical resection and adjuvant chemotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action for iNeo-Vac-P01",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07504484",
+      "NCT05307835",
+      "NCT04810910"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

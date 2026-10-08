@@ -1,0 +1,109 @@
+{
+  "molecule_name": "Actinium Ac 225-DOTA-Daratumumab",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Actinium Ac 225-DOTA-Daratumumab is a radiolabeled monoclonal antibody targeting CD38, delivering alpha radiation to CD38-expressing cells.",
+    "molecular_action": "Binding to CD38 and delivering alpha radiation to induce cell death.",
+    "targets": [
+      "CD38"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Recurrent Plasma Cell Myeloma",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Actinium Ac 225-DOTA-Daratumumab is an investigational radiopharmaceutical targeting CD38, primarily studied in preclinical settings.",
+    "mechanism_doi_meaning": "DOIs for the mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOIs are available for the mechanism of action.",
+    "null_meaning": "Information is not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 10.0,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT06287944",
+      "NCT05363111"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD38"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD38",
+        "pdb_id": "6UVF",
+        "alphafold_id": "AF-Q13823-F1",
+        "resolution_angstroms": 3.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "Actinium-225",
+    "emission_type": [
+      "Alpha"
+    ],
+    "targeting_vector_type": "Antibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

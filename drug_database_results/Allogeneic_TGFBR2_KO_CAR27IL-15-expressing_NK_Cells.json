@@ -1,0 +1,102 @@
+{
+  "molecule_name": "Allogeneic TGFBR2 KO CAR27/IL-15-expressing NK Cells",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Cell Therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "These are genetically engineered natural killer (NK) cells designed to target and kill cancer cells. They have been modified to knock out the TGFBR2 gene, express a chimeric antigen receptor (CAR) targeting a specific cancer antigen, and produce IL-15 to enhance their activity and persistence.",
+    "molecular_action": "The NK cells are engineered to lack TGFBR2, express CAR27, and secrete IL-15, enhancing their anti-tumor activity.",
+    "targets": [
+      "TGFBR2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "The record is focused on the investigational cell therapy Allogeneic TGFBR2 KO CAR27/IL-15-expressing NK Cells, including its mechanism, targets, and clinical development status.",
+    "mechanism_doi_meaning": "DOIs related to the mechanism of action are not provided as the information is based on general knowledge of the engineered cell therapy.",
+    "empty_mechanism_doi_meaning": "No specific DOIs are available for the mechanism of action of this investigational therapy.",
+    "null_meaning": "Null values indicate that specific information is not available or not applicable for this investigational therapy.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Preclinical",
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TGFBR2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TGFBR2",
+        "pdb_id": null,
+        "alphafold_id": "P37173",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

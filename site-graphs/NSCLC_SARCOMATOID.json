@@ -1,0 +1,109 @@
+{
+  "NSCLC_SARCOMATOID": {
+    "name": "NSCLC \u2014 sarcomatoid carcinoma",
+    "biomarkers": [
+      {
+        "name": "MET exon 14 skipping",
+        "type": "splicing mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-30% (enriched vs typical NSCLC)",
+        "clinical_use": "Capmatinib, tepotinib"
+      },
+      {
+        "name": "KRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-30%",
+        "clinical_use": "KRAS G12C \u2014 sotorasib, adagrasib"
+      },
+      {
+        "name": "PD-L1 (TPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often high (~70-90% \u22651%; ~40-70% \u226550% in many series)",
+        "clinical_use": "IO \u2014 often favorable response rates despite otherwise poor prognosis"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often elevated relative to other NSCLC subsets",
+        "clinical_use": "Supports IO benefit, but not a routine histology-specific standalone biomarker"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "Common (~50-75%)",
+        "clinical_use": "Frequent co-mutation; no approved matched therapy"
+      },
+      {
+        "name": "EGFR",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Uncommon (~5-10%)",
+        "clinical_use": "If sensitizing EGFR mutation is present, EGFR TKIs are indicated"
+      },
+      {
+        "name": "ALK",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "If ALK fusion is present, ALK inhibitors are indicated"
+      },
+      {
+        "name": "ROS1",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "If ROS1 fusion is present, ROS1 inhibitors are indicated"
+      },
+      {
+        "name": "BRAF",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "If BRAF V600E is present, dabrafenib plus trametinib"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Poorly differentiated NSCLC with a component of sarcoma or sarcoma-like differentiation (spindle and/or giant cells)",
+      "variants": [
+        "pleomorphic carcinoma",
+        "spindle cell carcinoma",
+        "giant cell carcinoma",
+        "carcinosarcoma",
+        "pulmonary blastoma"
+      ],
+      "grading": "By definition poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often inflamed \u2014 PD-L1 frequently high; TMB may be elevated",
+      "stromal_features": "Sarcomatoid stromal features; carcinosarcoma may contain heterologous elements"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "NSCLC (usually poorly differentiated adenocarcinoma, squamous carcinoma, or large cell carcinoma lineage) with sarcomatoid dedifferentiation/EMT-like features",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Sarcomatoid (spindle cell, giant cell) with variable retention of epithelial differentiation; cytokeratin often retained despite mesenchymal appearance",
+      "lineage_plasticity": "EMT-like biology is a major feature \u2014 pleomorphic carcinoma, spindle cell carcinoma, giant cell carcinoma, carcinosarcoma, and pulmonary blastoma comprise the WHO sarcomatoid carcinoma spectrum"
+    }
+  }
+}

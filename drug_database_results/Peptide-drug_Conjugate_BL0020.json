@@ -1,0 +1,128 @@
+{
+  "molecule_name": "Peptide-drug Conjugate BL0020",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "ADC",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "BL0020 targets the tumor microenvironment and releases its payloads to kill tumor cells.",
+    "molecular_action": "Accumulation in the tumor microenvironment (TME) with enzyme-responsive release of Topo1i payloads.",
+    "targets": [
+      "Tumor Microenvironment"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Effective killing of tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Small Cell Lung Cancer (SCLC)",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data and mechanism of action synthesis.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT07414927",
+      "NCT05886868",
+      "NCT07550842"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "1M17",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met769",
+              "Glu770",
+              "Ala771",
+              "Leu764"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1021/jm030563w"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lutetium-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Yttrium-90",
+    "imaging_modality": "SPECT"
+  }
+}

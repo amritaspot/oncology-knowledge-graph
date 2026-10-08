@@ -1,0 +1,109 @@
+{
+  "molecule_name": "Allogeneic Anti-CD7 CAR-T Cells BEAM-201",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "BEAM-201"
+    ],
+    "identifier_scope": "Investigational"
+  },
+  "brand_names": [],
+  "drug_class": "CAR-T Cell Therapy",
+  "modality": "Cell Therapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "BEAM-201 is an allogeneic CAR-T cell therapy designed to target and eliminate CD7-expressing cells, which are commonly found in certain types of T-cell malignancies.",
+    "molecular_action": "The CAR-T cells are engineered to express a chimeric antigen receptor that specifically binds to the CD7 antigen on target cells, leading to their destruction.",
+    "targets": [
+      "CD7"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell lysis of CD7-expressing cells"
+    ],
+    "selectivity": "High for CD7-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "T-cell malignancies",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Allogeneic Anti-CD7 CAR-T Cells BEAM-201",
+    "mechanism_doi_meaning": "DOIs for mechanism of action are not provided as the information is based on general knowledge of CAR-T cell therapies targeting CD7.",
+    "empty_mechanism_doi_meaning": "No specific DOIs are available for the mechanism of action.",
+    "null_meaning": "Null indicates that specific data is not available or the field is not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT06934382",
+      "NCT05885464"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD7"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD7",
+        "pdb_id": null,
+        "alphafold_id": "P09564",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

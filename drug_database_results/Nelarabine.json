@@ -1,0 +1,108 @@
+{
+  "molecule_name": "Nelarabine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 3011155,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic Agent",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Nelarabine is a prodrug that is converted to ara-G, which interferes with DNA synthesis and repair, leading to cell death in malignant cells.",
+    "molecular_action": "Inhibits DNA synthesis by being converted to ara-G, which is incorporated into DNA.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "T-cell Acute Lymphoblastic Leukemia (T-ALL)",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or refractory T-ALL",
+      "Lymphoblastic Lymphoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Central and peripheral neurotoxicity",
+      "organ_system": "Nervous System",
+      "biological_explanation": "Nelarabine can cause damage to the nervous system, leading to neurotoxic effects.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Neuropathy",
+        "Cognitive impairment"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Nelarabine's clinical use and trial data",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available for this field",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT00406757",
+      "NCT02619630",
+      "NCT03808610"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 123806,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/123806/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

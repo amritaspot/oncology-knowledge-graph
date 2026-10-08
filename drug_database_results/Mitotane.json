@@ -1,0 +1,107 @@
+{
+  "molecule_name": "Mitotane",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 4211,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Mitotane is used to treat adrenocortical carcinoma by inhibiting cortisol production, which can slow the growth of tumor cells.",
+    "molecular_action": "Mitotane selectively destroys adrenocortical cells and inhibits steroidogenesis.",
+    "targets": [
+      "CYP11A1",
+      "CYP21A2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced cortisol levels",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": "Selective for adrenal cortex cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Adrenocortical carcinoma",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant therapy",
+      "Palliative care"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Mitotane clinical data and trials",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05839886",
+      "NCT00071058",
+      "NCT04318730"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP11A1",
+      "CYP21A2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 4211,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/4211/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

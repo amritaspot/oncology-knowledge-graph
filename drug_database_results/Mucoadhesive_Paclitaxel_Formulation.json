@@ -1,0 +1,134 @@
+{
+  "molecule_name": "Paclitaxel",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": "33069-62-4",
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "DHP107"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic",
+  "modality": "Biologic / Lipid Formulation",
+  "route": "Oral",
+  "marketed_form": "Mucoadhesive lipid preparation",
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Paclitaxel disrupts the normal function of microtubules during cell division, leading to cell death.",
+    "molecular_action": "Inhibits microtubule depolymerization, stabilizing the microtubule structure.",
+    "targets": [
+      "Microtubules"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell division",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various solid tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Mucoadhesive Paclitaxel Formulation",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/IIa",
+    "nct_trials": [
+      "NCT06062485",
+      "NCT03908450",
+      "NCT04385550"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "250 mg/m2",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TUBB",
+      "TUBA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 36314,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/36314/SDF?record_type=3d",
+    "rotatable_bonds": 11,
+    "target_structures": [
+      {
+        "target_symbol": "TUBB",
+        "pdb_id": "1JFF",
+        "alphafold_id": "P07437",
+        "resolution_angstroms": 3.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Ala231",
+              "Thr274",
+              "Gly275",
+              "Gly276",
+              "Ser277",
+              "Leu228"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TUBB",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1021/jm00021a007"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

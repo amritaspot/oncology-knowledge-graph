@@ -1,0 +1,139 @@
+{
+  "molecule_name": "Leuprolide",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 657181,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Hormonal Agent",
+  "modality": "Synthetic Peptide",
+  "route": "Subcutaneous (SQ) or Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Leuprolide is a GnRH analog that suppresses gonadotropin release, leading to decreased testosterone production.",
+    "molecular_action": "Leuprolide binds to GnRH receptors in the pituitary gland, inhibiting the release of luteinizing hormone (LH) and follicle-stimulating hormone (FSH).",
+    "targets": [
+      "GnRH receptor"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Decreased testosterone levels",
+      "Suppression of ovarian and testicular steroidogenesis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Hormonal therapy for prostate cancer",
+      "Management of endometriosis"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Hypersensitivity to leuprolide or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hot flashes",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Hormonal changes due to suppression of testosterone.",
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Injection site reactions",
+      "organ_system": "Skin",
+      "biological_explanation": "Local tissue response to injection.",
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Leuprolide's clinical applications and trial data.",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT03662958",
+      "NCT01511874",
+      "NCT00001481"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GNRH1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "LHCGR",
+        "pdb_id": null,
+        "alphafold_id": "P22888",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "LHCGR",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1016/j.ejphar.2004.10.017"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

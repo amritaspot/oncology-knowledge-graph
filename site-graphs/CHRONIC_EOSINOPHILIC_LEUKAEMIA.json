@@ -1,0 +1,93 @@
+{
+  "CHRONIC_EOSINOPHILIC_LEUKAEMIA": {
+    "name": "Chronic eosinophilic leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_features": [
+        "hypereosinophilia",
+        "end-organ damage from eosinophil infiltration (cardiac \u0014 endomyocardial fibrosis; pulmonary; neurologic; skin; GI)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "FIP1L1-PDGFRA fusion (cryptic 4q12 deletion)",
+        "type": "fusion / RT-PCR / FISH for CHIC2 deletion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Defining for the WHO/ICC entity 'myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement'; FIP1L1-PDGFRA is the most common PDGFRA fusion",
+        "clinical_use": "Exquisitely imatinib-sensitive; very low doses (for example 100 mg/day, and in some patients less frequent dosing for maintenance) are often sufficient, with frequent deep molecular remissions"
+      },
+      {
+        "name": "PDGFRB rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Rare (multiple partners, classically involving 5q31-q33)",
+        "clinical_use": "Imatinib-sensitive"
+      },
+      {
+        "name": "FGFR1 rearrangements (8p11 myeloid/lymphoid neoplasm)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Aggressive; generally imatinib-resistant. FGFR inhibitors including pemigatinib have demonstrated activity"
+      },
+      {
+        "name": "JAK2 fusions (PCM1-JAK2)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Associated with myeloid/lymphoid neoplasm with eosinophilia and JAK2 rearrangement; ruxolitinib has clinical activity in some cases"
+      },
+      {
+        "name": "Clonality demonstration (cytogenetics or molecular)",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Required to distinguish chronic eosinophilic leukemia, NOS from idiopathic hypereosinophilic syndrome (HES)"
+      },
+      {
+        "name": "Serum tryptase, vitamin B12, IgE",
+        "type": "serum",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Elevated tryptase and/or vitamin B12 may support a myeloid neoplasm, including PDGFRA-rearranged disease; elevated IgE may support lymphocyte-variant HES rather than CEL"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Sustained hypereosinophilia with morphologic and/or molecular evidence of clonality; marrow may show eosinophilic hyperplasia with left shift",
+      "variants": [
+        "myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement (most commonly FIP1L1-PDGFRA; distinct WHO/ICC entity, imatinib-sensitive)",
+        "PDGFRB-rearranged",
+        "FGFR1-rearranged (8p11 myeloid/lymphoid neoplasm, aggressive)",
+        "JAK2-rearranged (for example PCM1-JAK2)",
+        "CEL not otherwise specified (CEL-NOS)"
+      ],
+      "grading": "Not graded; molecular subtype drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "End-organ damage from eosinophil infiltration is the pathophysiology \u0014 cardiac endomyocardial fibrosis, pulmonary infiltrates, neuropathy, skin, GI",
+      "stromal_features": "Marrow eosinophilic hyperplasia; end-organ eosinophilic infiltration causing tissue damage"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC or myeloid progenitor with kinase-activating fusion driving eosinophil-lineage-biased proliferation",
+      "developmental_lineage": "Mesoderm \u0014 haematopoietic (eosinophil lineage bias)",
+      "differentiation_state": "Sustained hypereosinophilia with morphologic and/or molecular evidence of clonality; marrow eosinophilic hyperplasia with left shift",
+      "lineage_plasticity": "Distinct fusion-driven entities: myeloid/lymphoid neoplasm with eosinophilia and PDGFRA rearrangement (most commonly FIP1L1-PDGFRA; imatinib-sensitive), PDGFRB-rearranged, FGFR1-rearranged (aggressive with lymphoid/myeloid mixed presentation), JAK2-rearranged \u0014 each with distinct clinical behaviour and targeted therapy implications"
+    }
+  }
+}

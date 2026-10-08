@@ -1,0 +1,156 @@
+{
+  "GLIOBLASTOMA_IDH_WT": {
+    "name": "Glioblastoma, IDH-wildtype",
+    "biomarkers": [
+      {
+        "name": "IDH1 / IDH2 wildtype",
+        "type": "mutation / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "By definition IDH-wildtype",
+        "clinical_use": "Distinguishes from IDH-mutant grade 4 astrocytoma; worse prognosis"
+      },
+      {
+        "name": "MGMT promoter methylation",
+        "type": "methylation",
+        "categories": [
+          "predictive",
+          "prognostic"
+        ],
+        "prevalence": "~35-45%",
+        "clinical_use": "Predicts benefit from temozolomide and is prognostic (better outcome); informs treatment selection, especially in elderly/frail patients"
+      },
+      {
+        "name": "TERT promoter mutations (C228T, C250T)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70-80%",
+        "clinical_use": "Diagnostic criterion in molecular GBM (with wildtype IDH and other features)"
+      },
+      {
+        "name": "EGFR amplification",
+        "type": "copy number",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~40-50%",
+        "clinical_use": "Molecular criterion for GBM; EGFR-directed therapies/ADCs have been investigated in trials (including depatuxizumab-mafodotin, development discontinued)"
+      },
+      {
+        "name": "EGFRvIII",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-30% overall (enriched in EGFR-amplified tumors)",
+        "clinical_use": "Rindopepimut vaccine failed; CAR-T and other EGFRvIII-directed trials ongoing"
+      },
+      {
+        "name": "Chromosome 7 gain / 10 loss",
+        "type": "copy number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Molecular criterion (+7/-10) for GBM diagnosis"
+      },
+      {
+        "name": "H3 K27M / H3 G34",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare in adult GBM (defines separate entities)",
+        "clinical_use": "H3 K27-altered diffuse midline glioma and H3 G34-mutant diffuse hemispheric glioma are separate entities in WHO CNS5"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare in GBM (~1-3%); enriched in epithelioid GBM and some younger patients",
+        "clinical_use": "BRAF/MEK inhibition (for example dabrafenib + trametinib) may be used in BRAF V600E-mutant high-grade glioma"
+      },
+      {
+        "name": "NTRK / FGFR / MET fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Targeted therapies if identified"
+      },
+      {
+        "name": "MSI / dMMR + TMB",
+        "type": "PCR / genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare de novo; hypermutation may emerge after temozolomide, but this is often not MSI/dMMR-driven",
+        "clinical_use": "Checkpoint inhibitor benefit is established for MSI-H/dMMR or TMB-high tissue-agnostic indications, but benefit in glioblastoma is limited/inconsistent; consider testing in select recurrent cases"
+      },
+      {
+        "name": "PDGFRA amplification / mutation",
+        "type": "copy number / mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Recurrent hallmark driver alteration in a subset of IDH-wildtype GBM; may support biologic subclassification and eligibility for targeted trials"
+      },
+      {
+        "name": "CDKN2A / CDKN2B homozygous deletion",
+        "type": "copy number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common (~40-60%)",
+        "clinical_use": "Common cooperating alteration in IDH-wildtype GBM; not a standalone WHO molecular criterion for GBM, but part of the characteristic genomic profile"
+      },
+      {
+        "name": "PTEN loss / mutation",
+        "type": "mutation / copy number",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Common (~25-40%)",
+        "clinical_use": "Frequent PI3K/AKT pathway alteration in IDH-wildtype GBM; mainly biologic relevance and trial stratification rather than routine standard-of-care selection"
+      },
+      {
+        "name": "NF1 alteration",
+        "type": "mutation / deletion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Associated with mesenchymal transcriptional state/subtype; mainly biologic and subclassification relevance"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrating high-grade astrocytic tumour with microvascular proliferation and/or necrosis (pseudopalisading necrosis characteristic)",
+      "variants": [
+        "giant cell GBM",
+        "gliosarcoma",
+        "epithelioid GBM (BRAF V600E in a subset)"
+      ],
+      "grading": "WHO grade 4 by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Classic 'cold' \u00121 sparse T cells, extensive tumour-associated microglia and macrophages, immune-suppressive; blood-brain barrier and local CNS immune context limit immune access",
+      "stromal_features": "Microvascular proliferation (glomeruloid) and pseudopalisading necrosis are characteristic histologic features; extensive infiltration into surrounding brain"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Likely arises from neural stem/progenitor cells or glial progenitors; the subventricular zone (SVZ) has been implicated in some cases, and astrocyte-like glioma stem cells (GSCs) sustain tumour",
+      "developmental_lineage": "Neuroectoderm \u00121 CNS-restricted",
+      "differentiation_state": "TCGA transcriptomic subtypes reflect distinct lineage states: proneural (often OPC-like, commonly PDGFRA-altered), classical (astrocyte-like, EGFR-amplified), mesenchymal (associated with NF1 alteration); recurrent tumours often shift toward mesenchymal state",
+      "lineage_plasticity": "Glioma stem cell (GSC) hierarchy with cellular heterogeneity \u00121 subpopulations occupy distinct lineage states (neural progenitor-like, oligodendrocyte progenitor-like, astrocyte-like, mesenchymal-like) that interconvert; state transitions after therapy drive resistance"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "molecule_name": "STAT3 Inhibitor C-188-9",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Inhibits the STAT3 signaling pathway, which is involved in cell growth and survival.",
+    "molecular_action": "Blocks the activation of STAT3, leading to reduced tumor cell proliferation and survival.",
+    "targets": [
+      "STAT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced tumor growth",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various advanced cancers",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced cancers",
+      "Metastatic hormone receptor-positive breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available for this field",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT03195699",
+      "NCT05384119"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "STAT3"
+    ],
+    "pathways": []
+  }
+}

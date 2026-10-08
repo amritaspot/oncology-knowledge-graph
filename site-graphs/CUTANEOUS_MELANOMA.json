@@ -1,0 +1,172 @@
+{
+  "CUTANEOUS_MELANOMA": {
+    "name": "Cutaneous melanoma",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Melanoma",
+      "cohort": {
+        "male_n": 3015,
+        "female_n": 1908
+      },
+      "organ_involvement_pct": {
+        "NEUROLOGIC": {
+          "male": 49,
+          "female": 44
+        },
+        "PULMONARY": {
+          "male": 41,
+          "female": 39
+        },
+        "HEPATOBILIARY": {
+          "male": 29,
+          "female": 27
+        },
+        "DERMATOLOGIC": {
+          "male": 18,
+          "female": 22
+        },
+        "MUSCULOSKELETAL": {
+          "male": 18,
+          "female": 16
+        },
+        "GASTROINTESTINAL_OTHER": {
+          "male": 9,
+          "female": 6
+        },
+        "ENDOCRINE": {
+          "male": 4,
+          "female": 3
+        },
+        "GASTROINTESTINAL": {
+          "male": 4,
+          "female": 5
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "BRAF V600E / V600K",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40-50% overall (V600E ~70-90% of BRAF-mutant; V600K ~10-30%)",
+        "clinical_use": "BRAF + MEK inhibitor combinations: dabrafenib+trametinib, encorafenib+binimetinib, vemurafenib+cobimetinib. Adjuvant dabrafenib+trametinib (COMBI-AD). BRAF-targeted therapy vs IO first-line \u2014 DREAMseq supports IO first in many patients"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Common driver mutation with prognostic/biologic relevance, but no standard approved direct targeted therapy in melanoma; binimetinib (MEK inhibitor) showed modest benefit in NRAS-mutant disease (NEMO trial)"
+      },
+      {
+        "name": "KIT",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<3% cutaneous; ~15-25% acral/mucosal",
+        "clinical_use": "Imatinib, nilotinib in KIT-mutant melanoma (especially exon 11, 13); higher in acral/mucosal"
+      },
+      {
+        "name": "NF1",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Major genomic subtype in cutaneous melanoma; no established standard targeted therapy, but biologically relevant MAPK-pathway driver"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Not required for IO use; combination nivolumab+ipilimumab or nivolumab+relatlimab (LAG-3) may be used regardless of PD-L1"
+      },
+      {
+        "name": "LAG-3",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Nivolumab + relatlimab (anti-LAG-3) approved first-line advanced melanoma (RELATIVITY-047), but tumor LAG-3 IHC is not required as a companion diagnostic"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very high (UV-signature; among highest across tumours)",
+        "clinical_use": "Supports IO benefit"
+      },
+      {
+        "name": "LDH",
+        "type": "serum",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in advanced disease",
+        "clinical_use": "AJCC 8 distant metastatic subcategorization incorporates CNS disease (M1d) and LDH; elevated LDH is strongly prognostic and used for monitoring"
+      },
+      {
+        "name": "S100B",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Elevated with disease burden",
+        "clinical_use": "European practice for monitoring; less used in US"
+      },
+      {
+        "name": "Circulating tumour DNA (ctDNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "BRAF, NRAS tracking; MRD detection; emerging role"
+      },
+      {
+        "name": "Ulceration + Breslow thickness + mitotic rate",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Ulceration is major upstaging factor (AJCC 8); Breslow drives staging and sentinel node decisions; mitotic rate is prognostic but no longer a primary AJCC 8 T-category criterion"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Atypical melanocytes at dermoepidermal junction with pagetoid upward spread and dermal invasion",
+      "variants": [
+        "superficial spreading (~70%, radial then vertical growth)",
+        "nodular (rapid vertical growth, often minimal/absent radial growth phase)",
+        "lentigo maligna melanoma (chronically sun-damaged skin, older patients)",
+        "acral lentiginous (see ACRAL_MELANOMA)",
+        "desmoplastic (spindle cells in dense collagen, neurotropic)",
+        "spitzoid"
+      ],
+      "grading": "AJCC staging by Breslow thickness and ulceration; mitotic rate is prognostic but not the primary AJCC 8 staging determinant"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Prototypically 'hot' \u2014 UV-driven high TMB, TIL infiltration prognostic, exceptional IO responsiveness across the disease",
+      "stromal_features": "Desmoplastic variant has extensive fibrous stroma; other variants have variable dermal reaction"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Cutaneous melanocytes at basal layer of epidermis and in hair follicles",
+      "developmental_lineage": "Neural crest \u2014 melanocytes migrate from neural crest to skin during embryogenesis",
+      "differentiation_state": "Melanocytic differentiation (S100+, HMB-45+, Melan-A+, SOX10+, MITF+) with variable pigmentation; nevus \u2192 dysplastic nevus \u2192 melanoma progression can occur in a subset, but many melanomas arise de novo",
+      "lineage_plasticity": "MITF is master lineage transcription factor \u2014 MITF-high (differentiated), MITF-intermediate (proliferative), MITF-low (invasive/dedifferentiated) cell states interconvert; phenotype switching drives treatment resistance"
+    }
+  }
+}

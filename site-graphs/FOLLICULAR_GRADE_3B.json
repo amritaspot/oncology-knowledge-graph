@@ -1,0 +1,64 @@
+{
+  "FOLLICULAR_GRADE_3B": {
+    "name": "Follicular lymphoma, grade 3B",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + extranodal (like DLBCL)"
+    },
+    "biomarkers": [
+      {
+        "name": "Same as DLBCL_GCB (treated as DLBCL)",
+        "type": "various",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "See DLBCL_GCB. Often lacks t(14;18) despite FL morphology; more DLBCL-like biology"
+      },
+      {
+        "name": "BCL2 rearrangement / t(14;18)(q32;q21)",
+        "type": "fusion/cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Less frequent than in grades 1-2/3A; often absent in grade 3B",
+        "clinical_use": "Supports conventional follicular lymphoma biology when present, but absence is common in grade 3B and does not exclude the diagnosis"
+      },
+      {
+        "name": "CD10, BCL6",
+        "type": "immunophenotypic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Supports germinal-center B-cell phenotype"
+      },
+      {
+        "name": "IRF4 rearrangement",
+        "type": "fusion/cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare subset",
+        "clinical_use": "Important differential consideration in follicular-pattern large B-cell proliferations, especially Waldeyer ring/pediatric and young adult presentations; not a hallmark driver of typical grade 3B FL"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Sheets of centroblasts in follicular architecture \u2014 approaching diffuse large B-cell lymphoma morphology",
+      "variants": [
+        "FL grade 3B (often lacks t(14;18); molecularly closer to DLBCL)"
+      ],
+      "grading": "Aggressive biology"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per DLBCL \u2014 treated as aggressive lymphoma",
+      "stromal_features": "Follicular architecture with sheets of centroblasts"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells with predominantly centroblastic differentiation, often lacking t(14;18)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid",
+      "differentiation_state": "Sheets of centroblasts in follicular architecture approaching DLBCL morphology; often lacks t(14;18) despite follicular architecture",
+      "lineage_plasticity": "Biologically more DLBCL-like than FL \u2014 represents distinct entity despite follicular morphology; molecular studies show closer relationship to DLBCL"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "AITL": {
+    "name": "Angioimmunoblastic T-cell lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes (generalised)",
+      "characteristic_extranodal_sites": [
+        "skin (pruritic rash)",
+        "spleen",
+        "liver",
+        "bone marrow"
+      ],
+      "characteristic_features": [
+        "autoimmune / paraneoplastic features (hypergammaglobulinaemia, positive Coombs, cytopenias)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "TFH markers (CD10, BCL6, PD1, CXCL13, ICOS)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive",
+        "clinical_use": "Expression of TFH phenotype markers supports diagnosis; WHO/ICC frameworks recognize nodal TFH-cell lymphomas including angioimmunoblastic type, generally requiring TFH-marker expression by the neoplastic T cells rather than a single pathognomonic marker set. Renamed 'nodal TFH-cell lymphoma, angioimmunoblastic-type' in WHO 2022"
+      },
+      {
+        "name": "TET2 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50\u201380%",
+        "clinical_use": "Very common; often co-occurs with DNMT3A and/or RHOA. Also seen in age-related clonal haematopoiesis in the same patients"
+      },
+      {
+        "name": "DNMT3A mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20\u201340%",
+        "clinical_use": "Co-occurs with TET2; epigenetic dysregulation"
+      },
+      {
+        "name": "IDH2 R172 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20\u201345%",
+        "clinical_use": "Highly characteristic of AITL/nodal TFH-cell lymphoma among lymphomas. Potential enasidenib trials"
+      },
+      {
+        "name": "RHOA G17V mutation",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50\u201370%",
+        "clinical_use": "Highly characteristic of AITL and other nodal TFH-cell lymphomas, especially follicular-type TFH lymphoma"
+      },
+      {
+        "name": "EBV+ B cells (expanded)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "EBV-driven B-cell expansion in AITL microenvironment; occasional composite or secondary EBV+ B-cell lymphoma including DLBCL"
+      },
+      {
+        "name": "5-azacitidine, romidepsin (epigenetic therapy)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Responses have been reported in relapsed/refractory TFH-type PTCL/AITL, providing biologic rationale related to recurrent epigenetic mutations, but this is not a validated biomarker-based standard predictive marker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Polymorphic infiltrate with proliferation of high endothelial venules and expanded follicular dendritic cell meshworks; neoplastic TFH-derived T cells scattered within",
+      "variants": [
+        "classic AITL",
+        "TFH-cell lymphoma, follicular type",
+        "TFH-cell lymphoma, NOS"
+      ],
+      "grading": "Aggressive"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Distinctive polymorphic TME with expanded EBV+ B-cell component driven by neoplastic TFH cells \u2014 occasional composite or secondary EBV+ B-cell lymphoma including DLBCL; autoimmune paraneoplastic features common (hypergammaglobulinaemia, positive Coombs)",
+      "stromal_features": "Proliferation of high endothelial venules (HEVs) and expanded FDC meshworks characteristic; polymorphic inflammatory background"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Follicular helper T (TFH) cells \u2014 specialised CD4+ T cells that help germinal centre B-cell responses",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (TFH cells)",
+      "differentiation_state": "TFH differentiation with characteristic markers (CD10+, PD-1/CD279+, ICOS+, CXCL13+, BCL6+, CD40L+) recapitulating normal TFH biology",
+      "lineage_plasticity": "Distinctive epigenetic dysregulation biology: TET2, DNMT3A, IDH2 R172 mutations affect DNA methylation; RHOA G17V mutation is highly characteristic; combined mutations drive TFH-like phenotype; polymorphic TME with expanded EBV+ B-cell component and follicular dendritic cell meshworks"
+    }
+  }
+}

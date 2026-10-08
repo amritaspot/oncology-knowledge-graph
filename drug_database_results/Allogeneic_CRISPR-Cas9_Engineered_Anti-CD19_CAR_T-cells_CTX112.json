@@ -1,0 +1,112 @@
+{
+  "molecule_name": "Allogeneic CRISPR-Cas9 Engineered Anti-CD19 CAR T-cells CTX112",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "CTX112"
+    ],
+    "identifier_scope": "Investigational"
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Cell Therapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "CTX112 is an allogeneic CAR T-cell therapy engineered using CRISPR-Cas9 technology to target and eliminate CD19-expressing B-cells, commonly found in certain types of B-cell malignancies.",
+    "molecular_action": "Genetically engineered T-cells express a chimeric antigen receptor (CAR) that specifically binds to CD19 on target cells, leading to their destruction.",
+    "targets": [
+      "CD19"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "B-cell depletion",
+      "Tumor cell lysis"
+    ],
+    "selectivity": "High for CD19-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "B-cell Malignancies",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "CTX112 is an investigational allogeneic CAR T-cell therapy targeting CD19, currently under clinical evaluation.",
+    "mechanism_doi_meaning": "DOIs for the mechanism of action are not provided as the therapy is investigational and specific publications may not be available.",
+    "empty_mechanism_doi_meaning": "No DOIs are listed due to the investigational nature of the therapy.",
+    "null_meaning": "Null values indicate that specific data is not available or applicable for this investigational therapy.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT04538599",
+      "NCT06925542",
+      "NCT05643742",
+      "NCT07549698"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD19"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD19",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "B_ALL": {
+    "name": "B-cell acute lymphoblastic leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_extramedullary_sites": [
+        "lymph nodes",
+        "spleen",
+        "liver",
+        "mediastinum (less common than T-ALL)"
+      ],
+      "sanctuary_sites": [
+        "CNS",
+        "testis (especially at relapse)"
+      ],
+      "staging_system": "Risk-stratified by age, WBC at presentation, cytogenetics/molecular, response to induction (MRD), CNS status. No TNM."
+    },
+    "biomarkers": [
+      {
+        "name": "B-cell immunophenotype (CD19, CD22, CD79a, CD10, TdT)",
+        "type": "flow / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "CD19/22 also predictive: blinatumomab (CD19), inotuzumab (CD22), CD19 CAR-T (tisagenlecleucel, brexucabtagene)"
+      },
+      {
+        "name": "Cytogenetics",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "Favourable: high hyperdiploidy (51-65 chr), t(12;21)/ETV6-RUNX1. Adverse: hypodiploidy (<44), t(9;22)/BCR-ABL1, KMT2A rearrangement (esp. infants), iAMP21, TCF3-HLF"
+      },
+      {
+        "name": "BCR-ABL1 t(9;22)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~3% paediatric; ~20-30% adult",
+        "clinical_use": "See B_ALL_PH_POS"
+      },
+      {
+        "name": "Ph-like signature",
+        "type": "gene expression / molecular",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20-25% adolescent/young adult and adult; ~10-15% paediatric",
+        "clinical_use": "See B_ALL_PH_LIKE"
+      },
+      {
+        "name": "KMT2A (MLL) rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~70-80% infant B-ALL; ~5% older children/adults",
+        "clinical_use": "Adverse; menin inhibitors emerging"
+      },
+      {
+        "name": "iAMP21",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~2%",
+        "clinical_use": "Adverse without intensification"
+      },
+      {
+        "name": "IKZF1 loss / mutation",
+        "type": "mutation / copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15%",
+        "clinical_use": "Adverse; frequent in Ph+ ALL"
+      },
+      {
+        "name": "MRD (flow cytometry, NGS, IgH-TCR clonality)",
+        "type": "flow / molecular",
+        "categories": [
+          "prognostic",
+          "monitoring",
+          "predictive"
+        ],
+        "prevalence": "Universal in modern protocols",
+        "clinical_use": "Most powerful prognostic factor in ALL. MRD-positive: intensification, blinatumomab, or transplant. Sensitivity typically 10^-4 to 10^-6"
+      },
+      {
+        "name": "CD22",
+        "type": "flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": ">90%",
+        "clinical_use": "Target of inotuzumab ozogamicin"
+      },
+      {
+        "name": "ETV6-RUNX1 t(12;21)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~20-25% paediatric; rare in adults",
+        "clinical_use": "Favourable-risk subtype in childhood B-ALL"
+      },
+      {
+        "name": "TCF3-PBX1 t(1;19)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~3-5%",
+        "clinical_use": "Defines a recurrent B-ALL subtype; prognosis improved with contemporary therapy"
+      },
+      {
+        "name": "CRLF2 rearrangement / overexpression",
+        "type": "fusion / expression",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~5-15%; enriched in Ph-like ALL and Down syndrome-associated ALL",
+        "clinical_use": "Often associated with JAK-STAT pathway lesions; may support ABL/JAK-pathway directed evaluation in Ph-like ALL"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small to medium blasts with scant cytoplasm, high N:C ratio, fine chromatin, inconspicuous nucleoli (L1 morphology historically); larger blasts with prominent nucleoli (L2)",
+      "variants": [
+        "FAB L1 (small blasts, paediatric)",
+        "FAB L2 (larger blasts, adults)",
+        "FAB L3 (Burkitt-like \u2014 now classified as mature B-cell / Burkitt)"
+      ],
+      "grading": "Not graded; molecular / immunophenotypic risk stratification drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Distinctive immunotherapy paradigm \u2014 CD19-directed therapies (blinatumomab, tisagenlecleucel CAR-T) transformed outcomes; sanctuary sites (CNS) require dose-adjusted/site-directed therapy",
+      "stromal_features": "Marrow infiltration with displacement of normal haematopoiesis; extramedullary infiltration of lymph nodes, spleen, liver, testis (sanctuary)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "B-cell precursors (pro-B, pre-B) arrested at early B-cell developmental stage",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (bone marrow B-cell developmental hierarchy)",
+      "differentiation_state": "B-cell precursor differentiation (CD19+, CD20 variable, CD10+, CD22+, CD79a+, TdT+) with maturation arrest at pro-B or pre-B stage; genetic subtypes drive arrest at specific developmental stages",
+      "lineage_plasticity": "Distinct genetic subtypes arrest at different maturation stages: BCR-ABL1, KMT2Ar, ETV6-RUNX1 (paediatric), TCF3-PBX1, TCF3-HLF (very aggressive); some cases show lineage switching to AML under CD19-directed therapy pressure (rare but documented)"
+    }
+  }
+}

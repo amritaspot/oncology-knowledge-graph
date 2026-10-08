@@ -1,0 +1,74 @@
+{
+  "PRIMARY_MEDIASTINAL_LBCL": {
+    "name": "Primary mediastinal large B-cell lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "mediastinal_mass (arises from thymic B cells)",
+      "characteristic_relapse_sites": [
+        "kidney",
+        "adrenal",
+        "GU tract",
+        "liver",
+        "CNS (uncommon)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "PD-L1 amplification (9p24.1) / CIITA rearrangements",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "9p24.1/PD-L1/PD-L2 copy-number gain or amplification is common; CIITA rearrangements occur in a minority (~20%)",
+        "clinical_use": "Shared with cHL biology. Pembrolizumab approved for R/R PMBL (KEYNOTE-013/-170). CIITA rearrangements disrupt MHC-II, immune evasion"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Frequently positive (~70-80%), usually heterogeneous/weaker than cHL",
+        "clinical_use": "Diagnostic support; brentuximab vedotin has shown activity in R/R PMBL, but is not a standard biomarker-selected therapy in the way it is for cHL/ALCL"
+      },
+      {
+        "name": "CD20, CD79a",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Positive in most cases (unlike cHL)",
+        "clinical_use": "Rituximab-based therapy"
+      },
+      {
+        "name": "JAK2, PDL1, PDL2 co-amplification on 9p24.1",
+        "type": "FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Shared with cHL \u2014 JAK-STAT and PD-1 pathway activation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrate of medium to large B cells with clear cytoplasm ('fried egg' appearance in some cases) in dense fibrous stroma; arises from thymic B cells",
+      "variants": [
+        "classic PMBCL",
+        "grey zone lymphoma / mediastinal grey zone lymphoma (B-cell lymphoma with features intermediate between PMBCL and cHL)"
+      ],
+      "grading": "Not morphologically graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Shared biology with cHL \u2014 9p24.1 alterations with PD-L1/PD-L2 overexpression, JAK-STAT activation, and CIITA rearrangements causing reduced MHC-II expression; pembrolizumab active in R/R (KEYNOTE-013/-170)",
+      "stromal_features": "Dense fibrous compartmentalising stroma is characteristic; bulky anterior mediastinal mass"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thymic B cells (distinct from typical DLBCL) \u2014 the thymic medulla contains resident B cells with specialised function in T-cell tolerance",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (thymic B cells)",
+      "differentiation_state": "Medium to large B cells with clear cytoplasm ('fried egg' appearance in some cases) in dense fibrous stroma; retains B-cell markers (CD19+, CD20+, CD22+, PAX5+); CD30+ variable",
+      "lineage_plasticity": "Thymic B-cell origin explains distinctive biology \u2014 shared with cHL: 9p24.1 alterations with PD-L1/PD-L2 overexpression, JAK-STAT activation, CIITA rearrangements causing reduced MHC-II expression; mediastinal grey zone lymphoma represents lineage transition between PMBCL and cHL"
+    }
+  }
+}

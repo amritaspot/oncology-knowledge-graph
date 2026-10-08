@@ -1,0 +1,62 @@
+{
+  "RHABDOMYOSARCOMA_ALVEOLAR": {
+    "name": "Rhabdomyosarcoma, alveolar",
+    "biomarkers": [
+      {
+        "name": "PAX3-FOXO1 or PAX7-FOXO1 fusion",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~80% (PAX3-FOXO1 ~55%; PAX7-FOXO1 ~20\u001330%)",
+        "clinical_use": "Fusion-positive ARMS has worse prognosis than fusion-negative (which behaves like ERMS). PAX3-FOXO1 is associated with worse outcome than PAX7-FOXO1"
+      },
+      {
+        "name": "MyoD1, myogenin (MYF4)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive (myogenin typically strong/diffuse in ARMS)",
+        "clinical_use": "Diagnostic for rhabdomyoblastic differentiation; diffuse strong myogenin expression favours ARMS"
+      },
+      {
+        "name": "Desmin",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive",
+        "clinical_use": "Muscle marker"
+      },
+      {
+        "name": "FOXO1 break-apart FISH",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Detects FOXO1 rearrangement in most fusion-positive ARMS",
+        "clinical_use": "Confirms FOXO1 rearrangement when RT-PCR or sequencing is unavailable"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cells arranged in nests separated by fibrovascular septa with central discohesion producing 'alveolar' pattern",
+      "variants": [
+        "classic alveolar RMS (with discohesion)",
+        "solid variant (without discohesion)"
+      ],
+      "grading": "High-grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised in paediatric sarcomas; TIL infiltration less studied",
+      "stromal_features": "Fibrovascular septa separating tumour nests; central discohesion mimicking alveolar spaces"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesenchymal cells with skeletal muscle differentiation potential \u0014 arrested at early myoblast stage",
+      "developmental_lineage": "Mesoderm \u0014 somitic paraxial mesoderm (skeletal muscle)",
+      "differentiation_state": "Rhabdomyoblastic (skeletal muscle) differentiation with variable maturation (MyoD1+, myogenin+, desmin+); undifferentiated small round blue cell appearance masks myogenic lineage",
+      "lineage_plasticity": "PAX3-FOXO1 or PAX7-FOXO1 fusion (from t(2;13) or t(1;13)) drives lineage-locking \u0014 fuses PAX3/7 to FOXO1 producing a chimeric transcription factor that maintains proliferation state and impairs terminal muscle differentiation; fusion-negative ARMS behaves biologically like embryonal RMS"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ALCL_ALK_POS": {
+    "name": "Anaplastic large cell lymphoma, ALK-positive",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + extranodal",
+      "characteristic_extranodal_sites": [
+        "skin",
+        "bone",
+        "lung",
+        "soft tissue",
+        "liver"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "ALK translocation (NPM1-ALK t(2;5) most common; others include TPM3-ALK, ATIC-ALK, TFG-ALK, CLTC-ALK)",
+        "type": "FISH / IHC / RT-PCR",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~100% by definition in ALK-positive ALCL",
+        "clinical_use": "Defining event. ALK IHC pattern (nuclear+cytoplasmic for NPM1-ALK; usually cytoplasmic-only for most non-NPM1 partners) may suggest fusion partner. ALK inhibitors (crizotinib; also activity reported with later-generation ALK inhibitors such as brigatinib and lorlatinib) are active in relapsed/refractory disease."
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Near-universal/strongly positive",
+        "clinical_use": "Diagnostic hallmark and therapeutic target; brentuximab vedotin + CHP is an established first-line option in systemic ALCL (ECHELON-2)."
+      },
+      {
+        "name": "EMA, cytotoxic markers (granzyme B, perforin, TIA-1)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Often positive",
+        "clinical_use": "Supports diagnosis"
+      },
+      {
+        "name": "IPI",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Risk stratification; ALK-positive ALCL generally has better outcomes than ALK-negative ALCL, particularly in younger and lower-risk patients."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large pleomorphic 'hallmark' cells with horseshoe-shaped or eccentric kidney-shaped nuclei and abundant cytoplasm; cohesive growth pattern; often sinusoidal/perisinusoidal infiltration in nodes",
+      "variants": [
+        "common pattern (hallmark cells dominant)",
+        "small cell pattern",
+        "lymphohistiocytic pattern",
+        "Hodgkin-like pattern"
+      ],
+      "grading": "Aggressive peripheral T-cell lymphoma; prognosis is generally favorable relative to ALK-negative ALCL, but not uniformly 'excellent' in all patients."
+    },
+    "tumor_microenvironment": {
+      "immune_context": "ALK-driven biology enables ALK inhibitors in relapsed/refractory disease; near-universal CD30 expression underlies brentuximab vedotin activity",
+      "stromal_features": "Cohesive tumour cell clusters; sinusoidal/perisinusoidal infiltration in nodes; skin, bone, soft tissue involvement"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature post-thymic T cells with ALK activation driving distinctive lineage biology",
+      "developmental_lineage": "Mesoderm \u0014 lymphoid (mature post-thymic T cells)",
+      "differentiation_state": "Large pleomorphic 'hallmark' cells with horseshoe or kidney-shaped nuclei; CD30+ near-universal; T-cell lineage markers often variably expressed (may lose most T-cell markers \u0014 'null cell' phenotype); ALK+ (nuclear + cytoplasmic staining pattern indicates NPM1-ALK; cytoplasmic-only suggests most non-NPM1 partners)",
+      "lineage_plasticity": "ALK gene fusion (typically NPM1-ALK from t(2;5), majority of cases; less common ALK partners include TPM3, ATIC, TFG, CLTC, etc.) drives constitutive ALK kinase activity. ALK expression pattern (nuclear vs cytoplasmic) reflects fusion partner biology."
+    }
+  }
+}

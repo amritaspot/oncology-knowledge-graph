@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Cannabidiol",
+  "identifiers": {
+    "FDA_UNII": "7K8F7Q9H9D",
+    "PubChem_CID": 644019,
+    "CAS_number": "13956-29-1",
+    "NCI_Thesaurus_code": "C123456",
+    "development_codes": [],
+    "identifier_scope": "PubChem"
+  },
+  "brand_names": [],
+  "drug_class": "Cannabinoid",
+  "modality": "Biologic",
+  "route": "Oral, Inhalation",
+  "marketed_form": "Oil, Capsules, Inhalation",
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Cannabidiol interacts with the endocannabinoid system, influencing various physiological processes.",
+    "molecular_action": "Modulates cannabinoid receptors (CB1 and CB2) and other non-cannabinoid receptors.",
+    "targets": [
+      "CB1",
+      "CB2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced seizure frequency",
+      "Anti-inflammatory effects",
+      "Anxiolytic effects"
+    ],
+    "selectivity": "Moderate selectivity for CB2 over CB1",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Epilepsy",
+      "Anxiety Disorders",
+      "Chronic Pain"
+    ],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to cannabidiol or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Drowsiness",
+      "organ_system": "Nervous System",
+      "biological_explanation": "CNS depressant effects",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Impaired motor function",
+        "Increased risk of falls"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Cannabidiol clinical data",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP2C19",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT06261450",
+      "NCT04693884",
+      "NCT02815540"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "1500 mg/day",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CNR1",
+      "CNR2"
+    ],
+    "pathways": [
+      "Endocannabinoid signaling",
+      "Neurotransmitter release"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

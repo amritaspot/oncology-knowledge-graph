@@ -1,0 +1,159 @@
+{
+  "molecule_name": "MK2206",
+  "identifiers": {
+    "FDA_UNII": "1S4O4D8E7B",
+    "PubChem_CID": 25141616,
+    "CAS_number": "1032350-13-2",
+    "NCI_Thesaurus_code": "C84892",
+    "development_codes": [
+      "MK2206"
+    ],
+    "identifier_scope": "Akt Inhibitor"
+  },
+  "brand_names": [],
+  "drug_class": "Akt inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "MK2206 is an allosteric inhibitor of Akt, a key protein in the PI3K/Akt/mTOR pathway, which is involved in cell proliferation and survival.",
+    "molecular_action": "Allosteric inhibition of Akt kinase activity",
+    "targets": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for Akt isoforms",
+    "doi": [
+      "10.1158/1535-7163.MCT-10-0124"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Metastatic Breast Cancer",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Rash",
+      "organ_system": "Skin",
+      "biological_explanation": "Inhibition of Akt may affect skin cell proliferation and survival.",
+      "mechanism_status": "Hypothesized",
+      "potential_consequences": [
+        "Discontinuation of treatment",
+        "Dose adjustment"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Hyperglycemia",
+        "Diarrhea",
+        "Nausea"
+      ],
+      "biological_explanation": "Akt inhibition can affect glucose metabolism and gastrointestinal function.",
+      "mechanism_status": "Observed"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/25141616",
+      "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C84892"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive pharmacology and precision oncology record for Akt Inhibitor MK2206",
+    "mechanism_doi_meaning": "DOIs related to the mechanism of action of MK2206",
+    "empty_mechanism_doi_meaning": "No specific DOI available for some mechanistic insights",
+    "null_meaning": "Data not available or not applicable",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01277757",
+      "NCT01307631",
+      "NCT01240941",
+      "NCT01260701",
+      "NCT01705340"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "pathways": [
+      "PI3K-Akt Signalling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "AKT1",
+        "pdb_id": "4EJN",
+        "alphafold_id": "P31749",
+        "resolution_angstroms": 2.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "AKT1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 8.0,
+        "doi_or_source": "10.1158/1535-7163.MCT-11-0112"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

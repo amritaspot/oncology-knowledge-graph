@@ -1,0 +1,98 @@
+{
+  "HYPOPHARYNGEAL_SCC": {
+    "name": "Hypopharyngeal SCC",
+    "biomarkers": [
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u22651 in a substantial proportion",
+        "clinical_use": "Pembrolizumab first-line R/M HNSCC"
+      },
+      {
+        "name": "EGFR",
+        "type": "IHC / overexpression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common overexpression",
+        "clinical_use": "Cetuximab"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~70\u201385%",
+        "clinical_use": "Prognostic"
+      },
+      {
+        "name": "CDKN2A",
+        "type": "loss/inactivation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "No routine predictive use"
+      },
+      {
+        "name": "PIK3CA",
+        "type": "mutation",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "~10\u201320%",
+        "clinical_use": "No routine predictive use"
+      },
+      {
+        "name": "CCND1",
+        "type": "amplification",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "No routine predictive use"
+      },
+      {
+        "name": "FAT1",
+        "type": "mutation",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "~15\u201330%",
+        "clinical_use": "No routine predictive use"
+      },
+      {
+        "name": "NOTCH1",
+        "type": "mutation",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "~10\u201320%",
+        "clinical_use": "No routine predictive use"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Keratinizing SCC, often moderately to poorly differentiated",
+      "variants": [
+        "conventional keratinizing",
+        "non-keratinizing",
+        "basaloid"
+      ],
+      "grading": "Traditional SCC grading"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; similar to other UAT SCC",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal keratinocytes of hypopharyngeal mucosa",
+      "developmental_lineage": "Endoderm \u2014 pharyngeal derivatives",
+      "differentiation_state": "Keratinizing squamous, often moderately to poorly differentiated",
+      "lineage_plasticity": "Submucosal 'skip' spread is characteristic \u2014 reflects extensive field cancerization along mucosal continuum"
+    }
+  }
+}

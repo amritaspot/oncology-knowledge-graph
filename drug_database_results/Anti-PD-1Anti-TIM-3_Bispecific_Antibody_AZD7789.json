@@ -1,0 +1,134 @@
+{
+  "molecule_name": "AZD7789",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Bispecific Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "AZD7789 is designed to inhibit immune checkpoint pathways by targeting PD-1 and TIM-3 receptors, potentially enhancing anti-tumor immune responses.",
+    "molecular_action": "Inhibits PD-1 and TIM-3 signaling pathways.",
+    "targets": [
+      "PD-1",
+      "TIM-3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T-cell activation",
+      "Increased anti-tumor immunity"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Classical Hodgkin Lymphoma, Advanced or Metastatic Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory Classical Hodgkin Lymphoma",
+      "Advanced Solid Tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1/2",
+    "nct_trials": [
+      "NCT04541108",
+      "NCT05216835",
+      "NCT04931654"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PDCD1",
+      "HAVCR2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "5UG9",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met793",
+              "Leu718",
+              "Thr790"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.cell.2017.07.005"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "18F",
+    "emission_type": [
+      "beta+",
+      "gamma"
+    ],
+    "targeting_vector_type": "small molecule",
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": "PET"
+  }
+}

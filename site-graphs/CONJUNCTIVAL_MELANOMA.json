@@ -1,0 +1,79 @@
+{
+  "CONJUNCTIVAL_MELANOMA": {
+    "name": "Conjunctival melanoma",
+    "biomarkers": [
+      {
+        "name": "BRAF V600",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "BRAF/MEK inhibitors"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-20%",
+        "clinical_use": "No standard targeted therapy; may support MEK inhibitor trial eligibility"
+      },
+      {
+        "name": "KIT",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare subset",
+        "clinical_use": "Imatinib in selected activating KIT-mutant cases"
+      },
+      {
+        "name": "PD-L1, TMB",
+        "type": "IHC / genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Immunotherapy may be considered, but PD-L1/TMB are not established conjunctival melanoma-specific companion biomarkers"
+      },
+      {
+        "name": "NF1",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "No established standard targeted therapy; biologically relevant recurrent driver"
+      },
+      {
+        "name": "TERT promoter",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Recurrent driver alteration; no standard targeted therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Atypical melanocytes at conjunctival epithelium with variable dermal (substantia propria) invasion",
+      "variants": [
+        "primary acquired melanosis with atypia (precursor)",
+        "invasive conjunctival melanoma"
+      ],
+      "grading": "Not formally graded; tumour thickness and location drive prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Intermediate \u2014 closer to cutaneous than uveal in terms of TMB and immunotherapy responsiveness",
+      "stromal_features": "Substantia propria stroma; often pigmented"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Conjunctival melanocytes",
+      "developmental_lineage": "Neural crest \u2014 melanocytes at conjunctival mucosal surface",
+      "differentiation_state": "Melanocytic differentiation with same lineage markers as cutaneous",
+      "lineage_plasticity": "Biology is intermediate between cutaneous and mucosal melanoma \u2014 with higher BRAF frequency than most mucosal melanomas and more UV-signature TMB than mucosal melanoma, though not uniformly identical to cutaneous melanoma"
+    }
+  }
+}

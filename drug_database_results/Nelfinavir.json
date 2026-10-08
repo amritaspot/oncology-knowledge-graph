@@ -1,0 +1,140 @@
+{
+  "molecule_name": "Nelfinavir",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 64143,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Viracept"
+  ],
+  "drug_class": "Protease Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Nelfinavir is an HIV protease inhibitor that works by blocking the protease enzyme, preventing the virus from maturing and replicating.",
+    "molecular_action": "Inhibition of HIV-1 protease",
+    "targets": [
+      "HIV-1 protease"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced viral load",
+      "Improved immune function"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "HIV treatment",
+      "Combination therapy with other antiretrovirals"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Non-small cell lung cancer",
+      "molecular_context": "Concurrent chemoradiotherapy",
+      "proposed_rationale": "Nelfinavir may enhance the efficacy of standard chemoradiotherapy.",
+      "evidence_level": "Phase 1/2 trial",
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Nelfinavir's use in HIV treatment and potential repurposing in cancer therapy.",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT00000912",
+      "NCT01641809",
+      "NCT00039741"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PRSS",
+      "HIV1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 64143,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/64143/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HIV-1 PR",
+        "pdb_id": "1OHR",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HIV-1 PR",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 2.0,
+        "doi_or_source": "10.1021/jm000408e"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

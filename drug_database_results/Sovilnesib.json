@@ -1,0 +1,90 @@
+{
+  "molecule_name": "Sovilnesib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 148163435,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Sovilnesib is a selective inhibitor of the protein kinase AKT, which plays a crucial role in cell survival and proliferation.",
+    "molecular_action": "Inhibition of AKT signaling pathway",
+    "targets": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell growth",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for AKT isoforms",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials for ovarian cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Sovilnesib in clinical trials for ovarian cancer",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from known biology of AKT inhibitors.",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT06084416"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "pathways": [
+      "AKT signaling pathway"
+    ]
+  }
+}

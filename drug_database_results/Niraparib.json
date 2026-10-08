@@ -1,0 +1,166 @@
+{
+  "molecule_name": "Niraparib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 24958200,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "PARP Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Niraparib is a PARP inhibitor that prevents cancer cells from repairing their DNA, leading to cell death.",
+    "molecular_action": "Inhibits poly (ADP-ribose) polymerase (PARP) enzymes involved in DNA repair.",
+    "targets": [
+      "PARP1",
+      "PARP2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased DNA damage in cancer cells",
+      "Inhibition of DNA repair mechanisms"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Maintenance therapy in advanced ovarian cancer",
+      "Combination therapy in metastatic breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Endometrial Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Penile Carcinoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Metastatic Triple-Negative Breast Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Niraparib clinical trials and usage",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05289648",
+      "NCT05526989",
+      "NCT04762901"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PARP1",
+      "PARP2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 24958200,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24958200/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PARP1",
+        "pdb_id": "4R6E",
+        "alphafold_id": "P09874",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [
+              "Gly863",
+              "Ser904",
+              "Gly888",
+              "Gly863"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PARP1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 3.8,
+        "doi_or_source": "10.1016/j.chembiol.2012.09.013"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

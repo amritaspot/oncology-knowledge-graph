@@ -1,0 +1,106 @@
+{
+  "PRIMARY_MYELOFIBROSIS": {
+    "name": "Primary myelofibrosis",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow (fibrotic) + peripheral_blood + spleen + liver",
+      "characteristic_features": [
+        "massive splenomegaly (extramedullary haematopoiesis)",
+        "constitutional symptoms (fever, night sweats, weight loss)",
+        "leukoerythroblastic blood film",
+        "cytopenias"
+      ],
+      "characteristic_extramedullary_sites": [
+        "spleen (extramedullary haematopoiesis)",
+        "liver (also EMH)",
+        "any organ (rare EMH masses)"
+      ],
+      "staging_system": "DIPSS/DIPSS-plus/MIPSS70/MIPSS70+ v2 prognostic scores."
+    },
+    "biomarkers": [
+      {
+        "name": "JAK2 V617F",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50-60%",
+        "clinical_use": "Diagnostic; supports JAK-STAT pathway activation and JAK inhibitor rationale"
+      },
+      {
+        "name": "CALR mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Diagnostic; type 1/type 1-like CALR is associated with more favourable prognosis than JAK2/MPL or triple-negative disease"
+      },
+      {
+        "name": "MPL W515",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Alternative driver"
+      },
+      {
+        "name": "Triple-negative",
+        "type": "molecular exclusion",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Adverse prognosis"
+      },
+      {
+        "name": "ASXL1, SRSF2, EZH2, IDH1/2, U2AF1 Q157 (HMR mutations)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Adverse; MIPSS70/MIPSS70+ v2 and related models incorporate these for risk stratification and transplant decision-making"
+      },
+      {
+        "name": "DIPSS / DIPSS-plus / MIPSS70+ v2 / MYSEC-PM / MTSS",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Guide prognosis and transplant referral. MYSEC-PM: for secondary myelofibrosis (post-PV/ET)"
+      },
+      {
+        "name": "JAK inhibitor response (ruxolitinib, fedratinib, momelotinib, pacritinib)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Ruxolitinib: standard for symptoms and splenomegaly. Momelotinib: useful in anaemic patients (also ACVR1/hepcidin-related activity). Pacritinib: option in severe thrombocytopenia, including platelet count <50 x10^9/L. Fedratinib: approved option after or including ruxolitinib exposure depending on setting."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Marrow reticulin/collagen fibrosis with atypical megakaryocyte clustering and osteosclerosis in advanced stages",
+      "variants": [
+        "prefibrotic PMF (early phase, mild reticulin, often mistaken for ET)",
+        "overt PMF with fibrosis",
+        "post-PV or post-ET myelofibrosis (secondary \u2014 MYSEC-PM score)"
+      ],
+      "grading": "Fibrosis grade 0-3 (MF-0 to MF-3); DIPSS/MIPSS70+ prognostic scores"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Elevated inflammatory cytokines (including IL-6, TNF-\u03b1, IL-8) drive constitutional symptoms and cachexia; JAK-STAT signalling is pathogenic",
+      "stromal_features": "Marrow fibrosis with atypical megakaryocyte clusters is defining; extramedullary haematopoiesis in massive splenomegaly (and liver) as marrow fails; leukoerythroblastic blood picture"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC with JAK-STAT-activating driver mutations driving progressive marrow fibrosis through inflammatory cytokine production and megakaryocyte dysregulation",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Progressive marrow fibrosis with atypical megakaryocyte clustering; extramedullary haematopoiesis in massive splenomegaly (and liver) as marrow fails; leukoerythroblastic blood picture",
+      "lineage_plasticity": "Same major driver mutations as PV/ET (JAK2, CALR, MPL) but with additional high molecular risk mutations (ASXL1, EZH2, IDH1/2, SRSF2, U2AF1 Q157) associated with more aggressive biology; extramedullary haematopoiesis represents adaptive redeployment of haematopoiesis to fetal-like sites (spleen, liver)"
+    }
+  }
+}

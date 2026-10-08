@@ -1,0 +1,55 @@
+{
+  "NODAL_MARGINAL_ZONE": {
+    "name": "Nodal marginal zone lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes"
+    },
+    "biomarkers": [
+      {
+        "name": "CD20+, CD5-, CD10-, CD23-",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Typical immunophenotype; helps distinguish from CLL/SLL (usually CD5+/CD23+), mantle cell lymphoma (usually CD5+/cyclin D1+), and follicular lymphoma (usually CD10+/BCL6+)"
+      },
+      {
+        "name": "MYD88 L265P (usually negative)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually absent",
+        "clinical_use": "Helps distinguish from lymphoplasmacytic lymphoma/Waldenstrom macroglobulinemia, which is MYD88 L265P-positive in most cases"
+      },
+      {
+        "name": "NOTCH2 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-25%",
+        "clinical_use": "Recurrent in marginal zone lymphoma and supportive of MZL biology, but not specific for nodal MZL"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small to medium-sized B cells with monocytoid/marginal zone appearance, often with plasmacytic differentiation, infiltrating around reactive follicles of lymph nodes; residual germinal centres may be preserved",
+      "variants": [
+        "conventional nodal MZL",
+        "paediatric nodal MZL (localized, indolent)"
+      ],
+      "grading": "Indolent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immunophenotype is typically CD5-, CD10-, and CD23-, helping distinguish from CLL/SLL, mantle cell lymphoma, and follicular lymphoma",
+      "stromal_features": "Marginal zone expansion around residual reactive follicles"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Marginal zone B cells \u2014 generally considered a post-germinal centre memory B-cell neoplasm",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (marginal zone B cells)",
+      "differentiation_state": "Marginal zone B-cell differentiation, sometimes with plasmacytic differentiation; CD5-, CD10-, CD23- immunophenotype helps distinguish from CLL/SLL, MCL, and FL",
+      "lineage_plasticity": "Marginal zone B-cell lineage retention; recurrent NOTCH2 pathway alterations support marginal zone differentiation biology, but are not present in all cases"
+    }
+  }
+}

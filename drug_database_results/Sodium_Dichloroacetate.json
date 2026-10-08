@@ -1,0 +1,90 @@
+{
+  "molecule_name": "Sodium Dichloroacetate",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 517326,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Metabolic Modulator",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Sodium Dichloroacetate works by inhibiting pyruvate dehydrogenase kinase, which leads to increased pyruvate and reduced lactate levels, potentially reversing the Warburg effect in cancer cells.",
+    "molecular_action": "Inhibition of pyruvate dehydrogenase kinase.",
+    "targets": [
+      "PDK",
+      "PDH"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased glucose oxidation",
+      "Decreased lactate production"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Brain Cancer, Metastatic Breast Cancer, Non-Small Cell Lung Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials for brain cancer",
+      "Clinical trials for metastatic breast cancer",
+      "Clinical trials for non-small cell lung cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological studies",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00540176",
+      "NCT01029925",
+      "NCT00874276"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PDK4",
+      "PDHA1"
+    ],
+    "pathways": []
+  }
+}

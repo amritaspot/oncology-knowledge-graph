@@ -1,0 +1,183 @@
+{
+  "molecule_name": "Amivantamab",
+  "identifiers": {
+    "FDA_UNII": "5Z8Y4F4WA3",
+    "PubChem_CID": null,
+    "CAS_number": "2230826-71-5",
+    "NCI_Thesaurus_code": "C172279",
+    "development_codes": [
+      "JNJ-61186372"
+    ],
+    "identifier_scope": "Amivantamab is a monoclonal antibody with specific identifiers."
+  },
+  "brand_names": [
+    "Rybrevant"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "mAb",
+  "route": "Intravenous",
+  "marketed_form": "Solution for infusion",
+  "approved_countries": [
+    "United States",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Amivantamab is a bispecific antibody that targets EGFR and MET receptors, leading to inhibition of tumor growth and induction of antibody-dependent cellular cytotoxicity.",
+    "molecular_action": "Binds to EGFR and MET receptors, blocking ligand binding and receptor activation.",
+    "targets": [
+      "EGFR",
+      "MET"
+    ],
+    "relevant_variants": [
+      "EGFR exon 20 insertion mutations"
+    ],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for EGFR and MET",
+    "doi": [
+      "10.1158/1078-0432.CCR-20-4599"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer",
+    "histology": "Adenocarcinoma",
+    "clinical_settings": [
+      "Advanced",
+      "Metastatic"
+    ],
+    "scope": "Amivantamab is used for the treatment of adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR exon 20 insertion mutations.",
+    "reference_urls": [
+      "https://www.rybrevant.com/"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Infusion-related reactions",
+      "organ_system": "Immune system",
+      "biological_explanation": "Due to immune response against the monoclonal antibody",
+      "mechanism_status": "Known",
+      "potential_consequences": [
+        "Discontinuation of therapy",
+        "Requirement for premedication"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Rash",
+        "Paronychia",
+        "Hypoalbuminemia"
+      ],
+      "biological_explanation": "Common adverse effects associated with EGFR inhibition",
+      "mechanism_status": "Known"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Amivantamab",
+      "https://www.cancer.gov/about-cancer/treatment/drugs/amivantamab"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.rybrevant.com/",
+      "https://www.ema.europa.eu/en/medicines/human/EPAR/rybrevant"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "This record includes clinical, biological, and pharmacokinetic data for Amivantamab.",
+    "mechanism_doi_meaning": "DOIs provide references to scientific publications detailing the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for some mechanisms.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 124.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT02609776",
+      "NCT04487080"
+    ],
+    "regulatory_designations": [
+      "Breakthrough Therapy",
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "1050 mg for patients <80 kg, 1400 mg for patients \u226580 kg",
+    "objective_response_rate_pct": 40.0,
+    "median_pfs_months": 8.3
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "EGFR",
+      "MET"
+    ],
+    "pathways": [
+      "RTK-RAS Pathway",
+      "PI3K-Akt Signalling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": null,
+        "alphafold_id": "P00533",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "MET",
+        "pdb_id": null,
+        "alphafold_id": "P08581",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1158/1535-7163.MCT-20-0585"
+      },
+      {
+        "target_symbol": "MET",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 1.1,
+        "doi_or_source": "10.1158/1535-7163.MCT-20-0585"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

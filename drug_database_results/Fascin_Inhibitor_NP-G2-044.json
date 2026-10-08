@@ -1,0 +1,119 @@
+{
+  "molecule_name": "Fascin Inhibitor NP-G2-044",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 91844684,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Fascin Inhibitor",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "NP-G2-044 inhibits fascin proteins, which are critical for cell migration and tumor metastasis.",
+    "molecular_action": "Inhibition of fascin proteins in tumor cells and dendritic cells.",
+    "targets": [
+      "Fascin"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced cell migration",
+      "Decreased tumor metastasis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid Tumor Malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced or Metastatic Treatment-Refractory Solid Tumor Malignancies",
+      "Platinum-Resistant Ovarian Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI provided",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03199586",
+      "NCT05023486",
+      "NCT07109414"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FSCN1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FSCN1",
+        "pdb_id": null,
+        "alphafold_id": "P35579",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FSCN1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 14.0,
+        "doi_or_source": "10.1016/j.ccell.2019.11.003"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

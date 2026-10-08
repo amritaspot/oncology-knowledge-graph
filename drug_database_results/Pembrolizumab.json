@@ -1,0 +1,168 @@
+{
+  "molecule_name": "Pembrolizumab",
+  "identifiers": {
+    "FDA_UNII": "0R8A0D1R8A",
+    "PubChem_CID": 24810000,
+    "CAS_number": "1374853-91-4",
+    "NCI_Thesaurus_code": "C100053",
+    "development_codes": [
+      "MK-3475"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Keytruda"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Japan"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Pembrolizumab is a monoclonal antibody that blocks the PD-1 receptor, enhancing the immune response against cancer cells.",
+    "molecular_action": "Inhibits PD-1 receptor signaling, leading to increased T-cell activation and proliferation.",
+    "targets": [
+      "PD-1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T-cell response against tumors"
+    ],
+    "selectivity": "Selective for PD-1",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer (NSCLC)",
+    "histology": "Various solid tumors including melanoma, lung cancer, and cervical cancer",
+    "clinical_settings": [
+      "First-line treatment for metastatic melanoma",
+      "Combination therapy with chemotherapy for NSCLC",
+      "Adjuvant therapy for high-risk melanoma"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/pembrolizumab"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe hypersensitivity to pembrolizumab or any component of the formulation",
+      "Active autoimmune disease requiring systemic treatment",
+      "History of severe immune-mediated adverse reactions"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/125514s066lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "Increased immune activity can lead to systemic fatigue.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Reduced quality of life",
+        "Potential treatment discontinuation"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Immune-mediated pneumonitis",
+      "organ_system": "Respiratory",
+      "biological_explanation": "Activation of T-cells can lead to inflammation in lung tissue.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Respiratory distress",
+        "Potential hospitalization"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT04041310",
+      "NCT06378047",
+      "NCT04140526"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in various cancers including melanoma, NSCLC, and cervical cancer."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Clinical and pharmacological data for Pembrolizumab",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Limited",
+    "physical_half_life_days": 26.0,
+    "biological_half_life_hours": 20.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "Not significantly metabolized by CYP enzymes"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT04041310",
+      "NCT06378047",
+      "NCT04140526"
+    ],
+    "regulatory_designations": [
+      "FDA Approved",
+      "EMA Approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "200 mg every 3 weeks",
+    "objective_response_rate_pct": 40.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PDCD1"
+    ],
+    "pathways": [
+      "PD-1 signaling pathway",
+      "T-cell activation"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PDCD1",
+        "pdb_id": "5GGS",
+        "alphafold_id": "P09429",
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

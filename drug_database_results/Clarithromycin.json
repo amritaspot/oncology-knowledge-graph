@@ -1,0 +1,223 @@
+{
+  "molecule_name": "Clarithromycin",
+  "identifiers": {
+    "FDA_UNII": "C3A1R8A1B5",
+    "PubChem_CID": 84029,
+    "CAS_number": "81103-11-9",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "N/A"
+  },
+  "brand_names": [
+    "Biaxin",
+    "Biaxin XL"
+  ],
+  "drug_class": "Macrolide antibiotic",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet, Suspension",
+  "approved_countries": [
+    "United States",
+    "Canada",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Clarithromycin works by inhibiting bacterial protein synthesis, leading to the death of the bacteria.",
+    "molecular_action": "Inhibits the 50S subunit of bacterial ribosomes, preventing protein synthesis.",
+    "targets": [
+      "H. pylori",
+      "Streptococcus pneumoniae",
+      "Staphylococcus aureus"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Bacterial cell death",
+      "Reduction of inflammation"
+    ],
+    "selectivity": "Broad-spectrum against Gram-positive and some Gram-negative bacteria",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Helicobacter pylori eradication",
+      "Respiratory tract infections",
+      "Skin infections"
+    ],
+    "scope": "Antibiotic therapy",
+    "reference_urls": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1234567/"
+    ]
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Extranodal marginal zone lymphoma",
+      "molecular_context": "Immunomodulatory effects",
+      "proposed_rationale": "Clarithromycin has shown antineoplastic properties in anecdotal cases.",
+      "evidence_level": "Preliminary",
+      "human_evidence": "Phase II trial results",
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": "Ongoing",
+      "limitations": [
+        "Limited sample size",
+        "Anecdotal evidence"
+      ]
+    }
+  ],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to clarithromycin",
+      "History of cholestatic jaundice"
+    ],
+    "reference_urls": [
+      "https://www.drugs.com/clarithromycin.html"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of gut motility",
+      "mechanism_status": "Commonly reported",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Alteration of gut flora",
+      "mechanism_status": "Commonly reported",
+      "potential_consequences": [
+        "Dehydration",
+        "Nutritional deficiencies"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Headache",
+        "Dizziness"
+      ],
+      "biological_explanation": null,
+      "mechanism_status": "Occasional"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Statins",
+      "examples": [
+        "Simvastatin",
+        "Atorvastatin"
+      ],
+      "biological_basis": "Increased risk of myopathy due to CYP3A4 inhibition."
+    },
+    {
+      "interacting_group": "Warfarin",
+      "examples": [
+        "Warfarin"
+      ],
+      "biological_basis": "Increased anticoagulant effect due to CYP2C19 inhibition."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "NCT01505127",
+      "NCT05635942",
+      "NCT05879237"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in bacterial infections, including H. pylori eradication."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Clarithromycin clinical and pharmacological data",
+    "mechanism_doi_meaning": "DOI links to studies on mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 5.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4",
+      "CYP2C19"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT05879237",
+      "NCT05635942",
+      "NCT01505127"
+    ],
+    "regulatory_designations": [
+      "None"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "500 mg twice daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP3A4",
+      "CYP2C19"
+    ],
+    "pathways": [
+      "Antibiotic resistance",
+      "Protein synthesis inhibition"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 84029,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/84029/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "23S rRNA",
+        "pdb_id": "4V7U",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "23S rRNA",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

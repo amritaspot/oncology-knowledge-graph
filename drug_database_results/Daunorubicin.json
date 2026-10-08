@@ -1,0 +1,154 @@
+{
+  "molecule_name": "Daunorubicin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 30323,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Anthracycline",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Daunorubicin works by intercalating DNA, disrupting the replication process, and inducing apoptosis in cancer cells.",
+    "molecular_action": "Inhibits topoisomerase II and intercalates into DNA.",
+    "targets": [
+      "TOP2A"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis",
+      "Inhibition of DNA synthesis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "Chemotherapy regimens for hematological malignancies"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to daunorubicin or any component of the formulation",
+      "Severe myocardial insufficiency"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of bone marrow function leading to decreased blood cell production.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia",
+        "Bleeding complications"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Daunorubicin clinical data and trial information",
+    "mechanism_doi_meaning": "References for the mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for the mechanism of action",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [
+      "Hepatic metabolism",
+      "Renal excretion"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT01414855",
+      "NCT00070278",
+      "NCT01495884"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "45 mg/m2",
+    "objective_response_rate_pct": 60.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TOP2A"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 30323,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/30323/SDF?record_type=3d",
+    "rotatable_bonds": 5,
+    "target_structures": [
+      {
+        "target_symbol": "TOP2A",
+        "pdb_id": "1ZXM",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TOP2A",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 50.0,
+        "doi_or_source": "10.1016/j.bmc.2005.06.015"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

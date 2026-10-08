@@ -1,0 +1,54 @@
+{
+  "UNDIFFERENTIATED_PLEOMORPHIC_SARCOMA": {
+    "name": "Undifferentiated pleomorphic sarcoma",
+    "biomarkers": [
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Common in genomically complex UPS; not established as a routine clinical prognostic biomarker"
+      },
+      {
+        "name": "Complex karyotype",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Characteristic of UPS; genomically complex sarcoma without a recurrent specific driver alteration"
+      },
+      {
+        "name": "PD-L1 / TMB",
+        "type": "IHC / genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "No validated biomarker standard; pembrolizumab showed activity in a subset in SARC028, and UPS is among the more immune-responsive sarcoma subtypes"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Pleomorphic spindle and epithelioid cells without identifiable lineage differentiation by IHC or molecular studies \u2014 diagnosis of exclusion",
+      "variants": [
+        "storiform-pleomorphic (formerly MFH \u2014 malignant fibrous histiocytoma)",
+        "myxoid variant",
+        "giant cell",
+        "inflammatory"
+      ],
+      "grading": "Usually FNCLCC high-grade; UPS is typically a high-grade pleomorphic sarcoma"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "One of the more inflamed sarcoma subtypes \u2014 tertiary lymphoid structures identified in some \u2014 supports IO responses in a subset",
+      "stromal_features": "Pleomorphic architecture; storiform pattern in some variants"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 undifferentiated mesenchymal cells without identifiable lineage differentiation by IHC or molecular studies",
+      "developmental_lineage": "Mesoderm \u2014 mesenchymal without lineage-specific differentiation",
+      "differentiation_state": "Undifferentiated by definition \u2014 pleomorphic spindle and epithelioid cells without identifiable lineage markers (though focal aberrant expression of markers can occur)",
+      "lineage_plasticity": "Category has narrowed as molecular studies identify specific entities (dedifferentiated liposarcoma, MPNST, pleomorphic rhabdomyosarcoma, etc.); represents diagnosis of exclusion after thorough workup"
+    }
+  }
+}

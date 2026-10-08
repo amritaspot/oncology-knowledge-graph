@@ -1,0 +1,57 @@
+{
+  "LIPOSARCOMA_WD_DD": {
+    "name": "Liposarcoma, well-differentiated / dedifferentiated",
+    "biomarkers": [
+      {
+        "name": "MDM2 amplification (12q13-15)",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": ">90% of WDLPS/DDLPS",
+        "clinical_use": "Defining feature \u0014 distinguishes from lipoma and other spindle cell tumours. MDM2 inhibitor trials (milademetan, brigimadlin)"
+      },
+      {
+        "name": "CDK4 amplification (12q13-14)",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Co-amplified with MDM2 in most cases (~90%)",
+        "clinical_use": "Palbociclib and other CDK4/6 inhibitors have some activity in DDLPS"
+      },
+      {
+        "name": "HMGA2 amplification (12q14)",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common, especially in ring/giant marker chromosomes involving 12q13-15",
+        "clinical_use": "Diagnostic support"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Well-differentiated: mature adipocytes with atypia and lipoblasts; dedifferentiated: high-grade non-lipogenic sarcoma component adjacent to WD component",
+      "variants": [
+        "well-differentiated (atypical lipomatous tumour when in extremities)",
+        "dedifferentiated (with high-grade component)",
+        "sclerosing WDLPS",
+        "inflammatory WDLPS",
+        "spindle cell WDLPS"
+      ],
+      "grading": "WD is low-grade; DD is intermediate- to high-grade, most often high-grade"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; typically minimal inflammation",
+      "stromal_features": "Mature adipocytic component with fibrous septa; DD component is desmoplastic non-lipogenic sarcoma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesenchymal cells with adipocytic differentiation potential (fibroblast-like precursors, not mature adipocytes)",
+      "developmental_lineage": "Mesoderm \u0014 adipose tissue mesenchyme",
+      "differentiation_state": "WD component retains mature adipocyte differentiation with variable atypia; DD component loses adipocytic differentiation and usually shows undifferentiated pleomorphic sarcoma-like or other high-grade sarcoma morphology; MDM2 amplification is a defining event and CDK4 is co-amplified in most cases",
+      "lineage_plasticity": "WD \u0014 DD progression represents lineage dedifferentiation within the same clonal population; DD component maintains the 12q13-15 amplicon (including MDM2 and often CDK4/HMGA2), revealing shared origin despite morphologic dedifferentiation"
+    }
+  }
+}

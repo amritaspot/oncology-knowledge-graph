@@ -1,0 +1,129 @@
+{
+  "molecule_name": "Onvansertib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 49792852,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "PCM-075",
+      "NMS-1286937"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "PLK1 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Onvansertib is a specific inhibitor of PLK1, a protein that plays a key role in cell division and cancer progression.",
+    "molecular_action": "Inhibits PLK1 activity, leading to disruption of cancer cell proliferation.",
+    "targets": [
+      "PLK1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cancer cell growth",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": "Specific to PLK1",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Pancreatic Cancer, Colorectal Cancer, Small Cell Lung Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "First line treatment for advanced pancreatic cancer",
+      "Second-line treatment for KRAS-mutated metastatic colorectal cancer",
+      "Relapsed small cell lung cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Onvansertib clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT06736717",
+      "NCT04446793",
+      "NCT04005690"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PLK1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PLK1",
+        "pdb_id": "3FC2",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PLK1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 2.2,
+        "doi_or_source": "10.1016/j.ccr.2018.11.007"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

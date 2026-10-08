@@ -1,0 +1,108 @@
+{
+  "molecule_name": "177Lu-NRT6020",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "NRT6020",
+      "177Lu-NRT6020"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical development code; public identifier-level data are sparse."
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "177Lu-NRT6020 appears to be an investigational lutetium-177\u2013labeled radiopharmaceutical intended to deliver beta-emitting radiation to a molecular target expressed by tumors. However, the specific binding target and construct details were not verifiably established from publicly accessible sources reviewed.",
+    "molecular_action": "Targeted radionuclide delivery of 177Lu-associated beta radiation after ligand binding to an as-yet-unverified tumor-associated target.",
+    "targets": [
+      "unknown"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Localized radiation-induced DNA damage",
+      "Tumor cell killing via beta-particle emission",
+      "Potential crossfire effect to adjacent tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid Tumor Malignancy",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational oncology radiopharmaceutical; specific tumor indication not verifiably established from accessible public sources reviewed.",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record is limited to information that could be stated with high confidence from sparse public evidence for 177Lu-NRT6020. Quantitative clinical efficacy, target identity, and human PK parameters were not verifiably documented in the reviewed public domain sources.",
+    "mechanism_doi_meaning": "DOIs listed in mechanism or repurposing sections correspond to directly relevant primary literature supporting the stated mechanism or rationale.",
+    "empty_mechanism_doi_meaning": "An empty DOI list indicates no directly supporting primary literature DOI was verifiably identified for that field.",
+    "null_meaning": "Null indicates that a specific value was not verifiably documented or could not be assigned with sufficient confidence; empty arrays indicate no verified items were identified.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "PHASE1",
+    "nct_trials": [
+      "NCT06911489"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "unknown"
+    ],
+    "pathways": [
+      "DNA damage response"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

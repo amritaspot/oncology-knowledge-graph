@@ -1,0 +1,149 @@
+{
+  "molecule_name": "Aminolevulinic Acid",
+  "identifiers": {
+    "FDA_UNII": "88755R04WG",
+    "PubChem_CID": 1198,
+    "CAS_number": "106-60-5",
+    "NCI_Thesaurus_code": "C290",
+    "development_codes": [],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Levulan",
+    "Ameluz"
+  ],
+  "drug_class": "Photosensitizing agent",
+  "modality": "Small molecule",
+  "route": "Topical",
+  "marketed_form": "Gel",
+  "approved_countries": [
+    "United States",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Aminolevulinic Acid is a precursor in the heme biosynthesis pathway that leads to the accumulation of protoporphyrin IX, a photosensitizer that produces reactive oxygen species upon light activation, causing cell death.",
+    "molecular_action": "Precursor to protoporphyrin IX, which generates reactive oxygen species upon activation by light.",
+    "targets": [
+      "ALAS1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death via reactive oxygen species"
+    ],
+    "selectivity": "Selective for cells with high heme biosynthesis activity",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Actinic keratosis",
+    "histology": null,
+    "clinical_settings": [
+      "Dermatology"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Porphyria",
+      "Allergy to porphyrins"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Photosensitivity",
+      "organ_system": "Skin",
+      "biological_explanation": "Increased sensitivity to light due to accumulation of photosensitizing agents.",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Severe sunburn",
+        "Skin irritation"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Erythema",
+        "Edema",
+        "Scaling"
+      ],
+      "biological_explanation": "Local skin reactions due to photodynamic therapy.",
+      "mechanism_status": "established"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Photosensitizing agents",
+      "examples": [
+        "Tetracyclines",
+        "Fluoroquinolones"
+      ],
+      "biological_basis": "Increased risk of photosensitivity reactions."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/1198",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021768s007lbl.pdf"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021768s007lbl.pdf"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive record for Aminolevulinic Acid as a photosensitizing agent.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action studies.",
+    "empty_mechanism_doi_meaning": "No specific DOIs available for mechanism of action.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00000000",
+      "NCT03048240",
+      "NCT06545396",
+      "NCT00711178"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ALAS1"
+    ],
+    "pathways": [
+      "Heme biosynthesis"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

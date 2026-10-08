@@ -1,0 +1,55 @@
+{
+  "RETINOBLASTOMA": {
+    "name": "Retinoblastoma",
+    "biomarkers": [
+      {
+        "name": "RB1 mutation (germline or somatic)",
+        "type": "mutation / IHC (loss of pRB)",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": ">95% overall; biallelic RB1 inactivation is the defining event in the great majority of tumours",
+        "clinical_use": "Bilateral / familial disease is usually due to germline RB1 alteration; germline RB1 is identified in ~90\u201395% of bilateral cases. Cascade family testing is critical \u2014 germline carriers have lifetime risk of second cancers (osteosarcoma, soft-tissue sarcoma, melanoma, brain tumours). Chemoreduction, focal therapy, or enucleation depending on stage"
+      },
+      {
+        "name": "MYCN amplification",
+        "type": "copy number",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~1\u20132% (RB1-wildtype subset)",
+        "clinical_use": "Rare RB1-wildtype MYCN-amplified retinoblastoma subset \u2014 typically unilateral and clinically aggressive"
+      },
+      {
+        "name": "Chromosome 6p gain, 1q gain, 16q loss",
+        "type": "cytogenetic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common secondary copy-number alterations",
+        "clinical_use": "Secondary genomic events recurrent in retinoblastoma; associated with tumour progression/adverse pathologic features"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cell embryonal tumour of retina with Flexner-Wintersteiner rosettes (true rosettes with central lumen) and Homer-Wright rosettes (pseudorosettes)",
+      "variants": [
+        "undifferentiated",
+        "differentiated (Flexner-Wintersteiner rosettes)",
+        "fleurettes (photoreceptor differentiation)"
+      ],
+      "grading": "AJCC / International Retinoblastoma Classification for treatment decisions"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-privileged (ocular); not well characterised",
+      "stromal_features": "Retinal architecture; necrosis common with calcification"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Retinal photoreceptor precursor cells (cone precursors)",
+      "developmental_lineage": "Neuroectoderm \u2014 retina from diencephalic outpouching (optic vesicle)",
+      "differentiation_state": "Embryonal / photoreceptor-directed differentiation with Flexner-Wintersteiner rosettes (true rosettes with central lumen mimicking photoreceptor outer segment) and Homer-Wright rosettes (pseudorosettes)",
+      "lineage_plasticity": "Biallelic RB1 loss is the defining genomic event in most tumours \u2014 pRB loss releases E2F transcription factors and disrupts cell cycle control; cone precursors are particularly vulnerable because of their unique cell cycle regulation"
+    }
+  }
+}

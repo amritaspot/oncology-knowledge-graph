@@ -1,0 +1,127 @@
+{
+  "molecule_name": "Telaglenastat",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 71577426,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "CB-839"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Metabolic inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Telaglenastat inhibits glutaminase, which is involved in the metabolism of glutamine, a nutrient that cancer cells often rely on for growth.",
+    "molecular_action": "Inhibition of glutaminase enzyme activity.",
+    "targets": [
+      "GLS"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced tumor growth",
+      "Increased sensitivity to other therapies"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Renal Cell Carcinoma, Non-small Cell Lung Cancer, Triple Negative Breast Cancer, Prostate Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Combination therapy",
+      "Monotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT03163667",
+      "NCT03831932",
+      "NCT03057600"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "600 mg to 800 mg twice daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GLS"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "GLS",
+        "pdb_id": "6P9G",
+        "alphafold_id": "P53396",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "GLS",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 23.0,
+        "doi_or_source": "10.1016/j.ccell.2019.02.005"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

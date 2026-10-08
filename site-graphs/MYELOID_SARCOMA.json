@@ -1,0 +1,57 @@
+{
+  "MYELOID_SARCOMA": {
+    "name": "Myeloid sarcoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "extramedullary (soft tissue mass composed of myeloid blasts)",
+      "characteristic_sites": [
+        "skin",
+        "soft tissue",
+        "bone",
+        "lymph node",
+        "GI tract",
+        "orbit",
+        "any anatomic site"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "MPO, CD34, CD117, lysozyme, CD68",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable panel; MPO is often positive but may be weak/negative in monoblastic cases; CD34 and CD117 are variable; lysozyme and CD68 are often positive in monocytic/myelomonocytic differentiation",
+        "clinical_use": "Confirms myeloid lineage; often monocytic differentiation"
+      },
+      {
+        "name": "Same molecular workup as AML (cytogenetics, FLT3, NPM1, IDH, etc.)",
+        "type": "various",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "As per AML; recurrent abnormalities reported in myeloid sarcoma include RUNX1::RUNX1T1 [t(8;21)], CBFB::MYH11 [inv(16)/t(16;16)], KMT2A rearrangements, NPM1 mutations, and FLT3 mutations",
+        "clinical_use": "Uses the same diagnostic and risk/predictive molecular assessment as AML; t(8;21) is a recognized association with myeloid sarcoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Extramedullary tumour mass composed of myeloid blasts (often monoblastic/myelomonocytic differentiation); infiltrative growth in soft tissue",
+      "variants": [
+        "chloroma (green colour from myeloperoxidase visible on fresh cut section)",
+        "granulocytic sarcoma",
+        "monoblastic sarcoma"
+      ],
+      "grading": "Treated as AML regardless of morphology"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Extramedullary infiltration by immature myeloid cells; often perivascular or diffuse"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "AML cells (same as underlying AML) with tropism for extramedullary sites",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Same as underlying AML \u2014 often monoblastic/myelomonocytic differentiation; myeloperoxidase content can give characteristic green colour on fresh cut section ('chloroma')",
+      "lineage_plasticity": "Extramedullary tropism \u2014 some AML clones develop capacity for tissue infiltration; homing molecule expression (including CXCR4 and adhesion molecules) may reflect distinct clonal properties"
+    }
+  }
+}

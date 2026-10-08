@@ -1,0 +1,126 @@
+{
+  "ORAL_CAVITY_SCC": {
+    "name": "Oral cavity squamous cell carcinoma",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Upper aerodigestive tract (UAT)",
+      "cohort": {
+        "male_n": 1718,
+        "female_n": 791
+      },
+      "organ_involvement_pct": {
+        "PULMONARY": {
+          "male": 46,
+          "female": 48
+        },
+        "MUSCULOSKELETAL": {
+          "male": 23,
+          "female": 24
+        },
+        "HEPATOBILIARY": {
+          "male": 21,
+          "female": 19
+        },
+        "NEUROLOGIC": {
+          "male": 12,
+          "female": 14
+        },
+        "DERMATOLOGIC": {
+          "male": 7,
+          "female": 8
+        },
+        "GASTROINTESTINAL": {
+          "male": 2,
+          "female": 1
+        },
+        "PULMONARY_PLEURA": {
+          "male": 4,
+          "female": 4
+        },
+        "ENDOCRINE": {
+          "male": 2,
+          "female": 1
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u22651 in approximately 85% and CPS \u226520 in approximately 43% of the overall KEYNOTE-048 R/M HNSCC population; these are not oral-cavity-specific prevalence estimates.",
+        "clinical_use": "Pembrolizumab first-line treatment of metastatic or unresectable recurrent HNSCC: monotherapy if CPS \u22651, or combination with platinum and fluorouracil regardless of CPS, under the US indication. Treatment selection also depends on disease burden, symptoms and fitness. In the US, perioperative pembrolizumab is also approved for resectable locally advanced HNSCC with CPS \u22651, as neoadjuvant treatment followed by adjuvant pembrolizumab with radiotherapy with or without cisplatin, then pembrolizumab alone."
+      },
+      {
+        "name": "EGFR",
+        "type": "IHC / overexpression",
+        "categories": [
+          "therapeutic_target"
+        ],
+        "prevalence": "Frequently overexpressed; estimates approaching or exceeding 90% have been reported in HNSCC, but vary with cohort, assay and positivity threshold and are not a universal oral-cavity-SCC-specific prevalence.",
+        "clinical_use": "Cetuximab targets EGFR, but EGFR IHC overexpression is not a validated predictive biomarker for cetuximab benefit in HNSCC and is not required for treatment selection."
+      },
+      {
+        "name": "HPV / p16",
+        "type": "IHC / ISH / HPV DNA; HPV E6/E7 RNA testing can establish transcriptionally active infection",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Transcriptionally active, HPV-driven oral cavity SCC is uncommon, generally <10% and much less frequent than HPV-driven oropharyngeal SCC. HPV DNA detection or p16 positivity alone does not establish an HPV-driven oral cavity primary.",
+        "clinical_use": "Unlike oropharyngeal SCC, routine HPV/p16 testing is not recommended for prognostic classification of oral cavity SCC. p16 is not a reliable stand-alone surrogate for HPV-driven disease at this site, and positivity does not confer the established favorable prognostic or staging significance seen in the oropharynx. Selective testing may help address diagnostic uncertainty, including a possible oropharyngeal origin."
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Approximately 60-80% in many HPV-negative oral cavity/HNSCC sequencing cohorts; estimates vary by population and assay.",
+        "clinical_use": "Disruptive and other high-risk TP53 mutations have been associated with worse survival in HNSCC cohorts, but TP53 is not an established stand-alone biomarker for routine treatment selection in oral cavity SCC. No approved TP53-directed treatment is established for this disease."
+      },
+      {
+        "name": "CDKN2A / p16",
+        "type": "loss or inactivation through deletion, mutation or promoter methylation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common in HPV-negative disease. Frequency depends on whether deletion, mutation, promoter methylation or protein loss is measured; a single 50-70% estimate should not be assigned specifically to deletion or mutation without a defined cohort and assay.",
+        "clinical_use": "CDKN2A inactivation has been associated with adverse outcomes in some cohorts but is not a validated routine prognostic or treatment-selection assay in oral cavity SCC. It may inform eligibility for CDK4/6-pathway trials, but CDKN2A loss alone is not a validated predictor of CDK4/6 inhibitor benefit."
+      },
+      {
+        "name": "TMB",
+        "type": "genomic (mut/Mb)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable and assay-dependent; tobacco exposure can be associated with higher mutational burden, but this is not uniform across oral cavity SCC cohorts.",
+        "clinical_use": "Under the US tissue-agnostic indication, pembrolizumab may be used for unresectable or metastatic TMB-H solid tumors (\u226510 mut/Mb by an FDA-approved test) that have progressed following prior treatment and have no satisfactory alternative treatment options. This is distinct from the PD-L1-based first-line HNSCC indications."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Conventional squamous cell carcinoma with variable keratinization and keratin pearl formation; not all oral cavity SCCs are keratinizing.",
+      "variants": [
+        "conventional keratinizing",
+        "non-keratinizing",
+        "basaloid",
+        "verrucous",
+        "spindle-cell (sarcomatoid)",
+        "adenosquamous"
+      ],
+      "grading": "Conventional SCC is graded as well, moderately or poorly differentiated. Depth of invasion (DOI) is a separate prognostic measurement incorporated into oral cavity T staging, not a histological grade. Pattern of invasion (POI), particularly worst pattern of invasion, provides additional prognostic information but is not equivalent to conventional differentiation grading. Variant-specific behavior matters: pure verrucous carcinoma is locally aggressive but does not ordinarily metastasize; metastatic behavior warrants evaluation for an associated conventional invasive SCC component."
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable, including inflamed, immune-excluded and immune-desert patterns; higher cytotoxic/CD8-positive TIL density is often associated with better outcome, although associations depend on cell subset, spatial distribution and cohort.",
+      "stromal_features": "Desmoplastic stroma with fibroblasts; peritumoural inflammation variable."
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thought to arise from basal keratinocytes or other long-lived stem/progenitor cells of oral mucosal squamous epithelium; a single exclusive human cell of origin is not established.",
+      "developmental_lineage": "Oral mucosal squamous epithelial lineage. The stomodeal lining and much of the anterior oral epithelium are classically ectoderm-derived; posterior tongue epithelium is classically endoderm-derived. The posterior one-third/base of tongue is an oropharyngeal site, not an oral cavity site. Embryological boundaries should not be used to merge oral cavity and oropharyngeal SCC.",
+      "differentiation_state": "Squamous differentiation with variable maturation and keratinization; keratin pearls are characteristic of well-differentiated tumours, while poorly differentiated tumours may show little or no keratinization.",
+      "lineage_plasticity": "Field cancerization associated with tobacco and other carcinogenic exposures can produce synchronous or metachronous primaries that may be clonally related or independently arising. Leukoplakia and erythroplakia are clinical oral potentially malignant disorders rather than obligatory precursors; associated epithelial dysplasia may precede SCC. Partial EMT programs can occur in conventional SCC, and spindle-cell/sarcomatoid differentiation may involve EMT-like changes; basaloid morphology alone does not establish EMT."
+    }
+  }
+}

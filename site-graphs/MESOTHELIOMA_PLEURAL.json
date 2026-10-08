@@ -1,0 +1,134 @@
+{
+  "MESOTHELIOMA_PLEURAL": {
+    "name": "Pleural mesothelioma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Finn RS, Brims FJH, Gandhi A, et al. Radiological evaluation of malignant pleural mesothelioma \u2014 defining distant metastatic disease. BMC Cancer. 2020;20:1200.",
+        "doi": "10.1186/s12885-020-07662-y",
+        "study_type": "Retrospective single-centre Phase I referral cohort; n=164 advanced MPM patients",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "PULMONARY": {
+          "frequency_pct": 35
+        },
+        "GASTROINTESTINAL": {
+          "frequency_pct": 22
+        },
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 19
+        },
+        "HEPATOBILIARY_AND_OTHER_VISCERAL": {
+          "frequency_pct": 14
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "BAP1",
+        "type": "IHC (nuclear loss)",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Diagnostic (distinguishes malignant mesothelioma from reactive mesothelial proliferations); germline BAP1 mutations define a tumour predisposition syndrome"
+      },
+      {
+        "name": "MTAP / CDKN2A (p16) loss",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50-70%",
+        "clinical_use": "Diagnostic marker (loss supports malignancy); CDKN2A homozygous deletion is common in pleural mesothelioma and MTAP loss often co-occurs; potential MAT2A/PRMT5 targetable pathway"
+      },
+      {
+        "name": "NF2",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~30-50%",
+        "clinical_use": "Common tumour suppressor alteration in MPM; predictive utility remains unproven clinically, although NF2-deficient disease has been explored in FAK/Hippo-pathway targeted trials"
+      },
+      {
+        "name": "Calretinin, WT1, CK5/6, D2-40 (podoplanin)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive",
+        "clinical_use": "Mesothelial lineage markers \u2014 distinguish from adenocarcinoma"
+      },
+      {
+        "name": "Claudin-4, MOC-31, CEA, Ber-EP4",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Negative in mesothelioma; positive in adenocarcinoma",
+        "clinical_use": "Negative markers supporting mesothelial vs epithelial origin"
+      },
+      {
+        "name": "PD-L1 (TPS or CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable (~20-40% \u22651%)",
+        "clinical_use": "Nivolumab + ipilimumab first-line unresectable MPM (CheckMate 743) \u2014 benefit greatest in non-epithelioid, though approved regardless of PD-L1"
+      },
+      {
+        "name": "CDKN2A",
+        "type": "homozygous deletion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~50-70%",
+        "clinical_use": "One of the hallmark genomic alterations in pleural mesothelioma; supports malignant mesothelioma over reactive mesothelial proliferation and is generally associated with worse prognosis"
+      },
+      {
+        "name": "SETD2, LATS2, TP53",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent but less common than BAP1/CDKN2A/NF2",
+        "clinical_use": "Recognised recurrent tumour suppressor alterations in MPM; mainly of biologic and research significance rather than routine clinical biomarker use"
+      },
+      {
+        "name": "ALK fusion",
+        "type": "gene fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare; mainly reported in a small subset of younger peritoneal mesotheliomas rather than typical pleural MPM",
+        "clinical_use": "Rare actionable driver fusion; not a hallmark driver of pleural mesothelioma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse pleural thickening with 'rind' encasing the lung; tubulopapillary, solid, or sarcomatoid architecture",
+      "variants": [
+        "epithelioid (~60%, better prognosis)",
+        "sarcomatoid (~10-20%, worst prognosis)",
+        "biphasic (~20-30%)",
+        "desmoplastic (sarcomatoid variant)",
+        "well-differentiated papillary (indolent)"
+      ],
+      "grading": "Nuclear grade for epithelioid MPM (2-tier: low vs high) is prognostic"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable \u2014 sarcomatoid subtype more inflamed and IO-responsive than epithelioid",
+      "stromal_features": "Extensive fibrous reaction; asbestos bodies in adjacent lung parenchyma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesothelial cells lining pleural cavity",
+      "developmental_lineage": "Mesoderm \u2014 lateral plate mesoderm (splanchnopleuric layer forms serosal surfaces)",
+      "differentiation_state": "Epithelioid retains mesothelial differentiation (calretinin+, WT1+, D2-40+); sarcomatoid represents EMT with mesenchymal features; biphasic combines both",
+      "lineage_plasticity": "Epithelioid \u2192 sarcomatoid progression represents EMT within same clonal population; asbestos-induced chronic inflammation drives lineage instability"
+    }
+  }
+}

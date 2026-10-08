@@ -1,0 +1,127 @@
+{
+  "molecule_name": "PRT12396",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "JAK2 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "PRT12396 is an allosteric inhibitor that selectively targets the JAK2 V617F mutation.",
+    "molecular_action": "Inhibits the JH2 pseudokinase domain of JAK2.",
+    "targets": [
+      "JAK2 V617F"
+    ],
+    "relevant_variants": [
+      "JAK2 V617F"
+    ],
+    "downstream_effects": [],
+    "selectivity": "Mutant-selective",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Polycythemia Vera, Myelofibrosis",
+    "histology": null,
+    "clinical_settings": [
+      "Phase 1 clinical trial for high-risk patients"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data for PRT12396",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07469891"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "JAK2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "5UG9",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met793",
+              "Leu792",
+              "Thr790"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm5011234"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Monoclonal Antibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "PTCL_NOS": {
+    "name": "Peripheral T-cell lymphoma, NOS",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + extranodal",
+      "characteristic_extranodal_sites": [
+        "skin",
+        "liver",
+        "spleen",
+        "bone marrow",
+        "GI tract"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "T-cell immunophenotype (CD2, CD3, CD5, CD7 \u2014 with aberrant loss)",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Near-universal for T-cell lineage; aberrant loss common",
+        "clinical_use": "Confirms T-lineage; aberrant marker loss supports malignancy"
+      },
+      {
+        "name": "Clonal TCR rearrangement",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Supports clonality"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "May support use of brentuximab vedotin + CHP in CD30-positive disease; ECHELON-2 enrolled CD30-positive PTCL (typically defined as \u226510% expression for non-ALCL histologies), but the strongest first-line evidence is for systemic ALCL and the role in PTCL-NOS is less certain"
+      },
+      {
+        "name": "GATA3 vs TBX21 signatures (molecular subtypes)",
+        "type": "gene expression",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "GATA3-high signature associates with worse prognosis"
+      },
+      {
+        "name": "TP53, TET2, DNMT3A, KMT2D mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent",
+        "clinical_use": "Molecular characterization"
+      },
+      {
+        "name": "PIT / IPI-TCL prognostic scores",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Adapted prognostic models for PTCL; PIT uses age, ECOG, LDH, and bone marrow involvement"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Effacement of nodal architecture by pleomorphic medium to large atypical T cells with variable inflammatory background",
+      "variants": [
+        "PTCL-NOS by exclusion (not fitting specific entities)",
+        "TBX21-expressing (Th1-like)",
+        "GATA3-expressing (Th2-like, worse prognosis)",
+        "cytotoxic variant"
+      ],
+      "grading": "Aggressive by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; brentuximab vedotin (CD30-directed ADC) may be used in CD30-positive subset; epigenetic therapy (for example, romidepsin; azacitidine in selected contexts/investigational combinations) has been explored in some subsets",
+      "stromal_features": "Diffuse pleomorphic infiltrate effacing nodal architecture"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature post-thymic T cells with variable helper phenotypes",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature post-thymic T cells)",
+      "differentiation_state": "Mature T-cell differentiation with variable subtype markers (CD4+ or CD8+, usually TCR\u03b1\u03b2; rare cases may be TCR-silent or less commonly \u03b3\u03b4); TBX21-expressing (Th1-like) vs GATA3-expressing (Th2-like) reflect distinct helper T-cell lineage biology",
+      "lineage_plasticity": "Transcriptomic subtypes reflect distinct T-helper differentiation states \u2014 TBX21 (T-bet, Th1 master transcription factor) vs GATA3 (Th2 master transcription factor) drive distinct biology and prognosis; cytotoxic subset expresses TIA-1, granzyme B, perforin"
+    }
+  }
+}

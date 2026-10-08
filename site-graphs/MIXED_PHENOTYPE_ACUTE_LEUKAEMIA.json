@@ -1,0 +1,68 @@
+{
+  "MIXED_PHENOTYPE_ACUTE_LEUKAEMIA": {
+    "name": "Mixed phenotype acute leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "WHO 2022 / ICC lineage-assignment criteria",
+        "type": "flow / IHC / cytochemistry",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Lineage assignment for MPAL requires strict criteria. Myeloid: MPO positive (by flow cytometry, IHC, or cytochemistry) or monocytic differentiation. Monocytic lineage is assigned by at least 2 of the following: nonspecific esterase, CD11c, CD14, CD64, lysozyme. T-lineage: strong cytoplasmic CD3 or surface CD3. B-lineage: strong CD19 with at least 1 strongly expressed B-marker (CD79a, cytoplasmic CD22, or CD10), or weak CD19 with at least 2 strongly expressed B-markers."
+      },
+      {
+        "name": "BCR-ABL1 t(9;22) (MPAL with BCR::ABL1)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Defines a recurrent genetic subtype of MPAL, usually B/myeloid; tyrosine kinase inhibitor should be incorporated into therapy."
+      },
+      {
+        "name": "KMT2A (MLL) rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Subset; enriched in pediatric/infant MPAL",
+        "clinical_use": "Defines a recurrent genetic subtype of MPAL; generally associated with adverse risk. Menin inhibitors are emerging in KMT2A-rearranged acute leukemias."
+      },
+      {
+        "name": "ZNF384 rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset, especially B/myeloid MPAL",
+        "clinical_use": "Recurrent fusion class described particularly in B/myeloid MPAL; biologically distinct but not a WHO 2022 defining subtype."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Blast morphology with mixed lineage marker expression on flow cytometry \u2014 WHO 2022 criteria for lineage assignment",
+      "variants": [
+        "B/myeloid MPAL (most common)",
+        "T/myeloid MPAL",
+        "B/T MPAL (very rare)",
+        "trilineage MPAL"
+      ],
+      "grading": "Not graded; generally considered high-risk acute leukemia"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Marrow infiltration by blasts with mixed lineage markers"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Presumed primitive haematopoietic progenitor with multilineage differentiation potential",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (uncommitted or incompletely committed between lymphoid and myeloid lineages)",
+      "differentiation_state": "Mixed lineage marker expression by WHO 2022 criteria: B/myeloid MPAL (most common \u2014 B lineage markers + myeloid markers), T/myeloid MPAL (T lineage + myeloid), B/T MPAL (very rare), trilineage MPAL",
+      "lineage_plasticity": "Marked lineage ambiguity/plasticity is characteristic. Recurrent molecular subgroups include BCR::ABL1, KMT2A rearrangements, and ZNF384 rearrangements, particularly in B/myeloid cases."
+    }
+  }
+}

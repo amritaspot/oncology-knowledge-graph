@@ -1,0 +1,119 @@
+{
+  "molecule_name": "177Lu-FAP-VG11",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Radiolabeled Peptide",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "177Lu-FAP-VG11 is a radiolabeled peptide that targets fibroblast activation protein (FAP) on cancer cells.",
+    "molecular_action": "Binds to FAP and delivers radiation to tumor cells.",
+    "targets": [
+      "Fibroblast Activation Protein (FAP)"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Tumor cell death"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Exploratory clinical study"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT07808177"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data for 177Lu-FAP-VG11",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Early Phase I",
+    "nct_trials": [
+      "NCT07808177"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FAP"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FAP",
+        "pdb_id": null,
+        "alphafold_id": "P98164",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FAP",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.32,
+        "doi_or_source": "10.1016/j.ejmech.2020.112937"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

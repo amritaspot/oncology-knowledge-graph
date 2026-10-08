@@ -1,0 +1,96 @@
+{
+  "LYMPHOPLASMACYTIC_WALDENSTROM": {
+    "name": "Lymphoplasmacytic lymphoma / Waldenstr\u00f6m macroglobulinaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + IgM_paraprotein",
+      "characteristic_extramedullary_sites": [
+        "lymph nodes (variable)",
+        "spleen (variable)"
+      ],
+      "characteristic_complications": [
+        "hyperviscosity syndrome (visual changes, headache, mucosal bleeding)",
+        "cryoglobulinaemia",
+        "cold agglutinin disease",
+        "sensorimotor peripheral neuropathy (anti-MAG)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "MYD88 L265P",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~90-95%",
+        "clinical_use": "Common supportive diagnostic feature in WM/LPL and helps distinguish from many cases of marginal zone lymphoma, but does not distinguish WM/LPL from IgM-MGUS because MYD88 L265P is also frequent in IgM-MGUS. MYD88-mutant disease is associated with better response to BTK inhibition than MYD88-wild-type disease"
+      },
+      {
+        "name": "CXCR4 mutations (WHIM-like)",
+        "type": "mutation (frameshift or nonsense)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~30-40%",
+        "clinical_use": "Predicts reduced/deeper delayed response to ibrutinib and other covalent BTK inhibitors; may influence regimen selection. Both nonsense and frameshift WHIM-like mutations are clinically relevant"
+      },
+      {
+        "name": "Serum IgM",
+        "type": "serum (SPEP / IFE)",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in Waldenstr\u00f6m macroglobulinaemia by definition",
+        "clinical_use": "Diagnosis and response monitoring. Higher IgM level increases hyperviscosity risk, but no absolute threshold reliably predicts symptoms; hyperviscosity is more common at very high levels. Beware IgM flare with rituximab"
+      },
+      {
+        "name": "Serum viscosity",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in symptomatic hyperviscosity",
+        "clinical_use": "Supports assessment of hyperviscosity; symptoms may occur at variable levels, often when serum viscosity exceeds ~4 cP. Plasmapheresis is used for acute symptomatic management"
+      },
+      {
+        "name": "Anti-MAG antibodies",
+        "type": "serum",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "In a subset with IgM-associated demyelinating sensorimotor neuropathy",
+        "clinical_use": "Explain sensory-predominant demyelinating neuropathy; specific IgM myelin-associated glycoprotein antibodies"
+      },
+      {
+        "name": "IPSS-WM prognostic score",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Age, \u03b22M, Hb, platelets, IgM. Prognostic risk stratification"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Marrow infiltrate of small B lymphocytes, plasmacytoid lymphocytes, and plasma cells with IgM paraprotein production; mast cells commonly increased",
+      "variants": [
+        "Waldenstr\u00f6m macroglobulinaemia (LPL with IgM paraprotein and BM involvement \u2014 most common)",
+        "non-IgM LPL",
+        "IgM MGUS (precursor)"
+      ],
+      "grading": "Indolent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "MYD88 L265P drives TLR-BTK signalling and is associated with BTK inhibitor sensitivity; CXCR4 mutations can blunt depth and speed of response",
+      "stromal_features": "Marrow infiltration with mixed small lymphocyte/plasmacytoid/plasma cell morphology; increased mast cells characteristic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Post-germinal centre B cells with plasmacytic differentiation and IgM paraprotein production; represents mixed maturation state along B-cell \u2192 plasma cell differentiation axis",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (post-germinal centre B cells and plasma cells)",
+      "differentiation_state": "Mixed small lymphocyte, plasmacytoid lymphocyte, and plasma cell population with IgM paraprotein production; represents captured intermediate on B-cell to plasma cell maturation axis; mast cells commonly increased",
+      "lineage_plasticity": "MYD88 L265P mutation (~90-95%) promotes NF-\u03baB signalling and is associated with BTK inhibitor sensitivity; CXCR4 mutations blunt BTK inhibitor response (found in ~30-40%); represents lineage between mature B cell and plasma cell \u2014 mixed morphology reflects this differentiation state"
+    }
+  }
+}

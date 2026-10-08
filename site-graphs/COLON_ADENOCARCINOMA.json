@@ -1,0 +1,211 @@
+{
+  "COLON_ADENOCARCINOMA": {
+    "name": "Colon adenocarcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Riihim\u00e4ki M, Hemminki A, Sundquist J, Hemminki K. Patterns of metastasis in colon and rectal cancer. Scientific Reports. 2016;6:29765.",
+        "doi": "10.1038/srep29765",
+        "study_type": "Population-based registry study; Swedish Cancer Registry linked with National Patient Register and Cause of Death Register; n=31,285 colon cancer patients",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "HEPATOBILIARY": {
+          "frequency_pct": 70
+        },
+        "PULMONARY": {
+          "frequency_pct": 32
+        },
+        "GASTROINTESTINAL": {
+          "frequency_pct": 21
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 5
+        },
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 6,
+          "frequency_pct_range": "low overall; up to 10% as single met in stage I disease"
+        },
+        "REPRODUCTIVE_GONADAL": {}
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "KRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40-45%",
+        "clinical_use": "RAS-mutant tumours DO NOT respond to anti-EGFR (cetuximab, panitumumab). KRAS G12C (~3-4% of mCRC; ~1-3% of all CRC): adagrasib + cetuximab is an established targeted option; sotorasib + panitumumab has supportive trial data. Non-G12C: currently no approved direct targeted therapy"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-5%",
+        "clinical_use": "Excludes anti-EGFR benefit (same as KRAS)"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~8-10%",
+        "clinical_use": "Strong adverse prognostic. Previously treated metastatic disease: encorafenib + cetuximab (BEACON CRC). Often co-occurs with MSI-H, right-sided, older women. Enriched in right-sided disease"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC (MLH1, MSH2, MSH6, PMS2)",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~15% early-stage; ~4-5% metastatic (mostly right-sided)",
+        "clinical_use": "Universal screening for Lynch syndrome workup (germline testing if MLH1/PMS2 loss is not explained by MLH1 promoter hypermethylation/BRAF V600E). Stage II: better prognosis, limited/no benefit from adjuvant fluoropyrimidine-only therapy. Metastatic: pembrolizumab (KEYNOTE-177) or nivolumab \u00b1 ipilimumab first-line \u2014 often dramatic and durable responses"
+      },
+      {
+        "name": "HER2 (ERBB2) amplification",
+        "type": "IHC + ISH reflex",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2-3% (higher in RAS/BRAF-wildtype, left-sided)",
+        "clinical_use": "Trastuzumab + pertuzumab (HERACLES, MyPathway); tucatinib + trastuzumab (MOUNTAINEER); trastuzumab deruxtecan / T-DXd (DESTINY-CRC01/02). Also predicts reduced anti-EGFR benefit"
+      },
+      {
+        "name": "POLE / POLD1 exonuclease-domain mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "<1% (POLE ~0.5%; POLD1 rarer)",
+        "clinical_use": "Ultra-high TMB with excellent IO response despite often MSS status; can present as 'Lynch-like' clinically"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually low in MSS; high in MSI-H and POLE/POLD1",
+        "clinical_use": "Tissue-agnostic pembrolizumab if TMB \u226510 mut/Mb, although in colorectal cancer benefit is largely confined to MSI-H/dMMR or POLE/POLD1-ultramutated tumours"
+      },
+      {
+        "name": "NTRK1/2/3 fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<1% (enriched in MSI-H, RAS/BRAF-wildtype)",
+        "clinical_use": "Larotrectinib, entrectinib"
+      },
+      {
+        "name": "RET fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<1%)",
+        "clinical_use": "Selpercatinib, pralsetinib"
+      },
+      {
+        "name": "Tumor sidedness (right vs left)",
+        "type": "anatomic / molecular",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Right-sided (caecum through transverse): worse prognosis, more BRAF/MSI/mucinous, reduced anti-EGFR benefit even in RAS-wildtype. Left-sided (splenic flexure through rectum): anti-EGFR preferred in RAS-wildtype"
+      },
+      {
+        "name": "CEA",
+        "type": "serum",
+        "categories": [
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Elevated in many CRC patients; standard for post-operative surveillance and response monitoring; baseline value prognostic"
+      },
+      {
+        "name": "CA 19-9",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Complementary to CEA; more useful in mucinous / peritoneal disease"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA) \u2014 Signatera, Guardant Reveal",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "MRD detection post-resection; stage II ctDNA-positive identifies high recurrence risk and can guide adjuvant chemotherapy decisions (DYNAMIC trial). Surveillance is often more sensitive than CEA. Increasing role in adjuvant decisions"
+      },
+      {
+        "name": "Consensus Molecular Subtypes (CMS1-4)",
+        "type": "transcriptomic classification",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "CMS1 ~14% (MSI/immune), CMS2 ~37% (canonical), CMS3 ~13% (metabolic), CMS4 ~23% (mesenchymal)",
+        "clinical_use": "Research use primarily; CMS4 has worst prognosis; may guide future trial stratification"
+      },
+      {
+        "name": "APC",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~70-80%",
+        "clinical_use": "Foundational WNT-pathway driver and hallmark alteration in the conventional adenoma-carcinoma sequence; important biologically but not currently a routine predictive biomarker for approved targeted therapy"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50-60%",
+        "clinical_use": "Common late driver in chromosomal-instability pathway; prognostic associations are context-dependent and it is not currently used as a standard predictive biomarker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Glandular adenocarcinoma with variable mucin content and desmoplastic reaction",
+      "variants": [
+        "conventional adenocarcinoma NOS",
+        "mucinous (>50% extracellular mucin)",
+        "signet-ring cell (>50% signet-ring cells)",
+        "medullary (MSI-H associated)",
+        "serrated",
+        "cribriform-comedo",
+        "micropapillary",
+        "adenosquamous"
+      ],
+      "grading": "Well / moderately / poorly differentiated; MSI-H tumours often 'poorly differentiated' by morphology but behave better than expected"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Sharply divided by CMS subtype \u2014 CMS1 (MSI, hypermutated) is highly inflamed; CMS4 (mesenchymal) is TGF-\u03b2 driven and immune-excluded",
+      "stromal_features": "CMS4 tumours have desmoplastic fibroblast-rich stroma; MSI-H tumours often have Crohn-like lymphocytic reaction"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Intestinal stem cells at crypt base (LGR5+ stem cells) or transit-amplifying progenitors",
+      "developmental_lineage": "Endoderm \u2014 midgut (proximal colon to splenic flexure) and hindgut (distal colon, rectum) derivatives",
+      "differentiation_state": "Well-to-moderately differentiated intestinal-type glandular differentiation (CDX2+/CK20+, MUC2+); consensus molecular subtypes (CMS) reflect distinct lineage-related biology",
+      "lineage_plasticity": "Right-sided arises from serrated pathway (BRAF-driven with CIMP methylator phenotype) or MSI pathway; left-sided arises from conventional adenoma-carcinoma sequence (APC \u2192 KRAS \u2192 TP53); embryologic midgut/hindgut boundary contributes to biological differences"
+    }
+  }
+}

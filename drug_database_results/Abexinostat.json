@@ -1,0 +1,185 @@
+{
+  "molecule_name": "Abexinostat",
+  "identifiers": {
+    "FDA_UNII": "0P6C6ZOP5U",
+    "PubChem_CID": 11620660,
+    "CAS_number": "912545-86-9",
+    "NCI_Thesaurus_code": "C84892",
+    "development_codes": [
+      "PCI-24781",
+      "CRA-024781"
+    ],
+    "identifier_scope": "global"
+  },
+  "brand_names": [],
+  "drug_class": "Histone deacetylase inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Abexinostat inhibits histone deacetylases, leading to increased acetylation of histone proteins, which can result in the activation of tumor suppressor genes and apoptosis of cancer cells.",
+    "molecular_action": "Inhibition of histone deacetylases (HDACs)",
+    "targets": [
+      "HDAC1",
+      "HDAC2",
+      "HDAC3",
+      "HDAC6"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased histone acetylation",
+      "Induction of apoptosis",
+      "Cell cycle arrest"
+    ],
+    "selectivity": "Class I and II HDACs",
+    "doi": [
+      "10.1016/j.ccr.2010.03.012"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Hematologic Neoplasms",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Thrombocytopenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of HDACs can affect hematopoietic cells leading to decreased platelet production.",
+      "mechanism_status": "known",
+      "potential_consequences": [
+        "Increased bleeding risk"
+      ],
+      "mechanism_doi": [
+        "10.1016/j.ccr.2010.03.012"
+      ]
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fatigue",
+        "Nausea",
+        "Vomiting",
+        "Diarrhea"
+      ],
+      "biological_explanation": "Common side effects associated with HDAC inhibitors due to their impact on rapidly dividing cells.",
+      "mechanism_status": "known"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/11620660",
+      "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C84892"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive pharmacology and precision oncology data for Abexinostat.",
+    "mechanism_doi_meaning": "DOIs provide evidence for the mechanism of action and adverse effects.",
+    "empty_mechanism_doi_meaning": "No DOI available for some sections due to lack of specific studies.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01023737",
+      "NCT01977638",
+      "NCT00473577",
+      "NCT01027910",
+      "NCT03936153"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HDAC1",
+      "HDAC2",
+      "HDAC3",
+      "HDAC6"
+    ],
+    "pathways": [
+      "Chromatin modifying enzymes"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 49832124,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/49832124/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HDAC1",
+        "pdb_id": "4BKX",
+        "alphafold_id": "P56524",
+        "resolution_angstroms": 2.05,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "HDAC2",
+        "pdb_id": "4LXZ",
+        "alphafold_id": "Q92769",
+        "resolution_angstroms": 1.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HDAC1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 2.9,
+        "doi_or_source": "10.1016/j.bmcl.2010.12.086"
+      },
+      {
+        "target_symbol": "HDAC2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.bmcl.2010.12.086"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

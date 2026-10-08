@@ -1,0 +1,98 @@
+{
+  "OSTEOSARCOMA": {
+    "name": "Osteosarcoma",
+    "biomarkers": [
+      {
+        "name": "Osteoid production",
+        "type": "morphology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining feature",
+        "clinical_use": "Distinguishes from other bone sarcomas"
+      },
+      {
+        "name": "TP53 mutations / loss",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Very common somatic alteration; germline in Li-Fraumeni syndrome (LFS)",
+        "clinical_use": "LFS: cascade family testing (osteosarcoma is a core LFS tumour). Osteosarcoma in a young child should trigger LFS consideration"
+      },
+      {
+        "name": "RB1 loss",
+        "type": "mutation / IHC",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Common somatic alteration; germline in hereditary retinoblastoma",
+        "clinical_use": "RB1 germline carriers have markedly increased osteosarcoma risk \u2014 genetic counselling/testing implications"
+      },
+      {
+        "name": "Complex karyotype",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Typical"
+      },
+      {
+        "name": "Necrosis after neoadjuvant chemo (Huvos grade)",
+        "type": "morphology",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "\u226590% necrosis (good response) predicts better outcome; prognostic after preoperative chemotherapy"
+      },
+      {
+        "name": "Alkaline phosphatase, LDH",
+        "type": "serum",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Often elevated",
+        "clinical_use": "Baseline prognostic; adjunctive monitoring"
+      },
+      {
+        "name": "MDM2 / CDK4 amplification",
+        "type": "amplification / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic of low-grade osteosarcoma (including parosteal / low-grade central)",
+        "clinical_use": "Supports diagnosis of low-grade osteosarcoma and helps distinguish from benign fibro-osseous lesions"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Malignant spindle or pleomorphic cells producing osteoid (unmineralised bone matrix) \u2014 defining feature",
+      "variants": [
+        "conventional osteoblastic (~70%)",
+        "chondroblastic (with cartilaginous component)",
+        "fibroblastic",
+        "telangiectatic (cystic, hemorrhagic)",
+        "small cell (mimics Ewing)",
+        "high-grade surface",
+        "parosteal (low-grade, cortex-based)",
+        "periosteal (intermediate-grade)"
+      ],
+      "grading": "Usually high-grade in conventional osteosarcoma; parosteal is low-grade, periosteal is typically intermediate-grade"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically; TIL infiltration variable and prognostic; IO responses generally modest",
+      "stromal_features": "Osteoid production is defining; mineralisation variable"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesenchymal stem cells or osteoblast progenitors of bone",
+      "developmental_lineage": "Mesoderm \u2014 mesenchymal, particularly osteoblastic lineage",
+      "differentiation_state": "Osteoblastic differentiation with defining osteoid (unmineralised bone matrix) production; osteoblastic (~70%), chondroblastic (with cartilaginous component), fibroblastic subtypes reflect differentiation heterogeneity",
+      "lineage_plasticity": "Complex karyotype with chromothripsis and genomic instability; TP53 and RB1 pathway alterations are very common; MDM2/CDK4 amplification occurs in low-grade parosteal/low-grade central variants"
+    }
+  }
+}

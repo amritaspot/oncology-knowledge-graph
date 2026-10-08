@@ -1,0 +1,124 @@
+{
+  "molecule_name": "Oncolytic Herpes Simplex Virus-1 Expressing Anti-CTLA-4 Antibody/CD40L/4-1BBL RP3",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Oncolytic Virus",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "RP3 promotes the expression of anti-CTLA-4 antibody, CD40L, and 4-1BBL by tumor cells, enhancing T-cell activation and immune response against tumors.",
+    "molecular_action": "Inhibits CTLA-4-mediated downregulation of T-cell activation.",
+    "targets": [
+      "CTLA-4",
+      "CD40L",
+      "4-1BBL"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced CTL-mediated immune response against tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Oncolytic virus therapy",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": null,
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CTLA4",
+      "CD40LG",
+      "TNFSF9"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CTLA4",
+        "pdb_id": "1I8L",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CD40LG",
+        "pdb_id": "3QD6",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "TNFSF9",
+        "pdb_id": "6MGP",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

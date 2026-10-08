@@ -1,0 +1,171 @@
+{
+  "molecule_name": "225Ac-PSMA-XT",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "225Ac-PSMA-XT",
+      "Ac-225-PSMA-XT"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical ligand name used in the literature for an actinium-225 labeled PSMA-targeting therapeutic."
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "225Ac-PSMA-XT is an investigational prostate-specific membrane antigen (PSMA)-targeted radioligand therapy. The PSMA-binding ligand delivers the alpha-emitting radionuclide actinium-225 to PSMA-expressing tumor cells, causing highly localized radiation-induced DNA damage and tumor cell death.",
+    "molecular_action": "Ligand binding to PSMA on tumor cells followed by delivery of actinium-225 and its alpha-particle emissions, producing dense ionization tracks and double-strand DNA breaks in targeted cells and nearby microenvironment.",
+    "targets": [
+      "FOLH1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Targeted irradiation of PSMA-expressing cells",
+      "DNA double-strand breaks",
+      "Cell death"
+    ],
+    "selectivity": "Tumor targeting is based on PSMA expression; physiologic uptake is also expected in PSMA-expressing normal tissues such as salivary glands and kidneys.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": "Metastatic castration-resistant prostate cancer",
+    "clinical_settings": [
+      "Investigational use in advanced PSMA-positive prostate cancer"
+    ],
+    "scope": "Not approved; reported in early clinical/investigational radioligand therapy settings.",
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=225Ac-PSMA-XT",
+      "https://clinicaltrials.gov/search?term=225Ac-PSMA-XT"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Xerostomia",
+      "organ_system": "Salivary glands",
+      "biological_explanation": "On-target uptake of PSMA-targeted radioligands in salivary gland tissue can expose glands to alpha radiation.",
+      "mechanism_status": "Established class effect for PSMA-targeted radioligand therapy; specific incidence for 225Ac-PSMA-XT not firmly established in accessible sources.",
+      "potential_consequences": [
+        "Dry mouth",
+        "Dental complications",
+        "Reduced quality of life"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hematologic toxicity",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Radiation exposure from systemic alpha-emitting radioligand therapy may affect bone marrow, especially in heavily metastatic disease.",
+      "mechanism_status": "Plausible and reported for PSMA radioligand class; agent-specific quantitative rates not established here.",
+      "potential_consequences": [
+        "Anemia",
+        "Thrombocytopenia",
+        "Leukopenia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Renal toxicity",
+      "organ_system": "Renal",
+      "biological_explanation": "Renal handling and physiologic PSMA-related uptake may expose kidneys to radiation.",
+      "mechanism_status": "Plausible class-related toxicity; agent-specific quantitative rates not established here.",
+      "potential_consequences": [
+        "Reduced renal function"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=225Ac-PSMA-XT",
+      "https://clinicaltrials.gov/search?term=225Ac-PSMA-XT"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=225Ac-PSMA-XT",
+      "https://clinicaltrials.gov/search?term=225Ac-PSMA-XT"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "This record summarizes publicly identifiable information for 225Ac-PSMA-XT as an investigational PSMA-targeted actinium-225 radiopharmaceutical. Quantitative clinical efficacy and human PK fields are left null/empty where not firmly documented.",
+    "mechanism_doi_meaning": "DOIs for direct mechanistic or adverse-effect evidence specific to this agent.",
+    "empty_mechanism_doi_meaning": "No agent-specific DOI was confidently verified in this compilation.",
+    "null_meaning": "Null indicates that a specific fact or quantitative metric was not confidently documented from accessible sources and was not inferred.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "None",
+    "physical_half_life_days": 9.92,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "PHASE1",
+    "nct_trials": [
+      "NCT07135102"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLH1"
+    ],
+    "pathways": [
+      "DNA Damage Response",
+      "Radiation-induced cell death"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FOLH1",
+        "pdb_id": null,
+        "alphafold_id": "P42788",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FOLH1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.1,
+        "doi_or_source": "10.1016/j.ejmech.2020.112937"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "225Ac",
+    "emission_type": [
+      "Alpha"
+    ],
+    "targeting_vector_type": "Small Molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

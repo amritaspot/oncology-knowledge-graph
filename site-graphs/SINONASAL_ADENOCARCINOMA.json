@@ -1,0 +1,43 @@
+{
+  "SINONASAL_ADENOCARCINOMA": {
+    "name": "Sinonasal adenocarcinoma",
+    "biomarkers": [
+      {
+        "name": "CDX2 / CK20",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typically positive in intestinal-type adenocarcinoma (ITAC)",
+        "clinical_use": "Supports intestinal-type classification (occupational \u0004 wood dust exposure)"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common in intestinal-type adenocarcinoma (ITAC)",
+        "clinical_use": "Primarily reflects recurrent molecular alteration; prognostic value is not firmly established"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Two distinct groups: intestinal-type (ITAC) resembling colonic adenocarcinoma; non-intestinal-type (non-ITAC) with variable morphology",
+      "variants": [
+        "intestinal-type (papillary, colonic, solid, mucinous, mixed)",
+        "non-intestinal-type (low-grade, high-grade)"
+      ],
+      "grading": "Barnes grading for ITAC (papillary I to solid IV)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised",
+      "stromal_features": "ITAC has intestinal-type stroma; non-ITAC variable"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Intestinal-type: metaplastic intestinal epithelium from chronic irritation; non-intestinal: sinonasal minor mucous glands",
+      "developmental_lineage": "Endoderm",
+      "differentiation_state": "Intestinal-type recapitulates colonic adenocarcinoma differentiation (CDX2+/CK20+); non-ITAC ranges from low-grade to high-grade",
+      "lineage_plasticity": "Intestinal metaplasia from chronic wood dust exposure is the initiating event for ITAC \u0004 precursor lesion is documented"
+    }
+  }
+}

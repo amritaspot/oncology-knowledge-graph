@@ -1,0 +1,78 @@
+{
+  "ALCL_ALK_NEG": {
+    "name": "Anaplastic large cell lymphoma, ALK-negative",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + extranodal (like ALK+ ALCL)"
+    },
+    "biomarkers": [
+      {
+        "name": "DUSP22 rearrangement",
+        "type": "FISH",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~20\u201330% of ALK-negative ALCL",
+        "clinical_use": "Prognostic biomarker associated with relatively favourable outcome versus other ALK-negative ALCLs, though not consistently equivalent to ALK+ ALCL across studies"
+      },
+      {
+        "name": "TP63 rearrangement",
+        "type": "FISH",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~8%",
+        "clinical_use": "Poor prognosis"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Near-universal/required strong expression",
+        "clinical_use": "Diagnostic hallmark; supports use of brentuximab vedotin + CHP first-line in CD30-positive PTCL including systemic ALCL (ECHELON-2)"
+      },
+      {
+        "name": "ALK (negative by IHC/FISH)",
+        "type": "IHC / FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Absent by definition",
+        "clinical_use": "Distinguishes from ALK+ ALCL"
+      },
+      {
+        "name": "Breast implant-associated ALCL (BIA-ALCL) \u2014 distinct entity",
+        "type": "clinical",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Peri-implant seroma/effusion and/or capsule presentation; usually localised; complete surgical excision with en bloc capsulectomy is curative in most localized cases"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Similar to ALK+ ALCL \u2014 large pleomorphic 'hallmark' cells with horseshoe- or kidney-shaped nuclei; CD30+ but ALK-",
+      "variants": [
+        "conventional ALK-negative ALCL",
+        "DUSP22-rearranged (favourable relative prognosis)",
+        "TP63-rearranged (very poor prognosis)",
+        "breast implant-associated ALCL (BIA-ALCL \u2014 distinct entity, often localised)"
+      ],
+      "grading": "Aggressive; molecular subtype drives outcomes"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Strong CD30 expression supports brentuximab vedotin activity (ECHELON-2)",
+      "stromal_features": "Cohesive tumour cell clusters can be seen; BIA-ALCL is often confined to the peri-implant capsule/effusion"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature post-thymic T cells (without ALK rearrangement/activation) with distinct molecular subtypes",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature post-thymic T cells)",
+      "differentiation_state": "Similar hallmark cell morphology to ALK+ ALCL but ALK-negative; CD30+ is a defining feature; T-cell markers are often variably expressed",
+      "lineage_plasticity": "Molecular subtypes reflect distinct biology: DUSP22-rearranged (~20\u201330%, relatively favourable prognosis), TP63-rearranged (~8%, very aggressive with poor prognosis); BIA-ALCL is a distinct localised entity arising in association with breast implants, especially textured implants"
+    }
+  }
+}

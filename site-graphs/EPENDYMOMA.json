@@ -1,0 +1,75 @@
+{
+  "EPENDYMOMA": {
+    "name": "Ependymoma",
+    "biomarkers": [
+      {
+        "name": "Molecular subgroups (supratentorial: ZFTA fusion or YAP1 fusion; posterior fossa: PFA / PFB; spinal: MYCN-amplified or NF2-mutant)",
+        "type": "fusion / methylation profiling",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Location-specific",
+        "clinical_use": "WHO CNS5 subclassification; ZFTA-fused and PFA generally have worse prognosis than YAP1-fused and PFB"
+      },
+      {
+        "name": "ZFTA (formerly C11orf95)-RELA fusion",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~60\u007f70% of supratentorial ependymoma",
+        "clinical_use": "Defines a subgroup with worse prognosis; L1CAM IHC is an imperfect surrogate, with molecular confirmation preferred"
+      },
+      {
+        "name": "H3K27me3 loss (PFA subtype)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common in PFA subgroup; retained in most PFB",
+        "clinical_use": "Distinguishes PFA (worse prognosis) from PFB"
+      },
+      {
+        "name": "MYCN amplification (spinal)",
+        "type": "copy number",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Rare subset of spinal ependymoma",
+        "clinical_use": "Defines an aggressive spinal ependymoma subtype"
+      },
+      {
+        "name": "NF2 mutations (spinal)",
+        "type": "germline / somatic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in spinal ependymoma, especially intramedullary tumors in adults",
+        "clinical_use": "Associated with NF2 syndrome and also seen as somatic alteration in spinal ependymoma; NF2 syndrome predisposes to multiple ependymomas + schwannomas + meningiomas"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Perivascular pseudorosettes (tumour cells around vessels with cytoplasmic processes) and true ependymal rosettes; GFAP+, EMA dot-like positivity",
+      "variants": [
+        "supratentorial: ZFTA-fused (worse) or YAP1-fused (better)",
+        "posterior fossa: PFA (worse, infants/young children) or PFB (better, older children/adults)",
+        "spinal: myxopapillary, MYCN-amplified, or NF2-mutant",
+        "subependymoma (indolent)"
+      ],
+      "grading": "WHO grade 2 or 3 for conventional ependymoma; myxopapillary ependymoma is WHO grade 2 and subependymoma is WHO grade 1. Grading has limited prognostic value compared to molecular subgroup"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Cold \u007f like other primary CNS tumours",
+      "stromal_features": "Perivascular pseudorosette architecture; ependymal canals in true rosettes"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Radial glia and ependymal cell precursors along the ventricular system",
+      "developmental_lineage": "Neuroectoderm \u007f ventricular zone radial glia",
+      "differentiation_state": "Ependymal / radial glial differentiation (GFAP+, EMA+ dot-like or ring pattern); perivascular pseudorosettes and true ependymal rosettes are characteristic",
+      "lineage_plasticity": "Location + molecular subgroup define distinct entities: supratentorial (ZFTA fusion or YAP1 fusion), posterior fossa (PFA methylation subgroup \u007f young children, aggressive; PFB \u007f older, better prognosis), spinal (MYCN amplification, or NF2-associated)"
+    }
+  }
+}

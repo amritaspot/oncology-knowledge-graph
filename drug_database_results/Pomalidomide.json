@@ -1,0 +1,155 @@
+{
+  "molecule_name": "Pomalidomide",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 134780,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Pomalyst"
+  ],
+  "drug_class": "Immunomodulatory drug",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Pomalidomide enhances immune response and inhibits tumor growth.",
+    "molecular_action": "Pomalidomide modulates the immune system and has anti-angiogenic properties.",
+    "targets": [
+      "TNF-alpha",
+      "IL-6"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of myeloma cell proliferation",
+      "Increased apoptosis of myeloma cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed and refractory multiple myeloma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Severe liver impairment"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Neutropenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Pomalidomide in multiple myeloma treatment",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP1A2",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT01997840",
+      "NCT02400242",
+      "NCT07569757"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": "C1CC(=O)NC(=O)C1N2C(=O)C3=C(C2=O)C(=CC=C3)N",
+    "pubchem_cid": 134780,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/134780/SDF?record_type=3d",
+    "rotatable_bonds": 1,
+    "target_structures": [
+      {
+        "target_symbol": "CRBN",
+        "pdb_id": "4CI3",
+        "alphafold_id": "Q96SW2",
+        "resolution_angstroms": 3.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "Tri-Trp pocket",
+            "active_residues": [
+              "TRP380",
+              "TRP386",
+              "TRP400",
+              "HIS378"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CRBN",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 157.0,
+        "doi_or_source": "10.1038/nature13527"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": "Small molecule (cereblon E3 ligase modulator)",
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "molecule_name": "Recombinant Human Interleukin-15",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cytokine",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Recombinant human interleukin-15 (rhIL-15) enhances the immune response by increasing the number of circulating CD8+ T cells and natural killer (NK) cells.",
+    "molecular_action": "Stimulates the proliferation and activation of T cells and NK cells.",
+    "targets": [
+      "IL15"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased immune response against tumors"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Merkel Cell Carcinoma, Acute Myeloid Leukemia, Melanoma, Kidney Cancer, Non-Small Cell Lung Cancer, Head and Neck Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory AML",
+      "Progressed after Checkpoint Therapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and studies involving recombinant human interleukin-15",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from clinical studies and literature.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT03853317",
+      "NCT02395822",
+      "NCT02465957"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL15"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL15",
+        "pdb_id": "4GS7",
+        "alphafold_id": "P40933",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

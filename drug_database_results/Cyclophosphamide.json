@@ -1,0 +1,165 @@
+{
+  "molecule_name": "Cyclophosphamide",
+  "identifiers": {
+    "FDA_UNII": "C3D8D1L0F5",
+    "PubChem_CID": 2907,
+    "CAS_number": "6055-19-2",
+    "NCI_Thesaurus_code": "C123",
+    "development_codes": [],
+    "identifier_scope": "NCI"
+  },
+  "brand_names": [
+    "Cytoxan",
+    "Neosar"
+  ],
+  "drug_class": "Alkylating agent",
+  "modality": "Chemotherapy",
+  "route": "Oral, Intravenous",
+  "marketed_form": "Injection, Tablet",
+  "approved_countries": [
+    "USA",
+    "Canada",
+    "EU"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Cyclophosphamide works by binding to DNA and preventing it from being copied, leading to cell death.",
+    "molecular_action": "Alkylation of DNA",
+    "targets": [
+      "DNA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death",
+      "Inhibition of cell division"
+    ],
+    "selectivity": "Non-selective",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Lymphoma, Multiple Myeloma, Leukemia, Ovarian Cancer, Breast Cancer, Small Cell Lung Cancer, Neuroblastoma, Sarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Chemotherapy",
+      "Immunosuppression"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/cyclophosphamide"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe allergic reactions to cyclophosphamide",
+      "Severe bone marrow suppression",
+      "Active infections"
+    ],
+    "reference_urls": [
+      "https://www.drugs.com/cyclophosphamide.html"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced damage to the gastrointestinal lining",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of bone marrow function leading to decreased blood cell production",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia",
+        "Bleeding disorders"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hair loss",
+      "organ_system": "Integumentary",
+      "biological_explanation": "Chemotherapy-induced damage to hair follicles",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Psychological impact",
+        "Changes in appearance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Used in various cancers as a chemotherapy agent."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Cyclophosphamide as a chemotherapy agent",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 3.0,
+    "biological_half_life_hours": 7.0,
+    "clearance_route": [
+      "Renal",
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP2B6",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT03132584",
+      "NCT01339455",
+      "NCT01414855"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "750 mg/m2",
+    "objective_response_rate_pct": 60.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP2B6",
+      "CYP3A4"
+    ],
+    "pathways": [
+      "DNA damage response",
+      "Cell cycle regulation"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 2907,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2907/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

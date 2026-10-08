@@ -1,0 +1,124 @@
+{
+  "molecule_name": "Quizartinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 24889392,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "FLT3 inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Quizartinib is a selective inhibitor of the FLT3 receptor tyrosine kinase, which is involved in the growth and proliferation of certain types of leukemia cells.",
+    "molecular_action": "Inhibits FLT3 signaling pathways",
+    "targets": [
+      "FLT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis in FLT3-ITD positive cells"
+    ],
+    "selectivity": "Selective for type II FLT3",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia (AML)",
+    "histology": null,
+    "clinical_settings": [
+      "Newly diagnosed FLT3-ITD positive AML"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Quizartinib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT04796831",
+      "NCT04777916",
+      "NCT03135054"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FLT3"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 11405207,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11405207/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FLT3",
+        "pdb_id": "4RT7",
+        "alphafold_id": "P36888",
+        "resolution_angstroms": 2.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FLT3",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 1.1,
+        "doi_or_source": "10.1016/j.ccr.2013.11.014"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

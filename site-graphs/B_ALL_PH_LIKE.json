@@ -1,0 +1,76 @@
+{
+  "B_ALL_PH_LIKE": {
+    "name": "B-ALL, Philadelphia-like",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "CRLF2 rearrangements (IGH-CRLF2, P2RY8-CRLF2)",
+        "type": "fusion / expression",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~50% of Ph-like",
+        "clinical_use": "Often co-occurs with JAK-STAT alterations, especially JAK2 mutations. JAK inhibitors (for example ruxolitinib) are under clinical investigation"
+      },
+      {
+        "name": "JAK2 rearrangements / mutations",
+        "type": "fusion / mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "JAK-pathway targeted therapy is under clinical investigation"
+      },
+      {
+        "name": "ABL-class fusions (ABL1, ABL2, PDGFRB, CSF1R)",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-15% of Ph-like",
+        "clinical_use": "Often TKI-sensitive (for example imatinib or dasatinib); comprehensive fusion testing is essential"
+      },
+      {
+        "name": "Gene expression profiling (Ph-like signature)",
+        "type": "transcriptomic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Diagnostic classifier used to identify the subtype in conjunction with genomic testing"
+      },
+      {
+        "name": "IKZF1 mutations / deletions",
+        "type": "mutation / copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Associated with adverse prognosis"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "B-ALL morphology (as per B_ALL); gene expression profile similar to Ph+ ALL but BCR-ABL1 negative",
+      "variants": [
+        "CRLF2-rearranged (~50%, often with JAK-STAT alterations)",
+        "ABL-class fusion (~10-15%, often TKI-sensitive)",
+        "JAK-STAT alterations",
+        "other kinase-activating alterations"
+      ],
+      "grading": "Not graded; genomic subtype guides targeted therapy"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per B-ALL",
+      "stromal_features": "As per B-ALL"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "B-cell precursor with gene expression profile similar to Ph+ ALL but BCR-ABL1 negative",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid",
+      "differentiation_state": "B-cell precursor as per B-ALL",
+      "lineage_plasticity": "Distinct molecular subgroups drive the Ph-like phenotype through parallel kinase activation, including CRLF2-rearranged disease (often with JAK-STAT alterations, ~50%), ABL-class fusions (~10-15%, often TKI-sensitive), JAK-STAT alterations, and other kinase-activating alterations; IKZF1 deletions are common"
+    }
+  }
+}

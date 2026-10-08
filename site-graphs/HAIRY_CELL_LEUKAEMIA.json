@@ -1,0 +1,80 @@
+{
+  "HAIRY_CELL_LEUKAEMIA": {
+    "name": "Hairy cell leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + spleen + peripheral_blood",
+      "characteristic_features": [
+        "massive splenomegaly",
+        "pancytopenia (often with monocytopenia \u2014 distinctive)",
+        "'dry tap' on BM aspirate (fibrosis)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "BRAF V600E",
+        "type": "mutation / IHC (VE1)",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Near-universal in classic HCL; absent in HCL variant/SBLPN",
+        "clinical_use": "Defining feature of classic HCL. Vemurafenib active in R/R HCL; combination with rituximab in relapse. Distinguishes classic HCL from HCL variant/splenic B-cell lymphoma/leukaemia with prominent nucleoli"
+      },
+      {
+        "name": "Immunophenotype (CD11c+, CD25+, CD103+, CD123+ + B-cell markers)",
+        "type": "flow cytometry",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining panel for classic HCL",
+        "clinical_use": "Classic HCL typically expresses all four markers strongly"
+      },
+      {
+        "name": "Annexin A1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive in classic HCL (highly specific in this differential)",
+        "clinical_use": "Helps distinguish classic HCL from other B-cell disorders including HCL variant"
+      },
+      {
+        "name": "IGHV4-34 usage (HCL variant)",
+        "type": "molecular",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Seen in a subset of HCL-like cases, especially IGHV4-34-positive classic HCL and some HCL variant/SBLPN cases",
+        "clinical_use": "Associated with poorer prognosis and reduced response to purine analogues; not a defining marker of all HCL variant cases; BRAF inhibitors are not effective in BRAF-wild-type disease"
+      },
+      {
+        "name": "MAP2K1 mutations (HCL variant)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in HCL variant/SBLPN subset",
+        "clinical_use": "Supports alternative MAPK pathway activation in BRAF-wild-type HCL variant/SBLPN"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Medium-sized B cells with cytoplasmic hairy projections, oval-to-reniform nuclei, and pale cytoplasm; marrow infiltration with reticulin fibrosis ('dry tap')",
+      "variants": [
+        "classic HCL (BRAF V600E+)",
+        "HCL variant / splenic B-cell lymphoma/leukaemia with prominent nucleoli (typically BRAF wild-type; often MAP2K1-mutant; biologically distinct and relatively purine analogue-resistant)"
+      ],
+      "grading": "Not graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Distinctive monocytopenia is characteristic of classic HCL and contributes to opportunistic infection risk",
+      "stromal_features": "Marrow reticulin fibrosis producing 'dry tap' on aspirate; distinctive 'fried egg' appearance on marrow biopsy with clear cytoplasm and well-separated nuclei"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Post-germinal-center/memory B cells with distinctive hairy cell phenotype; BRAF V600E is the defining mutation for classic HCL",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature B cells, post-germinal-center/memory B-cell program)",
+      "differentiation_state": "Mature B cells with distinctive hairy cell projections; CD19+, CD20 bright+, CD25+, CD11c+, CD103+, CD123+, annexin A1+, TRAP+; splenic red pulp tropism",
+      "lineage_plasticity": "BRAF V600E is defining for classic HCL; HCL variant / splenic B-cell lymphoma/leukaemia with prominent nucleoli lacks BRAF V600E and often harbors MAP2K1 mutations, representing distinct biology despite overlapping morphology; splenic red pulp tropism is characteristic"
+    }
+  }
+}

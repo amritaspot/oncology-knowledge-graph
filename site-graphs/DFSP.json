@@ -1,0 +1,56 @@
+{
+  "DFSP": {
+    "name": "Dermatofibrosarcoma protuberans",
+    "biomarkers": [
+      {
+        "name": "COL1A1-PDGFB fusion (t(17;22))",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": ">90%",
+        "clinical_use": "Diagnostic hallmark; imatinib active in advanced / unresectable disease (targets PDGFB/PDGFR)"
+      },
+      {
+        "name": "CD34",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Strongly positive in most cases",
+        "clinical_use": "Diagnostic (uniform CD34+ spindle cells)"
+      },
+      {
+        "name": "Fibrosarcomatous transformation",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Increases local recurrence and metastatic risk; adverse prognostic feature"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Uniform CD34+ spindle cells arranged in storiform (whorled) pattern infiltrating dermis and subcutis in tentacle-like projections",
+      "variants": [
+        "conventional DFSP",
+        "pigmented (Bednar tumour)",
+        "myxoid DFSP",
+        "giant cell fibroblastoma (paediatric variant)",
+        "fibrosarcomatous DFSP (higher-grade transformation)"
+      ],
+      "grading": "Low-grade sarcoma; fibrosarcomatous transformation is the key adverse feature"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; typically minimal inflammation",
+      "stromal_features": "Storiform CD34+ spindle cells infiltrating fat in a 'honeycomb' pattern"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Dermal fibroblastic/mesenchymal cells with distinctive CD34+ phenotype",
+      "developmental_lineage": "Mesoderm \u2014 dermal mesenchyme",
+      "differentiation_state": "Fibroblastic differentiation (CD34+, factor XIIIa variable) with characteristic storiform (whorled) growth pattern; low-grade sarcoma phenotype",
+      "lineage_plasticity": "COL1A1-PDGFB fusion is defining lineage event driving autocrine PDGF-\u03b2 signalling; fibrosarcomatous transformation with loss of storiform pattern represents lineage progression toward higher-grade sarcoma phenotype"
+    }
+  }
+}

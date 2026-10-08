@@ -1,0 +1,154 @@
+{
+  "molecule_name": "Altretamine",
+  "identifiers": {
+    "FDA_UNII": "1NM53R5ALU",
+    "PubChem_CID": 2125,
+    "CAS_number": "645-05-6",
+    "NCI_Thesaurus_code": "C474",
+    "development_codes": [],
+    "identifier_scope": "comprehensive"
+  },
+  "brand_names": [
+    "Hexalen"
+  ],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": "Capsule",
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Altretamine is an alkylating agent that interferes with the growth of cancer cells, slowing their growth and spread in the body.",
+    "molecular_action": "Alkylating agent that forms covalent bonds with DNA, leading to DNA cross-linking and strand breakage.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "DNA damage",
+      "Cell cycle arrest",
+      "Apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Recurrent ovarian cancer"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe bone marrow suppression",
+      "Severe liver impairment"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea and vomiting",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Direct irritation of the gastrointestinal tract or stimulation of the chemoreceptor trigger zone.",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of rapidly dividing bone marrow cells leading to decreased blood cell production.",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia",
+        "Bleeding"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Peripheral neuropathy",
+        "Dizziness"
+      ],
+      "biological_explanation": "Neurotoxicity possibly due to direct damage to nerve cells.",
+      "mechanism_status": "established"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "CYP450 inducers",
+      "examples": [
+        "Phenytoin",
+        "Carbamazepine"
+      ],
+      "biological_basis": "CYP450 inducers may increase the metabolism of altretamine, reducing its efficacy."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Altretamine",
+      "https://www.drugs.com/monograph/altretamine.html"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/altretamine"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Altretamine clinical and pharmacological profile",
+    "mechanism_doi_meaning": "DOIs for mechanism of action references",
+    "empty_mechanism_doi_meaning": "No specific DOIs available for mechanism of action",
+    "null_meaning": "Data not available or not applicable",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP2C19",
+      "CYP2C9"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

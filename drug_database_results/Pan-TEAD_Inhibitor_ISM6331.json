@@ -1,0 +1,124 @@
+{
+  "molecule_name": "ISM6331",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Pan-TEAD Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "ISM6331 inhibits TEAD proteins to restore Hippo pathway balance.",
+    "molecular_action": "Inhibition of TEAD transcriptional activity.",
+    "targets": [
+      "TEAD"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Restoration of Hippo pathway signaling"
+    ],
+    "selectivity": "Pan-TEAD",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Mesothelioma",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "ISM6331 clinical development and mechanism of action.",
+    "mechanism_doi_meaning": "No DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1/2",
+    "nct_trials": [
+      "NCT06566079"
+    ],
+    "regulatory_designations": [
+      "FDA Fast Track Designation"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TEAD1",
+      "TEAD2",
+      "TEAD3",
+      "TEAD4"
+    ],
+    "pathways": [
+      "Hippo signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PSMA",
+        "pdb_id": null,
+        "alphafold_id": "P27487",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PSMA",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm500793g"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Small Molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

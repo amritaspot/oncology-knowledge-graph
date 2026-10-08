@@ -1,0 +1,70 @@
+{
+  "PLASMA_CELL_LEUKAEMIA": {
+    "name": "Plasma cell leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "diagnostic_criteria": [
+        "\u00015% circulating plasma cells in peripheral blood smear (current IMWG criterion; historically >20% and/or absolute plasma cell count >2\u00000\u00000/\u0000b5L)"
+      ],
+      "characteristic_extramedullary_sites": [
+        "extramedullary disease common (liver, spleen, lymph nodes; also pleural effusions, soft tissue, skin, and CNS in some cases)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Circulating plasma cells (>=5% of peripheral blood leukocytes on morphology; historically >20% and/or absolute plasma cell count >2,000/\u0000b5L)",
+        "type": "flow / morphology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Current IMWG definition uses >=5% circulating plasma cells on peripheral blood smear; older criteria used >20% and/or absolute plasma cell count >2,000/\u0000b5L"
+      },
+      {
+        "name": "High-risk cytogenetics (frequent del(17p), t(11;14), gain/amplification(1q), del(13q), complex karyotype; t(4;14) also reported)",
+        "type": "FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Enriched vs typical MM",
+        "clinical_use": "Adverse; reflects aggressive biology and common genomic instability"
+      },
+      {
+        "name": "CD20 aberrant expression",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Seen in a subset; not specific or defining"
+      },
+      {
+        "name": "Same treatment biomarkers as MM (CD38, BCMA, GPRC5D, FcRH5)",
+        "type": "target",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Therapeutic targets extrapolated from MM; anti-CD38-based induction is commonly used, and BCMA/GPRC5D/FcRH5-directed cellular or bispecific therapies may be considered in relapsed/refractory settings, though PCL-specific evidence is limited"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Extensive marrow plasma cell infiltration with circulating plasma cells (>=5% of peripheral blood leukocytes by current criteria; historically >20% and/or absolute plasma cell count >2,000/\u0000b5L); often plasmablastic morphology",
+      "variants": [
+        "primary PCL (de novo)",
+        "secondary PCL (from prior MM)"
+      ],
+      "grading": "Aggressive by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Aggressive biology with enriched high-risk cytogenetic features including del(17p), t(11;14), gain/amplification(1q), del(13q), complex karyotype, and in some cases t(4;14); same broad therapeutic targets as MM but often more treatment-resistant",
+      "stromal_features": "Diffuse marrow effacement; circulating plasma cells; extramedullary disease common (liver, spleen, lymph nodes; also pleural effusions, soft tissue, skin, and CNS in some cases)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Plasma cells with distinct aggressive biology enabling circulation in peripheral blood (rather than confinement to marrow niche)",
+      "developmental_lineage": "Mesoderm \u0014 lymphoid (plasma cells)",
+      "differentiation_state": "Terminal plasma cell differentiation but often with plasmablastic morphology (less mature phenotype); circulating plasma cells (>=5% of peripheral blood leukocytes by current criteria; historically >20% and/or absolute plasma cell count >2,000/\u0000b5L)",
+      "lineage_plasticity": "Escape from marrow niche dependency is defining biology \u0014 plasma cells that circulate rather than remain marrow-confined; enriched for adverse cytogenetic features including del(17p), t(11;14), gain/amplification(1q), del(13q), complex karyotype, and in some cases t(4;14); extramedullary disease common (liver, spleen, lymph nodes; also pleural effusions, soft tissue, skin, and CNS in some cases); may show more immature/plasmablastic features"
+    }
+  }
+}

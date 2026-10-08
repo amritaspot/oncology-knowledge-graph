@@ -1,0 +1,95 @@
+{
+  "PANCREATIC_NET_G1": {
+    "name": "Pancreatic neuroendocrine tumour, G1",
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive",
+        "clinical_use": "Diagnostic"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "<3% (G1)",
+        "clinical_use": "Grade"
+      },
+      {
+        "name": "Functional hormone (insulin, gastrin, VIP, glucagon, somatostatin)",
+        "type": "serum + clinical syndrome",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Subset (~10-30% functional overall; insulinoma is the most common functional pNET)",
+        "clinical_use": "Insulinoma (hypoglycaemia), gastrinoma (ZES \u2014 refractory ulcers, diarrhoea), VIPoma (Verner-Morrison syndrome), glucagonoma (necrolytic migratory erythema, diabetes), somatostatinoma. Monitoring per hormone"
+      },
+      {
+        "name": "SSTR2",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently positive in well-differentiated pNETs",
+        "clinical_use": "DOTATATE PET; SSA; PRRT; everolimus, sunitinib also active in pNETs"
+      },
+      {
+        "name": "MEN1 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-10% of pancreatic NETs",
+        "clinical_use": "Multiple synchronous NETs; family screening"
+      },
+      {
+        "name": "VHL, TSC (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare but characteristic",
+        "clinical_use": "VHL: pNET + RCC + phaeo + haemangioblastoma. TSC: pNET + other TSC manifestations"
+      },
+      {
+        "name": "Somatic: MEN1, DAXX/ATRX, mTOR pathway",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "MEN1 ~35-45%; DAXX/ATRX ~20-40%; mTOR pathway genes (e.g. TSC2, PTEN, PIK3CA) ~10-20%",
+        "clinical_use": "DAXX/ATRX loss associates with ALT and adverse prognosis in many series. mTOR pathway alterations are biologically relevant in pNETs, but are not established predictive biomarkers for everolimus benefit"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Organoid or trabecular growth of monomorphic cells with salt-and-pepper chromatin, arising in pancreatic islet cells",
+      "variants": [
+        "non-functional (~70-90%)",
+        "insulinoma",
+        "gastrinoma (Zollinger-Ellison)",
+        "VIPoma",
+        "glucagonoma",
+        "somatostatinoma"
+      ],
+      "grading": "Ki-67 <3% (G1)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold; low TMB",
+      "stromal_features": "Hypervascular; delicate stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pancreatic islet cells (\u03b2 cells, \u03b1 cells, \u03b4 cells, PP cells, \u03b5 cells) or their common progenitors",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative (pancreatic islets from same pancreatic buds as exocrine pancreas)",
+      "differentiation_state": "Well-differentiated neuroendocrine \u2014 synaptophysin+, chromogranin+, often high SSTR2 expression, Ki-67 <3%; functional subtypes have specific hormone production (insulinoma, glucagonoma, gastrinoma, VIPoma, somatostatinoma)",
+      "lineage_plasticity": "Position on well-differentiated end of pancreatic NET spectrum; MEN1 germline predisposes to multifocal pancreatic NETs"
+    }
+  }
+}

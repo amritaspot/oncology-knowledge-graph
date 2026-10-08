@@ -1,0 +1,92 @@
+{
+  "THYMIC_CARCINOMA": {
+    "name": "Thymic carcinoma",
+    "biomarkers": [
+      {
+        "name": "CD5, CD117 (KIT)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "CD5+ and/or CD117+ in a substantial subset; co-expression is characteristic but not universal",
+        "clinical_use": "Supports distinction of thymic carcinoma from thymoma and from some non-thymic carcinomas in the appropriate morphologic context"
+      },
+      {
+        "name": "KIT mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Rare actionable subset; KIT-mutant thymic carcinoma may respond to KIT-directed therapy in selected cases"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Common recurrent alteration; generally associated with aggressive biology rather than a validated routine clinical biomarker"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very rare",
+        "clinical_use": "Pembrolizumab (tissue-agnostic) if MSI-H/dMMR"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often expressed, with high expression reported in a substantial subset",
+        "clinical_use": "May help support use of immune checkpoint inhibition in recurrent/metastatic disease, although predictive value is imperfect and immune-related toxicity remains important"
+      },
+      {
+        "name": "CYLD alteration",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Enriched in a subset of thymic squamous cell carcinomas, especially those with adenoid cystic carcinoma-like features",
+        "clinical_use": "Supports recognition of a distinctive thymic carcinoma subset"
+      },
+      {
+        "name": "CDKN2A/CDKN2B loss",
+        "type": "copy number alteration",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent",
+        "clinical_use": "Common genomic event in thymic carcinoma; not a standard standalone clinical biomarker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Overtly malignant epithelial cells without the immature T-cell infiltrate characteristic of thymoma",
+      "variants": [
+        "squamous cell carcinoma (most common)",
+        "basaloid",
+        "lymphoepithelioma-like (EBV-associated in some geographies)",
+        "adenocarcinoma",
+        "undifferentiated",
+        "NUT carcinoma (rare, aggressive)"
+      ],
+      "grading": "High-grade behaviour by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "More conventional 'inflamed' pattern than thymoma; PD-L1 often expressed",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thymic epithelial cells with malignant transformation and loss of organotypic differentiation",
+      "developmental_lineage": "Endoderm \u2014 third pharyngeal pouch",
+      "differentiation_state": "Undifferentiated or squamous \u2014 loses organotypic thymic differentiation that characterises thymoma",
+      "lineage_plasticity": "Loss of organotypic thymic function distinguishes from thymoma (which retains T-cell selection function \u001a autoimmune paraneoplastic syndromes)"
+    }
+  }
+}

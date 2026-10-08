@@ -1,0 +1,73 @@
+{
+  "ANAL_SCC": {
+    "name": "Anal squamous cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "HPV / p16",
+        "type": "ISH / IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~80-90% HPV-associated (mostly HPV-16); p16 overexpression is common in HPV-driven tumors",
+        "clinical_use": "Defining feature in most cases; generally associated with better prognosis than HPV-negative disease and with greater sensitivity to chemoradiation, although standard CRT (Nigro-type regimen) is used irrespective of HPV status"
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently expressed; prevalence varies by assay/cutoff and is not standardized",
+        "clinical_use": "Checkpoint inhibitors have activity in metastatic/recurrent anal SCC. Retifanlimab has regulatory approval in some settings for advanced anal SCC; pembrolizumab and nivolumab have demonstrated activity in previously treated disease"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Uncommon in HPV-positive tumors and more common in HPV-negative tumors",
+        "clinical_use": "HPV-positive tumors usually retain wild-type TP53 functionally inactivated by viral E6; TP53-mutant disease is enriched in HPV-negative tumors and is associated with poorer outcome in several series"
+      },
+      {
+        "name": "PIK3CA mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Recurrent mutation in anal SCC; currently mainly relevant for clinical trials rather than standard targeted therapy"
+      },
+      {
+        "name": "HIV status",
+        "type": "clinical",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Overrepresented among patients with anal SCC relative to the general population",
+        "clinical_use": "HIV status is clinically important; continue ART. Outcomes can be comparable with modern HIV management, though treatment tolerance and toxicity require attention"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Squamous cell carcinoma, most often non-keratinizing (basaloid) type in HPV-driven disease",
+      "variants": [
+        "conventional keratinizing SCC",
+        "non-keratinizing (basaloid, cloacogenic)",
+        "verrucous"
+      ],
+      "grading": "Traditional SCC grading; less prognostic than HPV status"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often inflamed \u2014 HPV-driven immune activation is associated with PD-L1 expression in a subset of tumors",
+      "stromal_features": "Desmoplastic; often ulcerated"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal keratinocytes of anal canal transition zone; anal intraepithelial neoplasia (AIN) / HSIL is the precursor",
+      "developmental_lineage": "Endoderm (hindgut) transitioning to ectoderm at the anal verge \u2014 the dentate line approximates this transition",
+      "differentiation_state": "Keratinizing or non-keratinizing squamous; HPV-driven biology similar to cervical and HPV+ oropharyngeal SCC",
+      "lineage_plasticity": "Anal high-grade squamous intraepithelial lesion (HSIL) is the recognised precursor; HPV integration and E6/E7 expression drive transformation"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "molecule_name": "8-Chloroadenosine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 3034411,
+    "CAS_number": "15439-05-9",
+    "NCI_Thesaurus_code": "C78089",
+    "development_codes": [],
+    "identifier_scope": "Identifiers correspond to the small-molecule nucleoside analog 8-chloroadenosine."
+  },
+  "brand_names": [],
+  "drug_class": "Purine nucleoside analog; investigational antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "8-Chloroadenosine is an investigational adenosine analog that enters cells and is phosphorylated to 8-chloro-ATP. This metabolite depletes endogenous ATP pools, interferes with RNA synthesis and polyadenylation, activates cellular energy-stress signaling, and can induce apoptosis in malignant cells.",
+    "molecular_action": "Intracellular conversion to 8-chloro-ATP leads to inhibition of RNA synthesis/transcriptional processes and bioenergetic stress with AMPK pathway activation. The agent is not established as a selective inhibitor of a single canonical protein target.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "ATP depletion",
+      "Inhibition of RNA synthesis",
+      "Interference with mRNA polyadenylation",
+      "Activation of AMPK signaling",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Non-selective nucleoside analog mechanism; no single validated primary protein target established in humans.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Hematologic malignancies and selected advanced solid tumors",
+    "histology": "Primarily acute myeloid leukemia and multiple myeloma in early clinical investigation",
+    "clinical_settings": [
+      "Relapsed/refractory disease",
+      "Early-phase clinical trials"
+    ],
+    "scope": "Investigational use only; not approved for routine oncology care.",
+    "reference_urls": [
+      "https://clinicaltrials.gov/",
+      "https://ncithesaurus.nci.nih.gov/"
+    ]
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Acute myeloid leukemia",
+      "molecular_context": null,
+      "proposed_rationale": "Preclinical and early clinical work suggests leukemia cells may be vulnerable to ATP depletion and transcriptional inhibition caused by intracellular 8-chloro-ATP accumulation.",
+      "evidence_level": "Early clinical",
+      "human_evidence": "Phase I experience has been reported in relapsed/refractory acute myeloid leukemia.",
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": "Limited human evidence identified.",
+      "limitations": [
+        "No established biomarker-selected population",
+        "No confirmed randomized efficacy data"
+      ]
+    },
+    {
+      "cancer": "Multiple myeloma",
+      "molecular_context": null,
+      "proposed_rationale": "Myeloma cells may be sensitive to transcriptional stress and energy depletion induced by 8-chloroadenosine.",
+      "evidence_level": "Early clinical",
+      "human_evidence": "Phase I testing has been reported in relapsed/refractory multiple myeloma.",
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": "Limited human evidence identified.",
+      "limitations": [
+        "No established predictive biomarker",
+        "No confirmed objective response benchmark suitable for routine use"
+      ]
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "May relate to systemic energy depletion and cytotoxic stress.",
+      "mechanism_status": "Plausible/reported",
+      "potential_consequences": [
+        "Reduced functional status",
+        "Dose interruption"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Common nonspecific toxicity with intravenous cytotoxic investigational agents.",
+      "mechanism_status": "Reported",
+      "potential_consequences": [
+        "Reduced oral intake",
+        "Need for supportive care"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Possible injury to rapidly proliferating gastrointestinal mucosa.",
+      "mechanism_status": "Plausible/reported",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte abnormalities"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hematologic toxicity",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Cytotoxic effects on marrow progenitors may occur, although attribution can be confounded by underlying hematologic malignancy.",
+      "mechanism_status": "Reported",
+      "potential_consequences": [
+        "Infection risk",
+        "Bleeding risk",
+        "Need for transfusion"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Vomiting",
+        "Anorexia",
+        "Transient laboratory abnormalities"
+      ],
+      "biological_explanation": "Nonspecific systemic and gastrointestinal toxicity profile reported in early-phase studies.",
+      "mechanism_status": "Reported"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/3034411",
+      "https://ncithesaurus.nci.nih.gov/"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/",
+      "https://pubmed.ncbi.nlm.nih.gov/"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Investigational oncology-focused summary for 8-chloroadenosine based on publicly described preclinical and early clinical literature.",
+    "mechanism_doi_meaning": "Listed DOIs would indicate direct supporting literature for mechanism or toxicity when verified.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no DOI was confidently verified for that specific field in this record.",
+    "null_meaning": "Null indicates the specific datum was not confidently established from accessible sources and was not inferred.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT02157181",
+      "NCT00412594",
+      "NCT02115295"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ENTPD1",
+      "NT5C2"
+    ],
+    "pathways": [
+      "AMPK signalling",
+      "RNA metabolism",
+      "Apoptosis"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

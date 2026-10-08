@@ -1,0 +1,180 @@
+{
+  "molecule_name": "Adavosertib",
+  "identifiers": {
+    "FDA_UNII": "0Q5V2VDS7G",
+    "PubChem_CID": 24978512,
+    "CAS_number": "955365-80-7",
+    "NCI_Thesaurus_code": "C84892",
+    "development_codes": [
+      "AZD1775"
+    ],
+    "identifier_scope": "global"
+  },
+  "brand_names": [],
+  "drug_class": "Wee1 kinase inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Adavosertib inhibits the Wee1 kinase, leading to cell cycle arrest and apoptosis in cancer cells.",
+    "molecular_action": "Inhibition of Wee1 kinase activity.",
+    "targets": [
+      "WEE1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell cycle arrest",
+      "Apoptosis"
+    ],
+    "selectivity": "Selective for Wee1 kinase",
+    "doi": [
+      "10.1158/1078-0432.CCR-12-2123"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Ovarian cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials"
+    ],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Triple-negative Metastatic Breast Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    },
+    {
+      "cancer": "Previously Treated Non Small Cell Lung Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of Wee1 may affect normal cell cycle regulation in hematopoietic cells.",
+      "mechanism_status": "hypothetical",
+      "potential_consequences": [
+        "Neutropenia",
+        "Thrombocytopenia"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Diarrhea",
+        "Fatigue",
+        "Nausea"
+      ],
+      "biological_explanation": null,
+      "mechanism_status": "observed"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/24978512"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Adavosertib as an investigational agent",
+    "mechanism_doi_meaning": "DOIs supporting the mechanism of action",
+    "empty_mechanism_doi_meaning": "No specific DOI available for some mechanisms",
+    "null_meaning": "Data not available or not applicable",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 8.5,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02101775",
+      "NCT02511795",
+      "NCT03012477",
+      "NCT02087176"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "300 mg",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "WEE1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "WEE1",
+        "pdb_id": "6H9V",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "WEE1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.4,
+        "doi_or_source": "10.1016/j.ccell.2018.03.006"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "DCIS": {
+    "name": "Ductal carcinoma in situ",
+    "biomarkers": [
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "ER+ ~70-80%",
+        "clinical_use": "ER testing is recommended to guide endocrine therapy; tamoxifen (and in postmenopausal patients, an aromatase inhibitor in selected settings) reduces ipsilateral and contralateral breast events"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~25-35% (higher than invasive breast cancer)",
+        "clinical_use": "Not routinely recommended for clinical testing in pure DCIS; currently does not routinely change standard management"
+      },
+      {
+        "name": "Oncotype DX DCIS score",
+        "type": "multi-gene assay",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Provides prognostic information for local recurrence risk after breast-conserving surgery in selected patients; not routinely recommended in current standard practice to guide radiotherapy decisions"
+      },
+      {
+        "name": "Grade (nuclear, architectural, comedonecrosis)",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "High nuclear grade and comedonecrosis are associated with higher local recurrence risk and are linked to greater risk of concurrent or subsequent invasive carcinoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Malignant epithelial cells confined within basement membrane of ducts and lobules",
+      "variants": [
+        "cribriform",
+        "papillary",
+        "micropapillary",
+        "solid",
+        "comedo (with central necrosis \u2014 high grade)"
+      ],
+      "grading": "Nuclear grade 1-3 (low/intermediate/high); presence of comedonecrosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "TIL density variable; higher in high-grade / comedo DCIS",
+      "stromal_features": "Periductal fibrosis; minimal desmoplasia (myoepithelial layer intact)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells of TDLU with malignant transformation confined by intact myoepithelial-basement membrane barrier",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Luminal differentiation preserved with variable nuclear grade; intact myoepithelial layer (calponin+, p63+, SMMHC+) defines in situ status",
+      "lineage_plasticity": "Progression to invasive breast cancer requires disruption of the myoepithelial cell layer and basement membrane; this is a complex tumor-microenvironment and epithelial progression process rather than being reducible to myoepithelial loss alone"
+    }
+  }
+}

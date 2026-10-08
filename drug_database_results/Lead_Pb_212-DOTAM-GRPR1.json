@@ -1,0 +1,117 @@
+{
+  "molecule_name": "Lead Pb 212-DOTAM-GRPR1",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Lead Pb 212-DOTAM-GRPR1 targets and binds to GRPR-expressing tumor cells, delivering cytotoxic alpha radiation specifically to these cells.",
+    "molecular_action": "Targets gastrin-releasing peptide receptor (GRPR) on tumor cells.",
+    "targets": [
+      "GRPR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cytotoxicity in GRPR-expressing tumors"
+    ],
+    "selectivity": "Selective for GRPR-expressing tumors",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate, breast, and lung cancers",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials for GRPR-expressing tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Lead Pb 212-DOTAM-GRPR1 clinical development and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": null,
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GRPR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "GRPR",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "GRPR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Pb-212",
+    "emission_type": [
+      "Alpha"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTAM",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

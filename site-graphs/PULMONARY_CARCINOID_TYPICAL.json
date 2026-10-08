@@ -1,0 +1,81 @@
+{
+  "PULMONARY_CARCINOID_TYPICAL": {
+    "name": "Pulmonary carcinoid, typical",
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Confirms neuroendocrine differentiation"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Usually low, often <5% in typical carcinoid; not a formal WHO definitional criterion in lung carcinoids",
+        "clinical_use": "Supports distinction from higher-grade neuroendocrine neoplasms; typical vs atypical carcinoid are defined primarily by mitotic count and necrosis rather than Ki-67 alone"
+      },
+      {
+        "name": "SSTR2 expression",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Frequently positive",
+        "clinical_use": "68Ga-DOTATATE PET for staging; PRRT (177Lu-DOTATATE) in advanced somatostatin-receptor-positive disease; long-acting somatostatin analogues for symptom control and sometimes tumor control"
+      },
+      {
+        "name": "Chromogranin A",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Monitoring in selected patients; affected by PPI use and renal function"
+      },
+      {
+        "name": "5-HIAA (24h urine)",
+        "type": "urine",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in carcinoid syndrome",
+        "clinical_use": "Diagnosis and monitoring of carcinoid syndrome"
+      },
+      {
+        "name": "MEN1, ARID1A, EIF1AX",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent alterations reported; no single pathognomonic driver and no established targetable fusion hallmark",
+        "clinical_use": "Supports known pulmonary carcinoid molecular profile; distinguishes from SCLC/LCNEC biology"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Organoid, trabecular, or nested growth of uniform round cells with 'salt and pepper' chromatin",
+      "variants": [
+        "typical carcinoid (mitoses <2/2 mm\u00b2 and no necrosis)"
+      ],
+      "grading": "Low-grade (WHO); Ki-67 usually low but not required for WHO grading/typing"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Minimal inflammation; not well characterised",
+      "stromal_features": "Delicate fibrovascular stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pulmonary neuroendocrine cells (PNEC) \u2014 same broad lineage as other pulmonary neuroendocrine neoplasms but biologically distinct from SCLC/LCNEC",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative with neuroendocrine differentiation",
+      "differentiation_state": "Well-differentiated neuroendocrine \u2014 synaptophysin+, chromogranin+, often SSTR2-positive; low proliferative activity",
+      "lineage_plasticity": "Position on well-differentiated end of pulmonary NET spectrum; DIPNECH (diffuse idiopathic pulmonary neuroendocrine cell hyperplasia) is a recognized precursor lesion in some cases"
+    }
+  }
+}

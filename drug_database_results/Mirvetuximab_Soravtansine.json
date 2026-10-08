@@ -1,0 +1,127 @@
+{
+  "molecule_name": "Mirvetuximab Soravtansine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Elahere"
+  ],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Mirvetuximab Soravtansine is an antibody-drug conjugate that targets folate receptor alpha (FR\u001f) and delivers a microtubule inhibitor to cancer cells.",
+    "molecular_action": "Targets folate receptor alpha (FR\u001f) to deliver cytotoxic agents directly to cancer cells.",
+    "targets": [
+      "Folate Receptor Alpha"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Epithelial Ovarian Cancer, Fallopian Tube Cancer, Primary Peritoneal Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Recurrent Ovarian Cancer",
+      "Platinum-resistant Ovarian Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Vision abnormalities",
+      "organ_system": "Ocular",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Mirvetuximab Soravtansine",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT01609556",
+      "NCT03552471",
+      "NCT07218809"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLR1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FOLR1",
+        "pdb_id": null,
+        "alphafold_id": "P15328",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FOLR1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.1,
+        "doi_or_source": "10.1158/1535-7163.MCT-13-0618"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

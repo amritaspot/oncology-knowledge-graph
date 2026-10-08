@@ -1,0 +1,114 @@
+{
+  "molecule_name": "Sipuleucel-T",
+  "identifiers": {
+    "FDA_UNII": "N/A",
+    "PubChem_CID": 1000000,
+    "CAS_number": "N/A",
+    "NCI_Thesaurus_code": "N/A",
+    "development_codes": [],
+    "identifier_scope": "N/A"
+  },
+  "brand_names": [
+    "Provenge"
+  ],
+  "drug_class": "Immunotherapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Suspension for infusion",
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Sipuleucel-T is an autologous cellular immunotherapy that stimulates the immune system to attack prostate cancer cells.",
+    "molecular_action": "Activates T-cells to target and destroy prostate cancer cells.",
+    "targets": [
+      "Prostate cancer cells"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased immune response against prostate cancer"
+    ],
+    "selectivity": "Specific to prostate cancer antigens",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": "Castration-resistant prostate cancer (CRPC)",
+    "clinical_settings": [
+      "Advanced prostate cancer",
+      "Metastatic prostate cancer"
+    ],
+    "scope": "N/A",
+    "reference_urls": [
+      "https://clinicaltrials.gov/ct2/show/NCT02232230",
+      "https://clinicaltrials.gov/ct2/show/NCT01274572",
+      "https://clinicaltrials.gov/ct2/show/NCT01818986"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Chills",
+      "organ_system": "General",
+      "biological_explanation": "Immune response activation",
+      "mechanism_status": "Known",
+      "potential_consequences": [
+        "Fever",
+        "Fatigue"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Sipuleucel-T is approved for use in men with asymptomatic or minimally symptomatic metastatic castration-resistant prostate cancer."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Sipuleucel-T clinical data and usage",
+    "mechanism_doi_meaning": "N/A",
+    "empty_mechanism_doi_meaning": "N/A",
+    "null_meaning": "N/A",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "N/A",
+    "physical_half_life_days": 0.5,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [
+      "Lymphatic system"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase III",
+    "nct_trials": [
+      "NCT02232230",
+      "NCT01274572",
+      "NCT01818986"
+    ],
+    "regulatory_designations": [
+      "FDA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "N/A",
+    "objective_response_rate_pct": 34.0,
+    "median_pfs_months": 24.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "N/A"
+    ],
+    "pathways": [
+      "N/A"
+    ]
+  }
+}

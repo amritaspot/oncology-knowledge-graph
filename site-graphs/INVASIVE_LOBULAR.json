@@ -1,0 +1,110 @@
+{
+  "INVASIVE_LOBULAR": {
+    "name": "Invasive lobular carcinoma",
+    "biomarkers": [
+      {
+        "name": "CDH1 (E-cadherin) loss",
+        "type": "IHC / mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": ">90% loss of membranous E-cadherin expression (defining feature)",
+        "clinical_use": "Diagnostic hallmark; distinguishes lobular from most ductal carcinomas. Germline CDH1 pathogenic variants cause hereditary diffuse gastric cancer syndrome and are associated with increased lobular breast cancer risk"
+      },
+      {
+        "name": "ER",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~90\u201395%",
+        "clinical_use": "Endocrine therapy"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<5% in classic ILC (overall low; higher in pleomorphic variants)",
+        "clinical_use": "Rarely HER2-positive"
+      },
+      {
+        "name": "PIK3CA",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40\u201350%",
+        "clinical_use": "Alpelisib eligibility in HR-positive/HER2-negative metastatic disease"
+      },
+      {
+        "name": "AKT1 mutations (E17K)",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~4\u20138%",
+        "clinical_use": "Capivasertib"
+      },
+      {
+        "name": "ESR1 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Primarily acquired in metastatic ER-positive disease after aromatase inhibitor exposure; uncommon in treatment-naive primary ILC",
+        "clinical_use": "Elacestrant"
+      },
+      {
+        "name": "ERBB2 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3\u20138% overall; enriched in metastatic and pleomorphic ILC",
+        "clinical_use": "Potential eligibility for HER2-directed tyrosine kinase therapy in mutation-positive disease"
+      },
+      {
+        "name": "ERBB3 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2\u20135% (enriched relative to IDC)",
+        "clinical_use": "Recurrent ILC-associated alteration; no routine standard biomarker-directed use currently"
+      },
+      {
+        "name": "PTEN alterations",
+        "type": "mutation / loss",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5\u201310%",
+        "clinical_use": "May contribute to PI3K/AKT pathway-targeted therapy selection context"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small discohesive cells infiltrating in single-file 'Indian file' pattern with targetoid arrangement around ducts",
+      "variants": [
+        "classic ILC",
+        "pleomorphic ILC (worse prognosis)",
+        "signet ring",
+        "solid",
+        "alveolar",
+        "tubulolobular"
+      ],
+      "grading": "Modified Nottingham grade; classic ILC often grade 2 with low mitotic count, less often grade 1"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Typically 'immune-desert' or 'excluded' \u2014 less inflamed than IDC/NST even at similar stage",
+      "stromal_features": "Fibrotic stroma; often minimal desmoplastic reaction; discohesive infiltration due to E-cadherin loss"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells within the terminal duct lobular unit (TDLU), particularly lobular/acinar epithelium",
+      "developmental_lineage": "Ectoderm \u2014 mammary ridge derivative",
+      "differentiation_state": "Luminal differentiation preserved (ER+, GATA3+, FOXA1+) but with characteristic E-cadherin loss producing discohesive single-file infiltration ('Indian file' pattern)",
+      "lineage_plasticity": "CDH1 (E-cadherin) loss disrupts adherens junction cell-cell adhesion machinery \u2014 a defining feature that contributes to the distinct infiltrative phenotype and metastatic tropism"
+    }
+  }
+}

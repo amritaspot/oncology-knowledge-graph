@@ -1,0 +1,79 @@
+{
+  "GI_NEC_POORLY_DIFF": {
+    "name": "GI neuroendocrine carcinoma, poorly differentiated (NEC)",
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive for synaptophysin and/or INSM1; chromogranin A may be focal or weaker than in well-differentiated NETs",
+        "clinical_use": "Confirms NE differentiation"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "High by definition; usually >20%, often >55%",
+        "clinical_use": "Very high proliferation; supports NEC classification"
+      },
+      {
+        "name": "TP53, RB1",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Frequently altered, especially TP53; RB1 loss/inactivation is common but not universal and varies by site",
+        "clinical_use": "Supports NEC biology and helps distinguish NEC from well-differentiated G3 NET at molecular level"
+      },
+      {
+        "name": "SSTR2",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often low/negative compared with well-differentiated NETs, but expression is variable",
+        "clinical_use": "DOTATATE PET is often less informative than in well-differentiated NETs; FDG PET is generally preferred. SSA and PRRT are typically less effective"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Present in a subset, particularly colorectal NEC; uncommon overall",
+        "clinical_use": "Pembrolizumab if MSI-H/dMMR per tissue-agnostic indication"
+      },
+      {
+        "name": "NSE, ProGRP",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "May be elevated",
+        "clinical_use": "Small-cell-like markers; adjunctive only, not definitive"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Poorly differentiated small cell or large cell NE morphology; NOT organoid growth of well-differentiated NETs",
+      "variants": [
+        "small cell NEC (SCLC-like)",
+        "large cell NEC (LCNEC-like)"
+      ],
+      "grading": "High-grade by definition; Ki-67 >20%, often >55-80%"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; MSI-H subset is more likely inflamed and IO-responsive",
+      "stromal_features": "Small-cell-like or large-cell pleomorphic; extensive necrosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "GI epithelial progenitor cells with de novo neuroendocrine differentiation, or dedifferentiation from adenocarcinoma \u000e distinct from well-differentiated NET lineage",
+      "developmental_lineage": "Endoderm \u000e GI tract",
+      "differentiation_state": "Poorly differentiated high-grade neuroendocrine \u000e synaptophysin+/chromogranin+ with often reduced SSTR2 expression relative to well-differentiated NETs; small cell or large cell morphology mirroring SCLC/LCNEC",
+      "lineage_plasticity": "Distinct lineage biology from well-differentiated NET \u000e TP53 alteration and RB1 loss/inactivation often parallel SCLC; often adjacent to adenocarcinoma component (MiNEN \u000e mixed neuroendocrine-non-neuroendocrine neoplasm) suggesting divergent differentiation from common precursor"
+    }
+  }
+}

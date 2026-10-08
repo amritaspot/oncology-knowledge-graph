@@ -1,0 +1,131 @@
+{
+  "molecule_name": "Lipid Nanoparticle Encapsulating mRNAs Encoding Human OX40L/IL-23/IL-36gamma mRNA-2752",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "mRNA-based therapeutic",
+  "modality": "Biologic",
+  "route": "Intratumoral injection",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "mRNA-2752 encodes for OX40L, IL-23, and IL-36\u0003b3, which modulate the tumor microenvironment and enhance anti-tumor immunity.",
+    "molecular_action": "Encodes immune-modulating cytokines and co-stimulatory molecules.",
+    "targets": [
+      "OX40L",
+      "IL-23",
+      "IL-36\u0003b3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T cell activation",
+      "Modulation of tumor microenvironment"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ductal Carcinoma in Situ (DCIS) and other advanced malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Immunotherapy",
+      "Combination with immune checkpoint inhibitors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and early-phase studies",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT02872025",
+      "NCT03739931"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TNFSF4",
+      "IL23",
+      "IL36G"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TNFSF4",
+        "pdb_id": null,
+        "alphafold_id": "P23510",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "IL23A",
+        "pdb_id": null,
+        "alphafold_id": "Q9NPF7",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "IL36G",
+        "pdb_id": null,
+        "alphafold_id": "Q9NZH8",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

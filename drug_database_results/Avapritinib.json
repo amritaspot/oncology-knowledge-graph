@@ -1,0 +1,134 @@
+{
+  "molecule_name": "Avapritinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 118023034,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Avapritinib is designed to block certain enzymes needed for tumor cell growth.",
+    "molecular_action": "Selective inhibition of mutant forms of the KIT and PDGFRA receptors.",
+    "targets": [
+      "KIT",
+      "PDGFRA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor cell proliferation"
+    ],
+    "selectivity": "Highly selective for mutant forms of KIT and PDGFRA",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Gastrointestinal Stromal Tumor (GIST), Systemic Mastocytosis",
+    "histology": null,
+    "clinical_settings": [
+      "Unresectable or recurrent metastatic GIST",
+      "Advanced systemic mastocytosis"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Avapritinib clinical data and trial information",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05461664",
+      "NCT04254939",
+      "NCT03580655"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KIT",
+      "PDGFRA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "KIT",
+        "pdb_id": "6JJR",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "PDGFRA",
+        "pdb_id": "6JQ9",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "KIT",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.6,
+        "doi_or_source": "10.1016/j.ccell.2019.01.041"
+      },
+      {
+        "target_symbol": "PDGFRA",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.8,
+        "doi_or_source": "10.1016/j.ccell.2019.01.041"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

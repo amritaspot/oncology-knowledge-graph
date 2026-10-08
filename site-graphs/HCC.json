@@ -1,0 +1,183 @@
+{
+  "HCC": {
+    "name": "Hepatocellular carcinoma",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Liver",
+      "cohort": {
+        "male_n": 2524,
+        "female_n": 3129
+      },
+      "organ_involvement_pct": {
+        "HEPATOBILIARY": {
+          "male": 60,
+          "female": 71
+        },
+        "PULMONARY": {
+          "male": 22,
+          "female": 16
+        },
+        "GASTROINTESTINAL": {
+          "male": 15,
+          "female": 17
+        },
+        "MUSCULOSKELETAL": {
+          "male": 14,
+          "female": 7
+        },
+        "GASTROINTESTINAL_OTHER": {
+          "male": 6,
+          "female": 9
+        },
+        "NEUROLOGIC": {
+          "male": 3,
+          "female": 2
+        },
+        "PULMONARY_PLEURA": {
+          "male": 3,
+          "female": 2
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "AFP (alpha-fetoprotein)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring",
+          "predictive"
+        ],
+        "prevalence": "Elevated in ~40-60% (smaller subset >400 ng/mL)",
+        "clinical_use": "Limited diagnostic adjunct; no longer sufficient alone for diagnosis. Monitoring for recurrence. AFP \u2265400 ng/mL predicts benefit from ramucirumab (REACH-2) in second line"
+      },
+      {
+        "name": "PIVKA-II / DCP (des-gamma-carboxy prothrombin)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Often elevated; variable by cohort",
+        "clinical_use": "Complementary to AFP; used in Asian practice and surveillance/diagnostic panels"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Not required for atezolizumab + bevacizumab first-line (IMbrave150) or tremelimumab + durvalumab (STRIDE, HIMALAYA)"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<3% (rare)",
+        "clinical_use": "Tissue-agnostic pembrolizumab if positive"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Generally low",
+        "clinical_use": "Tissue-agnostic pembrolizumab if TMB-H"
+      },
+      {
+        "name": "CTNNB1 (\u03b2-catenin)",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Wnt-pathway activation may predict reduced IO benefit ('cold' tumours)"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~25-35%",
+        "clinical_use": "Common in HBV-associated HCC; adverse prognostic association"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Most common somatic alteration; supportive molecular feature in hepatocarcinogenesis, but not a routine standalone diagnostic test"
+      },
+      {
+        "name": "Etiologic markers: HBV, HCV, alcohol, MASH",
+        "type": "clinical / serological",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Regional variation",
+        "clinical_use": "Guides surveillance, treatment of underlying disease (antivirals), and may influence systemic therapy outcomes; etiologic differences in IO responsiveness remain under active study"
+      },
+      {
+        "name": "ARID1A",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Recurrent chromatin-remodeling alteration in HCC"
+      },
+      {
+        "name": "AXIN1",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~5-15%",
+        "clinical_use": "Recurrent Wnt-pathway alteration in HCC"
+      },
+      {
+        "name": "ALB",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Recurrent somatic alteration described in HCC genomic series"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Hepatocyte-like cells arranged in trabecular, pseudoglandular, or solid patterns; bile production diagnostic",
+      "variants": [
+        "classic trabecular",
+        "pseudoglandular",
+        "solid / compact",
+        "scirrhous",
+        "clear cell",
+        "steatohepatitic (MASH-associated)",
+        "chromophobe",
+        "lymphoepithelioma-like (rare, EBV-associated cases reported)"
+      ],
+      "grading": "Edmondson-Steiner grade I-IV; also WHO differentiation grading"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Two dominant classes are often described: 'immune-inflamed' (more likely to respond to IO) vs 'immune-excluded' / immune-cold (including many Wnt/CTNNB1-activated tumours)",
+      "stromal_features": "Dysplastic/cirrhotic background often present; scirrhous variant has dense fibrous stroma; steatohepatitic variant has fat-laden background"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Hepatocytes or hepatic progenitor cells; some HCCs may arise from hepatic stem/progenitor cells with mixed hepatocellular/cholangiocellular potential",
+      "developmental_lineage": "Endoderm \u2014 foregut (hepatic diverticulum from primitive foregut)",
+      "differentiation_state": "Trabecular/plate hepatocellular architecture (Hep-Par1+, arginase-1+, glypican-3+, AFP+ in subset) reflecting hepatocyte lineage",
+      "lineage_plasticity": "Combined hepatocellular-cholangiocarcinoma (cHCC-CCA) reflects biphenotypic differentiation; CTNNB1-mutant HCCs have a distinct Wnt-driven immune-cold phenotype"
+    }
+  }
+}

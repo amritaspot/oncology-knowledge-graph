@@ -1,0 +1,104 @@
+{
+  "molecule_name": "Irinotecan Hydrochloride",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 74990,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Orotecan"
+  ],
+  "drug_class": "Topoisomerase I Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Oral formulation",
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Irinotecan is a chemotherapy drug that inhibits topoisomerase I, preventing DNA replication in cancer cells.",
+    "molecular_action": "Inhibition of topoisomerase I leads to DNA damage and apoptosis in cancer cells.",
+    "targets": [
+      "TOP1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA synthesis",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Recurrent Pediatric Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Pediatric oncology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT04337177"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data for VAL-413",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT04337177"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TOP1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

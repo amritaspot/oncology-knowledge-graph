@@ -1,0 +1,137 @@
+{
+  "molecule_name": "Afuresertib",
+  "identifiers": {
+    "FDA_UNII": "0V5QK9Q3Q8",
+    "PubChem_CID": 25141616,
+    "CAS_number": "1414301-16-9",
+    "NCI_Thesaurus_code": "C84892",
+    "development_codes": [
+      "GSK2110183"
+    ],
+    "identifier_scope": "Afuresertib"
+  },
+  "brand_names": [],
+  "drug_class": "AKT inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Afuresertib is a selective inhibitor of the serine/threonine kinase AKT, which is involved in the PI3K/AKT signaling pathway that regulates cell proliferation and survival.",
+    "molecular_action": "Inhibition of AKT kinase activity",
+    "targets": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective",
+    "doi": [
+      "10.1158/1535-7163.MCT-12-1189"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/25141616",
+      "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C84892"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive pharmacology and precision oncology data for Afuresertib.",
+    "mechanism_doi_meaning": "DOIs provide evidence for the mechanism of action of Afuresertib as an AKT inhibitor.",
+    "empty_mechanism_doi_meaning": "No additional DOIs were found for alternative mechanisms.",
+    "null_meaning": "No data available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01476137",
+      "NCT01473095",
+      "NCT04060394",
+      "NCT02240212",
+      "NCT05489744"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "AKT1",
+      "AKT2",
+      "AKT3"
+    ],
+    "pathways": [
+      "PI3K-Akt Signalling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "AKT1",
+        "pdb_id": "4GV1",
+        "alphafold_id": "P31749",
+        "resolution_angstroms": 2.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "AKT1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 8.0,
+        "doi_or_source": "10.1016/j.ccr.2012.08.017"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

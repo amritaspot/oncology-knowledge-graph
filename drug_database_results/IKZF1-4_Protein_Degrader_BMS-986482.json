@@ -1,0 +1,130 @@
+{
+  "molecule_name": "IKZF1-4 Protein Degrader BMS-986482",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 172581346,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Protein Degrader",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "BMS-986482 is designed to degrade IKZF1 and IKZF4 proteins, which are involved in the regulation of immune responses and cancer cell survival.",
+    "molecular_action": "CRBN-mediated degradation of IKZF1 and IKZF4 proteins.",
+    "targets": [
+      "IKZF1",
+      "IKZF4"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Modulation of immune response"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical development of BMS-986482",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2026-04-17"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06697197"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IKZF1",
+      "IKZF4"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IKZF1",
+        "pdb_id": null,
+        "alphafold_id": "P15923",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "IKZF4",
+        "pdb_id": null,
+        "alphafold_id": "Q9UKT9",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "IKZF1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 1.2,
+        "doi_or_source": "10.1016/j.chembiol.2020.06.012"
+      },
+      {
+        "target_symbol": "IKZF4",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 2.3,
+        "doi_or_source": "10.1016/j.chembiol.2020.06.012"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

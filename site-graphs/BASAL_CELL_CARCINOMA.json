@@ -1,0 +1,67 @@
+{
+  "BASAL_CELL_CARCINOMA": {
+    "name": "Basal cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "PTCH1 / SMO (Hedgehog pathway alterations)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~85-95%",
+        "clinical_use": "Core driver pathway in BCC; vismodegib and sonidegib (SMO inhibitors) for locally advanced or metastatic BCC"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50-70%",
+        "clinical_use": "Common UV-signature mutation characteristic of BCC"
+      },
+      {
+        "name": "Gorlin syndrome (germline PTCH1)",
+        "type": "germline",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Multiple BCCs at young age; odontogenic jaw cysts; palmar/plantar pits; medulloblastoma risk. Hedgehog-pathway targeting can reduce BCC burden in selected patients"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Not a validated companion diagnostic in BCC; cemiplimab is approved for locally advanced or metastatic BCC previously treated with a Hedgehog pathway inhibitor or for whom a Hedgehog pathway inhibitor is not appropriate"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Nests of basaloid cells with peripheral palisading arising from basal layer of epidermis; clefting artefact between tumour and stroma",
+      "variants": [
+        "nodular (most common, well-circumscribed)",
+        "superficial (multifocal, plaque-like)",
+        "morpheaform / infiltrative (aggressive, scar-like)",
+        "micronodular (aggressive)",
+        "basosquamous (aggressive)",
+        "pigmented"
+      ],
+      "grading": "No formal grading; growth pattern (superficial vs infiltrative) drives prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; peritumoural lymphocytic infiltrate common",
+      "stromal_features": "Characteristic clefting artefact (tumour separates from stroma during processing); myxoid stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal cells of interfollicular epidermis or hair follicle bulge stem cells",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Basaloid differentiation with characteristic peripheral palisading; expresses BerEP4, CD10, retains basal epidermal markers",
+      "lineage_plasticity": "Hedgehog pathway activation (PTCH1 loss, SMO activating mutations) drives biology near-universally \u2014 pathway activation redirects basal cells toward BCC phenotype"
+    }
+  }
+}

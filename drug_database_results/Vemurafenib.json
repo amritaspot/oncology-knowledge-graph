@@ -1,0 +1,126 @@
+{
+  "molecule_name": "Vemurafenib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 42611257,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "BRAF inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Vemurafenib is a targeted therapy that inhibits the BRAF V600E mutation, which is involved in cell growth and division.",
+    "molecular_action": "Inhibits BRAF V600E kinase activity, leading to decreased proliferation of cancer cells.",
+    "targets": [
+      "BRAF"
+    ],
+    "relevant_variants": [
+      "BRAF V600E"
+    ],
+    "downstream_effects": [
+      "Inhibition of the MAPK/ERK signaling pathway"
+    ],
+    "selectivity": "Selective for BRAF V600E mutation",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Melanoma",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced melanoma with BRAF V600E mutation",
+      "BRAF V600E mutation-positive solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Vemurafenib clinical data and trials",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT02693535",
+      "NCT05263453",
+      "NCT01611675"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BRAF"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BRAF",
+        "pdb_id": "3OG7",
+        "alphafold_id": "P15056",
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "BRAF",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 31.0,
+        "doi_or_source": "10.1126/science.1188463"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

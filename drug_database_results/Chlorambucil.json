@@ -1,0 +1,139 @@
+{
+  "molecule_name": "Chlorambucil",
+  "identifiers": {
+    "FDA_UNII": "0A0D1B1D1A",
+    "PubChem_CID": 2708,
+    "CAS_number": "305-03-3",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Leukeran"
+  ],
+  "drug_class": "Alkylating agent",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Chlorambucil works by interfering with the growth of cancer cells, preventing them from dividing and multiplying.",
+    "molecular_action": "Alkylates DNA, leading to cross-linking and subsequent cell death.",
+    "targets": [
+      "DNA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA synthesis",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Non-selective",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Chronic Lymphocytic Leukemia (CLL)",
+    "histology": "N/A",
+    "clinical_settings": [
+      "Oncology",
+      "Hematology"
+    ],
+    "scope": "Treatment of CLL and other hematological malignancies",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe bone marrow suppression",
+      "Hypersensitivity to chlorambucil"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Bone marrow suppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Chlorambucil can cause myelosuppression due to its cytotoxic effects on rapidly dividing cells in the bone marrow.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia",
+        "Thrombocytopenia"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Chlorambucil is approved for the treatment of chronic lymphocytic leukemia and has been studied in combination with other agents."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Chlorambucil as a treatment for CLL and other malignancies",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 2.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP2C19",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase IV",
+    "nct_trials": [
+      "NCT01056510",
+      "NCT00501995",
+      "NCT00417014"
+    ],
+    "regulatory_designations": [
+      "FDA approved",
+      "EMA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "0.1-0.2 mg/kg",
+    "objective_response_rate_pct": 50.0,
+    "median_pfs_months": 12.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "N/A"
+    ],
+    "pathways": [
+      "DNA damage response",
+      "Apoptosis signaling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

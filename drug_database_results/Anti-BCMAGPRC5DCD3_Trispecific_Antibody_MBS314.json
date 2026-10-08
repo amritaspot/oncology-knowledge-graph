@@ -1,0 +1,136 @@
+{
+  "molecule_name": "Anti-BCMA/GPRC5D/CD3 Trispecific Antibody MBS314",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "MBS314"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "MBS314 is a trispecific antibody designed to target and bind to BCMA, GPRC5D, and CD3, facilitating the recruitment of T-cells to multiple myeloma cells, thereby enhancing immune-mediated tumor cell killing.",
+    "molecular_action": "Binds to BCMA, GPRC5D, and CD3 to promote T-cell engagement and cytotoxicity against multiple myeloma cells.",
+    "targets": [
+      "BCMA",
+      "GPRC5D",
+      "CD3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed/Refractory Multiple Myeloma"
+    ],
+    "scope": "Investigational",
+    "reference_urls": [
+      "https://ashpublications.org/blood/article/146/Supplement+1/2274/553292/MBS314-a-GPRC5DxBCMAxCD3-trispecific-antibody-in",
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-bcma-gprc5d-cd3-trispecific-antibody-mbs314",
+      "https://www.sciencedirect.com/science/article/pii/S0006497124061081"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "https://ashpublications.org/blood/article/146/Supplement+1/2274/553292/MBS314-a-GPRC5DxBCMAxCD3-trispecific-antibody-in",
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-bcma-gprc5d-cd3-trispecific-antibody-mbs314",
+      "https://www.sciencedirect.com/science/article/pii/S0006497124061081"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "This record is focused on the investigational drug MBS314, a trispecific antibody targeting BCMA, GPRC5D, and CD3, currently in clinical trials for relapsed/refractory multiple myeloma.",
+    "mechanism_doi_meaning": "DOI references for the mechanism of action are not available at this time.",
+    "empty_mechanism_doi_meaning": "No DOI references are provided for the mechanism of action.",
+    "null_meaning": "Fields marked as null indicate that specific information is not available or not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06232096"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TNFRSF17",
+      "GPRC5D",
+      "CD3E"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BCMA",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "GPRC5D",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CD3",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

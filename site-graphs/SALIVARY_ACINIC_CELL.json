@@ -1,0 +1,34 @@
+{
+  "SALIVARY_ACINIC_CELL": {
+    "name": "Acinic cell carcinoma (salivary)",
+    "biomarkers": [
+      {
+        "name": "NR4A3 rearrangement / enhancer hijacking (including translocation involving 9q31)",
+        "type": "fusion / rearrangement",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~80\u201390%",
+        "clinical_use": "Diagnostic; NR4A3 overexpression is also detectable by NR4A3 IHC (nuclear staining)"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Serous acinar cells with cytoplasmic zymogen granules; solid, microcystic, papillary-cystic, or follicular patterns",
+      "variants": [
+        "classical",
+        "high-grade transformation (dedifferentiated) \u2014 worse prognosis"
+      ],
+      "grading": "Traditionally low-grade; high-grade transformation is aggressive"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised",
+      "stromal_features": "Minimal stroma; often circumscribed"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Serous acinar cells (parotid predominantly; occasionally submandibular)",
+      "developmental_lineage": "Endoderm \u2014 salivary secretory acini",
+      "differentiation_state": "Well-differentiated serous acinar cells with zymogen granules; ductal reserve cell origin proposed",
+      "lineage_plasticity": "High-grade transformation loses acinar differentiation and behaves aggressively"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "molecule_name": "NPX372",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "NPX372"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Bispecific Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "NPX372 is a bispecific antibody that targets B7-H7 on tumor cells and CD3 on T cells, facilitating T cell activation and redirection towards tumor cells expressing B7-H7.",
+    "molecular_action": "Binds to B7-H7 and CD3, activating T cells in proximity to tumor cells.",
+    "targets": [
+      "B7-H7",
+      "CD3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "T cell activation",
+      "Tumor cell lysis"
+    ],
+    "selectivity": "Selective for B7-H7 expressing tumor cells and CD3 on T cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid Tumor Malignancies",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": [
+      "https://clinicaltrials.gov/study/NCT07563829"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.gov/study/NCT07563829"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4354/757619/Abstract-4354-Safety-and-tolerability-of-NPX372-a"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "NPX372 as a bispecific antibody targeting B7-H7 and CD3 for solid tumors.",
+    "mechanism_doi_meaning": "DOIs are not available for the mechanism of action at this time.",
+    "empty_mechanism_doi_meaning": "No DOIs provided in the current data.",
+    "null_meaning": "Information not available or not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07563829"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD276",
+      "CD3E"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

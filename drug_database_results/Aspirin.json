@@ -1,0 +1,199 @@
+{
+  "molecule_name": "Aspirin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 2244,
+    "CAS_number": "50-78-2",
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Bayer Aspirin",
+    "Ecotrin",
+    "Bufferin"
+  ],
+  "drug_class": "Nonsteroidal Anti-Inflammatory Drug (NSAID)",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet",
+  "approved_countries": [
+    "United States",
+    "Canada",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Aspirin works by inhibiting the enzyme cyclooxygenase, which reduces the formation of prostaglandins involved in inflammation and pain.",
+    "molecular_action": "Inhibition of cyclooxygenase (COX-1 and COX-2) enzymes.",
+    "targets": [
+      "COX-1",
+      "COX-2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced inflammation",
+      "Decreased platelet aggregation"
+    ],
+    "selectivity": "Non-selective COX inhibitor",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Cardiovascular disease prevention",
+      "Pain relief",
+      "Anti-inflammatory treatment"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Colorectal cancer",
+      "molecular_context": "PIK3CA mutations",
+      "proposed_rationale": "Aspirin may reduce cancer mortality and metastasis risk.",
+      "evidence_level": "Clinical trials",
+      "human_evidence": "Studies show benefits in patients with specific mutations.",
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [
+      "Active gastrointestinal bleeding",
+      "Severe liver impairment",
+      "Allergy to aspirin or other NSAIDs"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Gastrointestinal bleeding",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of COX-1 reduces protective gastric mucosa.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Anemia",
+        "Hospitalization"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Allergic reactions",
+      "organ_system": "Immune system",
+      "biological_explanation": "Hypersensitivity to aspirin.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Anaphylaxis",
+        "Rash"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Aspirin's use in cardiovascular and cancer treatment.",
+    "mechanism_doi_meaning": "References for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this mechanism.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 0.25,
+    "biological_half_life_hours": 2.0,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP2C19"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT01758614",
+      "NCT06716255",
+      "NCT05093790"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "81 mg daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PTGS1",
+      "PTGS2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 2244,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PTGS1",
+        "pdb_id": "3N8Y",
+        "alphafold_id": "P23219",
+        "resolution_angstroms": 2.4,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "PTGS2",
+        "pdb_id": "5F19",
+        "alphafold_id": "P35354",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PTGS1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 3.0,
+        "doi_or_source": "10.1016/j.jmb.2010.10.030"
+      },
+      {
+        "target_symbol": "PTGS2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.jmb.2010.10.030"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

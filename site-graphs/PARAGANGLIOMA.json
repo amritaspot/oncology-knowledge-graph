@@ -1,0 +1,82 @@
+{
+  "PARAGANGLIOMA": {
+    "name": "Paraganglioma",
+    "biomarkers": [
+      {
+        "name": "SDHx (SDHA/B/C/D/AF2) mutations",
+        "type": "germline / somatic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~30-40% of PPGL have germline SDHx alterations; SDHx alterations are enriched in paraganglioma compared with adrenal pheochromocytoma",
+        "clinical_use": "SDHB is associated with the highest metastatic risk. SDHD shows parent-of-origin effect (typically paternal transmission) and is often associated with head and neck paraganglioma. Family screening is critical"
+      },
+      {
+        "name": "Plasma / urine metanephrines and normetanephrines",
+        "type": "serum / urine",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in secretory paraganglioma (mostly sympathetic); head/neck paragangliomas are usually non-secretory",
+        "clinical_use": "Diagnostic; monitoring"
+      },
+      {
+        "name": "Dopamine / methoxytyramine",
+        "type": "serum / urine",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Elevated in a subset of dopamine-secreting paragangliomas",
+        "clinical_use": "Elevated methoxytyramine is associated with SDHx-related disease and metastatic risk"
+      },
+      {
+        "name": "SDHB IHC",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Loss of SDHB staining in SDH-deficient tumours, including SDHx-mutant tumours",
+        "clinical_use": "Screening tool for SDH-deficient PGL/pheo"
+      },
+      {
+        "name": "SSTR2 / 68Ga-DOTATATE PET",
+        "type": "IHC / nuclear imaging",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Frequently strongly positive in head/neck paraganglioma and many SDHx-related tumours",
+        "clinical_use": "Highly sensitive imaging modality for head/neck and many SDHx-related paragangliomas; can help select patients for PRRT in metastatic disease"
+      },
+      {
+        "name": "Genetic panel (as per PHEOCHROMOCYTOMA)",
+        "type": "germline",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Guides screening and family testing; important drivers in PPGL include SDHx genes, VHL, RET, NF1, TMEM127, MAX, FH, EPAS1, and less commonly HRAS or somatic MAML3 fusion"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "'Zellballen' architecture identical to pheochromocytoma; extra-adrenal location distinguishes it",
+      "variants": [
+        "head and neck PGL (parasympathetic, usually non-secretory \u2014 carotid body, jugulotympanic, vagal, laryngeal)",
+        "sympathetic PGL (thoracic, abdominal, pelvic \u2014 usually secretory)"
+      ],
+      "grading": "GAPP score has been applied to PGL/PPGL, but there is no fully reliable histologic predictor of metastasis; metastatic disease defines malignancy in current WHO classification"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Zellballen architecture identical to pheo; extensive vascular network"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Extra-adrenal paraganglia (chief cells) \u2014 parasympathetic paraganglia in head/neck (carotid body, jugulotympanic, vagal) or sympathetic paraganglia in thoracoabdominal/pelvic regions",
+      "developmental_lineage": "Neural crest \u2014 same paraganglionic lineage as pheochromocytoma but extra-adrenal distribution",
+      "differentiation_state": "Retains paraganglion chief cell differentiation (chromogranin+, synaptophysin+) with sustentacular S100+ cells; often catecholamine-producing if sympathetic (secretory PGL), rarely secretory if parasympathetic (H&N PGL)",
+      "lineage_plasticity": "Same molecular cluster biology as pheochromocytoma (pseudohypoxia vs kinase signalling); SDHx mutations (especially SDHB) drive pseudohypoxic biology and increased metastatic risk"
+    }
+  }
+}

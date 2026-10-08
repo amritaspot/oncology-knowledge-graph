@@ -1,0 +1,94 @@
+{
+  "RHABDOMYOSARCOMA_EMBRYONAL": {
+    "name": "Rhabdomyosarcoma, embryonal",
+    "biomarkers": [
+      {
+        "name": "MyoD1, myogenin",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive; myogenin is typically patchy/focal in ERMS",
+        "clinical_use": "Patchy myogenin pattern favours ERMS over ARMS"
+      },
+      {
+        "name": "RAS pathway alterations (NRAS, KRAS, HRAS, NF1, FGFR4)",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "Common; pathway alterations in a substantial subset of fusion-negative/embryonal RMS",
+        "clinical_use": "Common drivers; potential pathway-directed clinical trial relevance"
+      },
+      {
+        "name": "TP53 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Adverse; Li-Fraumeni association"
+      },
+      {
+        "name": "MYOD1 L122R (spindle cell / sclerosing RMS)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Enriched in spindle cell / sclerosing RMS; uncommon in typical ERMS",
+        "clinical_use": "Worse prognosis than typical ERMS"
+      },
+      {
+        "name": "DICER1 (germline; embryonal RMS, especially genitourinary site)",
+        "type": "germline",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "DICER1 syndrome"
+      },
+      {
+        "name": "11p15 loss of heterozygosity / imprinting abnormalities",
+        "type": "copy_number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Characteristic molecular alteration in ERMS"
+      },
+      {
+        "name": "FOXO1 fusion status (negative)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Typically absent in ERMS",
+        "clinical_use": "Helps distinguish ERMS from fusion-positive ARMS"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Primitive spindle to round cells with rhabdomyoblastic differentiation; heterogeneous cellularity with hypercellular and hypocellular zones",
+      "variants": [
+        "classic embryonal RMS",
+        "botryoid (grape-like clusters in hollow organs \u2014 vagina, bladder, bile duct \u2014 best prognosis)",
+        "spindle cell / sclerosing RMS (MYOD1 L122R subset, adverse)",
+        "anaplastic ERMS"
+      ],
+      "grading": "Better prognosis than ARMS overall; specific variants have distinct behaviour"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Loose myxoid stroma alternating with cellular areas; botryoid variant has cambium layer"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Primitive mesenchymal cells with skeletal muscle differentiation potential",
+      "developmental_lineage": "Mesoderm \u2014 paraxial mesoderm (skeletal muscle precursor)",
+      "differentiation_state": "Primitive spindle to round cells with rhabdomyoblastic differentiation (MyoD1+, myogenin more heterogeneous than ARMS, desmin+); heterogeneous cellularity",
+      "lineage_plasticity": "No recurrent lineage-defining fusion; 11p15 loss of heterozygosity/imprinting abnormalities are common; RAS pathway alterations are frequent; DICER1 germline predisposes to a subset of embryonal RMS"
+    }
+  }
+}

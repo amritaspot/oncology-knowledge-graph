@@ -1,0 +1,91 @@
+{
+  "molecule_name": "Tamibarotene",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 108143,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Retinoid",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Tamibarotene is a synthetic retinoid that modulates gene expression through retinoic acid receptors (RARs).",
+    "molecular_action": "Activates retinoic acid receptors to induce differentiation of myeloid cells.",
+    "targets": [
+      "RARA",
+      "RARB",
+      "RARG"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of differentiation in acute myeloid leukemia (AML) cells."
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "Lupus Nephritis",
+      "Acute Myeloid Leukemia",
+      "Myelodysplastic Syndrome"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological data for Tamibarotene.",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT01226147",
+      "NCT02807558",
+      "NCT05064618"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "RARA",
+      "RARB",
+      "RARG"
+    ],
+    "pathways": []
+  }
+}

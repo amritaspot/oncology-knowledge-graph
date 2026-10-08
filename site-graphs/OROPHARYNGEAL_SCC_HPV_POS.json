@@ -1,0 +1,64 @@
+{
+  "OROPHARYNGEAL_SCC_HPV_POS": {
+    "name": "Oropharyngeal SCC, HPV-positive",
+    "biomarkers": [
+      {
+        "name": "HPV DNA / RNA (p16 IHC as surrogate)",
+        "type": "ISH / IHC / PCR",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Oncogenic HPV drives this entity, most commonly HPV-16. HPV positivity and p16 positivity are not perfectly concordant; '100% p16+' is true only for a cohort defined by p16 positivity, not for every transcriptionally active HPV-associated tumor.",
+        "clinical_use": "Defines the HPV-associated entity; p16 IHC is the accepted surrogate for AJCC 8 separate oropharyngeal staging, with positivity defined by moderate-to-strong nuclear and cytoplasmic staining in at least 70% of tumor cells. HPV-specific testing is indicated in selected settings, including discordant morphology and p16 results. E6/E7 RNA testing demonstrates transcriptionally active HPV; HPV DNA detection alone does not necessarily establish viral causation. HPV-associated disease generally has a better prognosis and is the subject of de-intensification trials, but HPV/p16 positivity alone does not justify treatment de-intensification outside an appropriate clinical trial."
+      },
+      {
+        "name": "Plasma ctDNA HPV (TTMV-HPV DNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a (assay); circulating HPV DNA is not detectable in every patient with HPV-associated disease.",
+        "clinical_use": "Emerging use for surveillance and detection of molecular residual disease; commercial assays such as NavDx are available. TTMV-HPV DNA is a specific circulating HPV DNA assay approach, not a synonym for all plasma HPV ctDNA assays. Optimal testing schedules and management of positive results remain under investigation; a survival benefit from assay-guided surveillance has not been established. Testing does not replace standard clinical evaluation, imaging, or pathological confirmation of suspected recurrence when feasible."
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; positivity depends on the assay, CPS threshold, and cohort and is not defined by HPV status.",
+        "clinical_use": "As for HPV-negative recurrent/metastatic HNSCC, PD-L1 CPS guides first-line pembrolizumab monotherapy eligibility: CPS at least 1 under the US FDA indication. Pembrolizumab plus platinum and fluorouracil is a first-line option regardless of CPS. HPV positivity alone is not a substitute for PD-L1 testing or a validated standalone predictor of PD-1 inhibitor benefit."
+      },
+      {
+        "name": "E6 / E7 oncoproteins",
+        "type": "expression / driver",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Expression of high-risk HPV E6/E7 is the hallmark viral driver mechanism; this does not mean that E6/E7 proteins are routinely measured or detected in every diagnostic specimen.",
+        "clinical_use": "E6 promotes p53 degradation, and E7 inactivates the RB pathway, producing characteristic p16 overexpression. Detection of E6/E7 RNA supports transcriptionally active HPV infection; direct oncoprotein testing is not a routine standalone diagnostic standard. E6/E7 are therapeutic vaccine targets in clinical trials. No recurrent host-gene mutation or driver fusion is required to define this entity."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Usually non-keratinizing SCC with basaloid features, often with a lymphoepithelioma-like appearance; morphology alone does not establish HPV association.",
+      "variants": [
+        "non-keratinizing (most common)",
+        "keratinizing variant (recognized in HPV-associated disease; an independently worse prognosis is not established sufficiently for routine prognostic classification)",
+        "papillary",
+        "adenosquamous (rare; HPV association requires appropriate testing)"
+      ],
+      "grading": "Conventional differentiation-based SCC grading is not recommended for HPV-associated oropharyngeal SCC. Its immature-appearing morphology should not automatically be interpreted as biologically poorly differentiated disease. AJCC 8 introduced separate p16-based staging."
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Frequently immune-inflamed or 'hot', with dense tumor-infiltrating lymphocytes and a distinctive immune signature, but substantial intertumoral heterogeneity exists.",
+      "stromal_features": "Often rich in lymphocytes, sometimes producing a lymphoepithelioma-like appearance; adjacent tonsillar lymphoid tissue also contributes to this appearance."
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thought to arise predominantly from the reticulated epithelium of palatine or lingual tonsillar crypts, a specialized permeable epithelium closely associated with lymphoid tissue; the precise initiating cell population is not definitively established.",
+      "developmental_lineage": "Generally attributed to pharyngeal endodermal epithelium; palatine tonsillar epithelium derives from the second pharyngeal pouch, rather than pharyngeal arch mesenchyme.",
+      "differentiation_state": "Usually non-keratinizing squamous, with immature-appearing basaloid morphology. Minimal keratinization is characteristic but not defining, because keratinizing HPV-associated tumors occur; this appearance is not equivalent to conventional poor differentiation.",
+      "lineage_plasticity": "HPV E6/E7 disrupt cell-cycle control and support cellular immortalization and malignant transformation. These effects do not themselves establish a specific lineage-plasticity program. Crypt epithelial architecture and sometimes discohesive growth may facilitate early access to lymphatics; frequent nodal spread can coexist with a favorable prognosis, but discohesion alone is not an established explanation."
+    }
+  }
+}

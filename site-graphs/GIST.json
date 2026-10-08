@@ -1,0 +1,103 @@
+{
+  "GIST": {
+    "name": "Gastrointestinal stromal tumour",
+    "biomarkers": [
+      {
+        "name": "KIT (CD117)",
+        "type": "IHC + mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~95% IHC-positive; ~75-80% harbour KIT mutations (exon 11 most common ~65%, exon 9 ~10-15%)",
+        "clinical_use": "Diagnostic hallmark. Exon 11: imatinib-sensitive (400 mg). Exon 9: imatinib-sensitive at 800 mg. Sunitinib, regorafenib, ripretinib for subsequent lines. Some exon 17 activation-loop mutations are imatinib-resistant; avapritinib has activity against selected activation-loop mutants"
+      },
+      {
+        "name": "DOG1 (ANO1)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~90-95%",
+        "clinical_use": "Diagnostic marker; often positive when KIT IHC negative"
+      },
+      {
+        "name": "PDGFRA",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~5-10% overall (higher in gastric, epithelioid)",
+        "clinical_use": "PDGFRA D842V is imatinib-resistant; avapritinib is the standard. Non-D842V PDGFRA: imatinib"
+      },
+      {
+        "name": "SDH-deficient (SDHA/B/C/D)",
+        "type": "mutation / IHC (SDHB loss)",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~5-10% of GIST",
+        "clinical_use": "Distinct subtype: young patients, gastric, multifocal, KIT/PDGFRA wild-type, relatively imatinib-insensitive. Carney triad, Carney-Stratakis syndrome. SDHB IHC screens for SDH-deficient GIST"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~1-2% (in KIT/PDGFRA-wildtype)",
+        "clinical_use": "Rare alternative driver in KIT/PDGFRA-wild-type GIST; may support MAPK-directed therapy in selected cases"
+      },
+      {
+        "name": "NF1 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "GIST occurs in a minority of NF1 patients",
+        "clinical_use": "Multiple GISTs in small bowel; KIT/PDGFRA wild-type; often less sensitive to imatinib"
+      },
+      {
+        "name": "NTRK / FGFR fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very rare (in KIT/PDGFRA-wildtype)",
+        "clinical_use": "NTRK fusions predict sensitivity to larotrectinib or entrectinib; rare kinase fusions may occur in KIT/PDGFRA-wild-type GIST"
+      },
+      {
+        "name": "Mitotic count, size, location",
+        "type": "morphology + anatomic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Modified NIH / AFIP risk stratification determines recurrence risk and supports adjuvant imatinib decisions (typically 3 years for high-risk imatinib-sensitive disease)"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Mesenchymal tumour of interstitial cells of Cajal \u2014 spindle cell, epithelioid, or mixed patterns",
+      "variants": [
+        "spindle cell (most common, ~70%)",
+        "epithelioid (esp. PDGFRA-mutant, gastric)",
+        "mixed / pleomorphic",
+        "SDH-deficient (paediatric, syndromic \u2014 Carney triad, Carney-Stratakis)"
+      ],
+      "grading": "AFIP / modified NIH risk categories based on size, mitotic index, location; not formally graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; some inflammatory infiltrate but IO responses generally modest",
+      "stromal_features": "Sparse fibrous stroma; multinodular or diffuse growth"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Interstitial cells of Cajal (ICC) \u2014 the enteric pacemaker cells regulating GI motility",
+      "developmental_lineage": "Mesoderm \u2014 mesenchymal derivative of GI tract",
+      "differentiation_state": "Retains ICC differentiation with CD117 (KIT) and DOG1 (ANO1) expression \u2014 both defining lineage markers",
+      "lineage_plasticity": "KIT-mutant, PDGFRA-mutant, and SDH-deficient (paediatric) subtypes represent distinct lineage biology; SDH-deficient GISTs have epithelioid morphology and different behaviour"
+    }
+  }
+}

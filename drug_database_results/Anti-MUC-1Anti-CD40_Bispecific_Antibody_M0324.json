@@ -1,0 +1,131 @@
+{
+  "molecule_name": "M0324",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Bispecific Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "M0324 is designed to conditionally activate immune cells in the presence of MUC-1-overexpressing tumor cells.",
+    "molecular_action": "M0324 is composed of an anti-MUC-1 IgG and two identical camelid heavy-chain variable domains (VHH) binding CD40.",
+    "targets": [
+      "MUC-1",
+      "CD40"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of immune cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Monotherapy",
+      "Combination with Pembrolizumab",
+      "Combination with Chemotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07166601"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MUC1",
+      "CD40"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PSMA",
+        "pdb_id": "5O5X",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Lys699",
+              "Asp453",
+              "Tyr700"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PSMA",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.37,
+        "doi_or_source": "10.1021/jm5014882"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "beta"
+    ],
+    "targeting_vector_type": "small molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

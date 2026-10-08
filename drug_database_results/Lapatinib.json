@@ -1,0 +1,135 @@
+{
+  "molecule_name": "Lapatinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 208908,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Lapatinib is a small molecule that inhibits the activity of the HER2 and EGFR tyrosine kinases, which are involved in the growth and spread of cancer cells.",
+    "molecular_action": "Inhibition of HER2 and EGFR signaling pathways.",
+    "targets": [
+      "HER2",
+      "EGFR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for HER2 and EGFR",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer",
+    "histology": "HER2-positive breast cancer",
+    "clinical_settings": [
+      "Locally advanced breast cancer",
+      "Metastatic breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Lapatinib clinical data and usage",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00513058",
+      "NCT01495884",
+      "NCT00363194"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ERBB2",
+      "EGFR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 208908,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/208908/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "1XKK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "ERBB2",
+        "pdb_id": "3PP0",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 10.8,
+        "doi_or_source": "10.1126/science.1102104"
+      },
+      {
+        "target_symbol": "ERBB2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 9.2,
+        "doi_or_source": "10.1126/science.1102104"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ORBITAL_SARCOMA": {
+    "name": "Orbital sarcoma",
+    "biomarkers": [
+      {
+        "name": "PAX3/7-FOXO1 (alveolar RMS)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in most fusion-positive alveolar rhabdomyosarcomas; uncommon in embryonal RMS",
+        "clinical_use": "See RHABDOMYOSARCOMA_ALVEOLAR"
+      },
+      {
+        "name": "Histology-specific biomarkers",
+        "type": "various",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "See SOFT_TISSUE_AND_BONE_SARCOMA section for RMS subtypes, other orbital sarcomas"
+      },
+      {
+        "name": "NAB2-STAT6 (solitary fibrous tumour)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic driver fusion in solitary fibrous tumour",
+        "clinical_use": "Supports diagnosis of solitary fibrous tumour of orbit; typically associated with STAT6 nuclear expression"
+      },
+      {
+        "name": "HHV-8/KSHV (Kaposi sarcoma)",
+        "type": "viral",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in Kaposi sarcoma",
+        "clinical_use": "Required diagnostic association for Kaposi sarcoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Heterogeneous category \u2014 histology depends on tumour type",
+      "variants": [
+        "embryonal or alveolar rhabdomyosarcoma (most common paediatric orbital sarcoma)",
+        "leiomyosarcoma",
+        "solitary fibrous tumour of orbit",
+        "Kaposi sarcoma (adnexal)"
+      ],
+      "grading": "As per histologic type"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per histologic type",
+      "stromal_features": "As per histologic type"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Heterogeneous \u2014 depends on tumour type: rhabdomyoblastic (from primitive mesenchymal cells in orbit for RMS), fibroblastic (SFT), smooth muscle (LMS), endothelial/spindle cell lineage associated with HHV-8 infection (Kaposi)",
+      "developmental_lineage": "Mesoderm \u2014 orbital mesenchyme",
+      "differentiation_state": "As per tumour type \u2014 see corresponding entries in SOFT_TISSUE_AND_BONE_SARCOMA for RMS subtypes and other sarcomas",
+      "lineage_plasticity": "As per underlying histology"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "molecule_name": "Brentuximab vedotin",
+  "identifiers": {
+    "FDA_UNII": "0B1D1B1D1B",
+    "PubChem_CID": 117174,
+    "CAS_number": "912454-96-6",
+    "NCI_Thesaurus_code": "C100123",
+    "development_codes": [
+      "SGN-35"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Adcetris"
+  ],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "ADC",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "Canada",
+    "EU"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Brentuximab vedotin is an antibody-drug conjugate that targets CD30, delivering a cytotoxic agent to cancer cells.",
+    "molecular_action": "Targets CD30 on tumor cells and delivers the cytotoxic agent MMAE, leading to cell death.",
+    "targets": [
+      "CD30"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Apoptosis of CD30-expressing cells"
+    ],
+    "selectivity": "High selectivity for CD30-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Hodgkin Lymphoma, Anaplastic Large Cell Lymphoma",
+    "histology": "CD30-positive lymphomas",
+    "clinical_settings": [
+      "Relapsed or refractory Hodgkin lymphoma",
+      "Relapsed or refractory anaplastic large cell lymphoma"
+    ],
+    "scope": "Oncology",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe hypersensitivity to Brentuximab vedotin or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Peripheral neuropathy",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Cytotoxic effects on peripheral nerves due to MMAE release.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Numbness",
+        "Tingling",
+        "Pain"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Infusion-related reactions",
+      "organ_system": "Immune system",
+      "biological_explanation": "Immune response to the antibody component.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Fever",
+        "Chills",
+        "Rash"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Brentuximab vedotin clinical data",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 4.5,
+    "biological_half_life_hours": 13.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT02734771",
+      "NCT01026415",
+      "NCT03373305"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "1.8 mg/kg every 3 weeks",
+    "objective_response_rate_pct": 75.0,
+    "median_pfs_months": 9.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD30"
+    ],
+    "pathways": [
+      "CD30 signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD30",
+        "pdb_id": null,
+        "alphafold_id": "P28908",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "FOLLICULAR_GRADE_1_2": {
+    "name": "Follicular lymphoma, grade 1-2",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + bone_marrow + spleen",
+      "characteristic_features": [
+        "widely disseminated at diagnosis (stage III-IV common)",
+        "waxing/waning nodes",
+        "BM involvement common (~40-70%)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "t(14;18)(q32;q21) IGH-BCL2",
+        "type": "FISH / IHC (BCL2)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~85%",
+        "clinical_use": "Defining feature in most grade 1-2 FL. Also detectable in healthy people at low levels \u2014 clinical context essential"
+      },
+      {
+        "name": "CD10, BCL6 (germinal centre markers)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Supports follicular / GC derivation"
+      },
+      {
+        "name": "CD20",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Rituximab or obinutuzumab target. Obinutuzumab-based chemoimmunotherapy improved progression-free survival versus rituximab-based therapy in GALLIUM; overall survival benefit not demonstrated. Loss at relapse possible"
+      },
+      {
+        "name": "CD19",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "CAR-T target in R/R FL after \u22652 lines (axi-cel \u2014 ZUMA-5; tisa-cel and liso-cel have also shown activity/approvals in R/R FL in some jurisdictions)."
+      },
+      {
+        "name": "EZH2 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-25%",
+        "clinical_use": "Tazemetostat (EZH2 inhibitor) approved for R/R EZH2-mutant FL and for R/R FL with no satisfactory alternative options; response rates are higher in EZH2-mutant disease"
+      },
+      {
+        "name": "FLIPI / FLIPI2 / PRIMA-PI",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "FLIPI: age >60, stage III-IV, Hb <120 g/L, LDH >ULN, >4 nodal areas. FLIPI2 uses age >60, Hb <120 g/L, \u03b22-microglobulin >ULN, bone marrow involvement, and largest node >6 cm. PRIMA-PI uses \u03b22-microglobulin and bone marrow involvement. Prognostic risk stratification rather than direct treatment-intensity selection"
+      },
+      {
+        "name": "POD24 (progression of disease within 24 months of therapy)",
+        "type": "clinical",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20% of treated FL",
+        "clinical_use": "Very adverse \u2014 associated with markedly inferior overall survival; triggers consideration of aggressive salvage strategies including cellular therapy in appropriate patients"
+      },
+      {
+        "name": "Bispecific antibodies (CD20 \u00d7 CD3): mosunetuzumab, epcoritamab",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Mosunetuzumab (GO29781) approved for R/R FL after \u22652 prior lines. Epcoritamab has shown activity in FL and may be available in some settings/ongoing studies"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA) / minimal residual disease",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "MRD/ctDNA tracking is emerging in FL trials and is not standard routine care"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Neoplastic follicles composed of centrocytes (small cleaved) and centroblasts (large non-cleaved) with attenuated mantle zones; back-to-back nodules effacing nodal architecture",
+      "variants": [
+        "grade 1 (0-5 centroblasts/HPF)",
+        "grade 2 (6-15 centroblasts/HPF)",
+        "diffuse follicular lymphoma",
+        "in-situ follicular neoplasia (precursor)",
+        "paediatric-type FL (localised, indolent, without BCL2 rearrangement)"
+      ],
+      "grading": "Grade 1-2 (indolent, treated similarly); grade 3A often managed similarly to indolent FL in many contexts; grade 3B treated as DLBCL/aggressive B-cell lymphoma"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Distinctive T cell / follicular dendritic cell microenvironment supports tumour cell survival \u2014 TME composition (including TFH cells and exhausted/checkpoint-expressing T-cell subsets such as LAG3+ cells) has prognostic associations; bispecific antibodies (mosunetuzumab CD20\u00d7CD3) exploit T cell engagement",
+      "stromal_features": "Nodular architecture with follicular dendritic cell meshwork (CD21+, CD23+); attenuated mantle zones"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells (centrocytes and centroblasts), usually with t(14;18)/BCL2 rearrangement",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (germinal centre B cells)",
+      "differentiation_state": "Retains germinal centre B-cell differentiation with characteristic follicular architecture; expresses germinal centre markers (BCL6+, CD10+, HGAL+) with BCL2 overexpression in most conventional cases (often from t(14;18)); CD5-, CD23 variable",
+      "lineage_plasticity": "Recapitulates germinal centre B-cell biology \u2014 t(14;18) drives BCL2 overexpression preventing apoptosis normally required for germinal centre selection; recurrent mutations including CREBBP, KMT2D, EZH2, TNFRSF14 and EP300 help maintain the germinal centre program; transformation to DLBCL (~2-3%/year) represents progression through additional genetic events such as TP53, MYC and CDKN2A alterations"
+    }
+  }
+}

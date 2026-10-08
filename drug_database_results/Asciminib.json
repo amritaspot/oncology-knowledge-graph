@@ -1,0 +1,129 @@
+{
+  "molecule_name": "Asciminib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 72165228,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Asciminib is a selective inhibitor of the ABL1 kinase, which is involved in the signaling pathways of certain cancers.",
+    "molecular_action": "Inhibits ABL1 kinase activity, leading to reduced proliferation of BCR-ABL positive cells.",
+    "targets": [
+      "ABL1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis in BCR-ABL positive cells"
+    ],
+    "selectivity": "Highly selective for ABL1 over other kinases",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Chronic Myeloid Leukemia (CML)",
+    "histology": null,
+    "clinical_settings": [
+      "First-line treatment for newly diagnosed CML",
+      "Treatment for CML patients resistant to other TKIs"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Asciminib clinical trials and pharmacological data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT03595917",
+      "NCT07804901",
+      "NCT07136428"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ABL1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ABL1",
+        "pdb_id": "7JX6",
+        "alphafold_id": "P00519",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met318",
+              "Thr315",
+              "Phe317"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ABL1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.ccell.2020.10.002"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

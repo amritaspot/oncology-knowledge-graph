@@ -1,0 +1,154 @@
+{
+  "molecule_name": "Dinaciclib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 46926350,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "CDK Inhibitor",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Dinaciclib inhibits cyclin-dependent kinases (CDKs), which are essential for cell cycle progression.",
+    "molecular_action": "Inhibits CDK1, CDK2, CDK5, and CDK9, blocking DNA replication and inducing apoptosis.",
+    "targets": [
+      "CDK1",
+      "CDK2",
+      "CDK5",
+      "CDK9"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of Rb phosphorylation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Chronic Lymphocytic Leukemia, Multiple Myeloma, Ovarian Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory Chronic Lymphocytic Leukemia",
+      "Relapsed Multiple Myeloma",
+      "Hematologic Malignancies"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Dinaciclib is under investigation for various cancer types.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01515176",
+      "NCT01711528",
+      "NCT02684617"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug Status"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CDK1",
+      "CDK2",
+      "CDK5",
+      "CDK9"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CDK2",
+        "pdb_id": "4KD1",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "CDK9",
+        "pdb_id": "3BLR",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.4,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CDK2",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 1.0,
+        "doi_or_source": "10.1021/jm301878w"
+      },
+      {
+        "target_symbol": "CDK9",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 4.0,
+        "doi_or_source": "10.1021/jm301878w"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

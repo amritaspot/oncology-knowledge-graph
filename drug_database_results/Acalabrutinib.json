@@ -1,0 +1,200 @@
+{
+  "molecule_name": "Acalabrutinib",
+  "identifiers": {
+    "FDA_UNII": "ZET57Q1T9K",
+    "PubChem_CID": 71202030,
+    "CAS_number": "1420477-60-6",
+    "NCI_Thesaurus_code": "C90580",
+    "development_codes": [
+      "ACP-196"
+    ],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Calquence"
+  ],
+  "drug_class": "Bruton tyrosine kinase inhibitor",
+  "modality": "small molecule",
+  "route": "oral",
+  "marketed_form": "capsule",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Acalabrutinib is a selective inhibitor of Bruton tyrosine kinase (BTK), which plays a crucial role in the B-cell receptor signaling pathway, leading to reduced proliferation and survival of malignant B-cells.",
+    "molecular_action": "BTK inhibition",
+    "targets": [
+      "BTK"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of B-cell receptor signaling",
+      "Reduced B-cell proliferation"
+    ],
+    "selectivity": "High selectivity for BTK over other kinases",
+    "doi": [
+      "10.1016/j.ccell.2016.10.001"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Chronic lymphocytic leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "First-line treatment",
+      "Relapsed/refractory"
+    ],
+    "scope": "approved",
+    "reference_urls": [
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/calquence-acalabrutinib"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe hepatic impairment"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210259s003lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Headache",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Unknown",
+      "mechanism_status": "observed",
+      "potential_consequences": [
+        "Discomfort",
+        "Reduced quality of life"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Unknown",
+      "mechanism_status": "observed",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fatigue",
+        "Myalgia"
+      ],
+      "biological_explanation": "Unknown",
+      "mechanism_status": "observed"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "CYP3A inhibitors",
+      "examples": [
+        "Ketoconazole"
+      ],
+      "biological_basis": "Acalabrutinib is metabolized by CYP3A4, and inhibitors can increase its plasma concentration."
+    },
+    {
+      "interacting_group": "CYP3A inducers",
+      "examples": [
+        "Rifampin"
+      ],
+      "biological_basis": "Inducers can decrease acalabrutinib plasma concentration, reducing efficacy."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/71202030"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/calquence-acalabrutinib"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "comprehensive",
+    "mechanism_doi_meaning": "DOIs provide evidence for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for some adverse effects.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 1.5,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT02029443",
+      "NCT02477696"
+    ],
+    "regulatory_designations": [
+      "Breakthrough Therapy",
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "100 mg twice daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BTK"
+    ],
+    "pathways": [
+      "B-cell receptor signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BTK",
+        "pdb_id": "5P9J",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "BTK",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.1,
+        "doi_or_source": "10.1016/j.chembiol.2017.06.011"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

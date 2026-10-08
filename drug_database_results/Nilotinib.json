@@ -1,0 +1,131 @@
+{
+  "molecule_name": "Nilotinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 644241,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Nilotinib is a tyrosine kinase inhibitor that targets BCR-ABL fusion protein, which is responsible for the growth of certain types of leukemia.",
+    "molecular_action": "Inhibits BCR-ABL tyrosine kinase activity.",
+    "targets": [
+      "BCR-ABL"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis in BCR-ABL positive cells"
+    ],
+    "selectivity": "Highly selective for BCR-ABL",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Chronic Myeloid Leukemia (CML)",
+    "histology": null,
+    "clinical_settings": [
+      "First-line treatment for CML",
+      "Treatment for CML patients resistant to imatinib"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Nilotinib clinical data and usage",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase III",
+    "nct_trials": [
+      "NCT01819389",
+      "NCT01743989",
+      "NCT00384228"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BCR",
+      "ABL1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 644241,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/644241/SDF?record_type=3d",
+    "rotatable_bonds": 7,
+    "target_structures": [
+      {
+        "target_symbol": "ABL1",
+        "pdb_id": "3CS9",
+        "alphafold_id": "P00519",
+        "resolution_angstroms": 1.95,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [
+              "Thr315",
+              "Met318",
+              "Phe317",
+              "Glu316"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ABL1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1126/science.1130742"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

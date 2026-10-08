@@ -1,0 +1,118 @@
+{
+  "molecule_name": "Ganitumab",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Ganitumab is a monoclonal antibody that targets the insulin-like growth factor 1 receptor (IGF-1R), which is involved in cancer cell growth and survival.",
+    "molecular_action": "Inhibits IGF-1R signaling, leading to reduced tumor growth and increased apoptosis in cancer cells.",
+    "targets": [
+      "IGF-1R"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced tumor proliferation",
+      "Increased apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Colorectal Cancer, Advanced Pancreatic Cancer, Ewing's Sarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Combination therapy with chemotherapy agents"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Ganitumab clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00788957",
+      "NCT00819169",
+      "NCT01479179"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IGF1R"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IGF1R",
+        "pdb_id": "3D94",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "IGF1R",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.17,
+        "doi_or_source": "10.1158/1535-7163.MCT-11-0635"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

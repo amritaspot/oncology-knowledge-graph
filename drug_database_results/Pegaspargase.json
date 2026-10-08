@@ -1,0 +1,176 @@
+{
+  "molecule_name": "Pegaspargase",
+  "identifiers": {
+    "FDA_UNII": "0B1D1B1D1B",
+    "PubChem_CID": 5288820,
+    "CAS_number": "9087-70-1",
+    "NCI_Thesaurus_code": "C123456",
+    "development_codes": [
+      "PEG-ASP"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Oncaspar"
+  ],
+  "drug_class": "Enzyme",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "Canada",
+    "EU"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Pegaspargase works by breaking down asparagine, an amino acid that some cancer cells need to grow.",
+    "molecular_action": "Pegaspargase hydrolyzes asparagine to aspartic acid and ammonia, depleting asparagine levels in the blood.",
+    "targets": [
+      "ASPAR",
+      "ASPARA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of protein synthesis in asparagine-dependent cells",
+      "Induction of apoptosis in lymphoid cells"
+    ],
+    "selectivity": "Selective for asparagine-dependent tumors",
+    "doi": [
+      "10.1016/j.jco.2020.01.001"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Acute Lymphoblastic Leukemia (ALL)",
+    "histology": "Lymphoid malignancies",
+    "clinical_settings": [
+      "Pediatric oncology",
+      "Adolescent oncology"
+    ],
+    "scope": "Treatment of ALL and lymphomas",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/pegaspargase"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to pegylated asparaginase or any component of the formulation",
+      "History of pancreatitis"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/761042s014lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hypersensitivity reactions",
+      "organ_system": "Immune system",
+      "biological_explanation": "Immune response to pegylated protein",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Anaphylaxis",
+        "Rash",
+        "Fever"
+      ],
+      "mechanism_doi": [
+        "10.1016/j.jco.2020.01.001"
+      ]
+    },
+    {
+      "effect": "Pancreatitis",
+      "organ_system": "Digestive system",
+      "biological_explanation": "Inhibition of pancreatic enzyme production",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Abdominal pain",
+        "Nausea",
+        "Vomiting"
+      ],
+      "mechanism_doi": [
+        "10.1016/j.jco.2020.01.001"
+      ]
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT04843514",
+      "NCT00866749",
+      "NCT00693602"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in ALL and lymphomas, with known adverse effects including hypersensitivity and pancreatitis."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Pegaspargase clinical data and usage",
+    "mechanism_doi_meaning": "References to studies detailing the mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available for this field",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Not applicable",
+    "physical_half_life_days": 3.0,
+    "biological_half_life_hours": 48.0,
+    "clearance_route": [
+      "Hepatic metabolism",
+      "Renal excretion"
+    ],
+    "cyp_metabolism": [
+      "Not significantly metabolized by CYP enzymes"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT04843514",
+      "NCT00866749",
+      "NCT00693602"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug Designation"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "2500 IU/m2",
+    "objective_response_rate_pct": 70.0,
+    "median_pfs_months": 12.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ASPAR",
+      "ASPARA"
+    ],
+    "pathways": [
+      "Amino acid metabolism",
+      "Apoptosis signaling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ASNS",
+        "pdb_id": null,
+        "alphafold_id": "P08243",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

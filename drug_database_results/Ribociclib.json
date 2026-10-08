@@ -1,0 +1,158 @@
+{
+  "molecule_name": "Ribociclib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 44631912,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "CDK4/6 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Ribociclib inhibits cyclin-dependent kinases 4 and 6, which are involved in cell cycle regulation.",
+    "molecular_action": "Inhibition of CDK4/6 leads to cell cycle arrest in the G1 phase.",
+    "targets": [
+      "CDK4",
+      "CDK6"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor cell proliferation"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer",
+    "histology": "Hormone Receptor-Positive, HER2-Negative",
+    "clinical_settings": [
+      "Adjuvant therapy in early breast cancer",
+      "Combination therapy with endocrine therapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Advanced Soft Tissue Sarcoma",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Ribociclib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03701334",
+      "NCT03009201",
+      "NCT05766410"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CDK4",
+      "CDK6"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 44631912,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/44631912/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CDK4",
+        "pdb_id": "5L2S",
+        "alphafold_id": "P11802",
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "CDK6",
+        "pdb_id": "6X7Z",
+        "alphafold_id": "Q00534",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CDK4",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 10.0,
+        "doi_or_source": "10.1016/j.ccell.2014.02.017"
+      },
+      {
+        "target_symbol": "CDK6",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 39.0,
+        "doi_or_source": "10.1016/j.ccell.2014.02.017"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

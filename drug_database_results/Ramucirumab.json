@@ -1,0 +1,122 @@
+{
+  "molecule_name": "Ramucirumab",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Cyramza"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Ramucirumab is a monoclonal antibody that inhibits vascular endothelial growth factor receptor 2 (VEGFR-2), which plays a key role in angiogenesis.",
+    "molecular_action": "Inhibition of VEGFR-2 signaling pathway.",
+    "targets": [
+      "VEGFR-2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced tumor blood supply",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Gastric cancer, Non-small cell lung cancer (NSCLC), Breast cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced gastric cancer",
+      "Unresectable hepatocellular carcinoma",
+      "Non-small cell lung cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacokinetics",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05800418",
+      "NCT05281926",
+      "NCT03689855"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KDR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "VEGFR2",
+        "pdb_id": "4BSK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "VEGFR2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 500.0,
+        "doi_or_source": "10.1016/j.cell.2013.02.011"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

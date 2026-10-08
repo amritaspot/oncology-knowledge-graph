@@ -1,0 +1,156 @@
+{
+  "molecule_name": "CD105/Yb-1/SOX2/CDH3/MDM2-polyepitope Plasmid DNA Vaccine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "STEMVAC",
+    "STEMVAC Th1 Polyepitope Plasmid-based Vaccine"
+  ],
+  "drug_class": "Vaccine",
+  "modality": "Plasmid DNA Vaccine",
+  "route": "Intramuscular (IM)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "This vaccine prompts the immune system to recognize and attack cancer cells by encoding specific proteins associated with tumors.",
+    "molecular_action": "The vaccine encodes epitopes from CD105, Yb-1, SOX2, CDH3, and MDM2, which are involved in tumor growth and immune evasion.",
+    "targets": [
+      "CD105",
+      "Yb-1",
+      "SOX2",
+      "CDH3",
+      "MDM2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of T-cells",
+      "Increased immune response against tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer, Triple-Negative Breast Cancer, HER2-Negative Breast Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Stage IV Non-Small Cell Lung Cancer",
+      "PD-L1 Negative Metastatic Triple-Negative Breast Cancer",
+      "HER2-Negative Stage III-IV Breast Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and vaccine mechanism",
+    "mechanism_doi_meaning": "No DOI available for mechanism",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05242965",
+      "NCT07078604",
+      "NCT02157051"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ENG",
+      "YBX1",
+      "SOX2",
+      "CDH3",
+      "MDM2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD105",
+        "pdb_id": null,
+        "alphafold_id": "Q9H6X2",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "YB-1",
+        "pdb_id": null,
+        "alphafold_id": "P67809",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "SOX2",
+        "pdb_id": "5X2P",
+        "alphafold_id": "P48431",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CDH3",
+        "pdb_id": null,
+        "alphafold_id": "P22223",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "MDM2",
+        "pdb_id": "1Z1M",
+        "alphafold_id": "Q00987",
+        "resolution_angstroms": 1.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

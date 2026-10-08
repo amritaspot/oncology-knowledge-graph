@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Mebendazole",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 4030,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Anthelmintic",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Mebendazole works by inhibiting the growth and reproduction of certain parasites.",
+    "molecular_action": "Inhibits microtubule formation in parasitic cells.",
+    "targets": [
+      "Tubulin"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell division in parasites",
+      "Disruption of glucose uptake in parasites"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colon Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant treatment for colon cancer",
+      "Treatment for schistosomiasis"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Mebendazole's use in cancer treatment and its clinical trial status.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT00000314",
+      "NCT03925662",
+      "NCT01050374"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "Up to 4 g/day",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TUBB",
+      "TUBA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 4030,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/4030/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TUBB",
+        "pdb_id": "5M8P",
+        "alphafold_id": "P07437",
+        "resolution_angstroms": 2.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Cys241",
+              "Glu198",
+              "Glu183"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TUBB",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 130.0,
+        "doi_or_source": "10.1016/j.bmcl.2016.12.040"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

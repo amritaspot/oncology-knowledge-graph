@@ -1,0 +1,76 @@
+{
+  "HIGH_GRADE_B_CELL_LYMPHOMA": {
+    "name": "High-grade B-cell lymphoma (double/triple hit)",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes and/or extranodal",
+      "characteristic_extranodal_sites": [
+        "bone marrow (common)",
+        "CNS",
+        "GI"
+      ],
+      "sanctuary_sites": [
+        "CNS (high relapse risk; CNS prophylaxis often considered in selected high-risk patients, but is not uniformly strongly recommended for all cases)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "MYC rearrangement + BCL2 rearrangement (double-hit) or all three including BCL6 (triple-hit)",
+        "type": "FISH",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "WHO 2022 requires MYC + BCL2 rearrangement for the high-grade B-cell lymphoma with MYC and BCL2 rearrangements diagnosis; cases may also have concurrent BCL6 rearrangement (triple-hit). MYC + BCL6 without BCL2 is no longer included in this entity and is generally classified as DLBCL, NOS or HGBL, NOS depending on morphology. Intensified regimens such as DA-EPOCH-R are often preferred in practice. Outcomes after CAR-T have been reported, but poor response is not established as a defining feature."
+      },
+      {
+        "name": "Cell-of-origin (usually GCB in MYC+BCL2 DHL)",
+        "type": "IHC / GEP",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually GCB",
+        "clinical_use": "Molecular characterization"
+      },
+      {
+        "name": "CD20, CD19, CD22, CD79b (same treatment biomarkers as DLBCL)",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequent expression of pan-B-cell markers, though not universal in every case",
+        "clinical_use": "See DLBCL_GCB"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common co-alteration",
+        "clinical_use": "Adverse; complicates DHL further"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrate of medium to large B lymphocytes with intermediate morphology between DLBCL and Burkitt lymphoma; starry-sky pattern in some cases",
+      "variants": [
+        "HGBL with MYC and BCL2 rearrangements (DHL)",
+        "HGBL with MYC and BCL2 and BCL6 rearrangements (THL)",
+        "HGBL, NOS",
+        "HGBL with 11q aberration (Burkitt-like)"
+      ],
+      "grading": "High-grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Aggressive with high proliferative index; TP53 co-alteration common; extranodal involvement especially CNS/BM",
+      "stromal_features": "Diffuse effacement with starry-sky pattern (macrophages engulfing apoptotic cells)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells with concurrent MYC and BCL2 rearrangements driving intermediate phenotype between DLBCL and Burkitt lymphoma",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (germinal centre B cells)",
+      "differentiation_state": "Intermediate morphology between DLBCL and Burkitt lymphoma; starry-sky pattern in some cases; retains B-cell markers with germinal centre programme (BCL6+, CD10+, BCL2+)",
+      "lineage_plasticity": "Concurrent MYC + BCL2 (or MYC + BCL2 + BCL6) rearrangements represent lineage-relevant events combining MYC deregulation with BCL2-mediated anti-apoptotic signaling; TP53 mutations are frequent co-alterations"
+    }
+  }
+}

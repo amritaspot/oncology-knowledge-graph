@@ -1,0 +1,81 @@
+{
+  "HISTIOCYTIC_SARCOMA": {
+    "name": "Histiocytic sarcoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "extranodal_and_or_nodal",
+      "characteristic_sites": [
+        "GI tract",
+        "skin",
+        "soft tissue",
+        "lymph node",
+        "spleen"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "CD68, CD163, lysozyme, CD4 (some)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typically positive",
+        "clinical_use": "Confirms histiocytic differentiation; distinguishes from carcinoma, sarcoma, lymphoma"
+      },
+      {
+        "name": "CD1a, langerin, S100 (weak or negative)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "CD1a and langerin negative; S100 variable, often negative or weak/focal",
+        "clinical_use": "Distinguishes from LCH and dendritic cell sarcomas"
+      },
+      {
+        "name": "B-cell / T-cell clonality assessment (IGH-TCR rearrangement)",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Can be positive in cases arising by transdifferentiation from lymphoid neoplasms",
+        "clinical_use": "Same clone as prior follicular lymphoma or CLL supports transdifferentiated origin"
+      },
+      {
+        "name": "BRAF V600E and other MAPK pathway alterations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "MAPK-pathway targeted therapy may be considered when identified"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Anti-PD-1 responses reported in case reports"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large pleomorphic cells with abundant eosinophilic cytoplasm, vesicular nuclei, prominent nucleoli, and histiocytic differentiation by IHC",
+      "variants": [
+        "de novo histiocytic sarcoma",
+        "transdifferentiated from lymphoid neoplasm (follicular lymphoma, CLL \u2014 same clonal IGH/TCR rearrangement may be demonstrated depending on antecedent neoplasm)"
+      ],
+      "grading": "Aggressive by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "MAPK pathway alterations in a subset may enable targeted therapy; PD-L1 expression and anti-PD-1 responses have been reported anecdotally",
+      "stromal_features": "Large pleomorphic histiocytic infiltrate; may be localized or widely disseminated at diagnosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature tissue histiocytes; some cases arise from lineage switching / transdifferentiation of lymphoid neoplasm (follicular lymphoma, CLL) \u2014 same clonal origin",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (mature tissue histiocytic lineage)",
+      "differentiation_state": "Large pleomorphic histiocytic differentiation (CD68+, CD163+, lysozyme+) with abundant eosinophilic cytoplasm; CD1a-negative, S100 variable",
+      "lineage_plasticity": "Transdifferentiation from lymphoid neoplasm (follicular lymphoma, CLL) is documented \u2014 shared clonal immunoglobulin/T-cell receptor rearrangements may be demonstrable depending on antecedent neoplasm \u2014 represents extreme lineage plasticity from lymphoid to myeloid histiocytic phenotype; MAPK pathway alterations in subset enable targeted therapy"
+    }
+  }
+}

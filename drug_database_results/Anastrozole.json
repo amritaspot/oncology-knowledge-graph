@@ -1,0 +1,185 @@
+{
+  "molecule_name": "Anastrozole",
+  "identifiers": {
+    "FDA_UNII": "2Z07MYW1AZ",
+    "PubChem_CID": 2187,
+    "CAS_number": "120511-73-1",
+    "NCI_Thesaurus_code": "C1528",
+    "development_codes": [],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Arimidex"
+  ],
+  "drug_class": "Aromatase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada",
+    "Australia"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Anastrozole inhibits the aromatase enzyme, reducing estrogen production and slowing the growth of estrogen-dependent tumors.",
+    "molecular_action": "Aromatase inhibition",
+    "targets": [
+      "CYP19A1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Decreased estrogen levels",
+      "Reduced tumor growth"
+    ],
+    "selectivity": "Selective for aromatase",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer",
+    "histology": "Hormone Receptor Positive",
+    "clinical_settings": [
+      "Adjuvant therapy",
+      "Metastatic breast cancer"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Premenopausal women"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hot flashes",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Reduction in estrogen levels",
+      "mechanism_status": "Established",
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Osteoporosis",
+      "organ_system": "Skeletal",
+      "biological_explanation": "Decreased estrogen levels leading to reduced bone density",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Increased fracture risk"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Nausea",
+        "Fatigue",
+        "Arthralgia"
+      ],
+      "biological_explanation": null,
+      "mechanism_status": "Observed"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Estrogen-containing therapies",
+      "examples": [
+        "Hormone replacement therapy"
+      ],
+      "biological_basis": "May counteract the effect of anastrozole"
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Anastrozole",
+      "https://www.drugs.com/monograph/anastrozole.html"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/anastrozole",
+      "https://www.mayoclinic.org/drugs-supplements/anastrozole-oral-route/description/drg-20061805"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive drug profile for Anastrozole",
+    "mechanism_doi_meaning": "DOIs for mechanism of action references",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism",
+    "null_meaning": "Data not available or not applicable",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 50.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00002654",
+      "NCT00066573",
+      "NCT00687648",
+      "NCT00629616"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP19A1"
+    ],
+    "pathways": [
+      "Estrogen biosynthesis"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CYP19A1",
+        "pdb_id": "3S7S",
+        "alphafold_id": "P11511",
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CYP19A1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 15.0,
+        "doi_or_source": "10.1016/j.bmc.2009.12.049"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

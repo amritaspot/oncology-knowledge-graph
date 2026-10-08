@@ -1,0 +1,35 @@
+{
+  "PRIMARY_CNS_LYMPHOMA": {
+    "name": "Primary CNS lymphoma",
+    "biomarkers": [
+      {
+        "name": "See PRIMARY_CNS_LYMPHOMA_B_CELL under B_CELL_NHL section",
+        "type": "cross-reference",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Usually CD20-positive large B-cell lymphoma with non-GCB/ABC phenotype in the great majority of cases. MYD88 L265P and CD79B mutations are common and enriched versus systemic DLBCL; no pathognomonic driver fusion is established for routine clinical use."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse large B-cell lymphoma morphology with angiocentric growth pattern (perivascular tumour cell aggregation)",
+      "variants": [
+        "DLBCL of activated B-cell (ABC)/non-GCB subtype (most common)",
+        "less common: T-cell PCNSL, Hodgkin lymphoma of CNS"
+      ],
+      "grading": "Aggressive by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Distinctive \u2014 dense B-cell tumour infiltrate with reactive T cells and microglia/macrophages; blood-brain and blood-CSF barriers limit delivery of many systemic agents",
+      "stromal_features": "Angiocentric growth around blood vessels; reactive gliosis around infiltrate"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Post-germinal centre/late germinal centre B cells with tropism for the CNS microenvironment",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (B lymphocytes) migrating to CNS",
+      "differentiation_state": "DLBCL of ABC/non-GCB subtype in the great majority of cases, with characteristic CNS tropism; MYD88 L265P and CD79B mutations are enriched, often fitting the MCD genetic subtype",
+      "lineage_plasticity": "See also B_CELL_NHL/PRIMARY_CNS_LYMPHOMA_B_CELL for lineage details; CNS-restricted disease has distinct tropism-defining biology, but specific homing programs are not established as routine clinical biomarkers"
+    }
+  }
+}

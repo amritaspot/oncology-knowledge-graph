@@ -1,0 +1,86 @@
+{
+  "molecule_name": "IMSA101",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "IMSA101 is a STING agonist that enhances immune response by inducing the secretion of IL-18, which can improve the activity of CAR-T cells.",
+    "molecular_action": "Activation of the STING pathway leading to increased production of pro-inflammatory cytokines such as IL-18.",
+    "targets": [
+      "STING"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced CAR-T cell activity",
+      "Increased IL-18 secretion"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "IMSA101 as a STING agonist in clinical trials and preclinical studies.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action at this time.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05846659",
+      "NCT06026254",
+      "NCT05846646"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TMEM173"
+    ],
+    "pathways": [
+      "STING pathway"
+    ]
+  }
+}

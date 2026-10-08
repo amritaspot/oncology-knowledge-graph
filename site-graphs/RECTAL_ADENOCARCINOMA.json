@@ -1,0 +1,99 @@
+{
+  "RECTAL_ADENOCARCINOMA": {
+    "name": "Rectal adenocarcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Riihim\u00e4ki M, Hemminki A, Sundquist J, Hemminki K. Patterns of metastasis in colon and rectal cancer. Scientific Reports. 2016;6:29765.",
+        "doi": "10.1038/srep29765",
+        "study_type": "Population-based registry study; Swedish Cancer Registry linked with National Patient Register and Cause of Death Register; n=17,811 rectal cancer patients",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "HEPATOBILIARY": {
+          "frequency_pct": 70
+        },
+        "PULMONARY": {
+          "frequency_pct": 47
+        },
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 12
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 8
+        },
+        "GASTROINTESTINAL": {
+          "frequency_pct_range": "low (peritoneum OR 0.33 vs colon)"
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "KRAS, NRAS, BRAF V600E, HER2, MSI/dMMR, NTRK/ALK/ROS1/RET fusions",
+        "type": "various",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Broadly similar molecular testing paradigm to left-sided colon cancer; RAS mutations are common, BRAF V600E and MSI/dMMR are less frequent in rectum than in right colon; HER2 amplification and kinase fusions are uncommon but actionable in selected cases",
+        "clinical_use": "Same targeted-therapy landscape as COLON_ADENOCARCINOMA \u2014 rectal is biologically part of the CRC continuum"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-10% of rectal adenocarcinomas (lower than right colon)",
+        "clinical_use": "Neoadjuvant dostarlimab monotherapy \u2014 Cercek et al. NEJM 2022 reported 100% complete clinical response in the initial dMMR locally advanced rectal cancer cohort (n=12); subsequent expansion maintained very high response rates, supporting organ-preserving nonoperative management in selected patients"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Investigational/adjunctive for post-TNT response prediction and MRD monitoring; not yet standard-alone for watch-and-wait candidate selection"
+      },
+      {
+        "name": "MRI tumour regression grade (mrTRG)",
+        "type": "imaging",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Assesses response to neoadjuvant CRT / TNT; contributes to watch-and-wait vs surgery decision"
+      },
+      {
+        "name": "CEA, CA 19-9",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "CEA is standard for surveillance monitoring; CA 19-9 is not a routine standard surveillance biomarker for rectal adenocarcinoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Adenocarcinoma similar to colon; distal location; anatomic constraint drives distinct treatment approach",
+      "variants": [
+        "conventional adenocarcinoma NOS",
+        "mucinous",
+        "signet-ring cell (rare)",
+        "medullary (rare; typically MSI-H/dMMR, uncommon in rectum)"
+      ],
+      "grading": "Well / moderately / poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Similar spectrum to colon \u2014 MSI-H/dMMR is uncommon in rectum (~5-10% and lower than right colon)",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Intestinal stem/progenitor cells at the crypt base of rectal mucosa",
+      "developmental_lineage": "Endoderm \u2014 hindgut derivative",
+      "differentiation_state": "Same intestinal-type glandular differentiation as colon adenocarcinoma; CMS2 (canonical) and CMS4 (mesenchymal) are common CRC transcriptional programs, but no single CMS predominance is specific enough for routine rectal classification",
+      "lineage_plasticity": "Same adenoma-carcinoma sequence as left-sided colon is common (e.g., APC \u2192 KRAS/NRAS \u2192 TP53), with additional actionable alterations in a minority such as ERBB2 amplification and rare NTRK/ALK/ROS1/RET fusions"
+    }
+  }
+}

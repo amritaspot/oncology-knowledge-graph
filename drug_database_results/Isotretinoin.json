@@ -1,0 +1,144 @@
+{
+  "molecule_name": "Isotretinoin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5282379,
+    "CAS_number": "4759-48-2",
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "13-cRA",
+      "13-cis retinoic acid",
+      "13-cis-Retinoate"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Roaccutane"
+  ],
+  "drug_class": "Retinoid",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Isotretinoin works by decreasing the amount of oil released by oil glands in the skin, helping to renew skin more quickly.",
+    "molecular_action": "Isotretinoin is a derivative of vitamin A that regulates gene expression and cellular differentiation.",
+    "targets": [
+      "RARA",
+      "RXRA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced sebum production",
+      "Decreased acne lesions"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Severe acne",
+      "Cutaneous lymphoma",
+      "Severe recurrent vesicular hand eczema"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Lactation",
+      "Hypervitaminosis A"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Dry skin",
+      "organ_system": "Dermatological",
+      "biological_explanation": "Decreased sebaceous gland activity.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Skin irritation",
+        "Increased sensitivity to sunlight"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Teratogenic effects",
+      "organ_system": "Reproductive",
+      "biological_explanation": "Isotretinoin can cause severe birth defects.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Birth defects",
+        "Pregnancy loss"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Isotretinoin clinical data and trials",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 20.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP2C8",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03026946",
+      "NCT07309341",
+      "NCT02039895"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "0.5 to 1 mg/kg/day",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "RARA",
+      "RXRA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 5282379,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5282379/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

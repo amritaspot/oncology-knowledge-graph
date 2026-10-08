@@ -1,0 +1,71 @@
+{
+  "APL": {
+    "name": "Acute promyelocytic leukaemia (PML-RARA)",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_extramedullary_sites": [
+        "CNS (particularly in high-WBC/hyperleukocytic disease and at relapse; overall uncommon at presentation)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "t(15;17) PML-RARA fusion",
+        "type": "fusion / cytogenetic",
+        "categories": [
+          "diagnostic",
+          "predictive",
+          "monitoring"
+        ],
+        "prevalence": "~95-98% of APL",
+        "clinical_use": "Defining event in classic APL. ATRA + arsenic trioxide is standard curative therapy (>90% cure in non-high-risk disease and very high cure rates overall in modern protocols; Lo-Coco APL0406 established chemotherapy-free ATRA+ATO for non-high-risk APL). MRD monitoring by RQ-PCR"
+      },
+      {
+        "name": "Variant RARA fusions (PLZF-RARA, NPM-RARA, NuMA-RARA, STAT5b-RARA)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "PLZF-RARA (ZBTB16-RARA) is classically resistant to ATRA and arsenic trioxide \u2014 critical to distinguish from PML-RARA"
+      },
+      {
+        "name": "FLT3-ITD",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20-40% of APL",
+        "clinical_use": "Associates with hyperleukocytosis/microgranular variant and adverse presentation features including increased early hemorrhagic risk"
+      },
+      {
+        "name": "Sanz risk score (WBC and platelet count)",
+        "type": "clinical",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Low (WBC \u226410, plt >40); intermediate (WBC \u226410, plt \u226440); high (WBC >10). Guides treatment intensity/risk stratification"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Hypergranular promyelocytes with numerous Auer rods ('faggot cells' \u2014 bundles of Auer rods), reniform / bilobed / dumbbell-shaped nuclei",
+      "variants": [
+        "hypergranular (M3, ~70-80%)",
+        "microgranular / hypogranular (M3v, ~20-30%, often hyperleukocytic)",
+        "very rare: basophilic variant"
+      ],
+      "grading": "Not graded; Sanz risk score for stratification"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not the paradigm \u2014 DIC/coagulopathy from procoagulant and fibrinolytic activity associated with promyelocytes is the defining pathophysiology, not immune interaction",
+      "stromal_features": "Marrow infiltration by promyelocytes; extensive Auer rod formation is hallmark"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC or myeloid progenitor with maturation arrest at promyelocyte stage",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Uniquely arrested at promyelocyte stage with characteristic hypergranular morphology (numerous Auer rods, 'faggot cells' \u2014 bundles of Auer rods), reniform / bilobed / dumbbell-shaped nuclei",
+      "lineage_plasticity": "PML-RARA fusion (from t(15;17)) is defining lineage-locking event \u2014 recruits transcriptional co-repressors and epigenetic repressors to retinoid target genes, blocking terminal differentiation; ATRA reverses this repression and promotes PML-RARA degradation; arsenic trioxide targets the PML component directly"
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "NSCLC_ADENOCARCINOMA": {
+    "name": "NSCLC \u2014 adenocarcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Wang X, Wang Z, Pan J, et al. Patterns of Extrathoracic Metastases in Different Histological Types of Lung Cancer. Front Oncol. 2020;10:715.",
+        "doi": "10.3389/fonc.2020.00715",
+        "study_type": "Population-based SEER analysis; n=159,241 lung cancer patients diagnosed 2010-2014",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 21.5
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 15.0
+        },
+        "HEPATOBILIARY": {
+          "frequency_pct": 8.8
+        },
+        "IMMUNE_HYPERSENSITIVITY": {
+          "frequency_pct": 6.4
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "EGFR",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15% US/EU unselected; ~30-50% East Asian, never-smokers, female",
+        "clinical_use": "Classical mutations (ex19del ~45%, L858R ~40%): first-line osimertinib. Adjuvant osimertinib post-resection (ADAURA). Atypical mutations (G719X, L861Q, S768I) \u2014 afatinib. Exon 20 insertions \u2014 amivantamab"
+      },
+      {
+        "name": "EGFR T790M",
+        "type": "resistance mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~50-60% of post-1G/2G-EGFR-TKI progressors",
+        "clinical_use": "Osimertinib for T790M-positive disease after progression on earlier-generation EGFR TKIs; as osimertinib is now commonly used first-line, acquired T790M is mainly of historical/selected sequencing relevance rather than a usual post-osimertinib marker"
+      },
+      {
+        "name": "ALK fusions (EML4-ALK most common)",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-7%",
+        "clinical_use": "Alectinib, brigatinib, lorlatinib first-line. Adjuvant alectinib (ALINA). Higher rate in never-smokers and younger"
+      },
+      {
+        "name": "ROS1 fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~1-2%",
+        "clinical_use": "Entrectinib or crizotinib first-line; repotrectinib for post-progression / CNS disease"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~1-2%",
+        "clinical_use": "Dabrafenib + trametinib"
+      },
+      {
+        "name": "KRAS G12C",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~12-13% of lung adenocarcinoma",
+        "clinical_use": "Sotorasib, adagrasib post-progression on first-line"
+      },
+      {
+        "name": "KRAS non-G12C",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15-20%",
+        "clinical_use": "No approved targeted therapy; may predict reduced benefit from EGFR-directed therapy"
+      },
+      {
+        "name": "MET exon 14 skipping",
+        "type": "splicing mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-4%",
+        "clinical_use": "Capmatinib, tepotinib"
+      },
+      {
+        "name": "MET amplification",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~1-5% de novo; higher as acquired resistance to EGFR TKI",
+        "clinical_use": "Capmatinib has activity in high-level MET-amplified NSCLC; MET-directed combinations with osimertinib are used/investigated in EGFR-mutant post-TKI resistance"
+      },
+      {
+        "name": "RET fusions (KIF5B-RET most common)",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~1-2%",
+        "clinical_use": "Selpercatinib, pralsetinib"
+      },
+      {
+        "name": "HER2 (ERBB2) mutations",
+        "type": "mutation (exon 20 insertions)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2-4%",
+        "clinical_use": "Trastuzumab deruxtecan (T-DXd)"
+      },
+      {
+        "name": "NTRK1/2/3 fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<1%",
+        "clinical_use": "Larotrectinib, entrectinib (tissue-agnostic)"
+      },
+      {
+        "name": "PD-L1 (TPS by 22C3)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "TPS \u22651% in ~60-65%; TPS \u226550% in ~25-30%",
+        "clinical_use": "TPS \u226550%: pembrolizumab monotherapy first-line. TPS \u22651% and driver-negative: various IO/chemo-IO regimens"
+      },
+      {
+        "name": "STK11 / KEAP1 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "STK11 ~15-20%; KEAP1 ~15-20%",
+        "clinical_use": "Negative predictor for immune checkpoint inhibitor benefit; co-occurring with KRAS often"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic (mut/Mb)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; higher in smokers",
+        "clinical_use": "Predictive value for immunotherapy is context-dependent; tissue-agnostic pembrolizumab may be used if TMB \u226510 mut/Mb"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Glandular differentiation with mucin production; multiple architectural patterns often coexist within a single tumour",
+      "variants": [
+        "lepidic (best prognosis)",
+        "acinar",
+        "papillary",
+        "micropapillary (worse prognosis)",
+        "solid (worse prognosis)",
+        "invasive mucinous",
+        "colloid",
+        "fetal",
+        "enteric"
+      ],
+      "grading": "IASLC 2020 grading system based on dominant pattern + high-grade component (grade 1-3) \u2014 replaces older schemes"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Highly variable \u2014 from immune-desert (STK11/KEAP1) to inflamed (PD-L1 high, smokers)",
+      "stromal_features": "Desmoplastic; variable fibrosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Alveolar type II pneumocytes (AT2 cells) and club cells \u2014 bronchioalveolar stem/progenitor populations at bronchioalveolar duct junctions have been implicated in some models",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative (lung bud from primitive foregut)",
+      "differentiation_state": "Variable \u2014 lepidic pattern retains AT2 differentiation with intact TTF-1 and napsin A expression; solid pattern loses architectural differentiation",
+      "lineage_plasticity": "EGFR-mutant adenocarcinomas can undergo lineage switching to small cell (neuroendocrine transformation) after TKI therapy \u2014 RB1+TP53 co-loss enables this; squamous transformation also documented"
+    }
+  }
+}

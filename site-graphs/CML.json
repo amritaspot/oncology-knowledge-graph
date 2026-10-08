@@ -1,0 +1,90 @@
+{
+  "CML": {
+    "name": "Chronic myeloid leukaemia (BCR-ABL1)",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood + spleen",
+      "characteristic_extramedullary_sites": [
+        "spleen (splenomegaly common)",
+        "liver (less common)"
+      ],
+      "staging_system": "Phases: chronic phase, accelerated phase, blast phase (>=20% blasts, resembles acute leukaemia). Risk scores: Sokal, EUTOS, ELTS."
+    },
+    "biomarkers": [
+      {
+        "name": "BCR-ABL1 t(9;22)",
+        "type": "fusion / cytogenetic / RQ-PCR",
+        "categories": [
+          "diagnostic",
+          "predictive",
+          "monitoring"
+        ],
+        "prevalence": ">95% (defining; rare cryptic/variant rearrangements detectable by FISH/PCR)",
+        "clinical_use": "Diagnosis by cytogenetics/FISH/PCR. Standardised RQ-PCR (International Scale \u2014 IS) for monitoring response. Response milestones: BCR-ABL1 <=10% at 3 months, <=1% at 6 months, <=0.1% (MMR) by 12 months. Treatment-free remission possible in sustained deep molecular response (typically MR4 or MR4.5, depending on protocol)"
+      },
+      {
+        "name": "p210 vs p190 vs p230 transcript",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "p210 (e13a2, e14a2) ~95% of CML; p190 rare; p230 very rare",
+        "clinical_use": "Helps distinguish typical CML from rarer BCR-ABL1-positive myeloid neoplasms and from Ph+ ALL, in which p190 is more common"
+      },
+      {
+        "name": "ABL kinase domain mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Acquired resistance",
+        "clinical_use": "Guide TKI selection at resistance. T315I: ponatinib or asciminib. F317L/V/I/C and V299L: nilotinib preferred over dasatinib. Y253H, E255K/V, F359V/C/I: dasatinib preferred over nilotinib"
+      },
+      {
+        "name": "Additional cytogenetic abnormalities (ACAs)",
+        "type": "cytogenetic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Can emerge during progression; more common in accelerated / blast phase",
+        "clinical_use": "Adverse; especially major-route abnormalities such as +8, an additional Ph, i(17q), +19; complex abnormalities and certain lesions including -7/7q- are also adverse"
+      },
+      {
+        "name": "Sokal, EUTOS, ELTS risk scores",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "ELTS is commonly preferred for TKI-era survival prediction. Sokal: age, spleen, platelet, blasts. ELTS: age, spleen size, platelet count, peripheral blood blasts"
+      },
+      {
+        "name": "Asciminib response (STAMP allosteric inhibitor)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Approved for chronic phase CML resistant/intolerant to >=2 prior TKIs; also approved/active in T315I"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Chronic phase: marrow granulocytic hyperplasia with left-shifted maturation (all stages of myeloid maturation present), often with basophilia and eosinophilia; splenic red pulp expansion",
+      "variants": [
+        "chronic phase (most present here)",
+        "accelerated phase (criteria vary by classification; may include 10-19% blasts, increased basophils, thrombocytopenia/thrombocytosis unresponsive to therapy, or clonal evolution)",
+        "blast phase (>=20% blasts \u2014 myeloid ~70% or lymphoid ~20-30%)"
+      ],
+      "grading": "Not graded; phase is the key stratification"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Interferon-\u03b1 historically effective \u2014 some patients achieve treatment-free remission through immune surveillance of residual disease",
+      "stromal_features": "Marrow hypercellularity; splenic red pulp expansion"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Haematopoietic stem cell (HSC) with BCR-ABL1 fusion \u2014 same fusion in CML causes multilineage clonality (myeloid, erythroid, megakaryocytic, and sometimes lymphoid involvement, especially in blast crisis)",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Chronic phase: preserved granulocytic maturation with left shift; blast crisis represents loss of maturation with maturation arrest (myeloid ~70% or lymphoid ~20-30%)",
+      "lineage_plasticity": "HSC-origin explains multilineage involvement (myeloid predominant but affecting multiple haematopoietic lineages); blast crisis represents progressive dedifferentiation with additional genetic events (for example TP53, RUNX1, IKZF1 alterations); can transform to either myeloid or lymphoid blast crisis reflecting HSC lineage potential"
+    }
+  }
+}

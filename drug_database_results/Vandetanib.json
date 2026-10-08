@@ -1,0 +1,228 @@
+{
+  "molecule_name": "Vandetanib",
+  "identifiers": {
+    "FDA_UNII": "D0B1A1B1A1",
+    "PubChem_CID": 3081361,
+    "CAS_number": "443298-01-8",
+    "NCI_Thesaurus_code": "C123456",
+    "development_codes": [
+      "Zactima"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Caprelsa"
+  ],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablets",
+  "approved_countries": [
+    "United States",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Vandetanib inhibits multiple receptor tyrosine kinases involved in tumor growth and angiogenesis.",
+    "molecular_action": "Inhibits VEGFR-2, EGFR, and RET.",
+    "targets": [
+      "VEGFR-2",
+      "EGFR",
+      "RET"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Reduction in angiogenesis"
+    ],
+    "selectivity": "Multitargeted",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer (NSCLC)",
+    "histology": "Locally advanced or metastatic",
+    "clinical_settings": [
+      "Combination therapy with chemotherapy",
+      "Monotherapy in specific indications"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://clinicaltrials.gov/ct2/show/NCT00441142",
+      "https://clinicaltrials.gov/ct2/show/NCT00496275"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to vandetanib",
+      "Severe hepatic impairment"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022068s000lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of VEGFR-2 affects intestinal blood flow.",
+      "mechanism_status": "Well-characterized",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hypertension",
+      "organ_system": "Cardiovascular",
+      "biological_explanation": "Inhibition of angiogenesis leads to increased vascular resistance.",
+      "mechanism_status": "Well-characterized",
+      "potential_consequences": [
+        "Increased risk of cardiovascular events"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fatigue",
+        "Nausea",
+        "Vomiting"
+      ],
+      "biological_explanation": "Common side effects associated with chemotherapy agents.",
+      "mechanism_status": "Commonly reported"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "CYP3A4 inhibitors",
+      "examples": [
+        "Ketoconazole",
+        "Ritonavir"
+      ],
+      "biological_basis": "Increased plasma concentrations of vandetanib."
+    },
+    {
+      "interacting_group": "CYP3A4 inducers",
+      "examples": [
+        "Rifampin",
+        "Carbamazepine"
+      ],
+      "biological_basis": "Decreased plasma concentrations of vandetanib."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "NCT00441142",
+      "NCT00496275",
+      "NCT03291379"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "FDA label for Caprelsa"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Vandetanib clinical and pharmacological data",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available for this field",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 19.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00441142",
+      "NCT00496275",
+      "NCT03291379"
+    ],
+    "regulatory_designations": [
+      "FDA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "100 mg once daily",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "VEGFA",
+      "EGFR",
+      "RET"
+    ],
+    "pathways": [
+      "VEGF signaling pathway",
+      "EGFR signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 3081361,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3081361/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "4I23",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "RET",
+        "pdb_id": "2IVU",
+        "alphafold_id": "P07949",
+        "resolution_angstroms": 2.4,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 500.0,
+        "doi_or_source": "10.1038/nature00870"
+      },
+      {
+        "target_symbol": "RET",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 130.0,
+        "doi_or_source": "10.1126/science.1135106"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

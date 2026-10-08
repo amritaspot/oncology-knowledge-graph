@@ -1,0 +1,105 @@
+{
+  "molecule_name": "HPV16 E6/7 mRNA Vaccine BNT113",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Vaccine",
+  "modality": "mRNA Immunotherapy",
+  "route": "Intramuscular (IM)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "BNT113 is designed to stimulate an immune response against HPV16 by encoding the E6 and E7 proteins, which are involved in the development of HPV-related cancers.",
+    "molecular_action": "Induces immune responses targeting HPV16 E6 and E7 oncoproteins.",
+    "targets": [
+      "HPV16 E6",
+      "HPV16 E7"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of T-cells against HPV16 positive tumors"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Head and Neck Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant therapy",
+      "End-stage clinical settings"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and investigational use",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2/3",
+    "nct_trials": [
+      "NCT03418480",
+      "NCT04534205"
+    ],
+    "regulatory_designations": [
+      "FDA Fast Track Designation"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HPV16 E6",
+      "HPV16 E7"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

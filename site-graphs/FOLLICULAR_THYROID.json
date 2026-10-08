@@ -1,0 +1,62 @@
+{
+  "FOLLICULAR_THYROID": {
+    "name": "Follicular thyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "RAS mutations (NRAS, HRAS, KRAS)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-50%",
+        "clinical_use": "Common driver in FTC"
+      },
+      {
+        "name": "PAX8-PPARG fusion",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20-35%",
+        "clinical_use": "Characteristic driver fusion in a subset of FTC"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Adverse prognostic marker"
+      },
+      {
+        "name": "Thyroglobulin",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Post-thyroidectomy monitoring"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Follicular architecture without papillary nuclear features; diagnosis requires capsular and/or vascular invasion",
+      "variants": [
+        "minimally invasive (capsular invasion only)",
+        "encapsulated angioinvasive",
+        "widely invasive"
+      ],
+      "grading": "Categorised by extent of invasion; widely invasive has worst prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Less inflamed than PTC",
+      "stromal_features": "Fibrous capsule; follicular architecture with colloid"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thyroid follicular epithelial cells (same as PTC)",
+      "developmental_lineage": "Endoderm \u2014 pharyngeal pouch derivative",
+      "differentiation_state": "Follicular differentiation preserved with colloid production; RAS/PPARG-driven biology distinct from BRAF-driven PTC",
+      "lineage_plasticity": "Progression to poorly differentiated then anaplastic thyroid carcinoma through TP53 and TERT acquisition \u2014 same dedifferentiation axis as PTC"
+    }
+  }
+}

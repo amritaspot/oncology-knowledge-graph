@@ -1,0 +1,135 @@
+{
+  "molecule_name": "[177Lu]Lu-NeoB",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "NeoB"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical; lutetium-177 labeled NeoB (GRPR-targeting peptide radioligand)"
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A lutetium-177 labeled bombesin/GRPR-targeting peptide that binds gastrin-releasing peptide receptor-expressing tumor cells and delivers beta radiation to those cells.",
+    "molecular_action": "Receptor binding to GRPR followed by tumor-localized delivery of beta-particle radiation from lutetium-177, causing DNA damage and radiocytotoxicity.",
+    "targets": [
+      "Gastrin-releasing peptide receptor"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Tumor cell irradiation",
+      "DNA single- and double-strand damage",
+      "Cell death in GRPR-expressing cells"
+    ],
+    "selectivity": "Targeted to GRPR-expressing tissues/tumors via the NeoB peptide ligand.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid tumors with GRPR expression, especially gastrointestinal stromal tumor and other GRPR-positive malignancies under investigation",
+    "histology": null,
+    "clinical_settings": [
+      "Investigational systemic radioligand therapy",
+      "Early-phase clinical trials"
+    ],
+    "scope": "Not approved; studied in GRPR-positive advanced/metastatic cancers",
+    "reference_urls": [
+      "https://clinicaltrials.gov/search?term=Lu-NeoB",
+      "https://clinicaltrials.gov/search?term=NeoB%20177Lu"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.gov/search?term=Lu-NeoB",
+      "https://clinicaltrials.gov/search?term=NeoB%20177Lu"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/search?term=Lu-NeoB",
+      "https://clinicaltrials.gov/search?term=NeoB%20177Lu"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Focused on publicly documented clinical, biological, and pharmacokinetic information for investigational [177Lu]Lu-NeoB. Quantitative fields are null or empty where not firmly established in accessible human sources.",
+    "mechanism_doi_meaning": "DOIs for direct mechanism or adverse-effect mechanism evidence.",
+    "empty_mechanism_doi_meaning": "No specific DOI was confidently verified for that field.",
+    "null_meaning": "Not established, not publicly documented with sufficient confidence, or not applicable.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "None",
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT03872778"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GRPR"
+    ],
+    "pathways": [
+      "GPCR downstream signalling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "NTSR1",
+        "pdb_id": null,
+        "alphafold_id": "P30989",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "NTSR1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1016/j.ejmech.2019.111830"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

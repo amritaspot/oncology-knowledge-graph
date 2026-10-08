@@ -1,0 +1,70 @@
+{
+  "SMOULDERING_MYELOMA": {
+    "name": "Smouldering multiple myeloma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow",
+      "diagnostic_criteria": [
+        "Serum M-protein (IgG or IgA) \u001e30 g/L OR urinary monoclonal protein \u001e500 mg/24 h and/or BM clonal plasma cells 10-60%",
+        "no CRAB features attributable to plasma cell disorder",
+        "no myeloma-defining events"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Mayo 2/20/20 risk model (M-spike >20 g/L, BM plasma cells >20%, FLC ratio >20)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Identifies risk of progression in SMM. Risk increases with 0, 1, 2, or 3 factors; this model is used to define higher-risk disease and guide monitoring, clinical trial consideration, and in some settings early intervention. Lenalidomide-based therapy has delayed progression in randomized studies (including E3A06)."
+      },
+      {
+        "name": "High-risk cytogenetics (as per MM: t(4;14), t(14;16), del(17p), gain(1q))",
+        "type": "FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset of SMM",
+        "clinical_use": "Associated with higher risk of progression in SMM"
+      },
+      {
+        "name": "Serum FLC ratio",
+        "type": "serum",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Component of the 2/20/20 model; predicts progression. An involved/uninvolved FLC ratio \u001e=100 with involved FLC \u001e=100 mg/L is a myeloma-defining event and reclassifies to active MM."
+      },
+      {
+        "name": "Whole-body MRI / PET-CT",
+        "type": "imaging",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": ">1 focal lesion on MRI (>5 mm) is a myeloma-defining event and upstages to MM; abnormal focal imaging findings including PET-avid lesions are associated with higher progression risk"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Increased marrow plasma cell infiltrate (10-60%) and/or serum M-protein \u001e30 g/L without end-organ damage attributable to plasma cell disorder or myeloma-defining events",
+      "variants": [
+        "standard-risk SMM",
+        "high-risk SMM (Mayo 2/20/20)"
+      ],
+      "grading": "Mayo 2/20/20 risk model"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Intermediate biological state between MGUS and MM; high-risk SMM has greater genomic and microenvironmental similarity to MM. Early intervention has been studied with lenalidomide-based regimens, and anti-CD38-based combinations remain under investigation/used in selected high-risk settings and clinical trials.",
+      "stromal_features": "Marrow with 10-60% clonal plasma cells; no CRAB features attributable to plasma cell disorder; no >1 focal lesion >5 mm on MRI"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Clonal plasma cells with intermediate biological behavior between MGUS and MM",
+      "developmental_lineage": "Mesoderm \u0014 hematopoietic/lymphoid (B-cell lineage terminally differentiated plasma cells)",
+      "differentiation_state": "Plasma cell neoplasm with 10-60% marrow clonal plasma cells and/or serum M-protein \u001e30 g/L, without CRAB features attributable to the plasma cell disorder and without myeloma-defining events",
+      "lineage_plasticity": "Intermediate biology between MGUS and MM; additional genomic abnormalities may be present but criteria for active MM are not met. High-risk SMM has biology closer to MM."
+    }
+  }
+}

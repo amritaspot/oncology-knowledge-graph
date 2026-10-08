@@ -1,0 +1,111 @@
+{
+  "BURKITT_LYMPHOMA": {
+    "name": "Burkitt lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "extranodal + nodal",
+      "characteristic_sites_by_variant": {
+        "endemic (equatorial Africa, EBV-associated)": [
+          "jaw/facial bones",
+          "abdominal viscera"
+        ],
+        "sporadic (Western)": [
+          "ileocaecal / abdominal (Peyer's patches origin)",
+          "ovaries",
+          "kidneys",
+          "bone marrow"
+        ],
+        "immunodeficiency-associated (HIV)": [
+          "nodal",
+          "extranodal \u2014 extensive"
+        ]
+      },
+      "sanctuary_sites": [
+        "CNS (mandatory prophylaxis/treatment in intensive regimens due to high CNS involvement/relapse risk)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "MYC rearrangement (t(8;14) IGH-MYC most common; also t(2;8) and t(8;22))",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": ">95% (defining; essentially universal)",
+        "clinical_use": "Diagnostic hallmark. Note MYC rearrangement is NECESSARY but NOT sufficient \u2014 DLBCL and HGBL may also have MYC rearrangements; combined morphology + immunophenotype + FISH required"
+      },
+      {
+        "name": "Ki-67 near 100%",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical/near-universal",
+        "clinical_use": "Extreme proliferation index characteristic"
+      },
+      {
+        "name": "CD10+, BCL6+, BCL2- (or dim), CD20+, TdT-",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Typical germinal-center phenotype. BCL2 is usually negative or only weakly positive; TdT negative helps distinguish from B-lymphoblastic leukaemia/lymphoma"
+      },
+      {
+        "name": "EBV (EBER ISH)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Endemic ~95%; sporadic ~15-30%; HIV-associated ~25-40%",
+        "clinical_use": "Supports classification of endemic variant but is not by itself diagnostic"
+      },
+      {
+        "name": "TCF3 / ID3 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~60-70%",
+        "clinical_use": "Characteristic recurrent alterations affecting tonic B-cell receptor/PI3K signaling; supportive but not required for diagnosis"
+      },
+      {
+        "name": "CD19, CD22",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "B-cell antigens that may support consideration of CD19- or CD22-directed therapy in relapsed/refractory disease, although no standard Burkitt-specific biomarker indication is established"
+      },
+      {
+        "name": "Tumour lysis risk assessment (LDH, uric acid, phosphate, potassium, creatinine)",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Very high TLS risk \u2014 rasburicase and aggressive hydration/monitoring at induction"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Uniform medium-sized B cells with round nuclei, multiple nucleoli, and basophilic cytoplasm with lipid vacuoles; classical 'starry-sky' appearance from scattered tingible-body macrophages engulfing apoptotic cells",
+      "variants": [
+        "endemic (equatorial Africa, EBV-associated, jaw/facial bone predilection)",
+        "sporadic (Western, ileocaecal/abdominal)",
+        "immunodeficiency-associated (HIV, nodal + extensive extranodal)"
+      ],
+      "grading": "Extremely high proliferation index by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "'Starry sky' pattern reflects extremely rapid cell turnover with tingible-body macrophage response to apoptotic tumour cells",
+      "stromal_features": "Diffuse sheets of monomorphic medium-sized cells with characteristic starry-sky pattern from macrophage response"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells (specifically dark zone centroblasts) with MYC translocation",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (germinal centre dark zone B cells)",
+      "differentiation_state": "Uniform medium-sized B cells with round nuclei, multiple nucleoli, and basophilic cytoplasm with lipid vacuoles; extremely high proliferation index (Ki-67 ~100%); classical 'starry-sky' from tingible-body macrophage response",
+      "lineage_plasticity": "MYC translocation to IGH (t(8;14), most common) or IGL/IGK (t(8;22), t(2;8)) drives uncontrolled proliferation via constitutive MYC expression; MYC has effects on both proliferation AND metabolism (Warburg-like glucose utilisation, glutaminolysis); TP53 and CDKN2A alterations can contribute to escape from MYC-triggered apoptosis; ID3 and TCF3 alterations are characteristic"
+    }
+  }
+}

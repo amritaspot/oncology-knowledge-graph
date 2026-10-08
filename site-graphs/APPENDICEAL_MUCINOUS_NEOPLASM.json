@@ -1,0 +1,71 @@
+{
+  "APPENDICEAL_MUCINOUS_NEOPLASM": {
+    "name": "Appendiceal mucinous neoplasm (incl. pseudomyxoma peritonei)",
+    "biomarkers": [
+      {
+        "name": "KRAS",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70-90%",
+        "clinical_use": "Very common driver in appendiceal mucinous neoplasms/PMP; supports mucinous appendiceal origin in the appropriate clinicopathologic context but is not specific on its own"
+      },
+      {
+        "name": "GNAS",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-70% (common in LAMN / PMP)",
+        "clinical_use": "Characteristic alteration in low-grade appendiceal mucinous neoplasm and pseudomyxoma peritonei; supports appendiceal origin in the appropriate context"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Uncommon in low-grade disease; enriched in high-grade/invasive tumors",
+        "clinical_use": "TP53 mutation is associated with higher-grade progression and worse outcome"
+      },
+      {
+        "name": "Peritoneal Cancer Index (PCI) \u2014 not molecular but standard staging",
+        "type": "imaging / operative",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Guides disease burden assessment and candidacy for cytoreductive surgery \u00b1 HIPEC"
+      },
+      {
+        "name": "CEA, CA 19-9, CA 125",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Commonly used for monitoring in PMP/appendiceal mucinous neoplasms; elevated levels may correlate with tumor burden and prognosis"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Mucinous epithelial neoplasm with pushing invasion; often produces massive extracellular mucin",
+      "variants": [
+        "low-grade appendiceal mucinous neoplasm (LAMN)",
+        "high-grade appendiceal mucinous neoplasm (HAMN)",
+        "pseudomyxoma peritonei \u2014 low-grade or high-grade subtype based on cellularity + atypia"
+      ],
+      "grading": "PSOGI 2016 terminology for peritoneal disease includes acellular mucin, low-grade mucinous carcinoma peritonei, high-grade mucinous carcinoma peritonei, and high-grade with signet-ring cells; higher grade is associated with substantially worse prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold; peritoneal mucin pools often have minimal immune infiltrate",
+      "stromal_features": "Extracellular mucin dominates; often paucicellular peritoneal implants in low-grade PMP"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Appendiceal mucosal epithelium with mucinous differentiation",
+      "developmental_lineage": "Endoderm \u2014 midgut derivative",
+      "differentiation_state": "Well-differentiated mucinous epithelium; pushing borders rather than infiltrative invasion in LAMN, with more overt high-grade cytology in HAMN/high-grade peritoneal disease",
+      "lineage_plasticity": "Rupture can disseminate well-differentiated mucin-producing cells throughout the peritoneum, producing pseudomyxoma peritonei (PMP); this often reflects redistribution of appendiceal tumor cells rather than acquisition of a new lineage state"
+    }
+  }
+}

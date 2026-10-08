@@ -1,0 +1,135 @@
+{
+  "molecule_name": "Anti-CTLA-4/Anti-PD-1 Monoclonal Antibody Combination BCD-217",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Monoclonal Antibody Combination",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Combination therapy targeting CTLA-4 and PD-1 pathways to enhance immune response against tumors.",
+    "molecular_action": "Inhibition of CTLA-4 and PD-1 pathways to promote T-cell activation and proliferation.",
+    "targets": [
+      "CTLA-4",
+      "PD-1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T-cell activation",
+      "Increased anti-tumor immune response"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Melanoma",
+    "histology": null,
+    "clinical_settings": [
+      "Unresectable melanoma",
+      "Metastatic melanoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT05732805",
+      "NCT03913923",
+      "NCT05751928"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CTLA4",
+      "PDCD1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CTLA4",
+        "pdb_id": "5TRU",
+        "alphafold_id": "P16410",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "PDCD1",
+        "pdb_id": "5GGS",
+        "alphafold_id": "Q15116",
+        "resolution_angstroms": 2.45,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CTLA4",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      },
+      {
+        "target_symbol": "PDCD1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

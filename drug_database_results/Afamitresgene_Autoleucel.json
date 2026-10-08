@@ -1,0 +1,99 @@
+{
+  "molecule_name": "Afamitresgene Autoleucel",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ADP-A2M4"
+    ],
+    "identifier_scope": "Afamitresgene Autoleucel is identified by its development code ADP-A2M4."
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Cell Therapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Afamitresgene Autoleucel is a genetically modified T-cell therapy that targets cancer cells expressing the MAGE-A4 antigen.",
+    "molecular_action": "Genetically engineered T-cells recognize and kill MAGE-A4 expressing tumor cells.",
+    "targets": [
+      "MAGEA4"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid Tumors",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record is focused on the investigational cell therapy Afamitresgene Autoleucel, also known as ADP-A2M4.",
+    "mechanism_doi_meaning": "DOIs for the mechanism of action are not provided as the information is based on general knowledge of the therapy's target and action.",
+    "empty_mechanism_doi_meaning": "No DOIs are available for the mechanism of action.",
+    "null_meaning": "Null values indicate that specific data is not available or the drug is still under investigation.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT03132922",
+      "NCT04044768",
+      "NCT06617572"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MAGEA4"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

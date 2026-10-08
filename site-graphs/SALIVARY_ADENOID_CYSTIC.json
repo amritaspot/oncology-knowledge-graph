@@ -1,0 +1,54 @@
+{
+  "SALIVARY_ADENOID_CYSTIC": {
+    "name": "Adenoid cystic carcinoma (salivary)",
+    "biomarkers": [
+      {
+        "name": "MYB-NFIB fusion (or MYBL1 rearrangement)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50-60% MYB rearranged/fused (commonly MYB-NFIB); ~10-15% MYBL1 rearranged",
+        "clinical_use": "Diagnostic hallmark"
+      },
+      {
+        "name": "NOTCH1 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Prognostic (worse); target for gamma-secretase inhibitors and Notch-directed therapy in trials"
+      },
+      {
+        "name": "KIT (CD117)",
+        "type": "IHC / expression",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Supports diagnosis; not consistently predictive of imatinib response"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Biphasic \u2014 luminal ductal + basal/myoepithelial cells; characteristic cribriform 'Swiss cheese' pattern",
+      "variants": [
+        "cribriform (best prognosis)",
+        "tubular",
+        "solid (worst prognosis)"
+      ],
+      "grading": "Percentage of solid component (grade III when >30% solid); perineural invasion is characteristic and prognostic"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-desert / cold; poorly infiltrated",
+      "stromal_features": "Distinctive basement membrane-like material in cribriform spaces (reduplicated basement membrane)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Intercalated duct cells + myoepithelial cells (bipotent progenitors)",
+      "developmental_lineage": "Endoderm \u2014 salivary gland ductal system",
+      "differentiation_state": "Biphasic \u2014 luminal ductal + basal/myoepithelial cells; recapitulates normal intercalated duct architecture",
+      "lineage_plasticity": "MYB-NFIB fusion drives the characteristic biphasic differentiation and neurotropic behaviour"
+    }
+  }
+}

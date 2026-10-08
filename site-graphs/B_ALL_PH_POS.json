@@ -1,0 +1,71 @@
+{
+  "B_ALL_PH_POS": {
+    "name": "B-ALL, Philadelphia chromosome positive (BCR-ABL1)",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "sanctuary_sites": [
+        "CNS",
+        "testis"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "BCR-ABL1 fusion",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive",
+          "monitoring"
+        ],
+        "prevalence": "By definition 100%",
+        "clinical_use": "Most cases harbor e1a2/p190; a minority harbor b2a2 or b3a2/p210. Both are targetable with ABL-class TKIs. TKI-based therapy is standard; ponatinib- and dasatinib-based regimens are established options in adults. Chemo-free regimens (for example, dasatinib + blinatumomab) are increasingly used. MRD can be monitored by RQ-PCR for BCR-ABL1 transcript, ideally supplemented by Ig/TCR-based MRD assays because BCR-ABL1 transcript quantitation alone may be insufficient in some cases."
+      },
+      {
+        "name": "IKZF1 mutations / deletions",
+        "type": "mutation / copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~70% of Ph+ ALL",
+        "clinical_use": "Adverse; contributes to the 'IKZF1-plus' subgroup when accompanied by specific additional copy-number lesions"
+      },
+      {
+        "name": "T315I",
+        "type": "resistance mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Acquired resistance",
+        "clinical_use": "Confers resistance to imatinib, dasatinib, nilotinib, and bosutinib; ponatinib retains activity"
+      },
+      {
+        "name": "MRD (BCR-ABL1 RQ-PCR + IgH-TCR)",
+        "type": "molecular",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Standard",
+        "clinical_use": "MRD kinetics guide risk stratification and transplant decisions"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "B-ALL morphology as per B_ALL with defining BCR-ABL1 fusion",
+      "variants": [
+        "p190 minor breakpoint (predominant isoform in Ph+ B-ALL, especially in adults)",
+        "p210 major breakpoint (minority of Ph+ B-ALL; may overlap biologically with CML lymphoid blast crisis)"
+      ],
+      "grading": "Not graded; molecular monitoring drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Chemo-free / immunotherapy-first regimens (dasatinib + blinatumomab) are transforming Ph+ B-ALL management",
+      "stromal_features": "As per B-ALL"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "B-cell precursor with defining BCR-ABL1 fusion driving constitutive kinase activity",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid",
+      "differentiation_state": "B-cell precursor differentiation as per B-ALL; BCR-ABL1 fusion drives proliferation without altering precursor B-lineage assignment",
+      "lineage_plasticity": "p190 (minor breakpoint, predominant in de novo Ph+ ALL) vs p210 (major breakpoint, overlaps with CML lymphoid blast crisis) fusion isoforms are both seen; TKI resistance mutations (for example T315I) drive kinase inhibitor resistance rather than a specific lineage switch"
+    }
+  }
+}

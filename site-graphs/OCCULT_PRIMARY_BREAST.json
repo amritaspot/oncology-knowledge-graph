@@ -1,0 +1,43 @@
+{
+  "OCCULT_PRIMARY_BREAST": {
+    "name": "Occult primary breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR, HER2 (on nodal biopsy)",
+        "type": "IHC / ISH",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Varies by underlying breast cancer subtype; assess on metastatic nodal tissue as per invasive breast cancer",
+        "clinical_use": "Supports breast origin in the appropriate clinicopathologic context and guides systemic therapy"
+      },
+      {
+        "name": "GATA3, mammaglobin, GCDFP-15",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable; GATA3 is generally more sensitive than mammaglobin and GCDFP-15 for breast origin",
+        "clinical_use": "Support breast origin on nodal biopsy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diagnosis of exclusion \u2014 metastatic nodal biopsy with breast phenotype but no detectable breast primary on clinical exam and conventional imaging",
+      "variants": [
+        "histology follows presumed primary (most often invasive ductal carcinoma / no special type)"
+      ],
+      "grading": "Nottingham grade may be applied if morphology is sufficient on nodal metastasis, though grading is primarily validated for the breast primary"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Follows underlying breast phenotype",
+      "stromal_features": "Metastatic carcinoma within lymph node, sometimes with desmoplastic stromal reaction"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Presumed breast epithelial primary that is clinically/radiologically occult",
+      "developmental_lineage": "Breast epithelium \u2014 ectoderm-derived mammary lineage",
+      "differentiation_state": "As per intrinsic subtype and receptor status",
+      "lineage_plasticity": "No distinct lineage biology \u2014 occult presentation is primarily a clinicoradiologic detection issue rather than a separate lineage-defined entity"
+    }
+  }
+}

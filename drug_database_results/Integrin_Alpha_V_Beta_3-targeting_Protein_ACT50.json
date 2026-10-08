@@ -1,0 +1,131 @@
+{
+  "molecule_name": "Integrin Alpha V Beta 3-targeting Protein ACT50",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Integrin Antagonist",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "ACT50 is designed to inhibit the integrin alpha V beta 3, which is involved in angiogenesis and tumor growth.",
+    "molecular_action": "Inhibition of integrin alpha V beta 3 signaling pathways.",
+    "targets": [
+      "Integrin Alpha V Beta 3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced angiogenesis",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Triple-Negative Breast Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Oncology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Integrin Alpha V Beta 3-targeting Protein ACT50",
+    "mechanism_doi_meaning": "No DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ITGAV",
+      "ITGB3"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ITGAV",
+        "pdb_id": null,
+        "alphafold_id": "P06756",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "ITGB3",
+        "pdb_id": null,
+        "alphafold_id": "P05106",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ITGAV",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm901488z"
+      },
+      {
+        "target_symbol": "ITGB3",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm901488z"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "68Ga",
+    "emission_type": [
+      "Positron"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": "PET"
+  }
+}

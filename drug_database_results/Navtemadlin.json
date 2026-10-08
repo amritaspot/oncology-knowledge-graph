@@ -1,0 +1,128 @@
+{
+  "molecule_name": "Navtemadlin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 58573469,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "MDM2 inhibitor",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Navtemadlin is an experimental drug that inhibits the MDM2 protein, which is involved in cancer cell growth.",
+    "molecular_action": "Inhibition of MDM2 leads to the activation of p53, a tumor suppressor protein.",
+    "targets": [
+      "MDM2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased p53 activity",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia, Small Cell Lung Cancer, Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Navtemadlin is currently under investigation in multiple clinical trials.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT04190550",
+      "NCT05027867",
+      "NCT03031730"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MDM2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "MDM2",
+        "pdb_id": "4J3E",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Phe19",
+              "Trp23",
+              "Leu26"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "MDM2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 6.0,
+        "doi_or_source": "10.1021/jm400487c"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

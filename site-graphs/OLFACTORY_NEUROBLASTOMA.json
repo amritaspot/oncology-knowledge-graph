@@ -1,0 +1,52 @@
+{
+  "OLFACTORY_NEUROBLASTOMA": {
+    "name": "Olfactory neuroblastoma (esthesioneuroblastoma)",
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, S100 (sustentacular)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Synaptophysin is typically diffuse/strong; chromogranin is commonly positive but can be variable; S100 highlights sustentacular cells in many cases, often reduced or absent in high-grade tumors",
+        "clinical_use": "Confirms neuroendocrine/neural differentiation and sustentacular pattern supportive of olfactory neuroblastoma"
+      },
+      {
+        "name": "SSTR2 (somatostatin receptor 2)",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Frequently expressed",
+        "clinical_use": "Imaging (68Ga-DOTATATE PET) and potential PRRT (177Lu-DOTATATE) in selected recurrent/metastatic cases \u0000theranostic approach"
+      },
+      {
+        "name": "IDH2 R172",
+        "type": "Mutation",
+        "categories": [
+          "molecular"
+        ],
+        "prevalence": "Recurrent in a subset; enriched in higher-grade tumors",
+        "clinical_use": "Molecular finding reported in olfactory neuroblastoma; supportive of disease biology rather than established routine clinical selection"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Lobular architecture of small round blue cells with fibrillary neuropil, Homer-Wright rosettes (pseudorosettes) and occasional Flexner-Wintersteiner rosettes (true rosettes)",
+      "variants": [
+        "Hyams grade 1-4 subtypes"
+      ],
+      "grading": "Hyams grading (I-IV) based on architecture, mitoses, necrosis, pleomorphism, differentiation"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Sustentacular cells (S100+) at periphery of lobules \u0000characteristic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Olfactory neuroepithelial basal progenitor cells are the leading proposed cell of origin, but this remains unproven",
+      "developmental_lineage": "Ectoderm \u0000olfactory placode derivative (specialized sensory neuroepithelium)",
+      "differentiation_state": "Recapitulates olfactory neuroepithelial/neuroblastic differentiation \u0000Homer-Wright rosettes support neuroblastic differentiation; Flexner-Wintersteiner rosettes can occur but are not a marker of mature olfactory differentiation",
+      "lineage_plasticity": "Hyams grade reflects differentiation state \u0000grade I is well differentiated and grade IV poorly differentiated/undifferentiated"
+    }
+  }
+}

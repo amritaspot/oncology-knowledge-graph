@@ -1,0 +1,52 @@
+{
+  "ONCOCYTIC_THYROID": {
+    "name": "Oncocytic (H\frthle cell) thyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "Mitochondrial DNA mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Very common/high burden",
+        "clinical_use": "Characteristic molecular feature supporting distinction from non-oncocytic follicular thyroid carcinoma"
+      },
+      {
+        "name": "Chromosomal alterations (widespread aneuploidy, chromosome 7 gain)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Genomic complexity characteristic"
+      },
+      {
+        "name": "Thyroglobulin",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Monitoring after thyroidectomy/ablation; interpretation may be affected in poorly differentiated/dedifferentiated disease"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Oncocytic (large eosinophilic granular cytoplasm from mitochondrial accumulation) cells in follicular, trabecular, or solid pattern",
+      "variants": [
+        "minimally invasive",
+        "widely invasive"
+      ],
+      "grading": "Categorised by extent of capsular and/or vascular invasion; often more aggressive than non-oncocytic follicular thyroid carcinoma"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised",
+      "stromal_features": "Fibrous capsule"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thyroid follicular epithelial cells with oncocytic (mitochondrial) transformation",
+      "developmental_lineage": "Endoderm \u0014 pharyngeal pouch derivative",
+      "differentiation_state": "Oncocytic (H\frthle cell) phenotype with mitochondrial accumulation; often reduced iodine avidity",
+      "lineage_plasticity": "mtDNA mutations disrupt oxidative phosphorylation, driving compensatory mitochondrial biogenesis and the oncocytic phenotype; loss of iodine avidity is common"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "OLIGODENDROGLIOMA_IDH_MUT_1P19Q": {
+    "name": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted",
+    "biomarkers": [
+      {
+        "name": "1p/19q whole-arm codeletion",
+        "type": "FISH / SNP array / molecular",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "By definition 100%",
+        "clinical_use": "Defining feature. Predicts favorable response to RT plus PCV chemotherapy; associated with best prognosis among diffuse gliomas"
+      },
+      {
+        "name": "IDH1 R132 / IDH2 R172",
+        "type": "mutation / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "By definition 100%",
+        "clinical_use": "Combined with 1p/19q codeletion defines the entity"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70-90%",
+        "clinical_use": "Very common; supports diagnosis in the appropriate molecular context"
+      },
+      {
+        "name": "CIC, FUBP1",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "CIC ~50-70%; FUBP1 ~15-30%",
+        "clinical_use": "Common accompanying alterations \u2014 supports oligodendroglioma classification"
+      },
+      {
+        "name": "MGMT promoter methylation",
+        "type": "methylation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Common in IDH-mutant gliomas; prognostic and may be associated with alkylator sensitivity, but predictive value specifically in oligodendroglioma is less clearly established than in glioblastoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Round nuclei with perinuclear halos ('fried egg' appearance in permanent sections), delicate 'chicken-wire' branching vasculature, microcalcifications",
+      "variants": [
+        "oligodendroglioma (WHO grade 2)",
+        "oligodendroglioma (WHO grade 3)"
+      ],
+      "grading": "WHO grade 2 or 3 based on cellularity, mitoses, microvascular proliferation, necrosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Cold \u2014 like other diffuse gliomas; microglia/macrophage predominant infiltrate",
+      "stromal_features": "Delicate 'chicken-wire' capillary network; frequent microcalcifications; infiltrative growth along cortex"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Oligodendrocyte precursor cells (OPCs) \u2014 supported by developmental and transcriptional studies, though exact cell of origin remains not definitively proven in humans",
+      "developmental_lineage": "Neuroectoderm \u2014 OPCs migrate throughout brain during development from subventricular germinal zones",
+      "differentiation_state": "Oligodendrocytic differentiation (OLIG2+, S100+, GFAP focal) with characteristic 'fried egg' cells (retracted cytoplasm artifact) and 'chicken-wire' vasculature",
+      "lineage_plasticity": "Combined IDH mutation + 1p/19q co-deletion defines the entity; CIC (chromosome 19) and FUBP1 (chromosome 1) mutations are common accompanying alterations related to the codeleted chromosomal arms; TERT promoter mutations are frequent and contribute to telomere maintenance"
+    }
+  }
+}

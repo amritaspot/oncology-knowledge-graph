@@ -1,0 +1,155 @@
+{
+  "molecule_name": "Atorvastatin Calcium",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 60822,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Statin",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Atorvastatin calcium works by inhibiting HMG-CoA reductase, an enzyme involved in cholesterol synthesis in the liver.",
+    "molecular_action": "Inhibition of HMG-CoA reductase",
+    "targets": [
+      "HMGCR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Decreased cholesterol levels",
+      "Reduced risk of cardiovascular events"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Hyperlipidemia",
+      "Coronary heart disease"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Active liver disease",
+      "Pregnancy",
+      "Breastfeeding"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Muscle pain",
+      "organ_system": "Musculoskeletal",
+      "biological_explanation": "Statins can cause muscle damage by affecting muscle cell metabolism.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Rhabdomyolysis",
+        "Myopathy"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Liver enzyme elevation",
+      "organ_system": "Hepatic",
+      "biological_explanation": "Statins can increase liver enzymes due to hepatotoxicity.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Liver damage"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Atorvastatin Calcium clinical data and trials",
+    "mechanism_doi_meaning": "Mechanism of action references",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 14.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT00092638",
+      "NCT01780740",
+      "NCT01058057"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HMGCR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 60823,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/60823/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HMGCR",
+        "pdb_id": "1HWK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.22,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HMGCR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 8.2,
+        "doi_or_source": "10.1016/S0021-9258(18)31565-1"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

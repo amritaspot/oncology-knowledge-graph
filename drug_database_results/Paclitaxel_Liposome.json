@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Paclitaxel Liposome",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic Agent",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Paclitaxel liposome works by inhibiting cell division and promoting apoptosis in cancer cells.",
+    "molecular_action": "Stabilizes microtubules and prevents their depolymerization, leading to cell cycle arrest in the G2/M phase.",
+    "targets": [
+      "Tubulin"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian cancer, Non-small cell lung cancer, Pancreatic adenocarcinoma",
+    "histology": null,
+    "clinical_settings": [
+      "First-line therapy for ovarian cancer",
+      "Combination therapy for non-small cell lung cancer",
+      "Treatment for metastatic pancreatic adenocarcinoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Neutropenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Peripheral neuropathy",
+      "organ_system": "Nervous system",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Paclitaxel liposome as a formulation of paclitaxel",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from known properties of paclitaxel and liposomal formulations.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for the mechanism of action of paclitaxel liposome.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT00828009",
+      "NCT01188499",
+      "NCT05047991"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TUBB",
+      "TUBA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "PANCREATIC_NET_G3": {
+    "name": "Pancreatic neuroendocrine tumour, G3",
+    "biomarkers": [
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": ">20%",
+        "clinical_use": "Grade"
+      },
+      {
+        "name": "Well-differentiated morphology",
+        "type": "morphology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Critical distinction from NEC"
+      },
+      {
+        "name": "SSTR2 expression",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often retained, but variable",
+        "clinical_use": "Supports consideration of SSA/PRRT and other NET-directed therapy in selected patients; not uniformly positive unlike lower-grade NETs"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Well-differentiated NET morphology despite high Ki-67",
+      "variants": [
+        "well-differentiated pNET G3"
+      ],
+      "grading": "Ki-67 >20% with retained NET morphology"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically",
+      "stromal_features": "Often retains hypervascular pattern"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pancreatic islet cells with high proliferation state \u2014 same lineage as G1/G2",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Retains WELL-differentiated neuroendocrine morphology and often SSTR2 expression BUT with Ki-67 >20% \u2014 critical distinction from pancreatic NEC",
+      "lineage_plasticity": "Represents high-proliferation state within well-differentiated pancreatic NET lineage, NOT dedifferentiation to NEC"
+    }
+  }
+}

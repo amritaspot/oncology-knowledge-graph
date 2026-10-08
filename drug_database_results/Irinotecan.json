@@ -1,0 +1,164 @@
+{
+  "molecule_name": "Irinotecan",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 60838,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Topoisomerase I inhibitor",
+  "modality": "Small molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Irinotecan is a topoisomerase I inhibitor that interferes with DNA replication and transcription, leading to cell death.",
+    "molecular_action": "Inhibits the enzyme topoisomerase I, preventing the relaxation of supercoiled DNA.",
+    "targets": [
+      "TOP1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA synthesis",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic colorectal cancer",
+      "Refractory colorectal cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of topoisomerase I leads to damage in the intestinal epithelium.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced nausea due to direct stimulation of the chemoreceptor trigger zone.",
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of DNA synthesis affects rapidly dividing cells in the bone marrow.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Irinotecan drug profile",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 0.5,
+    "biological_half_life_hours": 6.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4",
+      "CYP3A5"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00940758",
+      "NCT01605318",
+      "NCT07085338"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "125 mg/m2",
+    "objective_response_rate_pct": 20.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TOP1"
+    ],
+    "pathways": [
+      "DNA damage repair",
+      "Apoptosis signaling"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 60838,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/60838/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TOP1",
+        "pdb_id": "1K4T",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TOP1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

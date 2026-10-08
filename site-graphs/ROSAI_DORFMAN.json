@@ -1,0 +1,81 @@
+{
+  "ROSAI_DORFMAN": {
+    "name": "Rosai-Dorfman disease (sinus histiocytosis with massive lymphadenopathy)",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes (predominantly)",
+      "characteristic_features": [
+        "massive painless cervical lymphadenopathy (classic)",
+        "extranodal involvement in ~40% (skin, sinonasal, orbit, upper respiratory tract, CNS, bone)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Emperipolesis (intact lymphocytes within histiocyte cytoplasm)",
+        "type": "histology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic",
+        "clinical_use": "Characteristic diagnostic feature when present, but not entirely specific/pathognomonic"
+      },
+      {
+        "name": "S100+, CD68+, CD163+, CD1a-",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic",
+        "clinical_use": "Supports diagnosis and helps distinguish from LCH (CD1a+/langerin+) and ECD (typically S100-negative or only focally positive)"
+      },
+      {
+        "name": "SLC29A3 (familial Faisalabad histiocytosis / H syndrome)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Rare syndromic/familial subset",
+        "clinical_use": "Genetic counselling/testing in familial, syndromic, or early-onset cases"
+      },
+      {
+        "name": "MAPK pathway mutations (KRAS, NRAS, MAP2K1, ARAF; BRAF less common)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset, enriched in extranodal/refractory disease",
+        "clinical_use": "Supports clonality in a subset and may inform use of MEK-pathway-targeted therapy in refractory or aggressive disease"
+      },
+      {
+        "name": "Cobimetinib response",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "MEK inhibitor with activity in histiocytic neoplasms including Rosai-Dorfman disease; may be considered for refractory disease, particularly with MAPK pathway activation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large pale S100+/CD68+ histiocytes with abundant cytoplasm containing intact lymphocytes (emperipolesis \u0014 characteristic but not pathognomonic)",
+      "variants": [
+        "classic nodal Rosai-Dorfman",
+        "extranodal RDD",
+        "familial/syndromic Rosai-Dorfman associated with SLC29A3 mutation",
+        "IgG4-rich Rosai-Dorfman disease"
+      ],
+      "grading": "Usually indolent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Emperipolesis (intact lymphocytes within histiocyte cytoplasm) is distinctive; MAPK pathway alterations in a subset enable targeted therapy",
+      "stromal_features": "Sinus expansion of large pale histiocytes with emperipolesis; polyclonal plasma cell infiltrate"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Histiocytes with distinctive S100+ phenotype; emperipolesis (intact lymphocytes within histiocyte cytoplasm) is a characteristic feature",
+      "developmental_lineage": "Mesoderm \u0014 haematopoietic (histiocytic lineage)",
+      "differentiation_state": "Large pale histiocytic differentiation (S100+, CD68+, CD163+) with abundant cytoplasm containing intact lymphocytes (emperipolesis \u0014 characteristic feature); CD1a-negative distinguishes from LCH",
+      "lineage_plasticity": "MAPK pathway alterations in a subset enable targeted therapy; familial/syndromic SLC29A3-associated disease has distinct pathogenesis (equilibrative nucleoside transporter defect); IgG4-rich Rosai-Dorfman disease is a recognized clinicopathologic variant"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "molecule_name": "IL-15(N72D)/IL-15Ralpha-sFc Fusion Protein Complex FL115",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cytokine Fusion Protein",
+  "modality": "Biologic",
+  "route": "Subcutaneous (SQ)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A long-acting form of IL-15 that enhances immune response by stimulating T and NK cell activity.",
+    "molecular_action": "IL-15N72D binds to IL-15Ralpha-sFc, enhancing its half-life and immune stimulatory activity.",
+    "targets": [
+      "IL-15",
+      "IL-15Ralpha"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased CD8+ T cell and NK cell activation and proliferation"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various cancers",
+    "histology": null,
+    "clinical_settings": [
+      "Cancer immunotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "IL-15(N72D)/IL-15Ralpha-sFc Fusion Protein Complex FL115",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "PHASE2",
+    "nct_trials": [
+      "NCT06130722",
+      "NCT07131202",
+      "NCT07122414"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL15",
+      "IL15RA"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL15",
+        "pdb_id": "4GS7",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

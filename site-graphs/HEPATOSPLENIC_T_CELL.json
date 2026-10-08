@@ -1,0 +1,79 @@
+{
+  "HEPATOSPLENIC_T_CELL": {
+    "name": "Hepatosplenic T-cell lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "liver + spleen + bone_marrow",
+      "characteristic_features": [
+        "no or minimal lymphadenopathy despite advanced disease",
+        "hepatosplenomegaly",
+        "cytopenias"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "\u0003b3\u0003b4 T-cell receptor expression (TCR\u0003b3\u0003b4)",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Most cases (minor \u0003b1\u0003b2 variant)",
+        "clinical_use": "Defining feature in most cases; distinguishes from other T-cell lymphomas"
+      },
+      {
+        "name": "Isochromosome 7q \u0002014 i(7q)",
+        "type": "FISH / cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common (~60\u000380%)",
+        "clinical_use": "Characteristic cytogenetic abnormality"
+      },
+      {
+        "name": "SETD2, INO80, ARID1B mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent, especially SETD2; chromatin-remodeling pathway alterations are common",
+        "clinical_use": "Supports recurrent chromatin-remodeler pathway involvement"
+      },
+      {
+        "name": "STAT5B, STAT3 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "JAK-STAT pathway activation; potential rationale for investigational targeted therapy"
+      },
+      {
+        "name": "Immunosuppression history (transplant, IBD on thiopurines + anti-TNF)",
+        "type": "clinical",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recognized association in a subset, especially young men with IBD or post-transplant immunosuppression",
+        "clinical_use": "Important clinical diagnostic context"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Sinusoidal infiltration of monomorphic medium-sized T cells with \u0003b3\u0003b4 TCR expression in liver, spleen, and bone marrow \u0002014 typically without significant lymphadenopathy",
+      "variants": [
+        "\u0003b3\u0003b4 HSTL (majority of cases)",
+        "\u0003b1\u0003b2 HSTL (minor rare variant)"
+      ],
+      "grading": "Aggressive with poor prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Association with chronic immunosuppression (post-transplant, IBD on thiopurines with or without anti-TNF therapy) is well recognized; recurrent JAK-STAT pathway activation has been described, but targeted therapy remains investigational",
+      "stromal_features": "Sinusoidal infiltration in liver, splenic red pulp, and bone marrow sinusoids \u0002014 typically no or minimal lymphadenopathy; characteristic pattern"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "\u0003b3\u0003b4 T cells (majority) or \u0003b1\u0003b2 T cells (minor subset) \u0002014 cytotoxic effector T cells with tropism for liver, spleen, and bone marrow sinuses",
+      "developmental_lineage": "Mesoderm \u0002014 lymphoid (\u0003b3\u0003b4 T cells in the majority of cases)",
+      "differentiation_state": "\u0003b3\u0003b4 T-cell differentiation (CD3+, CD4-, CD8- typically double-negative, CD56+, TCR\u0003b3\u0003b4+) or \u0003b1\u0003b2 T-cell differentiation; cytotoxic phenotype often TIA-1+, with variable granzyme B/perforin expression",
+      "lineage_plasticity": "\u0003b3\u0003b4 T cells normally home to splenic red pulp, bone marrow sinusoids, and hepatic sinusoids \u0002014 HSTL recapitulates this native tropism biology; immunosuppression association (post-transplant, IBD on thiopurines with or without anti-TNF therapy) may facilitate lineage-restricted clonal expansion; JAK-STAT activating mutations are recurrent in a subset"
+    }
+  }
+}

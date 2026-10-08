@@ -1,0 +1,174 @@
+{
+  "molecule_name": "Pimitespib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 67501411,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Small molecule",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Pimitespib is a heat shock protein 90 (HSP90) inhibitor that disrupts the function of HSP90, leading to the degradation of client proteins involved in tumor growth.",
+    "molecular_action": "Inhibition of HSP90",
+    "targets": [
+      "HSP90"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Gastrointestinal Stromal Tumor (GIST)",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced GIST",
+      "Metastatic GIST"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Pimitespib clinical trials and safety analysis",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT07689201",
+      "NCT05245968"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HSP90AA1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HSP90AA1",
+        "pdb_id": "5FWM",
+        "alphafold_id": "P07900",
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "A:52",
+              "A:53",
+              "A:54",
+              "A:55",
+              "A:56",
+              "A:57",
+              "A:58",
+              "A:59",
+              "A:60",
+              "A:61",
+              "A:62",
+              "A:63",
+              "A:64",
+              "A:65",
+              "A:66",
+              "A:67",
+              "A:68",
+              "A:69",
+              "A:70",
+              "A:71",
+              "A:72",
+              "A:73",
+              "A:74",
+              "A:75",
+              "A:76",
+              "A:77",
+              "A:78",
+              "A:79",
+              "A:80",
+              "A:81",
+              "A:82",
+              "A:83",
+              "A:84",
+              "A:85",
+              "A:86",
+              "A:87",
+              "A:88",
+              "A:89",
+              "A:90",
+              "A:91",
+              "A:92",
+              "A:93",
+              "A:94",
+              "A:95",
+              "A:96",
+              "A:97",
+              "A:98",
+              "A:99",
+              "A:100"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HSP90AA1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.2,
+        "doi_or_source": "10.1016/j.bmcl.2016.02.060"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

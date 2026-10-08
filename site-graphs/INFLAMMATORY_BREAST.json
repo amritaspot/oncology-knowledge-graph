@@ -1,0 +1,42 @@
+{
+  "INFLAMMATORY_BREAST": {
+    "name": "Inflammatory breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR, HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "ER/PR expression is less frequent than in non-IBC; HER2 overexpression/amplification is reported in ~30\u201340%; TNBC in ~20\u201330% (HER2-positive and TNBC enriched vs non-IBC)",
+        "clinical_use": "Guides systemic therapy \u2014 trimodality therapy (neoadjuvant systemic therapy \u2192 mastectomy \u2192 RT) is standard"
+      },
+      {
+        "name": "PD-L1 (in TNBC subset)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "As per TNBC",
+        "clinical_use": "Pembrolizumab + chemotherapy in PD-L1-positive metastatic TNBC and in high-risk early-stage TNBC as part of neoadjuvant/adjuvant therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Underlying invasive carcinoma (usually ductal NST) with dermal lymphatic invasion by tumour emboli \u2014 clinicopathologic diagnosis",
+      "variants": [
+        "typically invasive ductal NST underlying; occasional lobular"
+      ],
+      "grading": "Usually high-grade (Nottingham 3)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Paradoxical \u2014 'inflammatory' clinical appearance is from lymphatic obstruction, not immune infiltrate; TIL variable per molecular subtype",
+      "stromal_features": "Dermal lymphatic tumour emboli; peau d'orange appearance"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal or basal epithelium \u2014 clinicopathologic entity defined by dermal lymphovascular invasion, not a distinct cell of origin",
+      "developmental_lineage": "Ectoderm \u2014 mammary epithelium is an ectodermal derivative",
+      "differentiation_state": "Variable \u2014 can be any intrinsic subtype (luminal, HER2-positive, TNBC); enriched for high-grade tumours with EMT-associated features",
+      "lineage_plasticity": "Dermal lymphovascular invasion is the defining feature \u2014 reflects a state of high invasiveness with lymphatic tropism; EMT-related signatures have been reported"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "molecule_name": "Firmonertinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 118861389,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Firmonertinib is designed to inhibit the activity of the EGFR tyrosine kinase, particularly in mutations associated with non-small cell lung cancer.",
+    "molecular_action": "Inhibits EGFR signaling pathways",
+    "targets": [
+      "EGFR"
+    ],
+    "relevant_variants": [
+      "EGFR ex20ins",
+      "EGFR L861Q",
+      "EGFR L858R"
+    ],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": "Selective for EGFR mutations",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer (NSCLC)",
+    "histology": null,
+    "clinical_settings": [
+      "First-line treatment for advanced non-squamous NSCLC with EGFR mutations"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Firmonertinib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT06956001",
+      "NCT06971406",
+      "NCT06890182"
+    ],
+    "regulatory_designations": [
+      "FDA Breakthrough Therapy Designation"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "240 mg QD",
+    "objective_response_rate_pct": 78.6,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "EGFR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "6LUD",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "ATP-binding site",
+            "active_residues": [
+              "Lys745",
+              "Glu762",
+              "Thr790",
+              "Met793"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.ccell.2020.01.001"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "molecule_name": "Abiraterone",
+  "identifiers": {
+    "FDA_UNII": "EM5OCB9YJ6",
+    "PubChem_CID": 132971,
+    "CAS_number": "154229-18-2",
+    "NCI_Thesaurus_code": "C68892",
+    "development_codes": [],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Zytiga",
+    "Yonsa"
+  ],
+  "drug_class": "CYP17 inhibitor",
+  "modality": "small molecule",
+  "route": "oral",
+  "marketed_form": "tablet",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada",
+    "Australia",
+    "Japan"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Abiraterone inhibits CYP17A1, an enzyme critical for androgen biosynthesis, thereby reducing androgen production and slowing the growth of androgen-dependent prostate cancer.",
+    "molecular_action": "CYP17A1 inhibitor",
+    "targets": [
+      "CYP17A1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced androgen production",
+      "Inhibition of prostate cancer cell growth"
+    ],
+    "selectivity": "Selective for CYP17A1",
+    "doi": [
+      "10.1056/NEJMoa1007436"
+    ]
+  },
+  "typical_use": {
+    "cancer": "prostate cancer",
+    "histology": "adenocarcinoma",
+    "clinical_settings": [
+      "metastatic castration-resistant prostate cancer"
+    ],
+    "scope": "standard of care",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/abirateroneacetate"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Severe hepatic impairment"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/202379s024lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hypertension",
+      "organ_system": "cardiovascular",
+      "biological_explanation": "Increased mineralocorticoid levels due to CYP17A1 inhibition",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Increased risk of cardiovascular events"
+      ],
+      "mechanism_doi": [
+        "10.1056/NEJMoa1007436"
+      ]
+    },
+    {
+      "effect": "Hypokalemia",
+      "organ_system": "electrolyte imbalance",
+      "biological_explanation": "Increased mineralocorticoid levels leading to potassium loss",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Muscle weakness",
+        "Arrhythmias"
+      ],
+      "mechanism_doi": [
+        "10.1056/NEJMoa1007436"
+      ]
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fatigue",
+        "Joint swelling",
+        "Hot flushes"
+      ],
+      "biological_explanation": null,
+      "mechanism_status": "observational"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "CYP3A4 substrates",
+      "examples": [
+        "Simvastatin",
+        "Midazolam"
+      ],
+      "biological_basis": "Abiraterone is metabolized by CYP3A4, and co-administration with CYP3A4 substrates may alter their metabolism."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Abiraterone"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/abirateroneacetate"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "comprehensive",
+    "mechanism_doi_meaning": "DOIs provide evidence for the mechanism of action and adverse effects.",
+    "empty_mechanism_doi_meaning": "No DOI available for observational adverse effects.",
+    "null_meaning": "No data available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 12.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00638690",
+      "NCT00887198"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "1000 mg daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": 16.5
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP17A1"
+    ],
+    "pathways": [
+      "Steroid biosynthesis"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CYP17A1",
+        "pdb_id": "3RUK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CYP17A1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 9.0,
+        "doi_or_source": "10.1126/science.1206820"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "DLBCL_GCB": {
+    "name": "DLBCL, germinal centre B-cell subtype",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes and/or extranodal",
+      "characteristic_extranodal_sites": [
+        "GI tract (stomach classical)",
+        "bone",
+        "testis",
+        "orbit",
+        "thyroid",
+        "breast",
+        "skin",
+        "CNS (uncommon primary; secondary in high-risk)",
+        "any anatomic site"
+      ],
+      "sanctuary_sites": [
+        "CNS (prophylaxis considered in high CNS-IPI, testicular, breast, kidney/adrenal, high-grade, or other extranodal high-risk sites)"
+      ],
+      "staging_system": "Lugano modification of Ann Arbor. IPI / R-IPI / NCCN-IPI prognostic scores. CNS-IPI for CNS relapse risk."
+    },
+    "biomarkers": [
+      {
+        "name": "Cell-of-origin (COO): Hans algorithm (CD10, BCL6, MUM1)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "GCB assigned per Hans",
+        "clinical_use": "GCB (CD10+ OR CD10-/BCL6+/MUM1-) vs ABC/non-GCB (CD10-/BCL6+/MUM1+ OR CD10-/BCL6-). GCB has better prognosis with R-CHOP. Gene expression profiling (eg, Lymph2Cx, NanoString) is more accurate than IHC surrogates"
+      },
+      {
+        "name": "CD20",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Near-universal",
+        "clinical_use": "Rituximab-containing immunochemotherapy (R-CHOP standard first-line; pola-R-CHP also CD20-directed via rituximab backbone). Loss at relapse can occur \u2014 CD20-negative relapse limits rituximab retreatment"
+      },
+      {
+        "name": "CD19, CD22, CD79b",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common B-cell antigens; expression should be confirmed on tumor cells",
+        "clinical_use": "CD19: CAR-T targets (axi-cel, liso-cel, tisa-cel) approved for R/R LBCL/DLBCL in appropriate settings; loncastuximab tesirine (anti-CD19 ADC). CD22: no standard approved DLBCL-directed agent. CD79b: polatuzumab vedotin (ADC; pola-R-CHP first-line option in IPI 2-5)"
+      },
+      {
+        "name": "MYC, BCL2, BCL6 rearrangements (FISH)",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "MYC ~5-15%; BCL2 ~20-30% (more common in GCB); BCL6 ~20-30%",
+        "clinical_use": "MYC rearrangement alone: adverse but not reclassified. Concurrent MYC + BCL2 rearrangements define high-grade B-cell lymphoma with MYC and BCL2 rearrangements; MYC + BCL6 cases may be biologically adverse but are not included in that entity in current WHO/ICC classifications"
+      },
+      {
+        "name": "MYC and BCL2 protein overexpression ('double expressor')",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20-35%",
+        "clinical_use": "Adverse; distinct from double-hit (which is rearrangement-based)"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Expression is seen in a subset of DLBCL, but brentuximab vedotin does not have an established standard role in routine DLBCL management"
+      },
+      {
+        "name": "EBV (EBER ISH)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Minor subset; uncommon in immunocompetent patients and more frequent in older or immunosuppressed patients",
+        "clinical_use": "EBV-positive DLBCL is recognized as a distinct entity in current classifications and is generally associated with worse prognosis"
+      },
+      {
+        "name": "CNS-IPI",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Age, LDH, ECOG, stage, extranodal sites, kidney/adrenal involvement \u2014 predicts CNS relapse risk. High CNS-IPI plus selected sites such as testis, breast, or kidney/adrenal may prompt consideration of CNS prophylaxis, although benefit remains uncertain"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Emerging MRD/disease-monitoring tool in DLBCL; end-of-treatment ctDNA positivity is associated with relapse risk, but routine standard-of-care use remains limited"
+      },
+      {
+        "name": "IPI / R-IPI / NCCN-IPI",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Foundation of DLBCL prognostication. NCCN-IPI adds age tiers and refined LDH categorisation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrate of large B lymphocytes with vesicular nuclei, prominent nucleoli, and moderate cytoplasm effacing normal architecture",
+      "variants": [
+        "centroblastic (large, non-cleaved, multiple peripheral nucleoli \u2014 most common)",
+        "immunoblastic (single central nucleolus)",
+        "anaplastic (large pleomorphic cells resembling ALCL)",
+        "T-cell/histiocyte-rich large B-cell lymphoma (variant pattern/related entity)"
+      ],
+      "grading": "Not morphologically graded; molecular subtyping (COO, LymphGen) drives risk"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "GCB-derived \u2014 reflects germinal centre B-cell biology (BCL6, often EZH2 pathway activity); more responsive to R-CHOP than ABC/non-GCB subtype",
+      "stromal_features": "Diffuse effacement of nodal architecture; extranodal involvement common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells (centroblasts) \u2014 recapitulates germinal centre B-cell biology at genomic and transcriptomic level",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (germinal centre B cells)",
+      "differentiation_state": "Germinal centre B-cell differentiation with active AID/somatic hypermutation programme; retains B-cell markers (CD19, CD20, CD22, CD79b); expresses germinal centre programme markers (BCL6, CD10, HGAL)",
+      "lineage_plasticity": "GCB DLBCL recapitulates germinal centre B-cell biology \u2014 BCL6 (master germinal centre transcription factor), frequent EZH2 alterations/pathway activation, and recurrent BCL2 rearrangements including t(14;18) help maintain the programme and impair apoptosis during germinal centre selection"
+    }
+  }
+}

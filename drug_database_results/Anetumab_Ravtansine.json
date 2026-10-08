@@ -1,0 +1,119 @@
+{
+  "molecule_name": "Anetumab Ravtansine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": "C90513",
+    "development_codes": [
+      "BAY 94-9343"
+    ],
+    "identifier_scope": "Anetumab Ravtansine is primarily identified by its development code BAY 94-9343 and NCI Thesaurus code C90513."
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-drug conjugate",
+  "modality": "ADC",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Anetumab Ravtansine is an antibody-drug conjugate that targets mesothelin-expressing cancer cells, delivering a cytotoxic agent to kill the cancer cells.",
+    "molecular_action": "The monoclonal antibody component binds to mesothelin, and the conjugated cytotoxic agent DM4 disrupts microtubule function, leading to cell death.",
+    "targets": [
+      "MSLN"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis",
+      "Inhibition of cell proliferation"
+    ],
+    "selectivity": "High selectivity for mesothelin-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Mesothelioma",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record covers the investigational and pharmacological profile of Anetumab Ravtansine, including its mechanism of action and clinical development status.",
+    "mechanism_doi_meaning": "DOIs for the mechanism of action are not provided as specific studies were not cited.",
+    "empty_mechanism_doi_meaning": "No specific DOIs are available for the mechanism of action.",
+    "null_meaning": "Null values indicate that specific data is not available or the drug is not approved for use.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02610140",
+      "NCT03926143",
+      "NCT02751918",
+      "NCT02485119"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MSLN"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "MSLN",
+        "pdb_id": null,
+        "alphafold_id": "Q13421",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "MSLN",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.3,
+        "doi_or_source": "10.1158/1535-7163.MCT-15-0481"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

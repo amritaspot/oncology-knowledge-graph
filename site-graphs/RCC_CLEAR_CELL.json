@@ -1,0 +1,143 @@
+{
+  "RCC_CLEAR_CELL": {
+    "name": "Renal cell carcinoma, clear cell",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Kidney",
+      "cohort": {
+        "male_n": 4365,
+        "female_n": 3000
+      },
+      "organ_involvement_pct": {
+        "PULMONARY": {
+          "male": 57,
+          "female": 53
+        },
+        "MUSCULOSKELETAL": {
+          "male": 37,
+          "female": 35
+        },
+        "HEPATOBILIARY": {
+          "male": 21,
+          "female": 24
+        },
+        "NEUROLOGIC": {
+          "male": 18,
+          "female": 18
+        },
+        "ENDOCRINE": {
+          "male": 6,
+          "female": 4
+        },
+        "PULMONARY_OTHER_RESPIRATORY": {
+          "male": 4,
+          "female": 3
+        },
+        "PULMONARY_PLEURA": {
+          "male": 5,
+          "female": 3
+        },
+        "RENAL_URINARY": {
+          "male": 6,
+          "female": 7
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "VHL",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~70-90% (VHL alteration/inactivation by mutation, deletion, and/or promoter methylation; germline cases are a small minority)",
+        "clinical_use": "Foundational defining event of ccRCC \u2014 leads to HIF stabilisation \u2192 VEGF/PDGF upregulation \u2192 rationale for anti-angiogenic TKIs. Germline VHL: von Hippel-Lindau syndrome (bilateral/multifocal ccRCC, phaeochromocytoma, haemangioblastoma, pancreatic NET, retinal angioma). Belzutifan (HIF-2\u03b1 inhibitor) approved for VHL-associated RCC and also used in advanced ccRCC."
+      },
+      {
+        "name": "PBRM1, BAP1, SETD2 (chromatin modifiers)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "PBRM1 ~30-45%; BAP1 ~10-15%; SETD2 ~10-15%",
+        "clinical_use": "PBRM1: prognostic and possibly associated with differential response to IO/TKI-based approaches, but not used clinically as a validated predictive biomarker. BAP1: worse prognosis, aggressive. SETD2: adverse prognosis. Combined loss of BAP1 + PBRM1 is a recognized aggressive genotype; BAP1 + SETD2 co-alteration may also indicate aggressive biology but is less established clinically."
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable (~20-30% by commonly used cutoffs)",
+        "clinical_use": "Not required for IO combinations (nivo/ipi, pembro/axi, nivo/cabo, pembro/lenvatinib all approved regardless); prognostic in some series but not a validated treatment-selection biomarker in ccRCC."
+      },
+      {
+        "name": "IMDC risk score (clinical)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Karnofsky performance status <80%, time from diagnosis to systemic therapy <1 year, anaemia, hypercalcaemia, neutrophilia, thrombocytosis. Favourable / intermediate / poor risk guides systemic therapy selection and stratification; nivo/ipi classically used in intermediate/poor-risk disease."
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<1% (rare)",
+        "clinical_use": "Rare in RCC"
+      },
+      {
+        "name": "NLR (neutrophil-lymphocyte ratio), CRP, LDH",
+        "type": "serum",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Inflammatory/prognostic biomarkers used in various RCC risk models; LDH is a component of the older MSKCC model, not the IMDC model."
+      },
+      {
+        "name": "Chromosome 3p loss / 5q gain",
+        "type": "copy-number alteration",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "3p loss in the large majority of ccRCC; 5q gain is common",
+        "clinical_use": "Hallmark genomic pattern of ccRCC. 3p loss targets VHL, PBRM1, BAP1, and SETD2 loci and supports lineage-defining biology, though not routinely used alone for treatment selection."
+      },
+      {
+        "name": "TFE3 / TFEB rearrangements",
+        "type": "fusion / rearrangement",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Not a hallmark of ccRCC; characteristic of MiT family translocation RCC rather than conventional clear cell RCC",
+        "clinical_use": "Important differential-diagnostic driver fusion to exclude when morphology overlaps with clear cell RCC."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Clear/eosinophilic cells with clear cytoplasm (from lipid and glycogen dissolved during processing) arranged in acinar, nested, or alveolar patterns; delicate vasculature",
+      "variants": [
+        "conventional clear cell RCC",
+        "clear cell with sarcomatoid or rhabdoid transformation (worst prognosis)"
+      ],
+      "grading": "WHO/ISUP grade 1-4 (based primarily on nucleolar prominence in grades 1-3; grade 4 includes extreme pleomorphism, multinucleated giant cells, and/or sarcomatoid/rhabdoid differentiation)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Highly variable \u2014 often described across angiogenic (VEGF-driven, relatively TKI-responsive) and inflamed/T-effector immune states, although these are not binary categories",
+      "stromal_features": "Highly vascular (VHL/HIF/VEGF-driven angiogenesis); minimal desmoplasia; sarcomatoid transformation shows abundant infiltrating immune cells and high IO responsiveness"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Proximal tubular epithelial cells",
+      "developmental_lineage": "Mesoderm \u2014 intermediate mesoderm (metanephric kidney)",
+      "differentiation_state": "Retains proximal tubule differentiation (PAX8+, CA9+, vimentin+, CD10+) with clear cytoplasm from glycogen and lipid accumulation associated with VHL/HIF-driven metabolic reprogramming",
+      "lineage_plasticity": "Sarcomatoid or rhabdoid transformation reflects dedifferentiation/EMT-like programmes and produces highly aggressive disease \u2014 often with enhanced IO responsiveness; VHL loss drives constitutive HIF-\u03b1 stabilization producing a pseudohypoxic state that reprograms cellular metabolism and phenotype"
+    }
+  }
+}

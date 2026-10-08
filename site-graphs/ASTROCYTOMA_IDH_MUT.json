@@ -1,0 +1,91 @@
+{
+  "ASTROCYTOMA_IDH_MUT": {
+    "name": "Astrocytoma, IDH-mutant",
+    "biomarkers": [
+      {
+        "name": "IDH1 R132 / IDH2 R172 mutations",
+        "type": "mutation / IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "By definition near-100% (defining feature)",
+        "clinical_use": "Defines the entity in WHO CNS5 classification. Better prognosis than IDH-wildtype diffuse astrocytic gliomas/glioblastoma. Vorasidenib approved based on the INDIGO trial for residual or recurrent grade 2 IDH-mutant glioma after surgery"
+      },
+      {
+        "name": "ATRX loss",
+        "type": "IHC / mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Very common in IDH-mutant astrocytoma (approximately 70\u201390%); helps distinguish from oligodendroglioma",
+        "clinical_use": "ATRX loss + IDH-mutant + 1p/19q intact supports astrocytoma"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Very common (approximately 70\u201390%)",
+        "clinical_use": "Common co-alteration in IDH-mutant astrocytoma"
+      },
+      {
+        "name": "CDKN2A/B homozygous deletion",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset (~20\u201330%)",
+        "clinical_use": "In an IDH-mutant astrocytoma, homozygous CDKN2A/B deletion is a CNS WHO grade 4 criterion regardless of histologic features"
+      },
+      {
+        "name": "MGMT promoter methylation",
+        "type": "methylation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common in IDH-mutant astrocytoma",
+        "clinical_use": "Associated with greater sensitivity to alkylating chemotherapy, although predictive utility is best established in glioblastoma"
+      },
+      {
+        "name": "WHO grade (2, 3, 4)",
+        "type": "morphologic + molecular",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Grade drives treatment intensity"
+      },
+      {
+        "name": "1p/19q codeletion status",
+        "type": "copy number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Absent by definition in astrocytoma, IDH-mutant",
+        "clinical_use": "Required to distinguish astrocytoma, IDH-mutant (1p/19q-intact) from oligodendroglioma, IDH-mutant and 1p/19q-codeleted"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrating glioma with astrocytic morphology (GFAP+, fibrillary or gemistocytic cells)",
+      "variants": [
+        "diffuse astrocytoma (WHO grade 2)",
+        "anaplastic astrocytoma (WHO grade 3)",
+        "astrocytoma, IDH-mutant, WHO grade 4"
+      ],
+      "grading": "WHO grade 2, 3, or 4; homozygous CDKN2A/B deletion is sufficient for grade 4 even without microvascular proliferation or necrosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "'Cold' \u2014 infiltrated by tumour-associated microglia and macrophages rather than T cells; the blood-brain barrier limits immune access",
+      "stromal_features": "No true stroma; tumour cells infiltrate along white matter tracts, blood vessels, and subpial regions (secondary structures of Scherer)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Neural stem/progenitor cells or oligodendrocyte precursor-like cells (OPC-like states are supported by glioma modeling and single-cell studies)",
+      "developmental_lineage": "Neuroectoderm \u2014 CNS-restricted lineage (astrocytes derived from radial glia during development)",
+      "differentiation_state": "Astrocytic differentiation (GFAP+, often OLIG2+); IDH-mutant tumours retain features of neural stem/progenitor cells with distinct methylation programme (G-CIMP hypermethylation)",
+      "lineage_plasticity": "Mutant IDH1/2 generates D-2-hydroxyglutarate (2-HG) \u2014 a competitive inhibitor of \u03b1-ketoglutarate-dependent dioxygenases including TET and histone demethylases \u2014 driving global hypermethylation (G-CIMP) and altered differentiation programs that distinguish these tumours from IDH-wildtype gliomas"
+    }
+  }
+}

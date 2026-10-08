@@ -1,0 +1,89 @@
+{
+  "POORLY_DIFFERENTIATED_THYROID": {
+    "name": "Poorly differentiated thyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-35%",
+        "clinical_use": "Adverse prognostic"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~30-55%",
+        "clinical_use": "Adverse prognostic"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-20%",
+        "clinical_use": "BRAF-directed therapy in BRAF V600E-mutant RAI-refractory disease"
+      },
+      {
+        "name": "RAS mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "Molecular classification"
+      },
+      {
+        "name": "RET fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "rare",
+        "clinical_use": "RET-directed therapy in fusion-positive advanced disease"
+      },
+      {
+        "name": "NTRK fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "rare",
+        "clinical_use": "TRK-directed therapy in fusion-positive advanced disease"
+      },
+      {
+        "name": "ALK fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "rare",
+        "clinical_use": "ALK-directed therapy in fusion-positive advanced disease"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Solid, trabecular, or insular architecture without papillary or well-differentiated follicular features; intermediate between differentiated and anaplastic",
+      "variants": [
+        "insular (Turin criteria)",
+        "solid",
+        "trabecular"
+      ],
+      "grading": "Turin criteria (solid/trabecular/insular growth + convoluted nuclei + mitoses \u22653/10 HPF or tumour necrosis)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; may transition toward inflamed as disease dedifferentiates",
+      "stromal_features": "Fibrous stroma with necrosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thyroid follicular epithelial cells with progressive dedifferentiation",
+      "developmental_lineage": "Endoderm \u2014 pharyngeal pouch derivative",
+      "differentiation_state": "Intermediate on the differentiation continuum between well-differentiated (PTC/FTC) and undifferentiated (ATC)",
+      "lineage_plasticity": "Represents a captured intermediate in the dedifferentiation cascade \u2014 accumulation of TP53, TERT, and secondary driver mutations progressively erodes follicular identity"
+    }
+  }
+}

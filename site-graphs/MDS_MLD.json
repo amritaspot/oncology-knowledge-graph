@@ -1,0 +1,37 @@
+{
+  "MDS_MLD": {
+    "name": "MDS with multilineage dysplasia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow"
+    },
+    "biomarkers": [
+      {
+        "name": "Same as MDS_SLD (cytogenetics, NGS panel, IPSS-R/IPSS-M)",
+        "type": "various",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "See MDS_SLD entry"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Bone marrow dysplasia (\u0001e510% dysplastic cells) in \u0001e52 lineages with peripheral cytopenia in \u0001e51 lineage; blasts <5% in marrow and <1% in blood",
+      "variants": [
+        "MDS-MLD is the largest single MDS category"
+      ],
+      "grading": "IPSS-R / IPSS-M risk scores"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per MDS_SLD; multilineage involvement indicates more advanced clonal expansion",
+      "stromal_features": "Marrow with dyspoiesis in multiple lineages"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC with clonal expansion producing ineffective haematopoiesis affecting multiple lineages",
+      "developmental_lineage": "Mesoderm \u0014 haematopoietic",
+      "differentiation_state": "Dysplastic differentiation in \u0001e52 lineages with peripheral cytopenia in \u0001e51 lineage; represents more advanced clonal expansion than SLD",
+      "lineage_plasticity": "Same clonal haematopoiesis biology as SLD but with more advanced lineage involvement \u0014 reflects further evolution of clonal disease affecting multiple committed progenitors"
+    }
+  }
+}

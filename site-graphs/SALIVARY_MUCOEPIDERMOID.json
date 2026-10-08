@@ -1,0 +1,45 @@
+{
+  "SALIVARY_MUCOEPIDERMOID": {
+    "name": "Mucoepidermoid carcinoma (salivary)",
+    "biomarkers": [
+      {
+        "name": "MAML2 rearrangement (CRTC1-MAML2 or CRTC3-MAML2)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~40-80%",
+        "clinical_use": "Diagnostic hallmark in a substantial subset; MAML2-positive cases are generally associated with more favorable prognosis"
+      },
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-20% (primarily high-grade subset)",
+        "clinical_use": "May identify a subset of high-grade / advanced tumors for HER2-directed therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Mixed population of mucous, squamous (epidermoid), and intermediate cells with cystic and solid areas",
+      "variants": [
+        "low-grade",
+        "intermediate-grade",
+        "high-grade"
+      ],
+      "grading": "AFIP or modified Healey grading based on cystic content, neural invasion, necrosis, mitoses, anaplasia"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised; variable",
+      "stromal_features": "Fibrous stroma; cystic areas with mucin"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Excretory/intercalated duct reserve cells or other ductal progenitors of salivary glands have been proposed; precise cell of origin remains unproven",
+      "developmental_lineage": "Major salivary glands arise predominantly from oral ectoderm; minor salivary glands have mixed embryologic contributions depending on site",
+      "differentiation_state": "Bidirectional differentiation \u2014 mucinous (goblet-like) + epidermoid (squamoid) + intermediate cells",
+      "lineage_plasticity": "CRTC1/CRTC3-MAML2 fusion is a defining driver in many cases and is thought to contribute to the mixed differentiation program"
+    }
+  }
+}

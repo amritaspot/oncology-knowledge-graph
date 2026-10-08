@@ -1,0 +1,133 @@
+{
+  "molecule_name": "Nivolumab and Recombinant Human Hyaluronidase",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Immune Checkpoint Inhibitor",
+  "modality": "Biologic",
+  "route": "Subcutaneous (SQ)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Nivolumab blocks the PD-1 protein on cancer cells, allowing the immune system to attack them. Hyaluronidase increases the absorption of nivolumab.",
+    "molecular_action": "Nivolumab binds to PD-1, preventing cancer cells from evading the immune response.",
+    "targets": [
+      "PD-1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced immune response against cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Melanoma, Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Monotherapy",
+      "Combination Therapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Nivolumab and Recombinant Human Hyaluronidase",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT03656718",
+      "NCT06697197",
+      "NCT06101134"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PDCD1",
+      "CD274"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PDCD1",
+        "pdb_id": "5GGR",
+        "alphafold_id": "P16422",
+        "resolution_angstroms": 3.25,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "HYAL1",
+        "pdb_id": "1FCV",
+        "alphafold_id": "Q12794",
+        "resolution_angstroms": 2.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PDCD1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 3.06,
+        "doi_or_source": "10.1016/j.jmb.2016.07.015"
+      },
+      {
+        "target_symbol": "HYAL1",
+        "affinity_type": "",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

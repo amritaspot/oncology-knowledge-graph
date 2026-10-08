@@ -1,0 +1,81 @@
+{
+  "EXTRANODAL_NK_T_NASAL": {
+    "name": "Extranodal NK/T-cell lymphoma, nasal type",
+    "heme_involvement_pattern": {
+      "primary_compartment": "extranodal (destructive midline)",
+      "characteristic_sites": [
+        "nasal cavity / sinuses / palate ('lethal midline granuloma')",
+        "skin",
+        "testis",
+        "GI tract",
+        "soft tissue"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "EBV (EBER ISH)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Near-100% / essentially universal (defining)",
+        "clinical_use": "Diagnostic hallmark. Plasma EBV DNA quantitation used for monitoring (higher = more disease). Post-treatment EBV DNA is prognostic"
+      },
+      {
+        "name": "NK-cell / cytotoxic T-cell immunophenotype (CD2+, CD3\u03b5 cytoplasmic+, CD56+, CD5-, cytotoxic markers+)",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Distinguishes NK from T lineage; determines TCR clonality testing utility"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently elevated",
+        "clinical_use": "Checkpoint inhibitors such as pembrolizumab and nivolumab have demonstrated activity in relapsed/refractory ENKTL, but PD-L1 IHC is not a validated or required companion predictive biomarker and reported response rates vary across small series"
+      },
+      {
+        "name": "Asparaginase (L-asparaginase) response",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "ENKTL is characteristically sensitive to asparaginase-containing regimens (e.g., SMILE, DDGP-based approaches). Foundation of therapy"
+      },
+      {
+        "name": "PINK / PINK-E prognostic scores",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Prognostic Index of Natural Killer lymphoma (PINK): age >60 years, stage III/IV disease, non-nasal type, distant lymph-node involvement. PINK-E adds detectable EBV DNA"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Angiocentric, angiodestructive infiltrate of atypical NK or T cells with prominent vascular invasion and coagulative necrosis; pleomorphic cytology",
+      "variants": [
+        "nasal ENKTL (~80% \u2014 midline destructive)",
+        "extra-nasal ENKTL (skin, testis, GI, soft tissue \u2014 worse prognosis)"
+      ],
+      "grading": "Aggressive"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "EBV-driven (near-universal); high PD-L1 expression is common and checkpoint inhibitors such as pembrolizumab and nivolumab have shown activity in relapsed/refractory disease, although no fixed response rate or PD-L1 IHC cutoff is established clinically. Asparaginase is uniquely effective",
+      "stromal_features": "Angiocentric growth with vascular invasion; extensive coagulative necrosis due to vascular occlusion; historically called 'lethal midline granuloma'"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "NK cells (majority) or cytotoxic T cells with EBV infection driving lineage biology",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (NK cells or cytotoxic T cells)",
+      "differentiation_state": "NK-cell differentiation (CD2+, cCD3\u03b5+, CD56+, EBER+) or cytotoxic T-cell differentiation (CD8+ variable); cytotoxic granules (TIA-1+, granzyme B+, perforin+)",
+      "lineage_plasticity": "EBV latency programme (typically type II) drives biology in most cases; asparaginase uniquely effective, reflecting dependence on extracellular asparagine rather than validated arginine auxotrophy"
+    }
+  }
+}

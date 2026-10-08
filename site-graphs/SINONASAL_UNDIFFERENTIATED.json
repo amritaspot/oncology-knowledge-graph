@@ -1,0 +1,43 @@
+{
+  "SINONASAL_UNDIFFERENTIATED": {
+    "name": "Sinonasal undifferentiated carcinoma (SNUC)",
+    "biomarkers": [
+      {
+        "name": "IDH2 R172 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50-80% of SNUC",
+        "clinical_use": "Defining molecular feature of many SNUC; potential IDH inhibitor clinical trial relevance"
+      },
+      {
+        "name": "SMARCB1 (INI-1)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Retained in true SNUC; loss defines separate entity",
+        "clinical_use": "Distinguish SNUC from SMARCB1-deficient sinonasal carcinoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Nests/sheets of medium-sized undifferentiated cells with high nuclear-cytoplasmic ratio, prominent nucleoli, mitoses, necrosis",
+      "variants": [
+        "conventional SNUC",
+        "IDH2-mutant subset (may be a distinct entity)"
+      ],
+      "grading": "High-grade by definition; no differentiation lineage identifiable"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; some subsets inflamed",
+      "stromal_features": "Minimal stroma; extensive necrosis common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 proposed sinonasal progenitor/stem cells with dedifferentiation",
+      "developmental_lineage": "Endoderm",
+      "differentiation_state": "Undifferentiated \u2014 diagnosis of exclusion after ruling out other sinonasal entities (SNEC, NUT carcinoma, olfactory neuroblastoma, SMARCB1-deficient)",
+      "lineage_plasticity": "IDH2-mutant subset may represent a distinct epigenetically dysregulated entity"
+    }
+  }
+}

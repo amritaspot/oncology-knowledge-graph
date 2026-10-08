@@ -1,0 +1,172 @@
+{
+  "molecule_name": "4SCAR-GD2-modified T-lymphocytes",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "4SCAR-GD2"
+    ],
+    "identifier_scope": "Investigational autologous GD2-directed CAR T-cell product; no verified standard small-molecule/biologic registry identifiers found."
+  },
+  "brand_names": [],
+  "drug_class": "GD2-directed chimeric antigen receptor T-cell therapy",
+  "modality": "Autologous genetically modified T-lymphocyte cellular immunotherapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Autologous T lymphocytes are genetically modified to express a fourth-generation safety-designed chimeric antigen receptor (4SCAR) that recognizes GD2 on tumor cells, leading to antigen-dependent T-cell activation and tumor cell killing.",
+    "molecular_action": "Engineered CAR-mediated binding to the disialoganglioside GD2 on tumor cells triggers T-cell activation, cytokine release, proliferation, and cytotoxic killing. The 4SCAR platform is a synthetic receptor design rather than a native ligand-receptor drug interaction.",
+    "targets": [
+      "GD2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "T-cell activation",
+      "Cytokine secretion",
+      "Tumor cell lysis",
+      "In vivo expansion and persistence of CAR T cells"
+    ],
+    "selectivity": "Intended to target GD2-expressing malignant cells; GD2 is also expressed on some normal neural-derived tissues, which may contribute to on-target/off-tumor toxicity risk.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "GD2-positive solid tumors and central nervous system tumors",
+    "histology": "Includes neuroblastoma and diffuse intrinsic pontine glioma in early clinical investigation",
+    "clinical_settings": [
+      "Relapsed/refractory disease",
+      "Early-phase investigational cellular therapy"
+    ],
+    "scope": "Investigational use only",
+    "reference_urls": [
+      "https://clinicaltrials.gov/"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Cytokine release syndrome",
+      "organ_system": "Immune system",
+      "biological_explanation": "Antigen-driven CAR T-cell activation can induce systemic inflammatory cytokine release.",
+      "mechanism_status": "Established class effect",
+      "potential_consequences": [
+        "Fever",
+        "Hypotension",
+        "Hypoxia",
+        "Organ dysfunction"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Neurotoxicity/immune effector cell-associated neurotoxicity syndrome",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Immune activation and endothelial/inflammatory effects associated with CAR T-cell therapy may contribute to neurologic toxicity.",
+      "mechanism_status": "Established class effect",
+      "potential_consequences": [
+        "Confusion",
+        "Seizure",
+        "Encephalopathy",
+        "Cerebral edema"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "On-target/off-tumor toxicity to GD2-expressing normal tissues",
+      "organ_system": "Multisystem",
+      "biological_explanation": "GD2 expression on some normal tissues, especially neural-derived tissues, creates risk of collateral immune attack.",
+      "mechanism_status": "Plausible/target-based",
+      "potential_consequences": [
+        "Neuropathic pain",
+        "Inflammation of normal tissues"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fever",
+        "Myelosuppression related to lymphodepleting chemotherapy",
+        "Infection risk"
+      ],
+      "biological_explanation": "Observed toxicities in CAR T-cell treatment programs may derive from conditioning chemotherapy, immune activation, and prolonged cytopenias.",
+      "mechanism_status": "Established class/program-level observation"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Systemic corticosteroids and other immunosuppressants",
+      "examples": [],
+      "biological_basis": "May reduce CAR T-cell expansion, persistence, and antitumor activity; often used therapeutically to manage toxicity."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.gov/"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "This record summarizes publicly identifiable information for the investigational cellular therapy 4SCAR-GD2-modified T-lymphocytes. Quantitative efficacy and pharmacokinetic fields are left null/empty where specific published human metrics were not verified.",
+    "mechanism_doi_meaning": "Listed DOIs correspond to directly relevant mechanism or toxicity publications when specifically verified.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no directly verified DOI was confidently established for that exact field during record assembly.",
+    "null_meaning": "Null indicates that a specific datum was not verified in public sources or is not applicable to this modality.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT04196413",
+      "NCT04430595",
+      "NCT02765243",
+      "NCT04429438"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GD2"
+    ],
+    "pathways": [
+      "T-cell receptor signaling",
+      "Cytotoxic T-cell mediated killing",
+      "Cytokine signaling in immune system"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "molecule_name": "Vibostolimab/Pembrolizumab MK-7684A",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "MK-7684A"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Immune Checkpoint Inhibitor",
+  "modality": "Biologic / Combination Therapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Vibostolimab and Pembrolizumab are designed to enhance the immune response against cancer cells by blocking immune checkpoints.",
+    "molecular_action": "Inhibition of PD-1 and other immune checkpoints.",
+    "targets": [
+      "PD-1",
+      "PD-L1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced T-cell activation",
+      "Increased anti-tumor immunity"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer, Colorectal Cancer, Hematological Malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic Non-Small Cell Lung Cancer",
+      "Stage IV Colorectal Cancer",
+      "Relapsed/Refractory Hematological Malignancies"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and studies related to MK-7684A.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT04895722",
+      "NCT04738487",
+      "NCT05005442"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PDCD1",
+      "CD274"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PDCD1",
+        "pdb_id": "5GGS",
+        "alphafold_id": "P60484",
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CD274",
+        "pdb_id": "5X8M",
+        "alphafold_id": "Q9NZQ7",
+        "resolution_angstroms": 3.25,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PDCD1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 29.8,
+        "doi_or_source": "10.1016/j.immuni.2016.08.020"
+      },
+      {
+        "target_symbol": "CD274",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 8.2,
+        "doi_or_source": "10.1016/j.immuni.2016.08.020"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

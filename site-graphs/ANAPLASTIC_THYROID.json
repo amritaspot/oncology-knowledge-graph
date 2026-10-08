@@ -1,0 +1,89 @@
+{
+  "ANAPLASTIC_THYROID": {
+    "name": "Anaplastic thyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~25-45%",
+        "clinical_use": "Dabrafenib + trametinib is an FDA-approved standard systemic option for BRAF V600E-mutant ATC and is practice-changing in this subset"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~60-75%",
+        "clinical_use": "Very common; associated with aggressive biology and adverse prognosis"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50-80%",
+        "clinical_use": "Very common; adverse"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-25%",
+        "clinical_use": "Recurrent alternative driver, usually within the broader RAS-mutant subset rather than a standalone diagnostic marker"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently elevated",
+        "clinical_use": "Immune checkpoint inhibitors are under investigation and used in selected combination or salvage settings; PD-L1 is not an established standard companion biomarker in ATC"
+      },
+      {
+        "name": "RAS (HRAS/NRAS/KRAS)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "Common driver class alternative to BRAF; helps define molecular subset"
+      },
+      {
+        "name": "RET/NTRK/ALK fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Important to test because rare actionable fusions can enable matched targeted therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Undifferentiated; spindle cell, giant cell, or squamoid morphology; extensive necrosis; high mitotic index",
+      "variants": [
+        "spindle cell",
+        "giant cell",
+        "squamoid"
+      ],
+      "grading": "By definition high-grade / undifferentiated; T4a intrathyroidal, T4b extrathyroidal"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often highly inflamed / immune infiltrated; PD-L1 elevated",
+      "stromal_features": "Extensive necrosis; neutrophilic and macrophage infiltrate common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thyroid follicular epithelial cells with complete dedifferentiation",
+      "developmental_lineage": "Endoderm \u2014 pharyngeal pouch derivative (though lineage is often unrecognisable morphologically)",
+      "differentiation_state": "Undifferentiated by definition \u2014 no follicular architecture, no thyroglobulin production, no iodine avidity",
+      "lineage_plasticity": "Represents endpoint of thyroid dedifferentiation cascade; sarcomatoid transformation with EMT features common; occasional focal transitional areas identify differentiated precursor"
+    }
+  }
+}

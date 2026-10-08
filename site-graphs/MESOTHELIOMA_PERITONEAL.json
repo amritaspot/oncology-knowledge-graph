@@ -1,0 +1,74 @@
+{
+  "MESOTHELIOMA_PERITONEAL": {
+    "name": "Peritoneal mesothelioma",
+    "biomarkers": [
+      {
+        "name": "BAP1",
+        "type": "IHC / mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~40-70%",
+        "clinical_use": "Loss of BAP1 supports malignant mesothelial proliferation versus benign/reactive mesothelial proliferations; germline BAP1 tumor predisposition syndrome should be considered in appropriate clinical/family history contexts"
+      },
+      {
+        "name": "MTAP / CDKN2A loss",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Less common than in pleural mesothelioma; CDKN2A homozygous deletion is uncommon in peritoneal mesothelioma",
+        "clinical_use": "Supports malignancy when present, but lower sensitivity in peritoneal mesothelioma than pleural"
+      },
+      {
+        "name": "Calretinin, WT1, CK5/6",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Mesothelial markers"
+      },
+      {
+        "name": "ALK rearrangements",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare; enriched in peritoneal mesothelioma, particularly in younger patients/women",
+        "clinical_use": "May predict benefit from ALK inhibitors in ALK-rearranged peritoneal mesothelioma"
+      },
+      {
+        "name": "NF2",
+        "type": "mutation / copy-number loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent",
+        "clinical_use": "One of the hallmark tumor suppressor alterations in malignant peritoneal mesothelioma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse peritoneal serosal/peritoneal thickening or nodularity with epithelioid, biphasic, or sarcomatoid histology",
+      "variants": [
+        "epithelioid (predominant)",
+        "biphasic",
+        "sarcomatoid (rare peritoneally)",
+        "well-differentiated papillary mesothelial tumor (indolent, female predominant, generally no strong asbestos association)",
+        "multicystic mesothelial proliferation / benign multicystic mesothelial tumor (very indolent)"
+      ],
+      "grading": "Grading is not simply extrapolated from pleural mesothelioma; epithelioid peritoneal mesothelioma may be risk-stratified by architectural/cytologic features, while biphasic and sarcomatoid histologies are high grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised relative to pleural mesothelioma",
+      "stromal_features": "Peritoneal fibrosis; ascites common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesothelial cells lining peritoneal cavity",
+      "developmental_lineage": "Mesoderm \u2014 lateral plate mesoderm (visceral peritoneum from splanchnopleure)",
+      "differentiation_state": "Epithelioid tumors retain mesothelial differentiation (calretinin+, WT1+); well-differentiated papillary mesothelial tumor and multicystic mesothelial proliferation are low-grade/borderline mesothelial entities with retained mature mesothelial phenotype",
+      "lineage_plasticity": "Sarcomatoid/dedifferentiated progression can occur, analogous to mesothelioma at other serosal sites"
+    }
+  }
+}

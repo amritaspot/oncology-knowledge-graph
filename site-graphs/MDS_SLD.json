@@ -1,0 +1,59 @@
+{
+  "MDS_SLD": {
+    "name": "MDS with single lineage dysplasia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow"
+    },
+    "biomarkers": [
+      {
+        "name": "Cytogenetics (karyotype)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "IPSS-R cytogenetic risk groups are based on marrow karyotype (very good: -Y, del(11q); good: normal, del(5q), del(12p), del(20q), double including del(5q); intermediate; poor; very poor: complex, monosomal)"
+      },
+      {
+        "name": "Somatic mutation panel (SF3B1, TET2, ASXL1, DNMT3A, SRSF2, U2AF1, TP53, EZH2, RUNX1, STAG2, others)",
+        "type": "NGS panel",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Detected in ~80\u201390%",
+        "clinical_use": "IPSS-M (molecular) incorporates recurrent myeloid gene mutations and refines IPSS-R risk. Multihit/bi-allelic TP53 = adverse. SF3B1 is associated with a favourable phenotype, especially in MDS with ring sideroblasts, but prognosis depends on overall disease context"
+      },
+      {
+        "name": "IPSS-R / IPSS-M risk scores",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Guides therapy intensity and transplant referral"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Bone marrow dysplasia (\u226510% dysplastic cells) in a single lineage (erythroid, granulocytic, or megakaryocytic) with peripheral cytopenia; dysplasia may involve one lineage while cytopenia need not strictly be limited to the same lineage",
+      "variants": [
+        "MDS-SLD with erythroid dysplasia",
+        "MDS-SLD with granulocytic dysplasia (rare)",
+        "MDS-SLD with megakaryocytic dysplasia"
+      ],
+      "grading": "IPSS-R / IPSS-M risk scores; not morphologically graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Clonal haematopoietic stem cell disorder; autoimmune complications and inflammatory dysregulation are increasingly recognised",
+      "stromal_features": "Bone marrow architecture with dyspoiesis; often normocellular or hypercellular for age but occasionally hypocellular (hypoplastic MDS overlap)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Haematopoietic stem/progenitor cell with clonal expansion producing ineffective haematopoiesis with single-lineage dysplasia",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Dysplastic differentiation in a single lineage (erythroid, granulocytic, or megakaryocytic) with peripheral cytopenia; represents chronic ineffective haematopoiesis with maintained differentiation but abnormal maturation",
+      "lineage_plasticity": "MDS represents clonal haematopoiesis with lineage-restricted dysplasia; progression to higher-grade MDS or AML involves acquisition of additional driver alterations including TP53, RUNX1, and other recurrent myeloid mutations"
+    }
+  }
+}

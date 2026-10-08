@@ -1,0 +1,146 @@
+{
+  "molecule_name": "Aclarubicin",
+  "identifiers": {
+    "FDA_UNII": "U26S4BR8G7",
+    "PubChem_CID": 451415,
+    "CAS_number": "57576-44-0",
+    "NCI_Thesaurus_code": "C474",
+    "development_codes": [],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Aclacinomycin A"
+  ],
+  "drug_class": "Anthracycline antibiotic",
+  "modality": "Small molecule",
+  "route": "Intravenous",
+  "marketed_form": "Solution for injection",
+  "approved_countries": [
+    "Japan"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Aclarubicin intercalates into DNA, disrupting the function of topoisomerase II and inhibiting DNA replication and RNA synthesis.",
+    "molecular_action": "DNA intercalation and topoisomerase II inhibition",
+    "targets": [
+      "TOP2A"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA replication",
+      "Inhibition of RNA synthesis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute myeloid leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed",
+      "Refractory"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe cardiac impairment",
+      "Hypersensitivity to anthracyclines"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Cardiotoxicity",
+      "organ_system": "Cardiovascular",
+      "biological_explanation": "Aclarubicin can cause damage to cardiac myocytes, leading to cardiotoxicity.",
+      "mechanism_status": "established",
+      "potential_consequences": [
+        "Heart failure",
+        "Arrhythmias"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Myelosuppression",
+        "Nausea",
+        "Vomiting",
+        "Alopecia"
+      ],
+      "biological_explanation": null,
+      "mechanism_status": null
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Other cardiotoxic drugs",
+      "examples": [
+        "Doxorubicin",
+        "Daunorubicin"
+      ],
+      "biological_basis": "Increased risk of cardiotoxicity when used with other cardiotoxic agents."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/135398662",
+      "https://www.drugbank.ca/drugs/DB04572"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Aclarubicin as an anthracycline antibiotic used in oncology",
+    "mechanism_doi_meaning": "DOIs for mechanism of action studies",
+    "empty_mechanism_doi_meaning": "No specific DOIs available for mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT07486726",
+      "NCT05264883"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TOP2A"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "molecule_name": "Pegylated CD25/CD122-selective Interleukin-2 Mutein STK-012",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cytokine",
+  "modality": "Biologic",
+  "route": "Subcutaneous (SQ)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "STK-012 selectively targets and activates T cells to enhance their ability to kill tumor cells.",
+    "molecular_action": "Binds to CD25 and CD122 on antigen-activated effector T cells, activating CD25/CD122-mediated signaling.",
+    "targets": [
+      "CD25",
+      "CD122"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of cytotoxic T lymphocytes (CTLs)",
+      "Enhanced T-cell-mediated tumor cell killing",
+      "Decreased tumor cell proliferation"
+    ],
+    "selectivity": "Selective for CD25 and CD122",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-small cell lung cancer",
+    "histology": "Non-squamous",
+    "clinical_settings": [
+      "Advanced lung cancer",
+      "Combination with pembrolizumab, pemetrexed, and carboplatin"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT05098132"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05098132"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL2RA",
+      "IL2RB"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL2RA",
+        "pdb_id": null,
+        "alphafold_id": "P01589",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "IL2RB",
+        "pdb_id": null,
+        "alphafold_id": "P14784",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "IL2RA",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      },
+      {
+        "target_symbol": "IL2RB",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

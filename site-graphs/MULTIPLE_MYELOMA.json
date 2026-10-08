@@ -1,0 +1,145 @@
+{
+  "MULTIPLE_MYELOMA": {
+    "name": "Multiple myeloma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow (diffuse or focal)",
+      "characteristic_features": [
+        "CRAB: hyperCalcemia, Renal impairment, Anaemia, Bone lesions (lytic)"
+      ],
+      "characteristic_extramedullary_sites": [
+        "bone (skeletal \u2014 lytic lesions, pathological fractures)",
+        "kidney (cast nephropathy, light chain deposition)",
+        "plasmacytomas (soft tissue) \u2014 bone-based or extramedullary",
+        "rare: CNS, liver, lung, pleural effusions in advanced/refractory disease"
+      ],
+      "staging_system": "R-ISS (albumin, \u03b22-microglobulin, LDH, high-risk cytogenetics \u2014 del17p, t(4;14), t(14;16)). Newer R2-ISS incorporates gain(1q)."
+    },
+    "biomarkers": [
+      {
+        "name": "SPEP + IFE + urine protein electrophoresis (UPEP) + urine IFE + serum FLC",
+        "type": "serum / urine",
+        "categories": [
+          "diagnostic",
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "Universal",
+        "clinical_use": "Diagnosis, response monitoring (IMWG criteria), disease type classification (IgG/IgA/light-chain/non-secretory/oligosecretory)"
+      },
+      {
+        "name": "\u03b22-microglobulin, albumin, LDH",
+        "type": "serum",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Universal",
+        "clinical_use": "Components of ISS/R-ISS staging (I, II, III). LDH also independently prognostic"
+      },
+      {
+        "name": "Cytogenetics by FISH \u2014 high-risk panel",
+        "type": "FISH",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "Universal at diagnosis",
+        "clinical_use": "High-risk: t(4;14)/FGFR3-MMSET (~15%), t(14;16)/MAF (~3-5%), t(14;20)/MAFB (~1-2%, rare), del(17p)/TP53 (~5-10% at diagnosis), gain(1q)/1q amp (~30-40%). Standard-risk: t(11;14)/CCND1 (~15-20%), t(6;14), hyperdiploidy"
+      },
+      {
+        "name": "t(11;14) CCND1",
+        "type": "FISH",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~15-20%",
+        "clinical_use": "Standard risk overall; BCL2-dependent subset \u2014 venetoclax shows high activity in t(11;14) MM"
+      },
+      {
+        "name": "CD38",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Near-universal high expression on myeloma plasma cells",
+        "clinical_use": "Daratumumab, isatuximab (anti-CD38 mAbs) \u2014 foundational: dara-VRd (PERSEUS, GRIFFIN) frontline; isa-KRd; dara-Rd (MAIA)"
+      },
+      {
+        "name": "BCMA (B-cell maturation antigen, TNFRSF17)",
+        "type": "target",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Near-universal expression on myeloma plasma cells",
+        "clinical_use": "Multiple modalities: BCMA CAR-T (idecabtagene vicleucel \u2014 KarMMa; ciltacabtagene autoleucel \u2014 CARTITUDE); BCMA\u00d7CD3 bispecifics (teclistamab, elranatamab); belantamab mafodotin (ADC)"
+      },
+      {
+        "name": "GPRC5D",
+        "type": "target",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Highly expressed on most myeloma cells",
+        "clinical_use": "Talquetamab (GPRC5D\u00d7CD3 bispecific) \u2014 approved for R/R MM (MonumenTAL-1)"
+      },
+      {
+        "name": "FcRH5",
+        "type": "target",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Broadly expressed on myeloma cells",
+        "clinical_use": "Cevostamab (FcRH5\u00d7CD3 bispecific) \u2014 R/R MM trials"
+      },
+      {
+        "name": "MRD assessment (multiparameter flow cytometry, NGS clonoSEQ, PET-CT)",
+        "type": "flow / molecular / imaging",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Standard in modern practice",
+        "clinical_use": "Undetectable MRD (uMRD) at 10^-5 or 10^-6 is powerful prognostic marker; treatment de-escalation studies ongoing"
+      },
+      {
+        "name": "Whole-body low-dose CT / MRI / PET-CT",
+        "type": "imaging",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Universal",
+        "clinical_use": "Replaces older skeletal survey. Focal PET-avid lesions post-treatment predict relapse"
+      },
+      {
+        "name": "Extramedullary disease (EMD) presence",
+        "type": "imaging / biopsy",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20% at some point",
+        "clinical_use": "Adverse; often plasmablastic morphology; poor response to standard therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Marrow infiltration by clonal plasma cells (\u226510%) with cytologic atypia, aberrant clustering, and myeloma-defining events/end-organ damage (CRAB features)",
+      "variants": [
+        "by isotype: IgG (~50-60%), IgA (~20%), light-chain only (~15-20%), IgD (~1-2%), IgE (very rare), non-secretory/oligosecretory (rare)",
+        "by morphology: plasmacytic (mature), plasmablastic (immature, worse prognosis), anaplastic"
+      ],
+      "grading": "R-ISS / R2-ISS staging; molecular subtypes (high-risk cytogenetics) drive risk"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Bone marrow niche dependency \u2014 plasma cells depend on stromal support (IL-6, VEGF, CXCL12); CD38, BCMA, GPRC5D, FcRH5 targetable across multiple modalities (mAbs, ADCs, CAR-T, bispecifics); MM-directed T cell therapies transforming outcomes",
+      "stromal_features": "Diffuse or focal marrow plasma cell infiltration displacing normal haematopoiesis; osteoclast activation causes lytic bone lesions; occasional focal plasmacytomas"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Terminally differentiated plasma cells derived from post-germinal centre B cells; long-lived plasma cells reside in bone marrow niches",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (terminal plasma cell differentiation)",
+      "differentiation_state": "Terminal plasma cell differentiation (CD138+, CD38 bright, IRF4+, PRDM1/BLIMP1+) with clonal Ig production; retains extensive normal plasma cell biology (Ig secretion, marrow niche dependency, BCMA expression)",
+      "lineage_plasticity": "Plasma cell lineage retention explains therapeutic strategy \u2014 targeting plasma cell-specific antigens (CD38 \u2192 daratumumab, isatuximab; BCMA \u2192 CAR-T, bispecifics, ADC; GPRC5D \u2192 bispecific; FcRH5 \u2192 bispecific); plasmablastic morphology in extramedullary disease represents lineage regression toward less-differentiated state with worse prognosis; t(11;14) MM has retained BCL2 dependency"
+    }
+  }
+}

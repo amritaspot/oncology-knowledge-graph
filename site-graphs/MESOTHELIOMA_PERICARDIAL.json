@@ -1,0 +1,44 @@
+{
+  "MESOTHELIOMA_PERICARDIAL": {
+    "name": "Pericardial mesothelioma",
+    "biomarkers": [
+      {
+        "name": "Calretinin, WT1, CK5/6",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Frequently positive",
+        "clinical_use": "Mesothelial markers"
+      },
+      {
+        "name": "BAP1, MTAP / CDKN2A",
+        "type": "IHC / FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Alterations reported, but prevalence in pericardial mesothelioma is not well defined; often extrapolated from pleural mesothelioma",
+        "clinical_use": "Diagnostic support"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Similar to pleural mesothelioma \u2014 epithelioid, sarcomatoid, or biphasic patterns",
+      "variants": [
+        "epithelioid",
+        "biphasic",
+        "sarcomatoid"
+      ],
+      "grading": "No pericardial-specific grading system established; generally assessed using pleural mesothelioma principles"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not characterised due to rarity",
+      "stromal_features": "Pericardial thickening; pericardial effusion"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesothelial cells lining pericardial cavity",
+      "developmental_lineage": "Mesoderm \u2014 from pericardial coelom (embryonic body cavity)",
+      "differentiation_state": "Mesothelial (calretinin+, WT1+); same lineage biology as pleural mesothelioma",
+      "lineage_plasticity": "Same epithelioid \u2192 sarcomatoid progression as pleural/peritoneal mesothelioma"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "LIPOSARCOMA_PLEOMORPHIC": {
+    "name": "Liposarcoma, pleomorphic",
+    "biomarkers": [
+      {
+        "name": "Complex karyotype (no MDM2 amplification)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic",
+        "clinical_use": "Supports distinction from WD/DD-LPS, which characteristically shows MDM2 amplification; pleomorphic liposarcoma lacks a recurrent pathognomonic amplification or fusion."
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent",
+        "clinical_use": "Associated with complex genomic instability; not an established routine standalone prognostic biomarker specific to pleomorphic liposarcoma."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Pleomorphic, high-grade sarcoma with pleomorphic lipoblasts (defining feature) in the absence of MDM2 amplification",
+      "variants": [
+        "conventional pleomorphic liposarcoma",
+        "epithelioid pleomorphic liposarcoma"
+      ],
+      "grading": "High-grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Pleomorphic spindle and multinucleated cells with lipoblastic differentiation"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 mesenchymal cells with variable adipocytic differentiation potential; distinct from WD/DD LPS (no MDM2 amplification) and myxoid LPS (no DDIT3 fusion)",
+      "developmental_lineage": "Mesoderm \u2014 adipose tissue mesenchyme",
+      "differentiation_state": "Pleomorphic, high-grade sarcoma with pleomorphic lipoblasts (defining feature); complex karyotype is typical and TP53 alterations are recurrent",
+      "lineage_plasticity": "Represents primary high-grade adipocytic sarcoma without the distinctive molecular signatures of other liposarcomas; complex genomic instability drives pleomorphic phenotype"
+    }
+  }
+}

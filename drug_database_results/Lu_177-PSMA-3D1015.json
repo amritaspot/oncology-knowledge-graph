@@ -1,0 +1,119 @@
+{
+  "molecule_name": "Lu 177-PSMA-3D1015",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A radiolabeled compound that targets prostate-specific membrane antigen (PSMA) in prostate cancer cells.",
+    "molecular_action": "Delivers targeted radiation to PSMA-expressing cells, leading to cell death.",
+    "targets": [
+      "FOLH1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cellular apoptosis in PSMA-expressing tumors"
+    ],
+    "selectivity": "High selectivity for PSMA-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic castration-resistant prostate cancer (mCRPC)"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data for Lu 177-PSMA-3D1015",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07537010"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLH1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FOLH1",
+        "pdb_id": null,
+        "alphafold_id": "P42788",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FOLH1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.37,
+        "doi_or_source": "10.1016/j.ejmech.2019.111831"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Small Molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

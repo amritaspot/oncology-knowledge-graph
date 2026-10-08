@@ -1,0 +1,119 @@
+{
+  "molecule_name": "Actinium Ac 225 SSTR2-targeted Agent RYZ401",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "RYZ401"
+    ],
+    "identifier_scope": "Investigational"
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "RYZ401 is a radiopharmaceutical that targets somatostatin receptor 2 (SSTR2) on tumor cells, delivering cytotoxic radiation from Actinium-225 to induce cell death.",
+    "molecular_action": "Binding to SSTR2 and delivering alpha radiation from Actinium-225.",
+    "targets": [
+      "SSTR2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of DNA double-strand breaks"
+    ],
+    "selectivity": "High for SSTR2-expressing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Gastroenteropancreatic Neuroendocrine Tumor",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Limited to investigational data and known pharmacological properties.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOIs are available for the mechanism of action.",
+    "null_meaning": "Information is not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 10.0,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT07165132"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "SSTR2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "SSTR2",
+        "pdb_id": null,
+        "alphafold_id": "P30874",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "SSTR2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1016/j.ejmech.2020.112937"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Actinium-225",
+    "emission_type": [
+      "Alpha"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "molecule_name": "Sunitinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5329102,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Sutent"
+  ],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Sunitinib inhibits multiple receptor tyrosine kinases involved in tumor growth and angiogenesis.",
+    "molecular_action": "Inhibition of VEGFR, PDGFR, and other kinases.",
+    "targets": [
+      "VEGFR",
+      "PDGFR",
+      "KIT"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of angiogenesis",
+      "Reduced tumor growth"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Renal Cell Carcinoma",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic Renal Cell Carcinoma",
+      "Non-Small Cell Lung Cancer",
+      "Other Solid Tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hypertension",
+      "organ_system": "Cardiovascular",
+      "biological_explanation": "Increased vascular resistance due to inhibition of angiogenesis.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of cardiovascular events"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Inhibition of growth factor signaling in the gastrointestinal tract.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Sunitinib's clinical applications and ongoing trials.",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this entry.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 13.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4",
+      "CYP2C9"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02693535",
+      "NCT01829217",
+      "NCT01616186"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "50 mg once daily",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 9.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KDR",
+      "PDGFRA",
+      "KIT"
+    ],
+    "pathways": [
+      "VEGF Signaling Pathway",
+      "PDGF Signaling Pathway"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "EXTRANODAL_MARGINAL_ZONE_MALT": {
+    "name": "Extranodal marginal zone (MALT) lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "extranodal (organ-specific)",
+      "characteristic_sites": [
+        "stomach (H. pylori-associated \u2014 H. pylori eradication first-line)",
+        "lung (BALT)",
+        "salivary gland (Sj\u00f6gren syndrome-associated)",
+        "thyroid (Hashimoto-associated)",
+        "ocular adnexa (Chlamydia psittaci association reported)",
+        "skin",
+        "small bowel (IPSID/heavy chain disease)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "H. pylori (gastric MALT)",
+        "type": "serology / stool antigen / breath / biopsy",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": ">90% of gastric MALT",
+        "clinical_use": "H. pylori eradication is first-line \u2014 induces lymphoma remission in most H. pylori+ localized disease"
+      },
+      {
+        "name": "t(11;18)(q21;q21) BIRC3-MALT1",
+        "type": "FISH / RT-PCR",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20\u201330% overall in gastric MALT; enriched in H. pylori-resistant cases",
+        "clinical_use": "Predicts poor response / failure of H. pylori eradication and relative lack of response to alkylating-agent monotherapy \u2014 local therapy (e.g. RT) or rituximab-based systemic therapy is generally preferred when treatment is needed"
+      },
+      {
+        "name": "t(14;18)(q32;q21) IGH-MALT1",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Seen in a subset of nongastric MALT, including ocular adnexa, salivary gland, skin, and liver; uncommon in gastric MALT",
+        "clinical_use": "Recurrent MALT lymphoma translocation with site enrichment"
+      },
+      {
+        "name": "t(3;14)(p14.1;q32) IGH-FOXP1",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Uncommon; reported in subsets of thyroid and ocular adnexal MALT and other extranodal sites",
+        "clinical_use": "Recurrent but infrequent translocation"
+      },
+      {
+        "name": "Chlamydia psittaci (ocular adnexa)",
+        "type": "PCR",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Variable by geography",
+        "clinical_use": "Doxycycline may induce remission in some ocular adnexal MALT cases; predictive value remains inconsistent/contested"
+      },
+      {
+        "name": "Autoimmune disease association (Sj\u00f6gren for salivary, Hashimoto for thyroid)",
+        "type": "clinical / serologic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Site-specific",
+        "clinical_use": "Diagnostic support"
+      },
+      {
+        "name": "MYD88 L265P (usually negative)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Helps distinguish from lymphoplasmacytic lymphoma/Waldenstr\u00f6m macroglobulinemia"
+      },
+      {
+        "name": "t(1;14)(p22;q32) / IGH-BCL10 and t(1;2)(p22;p12) BCL10-IGK",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Hallmark recurrent MALT lymphoma rearrangements leading to NF-\u03baB pathway activation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small B lymphocytes with plasmacytic differentiation infiltrating epithelium and forming lymphoepithelial lesions in mucosa-associated lymphoid tissue",
+      "variants": [
+        "gastric MALT (most common)",
+        "pulmonary BALT (bronchus-associated)",
+        "salivary gland (Sj\u00f6gren-associated)",
+        "thyroid (Hashimoto-associated)",
+        "ocular adnexal (Chlamydia psittaci-associated)",
+        "cutaneous MALT",
+        "small bowel IPSID (heavy chain disease)"
+      ],
+      "grading": "Indolent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Chronic antigen-driven \u2014 H. pylori (gastric), Chlamydia psittaci (ocular, variably supported geographically), Borrelia burgdorferi (some cutaneous cases in endemic regions), Sj\u00f6gren autoimmunity (salivary), Hashimoto (thyroid); antigen removal can induce regression in selected infection-driven forms",
+      "stromal_features": "Lymphoepithelial lesions (lymphocytes invading epithelium) are characteristic; reactive follicles may be retained"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Post-germinal-center marginal zone B cells recruited to mucosa-associated lymphoid tissue (MALT) through chronic antigen exposure",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (marginal zone B cells at mucosal sites)",
+      "differentiation_state": "Marginal zone B-cell differentiation with plasmacytic differentiation; forms lymphoepithelial lesions (lymphocytes invading epithelium) \u2014 characteristic feature; retains marginal zone immunophenotype",
+      "lineage_plasticity": "Chronic antigen-driven clonal evolution \u2014 site-specific antigens drive characteristic MALT lymphomas: H. pylori (gastric), Chlamydia psittaci (ocular, variably supported), Borrelia burgdorferi (cutaneous in some endemic regions), Sj\u00f6gren autoimmunity (salivary), Hashimoto (thyroid); antigen removal can induce regression in selected cases; transformation to DLBCL represents progression with additional genetic events"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "MPN_UNCLASSIFIABLE": {
+    "name": "MPN, unclassifiable",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "JAK2 / CALR / MPL testing",
+        "type": "mutation panel",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable; many cases lack a defining driver, but testing is part of standard evaluation to exclude/classify other MPNs",
+        "clinical_use": "Standard MPN workup; helps exclude/classify other MPNs and assess clonality"
+      },
+      {
+        "name": "BCR::ABL1 testing",
+        "type": "fusion testing",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Absent by definition",
+        "clinical_use": "Required to exclude CML in the diagnostic evaluation"
+      },
+      {
+        "name": "CSF3R testing",
+        "type": "mutation testing",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable; assessed when neutrophilic phenotype is present",
+        "clinical_use": "Used to exclude chronic neutrophilic leukemia in appropriate clinical/morphologic context"
+      },
+      {
+        "name": "KIT D816V / other systemic mastocytosis-associated testing",
+        "type": "mutation testing",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Variable; assessed when mast cell disease is suspected",
+        "clinical_use": "Used to exclude systemic mastocytosis with associated hematologic neoplasm when clinically indicated"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "MPN features not fitting PV, ET, PMF, CML, or other defined MPN entities",
+      "variants": [
+        "residual category"
+      ],
+      "grading": "Not graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Overlap features"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC with MPN features not fitting defined entities",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Variable MPN features",
+      "lineage_plasticity": "Residual category being narrowed by modern classification"
+    }
+  }
+}

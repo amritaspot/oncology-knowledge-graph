@@ -1,0 +1,186 @@
+{
+  "AML_NOS": {
+    "name": "Acute myeloid leukaemia, NOS",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_extramedullary_sites": [
+        "skin (leukaemia cutis)",
+        "gingiva (esp. monocytic subtypes)",
+        "soft tissue (myeloid sarcoma / chloroma)",
+        "orbit",
+        "testis (uncommon)"
+      ],
+      "sanctuary_sites": [
+        "CNS (uncommon in adult AML; relatively increased in monocytic subtypes and hyperleukocytosis)"
+      ],
+      "staging_system": "Not staged in TNM sense; risk-stratified by cytogenetics/molecular (ELN 2022) into favourable/intermediate/adverse."
+    },
+    "biomarkers": [
+      {
+        "name": "Cytogenetics (karyotype)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Universal component of workup",
+        "clinical_use": "ELN 2022 risk: favourable (t(8;21), inv(16)/t(16;16), mutated NPM1 without adverse-risk cytogenetics, bZIP in-frame mutated CEBPA); intermediate; adverse (complex karyotype, monosomal karyotype, -5/del(5q), -7, del(17p)/abn(17p), inv(3)/t(3;3), t(6;9), certain KMT2A rearrangements, MECOM rearrangement). Drives transplant decisions"
+      },
+      {
+        "name": "FLT3-ITD",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Associated with increased relapse risk; ELN 2022 no longer uses FLT3-ITD allelic ratio in risk assignment. Predictive: midostaurin (RATIFY) added to intensive induction; gilteritinib for R/R; quizartinib + chemotherapy first-line in selected regulatory settings"
+      },
+      {
+        "name": "FLT3-TKD (D835)",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Predictive for FLT3 inhibitor-based therapy, including gilteritinib; midostaurin also has activity"
+      },
+      {
+        "name": "NPM1",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~25-35% of AML (~50-60% of normal-karyotype AML)",
+        "clinical_use": "Favourable in ELN 2022 when mutated in the absence of adverse-risk cytogenetics. Excellent MRD marker by RT-qPCR \u2014 MRD kinetics guide post-remission strategy"
+      },
+      {
+        "name": "IDH1 R132 / IDH2 R140, R172",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "IDH1 ~6-10%; IDH2 ~8-15%",
+        "clinical_use": "Ivosidenib (IDH1) and enasidenib (IDH2) \u2014 approved single-agent and in combinations (ivosidenib + azacitidine first-line unfit)"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~5-10% de novo; enriched in therapy-related AML and AML with myelodysplasia-related changes",
+        "clinical_use": "Very adverse; recognised as a distinct entity in ICC 2022. Historically poor outcomes with venetoclax + azacitidine and with intensive chemotherapy"
+      },
+      {
+        "name": "CEBPA biallelic (or basic leucine zipper \u2014 bZIP)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Favourable \u2014 current classifications emphasise in-frame bZIP CEBPA-mutated AML as a distinct favourable-risk entity"
+      },
+      {
+        "name": "ASXL1, RUNX1, EZH2, SF3B1, SRSF2, U2AF1, ZRSR2, BCOR, STAG2, SETBP1 (MDS-related mutations)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "These mutations define AML myelodysplasia-related in WHO 2022/ICC 2022 when present in the appropriate setting (excluding AML with defining recurrent genetic abnormalities) and generally confer adverse risk"
+      },
+      {
+        "name": "KIT mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset of core-binding factor AML, especially t(8;21)",
+        "clinical_use": "Associated with higher relapse risk in some CBF AML series, particularly t(8;21); prognostic effect is less consistent than historically reported"
+      },
+      {
+        "name": "CD33",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common (>80-90%)",
+        "clinical_use": "Gemtuzumab ozogamicin (anti-CD33 ADC) \u2014 benefit shown when added to induction in selected newly diagnosed AML, particularly favourable/intermediate-risk disease"
+      },
+      {
+        "name": "Measurable residual disease (MRD) \u2014 flow or molecular",
+        "type": "flow / molecular (RQ-PCR, NGS)",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Universal in modern practice",
+        "clinical_use": "Post-induction and post-consolidation MRD status guides transplant referral; NPM1 and CBF-AML MRD kinetics are highly predictive of relapse"
+      },
+      {
+        "name": "Venetoclax + azacitidine responsiveness / BAX-BAK",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "VIALE-A regimen: standard for older/unfit AML. Responses are generally lower in TP53-mutated AML; resistance biology is evolving, but BAX/BAK is not an established routine clinical biomarker"
+      },
+      {
+        "name": "Core-binding factor fusions: RUNX1::RUNX1T1 and CBFB::MYH11",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "~10-15% of AML combined",
+        "clinical_use": "Define favourable-risk AML in ELN 2022; diagnosis requires cytogenetic/molecular confirmation and transcript levels can be followed for MRD"
+      },
+      {
+        "name": "PML::RARA",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~10-15% of AML overall",
+        "clinical_use": "Defines acute promyelocytic leukaemia (APL), a separate entity rather than AML, NOS; predicts sensitivity to ATRA and arsenic trioxide"
+      },
+      {
+        "name": "KMT2A rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~3-5% of adult AML",
+        "clinical_use": "Recurrent genetic abnormality in AML; prognosis varies by partner, with several subtypes classified as adverse risk in ELN 2022"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Blast proliferation (usually \u226520% myeloblasts in blood or marrow) with myeloid differentiation; Auer rods diagnostic when present",
+      "variants": [
+        "FAB M0-M7 legacy classification (M3 = APL, separate entity)",
+        "WHO 2022 lineage-based subtypes: myeloid, monocytic, erythroid, megakaryoblastic differentiation",
+        "AML defined by differentiation (WHO 2022): AML with minimal differentiation, without maturation, with maturation, acute monoblastic/monocytic leukaemia, pure erythroid leukaemia, acute megakaryoblastic leukaemia"
+      ],
+      "grading": "Not graded; genetic risk stratification (ELN 2022: favourable, intermediate, adverse) drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Bone marrow niche dependency \u2014 leukaemia stem cells interact with mesenchymal stromal cells; some subsets are immunologically distinct, but immune checkpoint inhibitor monotherapy has been disappointing overall",
+      "stromal_features": "Bone marrow infiltration displacing normal haematopoiesis; blast morphology defines lineage"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Haematopoietic stem cell (HSC) or committed myeloid progenitor with maturation arrest",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic system (arising from haemogenic endothelium during embryogenesis; adult HSCs reside in bone marrow niche)",
+      "differentiation_state": "Myeloid maturation arrest at variable stages \u2014 myeloid, monocytic, erythroid, or megakaryocytic differentiation programmes may be preserved; leukaemia stem cells (LSCs) sustain disease, often enriched in CD34+/CD38- fractions but immunophenotypically heterogeneous",
+      "lineage_plasticity": "LSC hierarchy with variable maturation arrest driven by different genetic events; treatment can select for LSC-enriched populations at relapse; lineage switching is rare"
+    }
+  }
+}

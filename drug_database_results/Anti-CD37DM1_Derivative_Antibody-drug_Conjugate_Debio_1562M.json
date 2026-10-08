@@ -1,0 +1,102 @@
+{
+  "molecule_name": "Debio 1562M",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-drug conjugate",
+  "modality": "ADC",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Debio 1562M is designed to target CD37 on B-cells, delivering a cytotoxic payload that inhibits tubulin binding, leading to tumor regression.",
+    "molecular_action": "Targets CD37 and releases DM1 derivative to inhibit tubulin binding.",
+    "targets": [
+      "CD37"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Tumor regression"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia (AML), Myelodysplastic syndrome (MDS)",
+    "histology": null,
+    "clinical_settings": [
+      "Hematology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Debio1562M is a next generation antibody-drug conjugate (ADC) directed against CD37 developed to be first in class therapy in Acute Myeloid Leukemia (AML) and Myelodysplastic syndrome (MDS).",
+      "Debio1562M is constructed with naratuximab, an anti-CD37 monoclonal antibody, Debiopharm proprietary linker (Multilink\u2122) and a microtubule inhibitor as cytotoxic payload."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Debio 1562M as a next generation ADC targeting CD37.",
+    "mechanism_doi_meaning": "No DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "PHASE2",
+    "nct_trials": [
+      "NCT06969430"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD37"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

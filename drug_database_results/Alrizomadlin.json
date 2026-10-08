@@ -1,0 +1,133 @@
+{
+  "molecule_name": "Alrizomadlin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 91972012,
+    "CAS_number": "2097132-99-4",
+    "NCI_Thesaurus_code": "C158396",
+    "development_codes": [
+      "APG-115"
+    ],
+    "identifier_scope": "Alrizomadlin is identified by its CAS number and development code."
+  },
+  "brand_names": [],
+  "drug_class": "MDM2 inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Alrizomadlin inhibits the interaction between MDM2 and p53, leading to the activation of p53 and induction of apoptosis in cancer cells.",
+    "molecular_action": "MDM2 inhibitor",
+    "targets": [
+      "MDM2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of p53",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": [
+      "10.1016/j.ccell.2020.06.002"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Malignant Mesothelioma (MM)",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Alrizomadlin",
+      "https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/alrizomadlin"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record includes clinical, biological, and pharmacokinetic data for Alrizomadlin.",
+    "mechanism_doi_meaning": "The DOI provides a reference to the scientific literature describing the mechanism of action of Alrizomadlin.",
+    "empty_mechanism_doi_meaning": "No additional DOIs were found beyond the primary mechanism of action reference.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT03611868",
+      "NCT06654050",
+      "NCT06735820"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MDM2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "MDM2",
+        "pdb_id": "5C6H",
+        "alphafold_id": "P61254",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "F19",
+              "W23",
+              "L26"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "MDM2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1021/jm5011234"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

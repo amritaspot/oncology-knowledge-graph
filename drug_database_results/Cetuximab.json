@@ -1,0 +1,171 @@
+{
+  "molecule_name": "Cetuximab",
+  "identifiers": {
+    "FDA_UNII": "D0D6S1Q1A0",
+    "PubChem_CID": 104202,
+    "CAS_number": "205923-24-3",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [
+      "C225"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Erbitux"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Cetuximab is a monoclonal antibody that targets the epidermal growth factor receptor (EGFR), inhibiting cell growth and inducing apoptosis in cancer cells.",
+    "molecular_action": "Binding to EGFR prevents receptor activation and downstream signaling pathways that promote cell proliferation.",
+    "targets": [
+      "EGFR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "High selectivity for EGFR",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal cancer, Head and neck cancer",
+    "histology": "Various solid tumors",
+    "clinical_settings": [
+      "Monotherapy",
+      "Combination therapy"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://www.merckgrouponcology.com/cetuximab"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to cetuximab or any component of the formulation",
+      "History of severe infusion reactions"
+    ],
+    "reference_urls": [
+      "https://www.fda.gov/drugs/drug-safety-and-availability/cetuximab-erbitux"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Rash",
+      "organ_system": "Skin",
+      "biological_explanation": "Inhibition of EGFR leads to skin toxicity due to effects on epidermal cells.",
+      "mechanism_status": "Well-characterized",
+      "potential_consequences": [
+        "Skin irritation",
+        "Infection risk"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Diarrhea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "EGFR inhibition affects intestinal epithelial cells, leading to diarrhea.",
+      "mechanism_status": "Well-characterized",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT07551778",
+      "NCT05265013",
+      "NCT00124618"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Cetuximab is approved for use in combination with chemotherapy for colorectal cancer and as a single agent for head and neck cancer."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Cetuximab clinical data and usage",
+    "mechanism_doi_meaning": "Mechanism of action references",
+    "empty_mechanism_doi_meaning": "No DOI available for this mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 2.0,
+    "biological_half_life_hours": 112.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT07551778",
+      "NCT05265013",
+      "NCT00124618"
+    ],
+    "regulatory_designations": [
+      "FDA Approved",
+      "EMA Approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "400 mg/m2",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "EGFR"
+    ],
+    "pathways": [
+      "EGFR signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "1YY9",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.1,
+        "doi_or_source": "10.1073/pnas.0409798102"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

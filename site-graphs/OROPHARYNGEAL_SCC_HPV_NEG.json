@@ -1,0 +1,71 @@
+{
+  "OROPHARYNGEAL_SCC_HPV_NEG": {
+    "name": "Oropharyngeal SCC, HPV-negative",
+    "biomarkers": [
+      {
+        "name": "HPV / p16",
+        "type": "HPV-specific testing, including ISH / p16 IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "HPV-negative by definition; usually p16-negative, although discordant HPV and p16 results occur",
+        "clinical_use": "Distinguishes HPV-independent from HPV-associated disease. p16 IHC is the standard surrogate used for AJCC 8 oropharyngeal staging, with positivity defined by moderate-to-strong nuclear and cytoplasmic staining in at least 70% of tumor cells. p16 status is not perfectly equivalent to transcriptionally active HPV status; HPV-specific testing is appropriate in selected settings. HPV-negative disease generally has worse prognosis."
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Approximately 80\u201385% in HPV-negative HNSCC cohorts, including TCGA; this is not a separately established prevalence for HPV-negative oropharyngeal SCC",
+        "clinical_use": "Major recurrent driver alteration. Some TP53 mutation classes are associated with adverse outcomes, but TP53 is not a routinely validated standalone prognostic or treatment-selection biomarker in this disease. No established TP53-directed standard therapy."
+      },
+      {
+        "name": "CDKN2A",
+        "type": "inactivation through deletion, mutation, or promoter methylation",
+        "categories": [
+          "investigational"
+        ],
+        "prevalence": "Frequently inactivated in HPV-negative HNSCC; prevalence depends on the alteration types and assay included. A 50\u201370% estimate should not be presented as the prevalence of genomic loss alone or as a verified HPV-negative oropharyngeal SCC-specific figure.",
+        "clinical_use": "Common tumor-suppressor alteration; may inform eligibility for CDK4/6 inhibitor trials. Not an established standalone prognostic biomarker or validated predictor of CDK4/6 inhibitor benefit in routine HNSCC care."
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable by cohort, assay, and CPS cutoff; no single established HPV-negative oropharyngeal SCC-specific prevalence",
+        "clinical_use": "In the United States, CPS \u22651 supports first-line pembrolizumab monotherapy for metastatic or unresectable recurrent HNSCC. Pembrolizumab with platinum and fluorouracil is a first-line option regardless of PD-L1 CPS. PD-L1 is not a requirement for every checkpoint-inhibitor indication; requirements vary by regimen and jurisdiction."
+      },
+      {
+        "name": "EGFR",
+        "type": "IHC / protein expression",
+        "categories": [
+          "therapeutic_target"
+        ],
+        "prevalence": "EGFR expression is common in HNSCC. Frequently cited figures above 90% derive from broad HNSCC series and should not be treated as a verified overexpression prevalence for HPV-negative oropharyngeal SCC.",
+        "clinical_use": "Target of cetuximab (anti-EGFR). EGFR IHC expression or overexpression is not a validated predictive biomarker for cetuximab benefit in HNSCC, and testing is not required for treatment selection."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Usually conventional keratinizing SCC, resembling other HPV-independent UAT SCCs; nonkeratinizing or poorly differentiated morphology can also occur, so morphology alone does not establish HPV status",
+      "variants": [
+        "conventional keratinizing",
+        "moderately or poorly differentiated (histologic grades, not distinct morphologic variants)"
+      ],
+      "grading": "Traditional SCC differentiation grading may be reported, but its independent prognostic value is limited. HPV-negative disease generally has worse prognosis than HPV-associated disease; stage groups from their separate AJCC 8 staging systems are not directly interchangeable."
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often less T-cell-inflamed than HPV-associated disease at the cohort level, but heterogeneous; immune-excluded and immune-desert phenotypes occur and are not universal",
+      "stromal_features": "Desmoplastic stroma may be present, similar to other conventional head and neck SCCs, including oral cavity SCC"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Presumed basal/progenitor squamous epithelial cells of the oropharyngeal mucosa; the precise initiating cell population is not definitively established",
+      "developmental_lineage": "Squamous epithelial lineage; embryologic contribution varies by oropharyngeal subsite. A uniform assignment to 'endoderm \u2014 pharyngeal arch' is overly simplistic.",
+      "differentiation_state": "Often keratinizing squamous with classical squamous maturation, but poorly differentiated and nonkeratinizing appearances also occur; this is not an absolute distinction from HPV-associated disease",
+      "lineage_plasticity": "Field cancerization from tobacco/alcohol exposure is relevant but is not itself lineage plasticity. Epithelial\u2013mesenchymal and other differentiation-state changes have been described in HNSCC, without defining a unique HPV-negative oropharyngeal SCC lineage-plasticity program."
+    }
+  }
+}

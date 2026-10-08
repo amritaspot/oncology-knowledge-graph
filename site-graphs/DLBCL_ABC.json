@@ -1,0 +1,84 @@
+{
+  "DLBCL_ABC": {
+    "name": "DLBCL, activated B-cell subtype",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes and/or extranodal",
+      "characteristic_extranodal_sites": [
+        "as per DLBCL_GCB"
+      ],
+      "sanctuary_sites": [
+        "CNS (higher relapse risk than GCB in some clinical/genetic subsets; CNS prophylaxis may be considered based on overall CNS-IPI and site/genetic risk rather than COO alone)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Hans algorithm (ABC = CD10-/BCL6-/MUM1+ or CD10-/BCL6+/MUM1+; non-GCB by Hans is an IHC surrogate and not identical to GEP-defined ABC)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~30-40% by gene-expression profiling; non-GCB by Hans IHC is more common and not equivalent",
+        "clinical_use": "Cell-of-origin assignment by IHC is an imperfect surrogate for GEP. Historically ABC/non-GCB had worse outcomes than GCB with R-CHOP, though treatment advances may lessen this difference"
+      },
+      {
+        "name": "MYD88 L265P",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~25-35% of ABC-DLBCL",
+        "clinical_use": "Activates TLR-MYD88-NF-\u0003baB signalling and is enriched in the MCD/C5 subtype, often with CD79B mutation. Associated with sensitivity signals to BTK-pathway targeting in some studies, but not a validated stand-alone predictive biomarker in routine practice"
+      },
+      {
+        "name": "CD79B",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20-30% of ABC-DLBCL",
+        "clinical_use": "B-cell receptor signalling activation; often co-occurs with MYD88 in MCD/C5 cluster. May mark BTK-dependent biology, but routine clinical prediction of ibrutinib benefit is not established"
+      },
+      {
+        "name": "LymphGen molecular classification (MCD, BN2, N1, EZB, ST2, A53)",
+        "type": "molecular / genomic clustering",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Refines biology beyond COO. MCD (often MYD88+CD79B) and N1 are enriched in ABC; EZB is enriched in GCB. Prognostic and biologically informative, with emerging therapeutic implications in clinical trials, but not yet standard-of-care treatment selection in most settings"
+      },
+      {
+        "name": "Same treatment biomarker suite as DLBCL_GCB (CD20, CD19, CD22, CD79b, polatuzumab, CAR-T)",
+        "type": "various",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "See DLBCL_GCB entry"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Diffuse infiltrate of large B lymphocytes morphologically overlapping with GCB DLBCL; distinction is best made by gene expression profiling, with IHC algorithms such as Hans used as imperfect surrogates",
+      "variants": [
+        "centroblastic",
+        "immunoblastic (more common in ABC)",
+        "plasmacytoid features (in some tumours, including some MCD/C5 cases)"
+      ],
+      "grading": "Not morphologically graded; molecular subtypes/clusters (eg, MCD, N1, BN2) provide biologic and prognostic stratification"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Constitutive NF-\u0003baB pathway activation drives survival; dependency on chronic active BCR/TLR signalling has motivated study of BTK inhibitors, IMiDs, and proteasome inhibitors. CNS relapse risk is not uniformly high for all ABC cases and should be assessed with clinical and site/genetic risk factors",
+      "stromal_features": "Diffuse effacement of nodal architecture; extranodal involvement common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Activated B cell-like DLBCL reflects a late germinal centre/early post-germinal centre B-cell differentiation state with features of plasmablastic transition",
+      "developmental_lineage": "Mesoderm \u0004 lymphoid (B-cell lineage, late germinal centre/post-germinal centre)",
+      "differentiation_state": "Post-germinal centre B-cell differentiation with plasmablastic features in some cases; typically retains B-cell markers and commonly expresses IRF4/MUM1 with activation of plasmacytic differentiation programmes",
+      "lineage_plasticity": "ABC DLBCL recapitulates post-germinal centre biology; MYD88 and CD79B mutations can converge on chronic active BCR/TLR/NF-\u0003baB signalling, especially in MCD cluster biology. IRF4/MUM1 expression reflects progression toward plasma-cell differentiation"
+    }
+  }
+}

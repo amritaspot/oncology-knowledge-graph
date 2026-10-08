@@ -1,0 +1,176 @@
+{
+  "molecule_name": "Levonorgestrel",
+  "identifiers": {
+    "FDA_UNII": "0D3A0S2A2D",
+    "PubChem_CID": 13109,
+    "CAS_number": "797-63-7",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Plan B",
+    "Next Choice",
+    "Mirena",
+    "Skyla",
+    "Jaydess"
+  ],
+  "drug_class": "Contraceptive",
+  "modality": "Synthetic progestin",
+  "route": "Oral",
+  "marketed_form": "Tablet, Intrauterine Device (IUD)",
+  "approved_countries": [
+    "United States",
+    "Canada",
+    "European Union",
+    "Australia"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Levonorgestrel works by preventing ovulation, thickening cervical mucus, and altering the uterine lining to prevent fertilization and implantation.",
+    "molecular_action": "Levonorgestrel binds to progesterone receptors, inhibiting ovulation and altering the endometrium.",
+    "targets": [
+      "PR",
+      "AR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of ovulation",
+      "Altered endometrial receptivity"
+    ],
+    "selectivity": "High selectivity for progesterone receptors",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Contraception",
+      "Emergency contraception",
+      "Hormonal therapy in certain gynecological conditions"
+    ],
+    "scope": "Contraceptive use in women of reproductive age",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Known or suspected breast cancer"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Hormonal changes can lead to gastrointestinal upset.",
+      "mechanism_status": "Commonly reported",
+      "potential_consequences": [
+        "Discontinuation of use",
+        "Need for additional medication"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Headache",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Hormonal fluctuations may trigger headaches.",
+      "mechanism_status": "Commonly reported",
+      "potential_consequences": [
+        "Discontinuation of use"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Menstrual irregularities",
+      "organ_system": "Reproductive system",
+      "biological_explanation": "Hormonal changes can affect menstrual cycle regularity.",
+      "mechanism_status": "Commonly reported",
+      "potential_consequences": [
+        "Need for further evaluation"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [
+    {
+      "interacting_group": "Ethinylestradiol",
+      "examples": [
+        "Combined oral contraceptives"
+      ],
+      "biological_basis": "Potential for altered blood levels of contraceptive efficacy."
+    },
+    {
+      "interacting_group": "Antibiotics",
+      "examples": [
+        "Rifampin"
+      ],
+      "biological_basis": "May reduce the effectiveness of levonorgestrel."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Levonorgestrel as a contraceptive agent",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 30.0,
+    "clearance_route": [
+      "Hepatic metabolism",
+      "Renal excretion"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4",
+      "CYP2C19"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT02574715",
+      "NCT01941615",
+      "NCT01157754"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "Not applicable",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PGR",
+      "AR"
+    ],
+    "pathways": [
+      "Hormonal regulation of reproductive processes"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

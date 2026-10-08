@@ -1,0 +1,137 @@
+{
+  "molecule_name": "Lasofoxifene",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 216416,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Selective Estrogen Receptor Modulator (SERM)",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Lasofoxifene is a selective estrogen receptor modulator that mimics estrogen in some tissues while blocking its effects in others.",
+    "molecular_action": "Binds to estrogen receptors, exerting estrogenic effects on bone and anti-estrogenic effects on breast tissue.",
+    "targets": [
+      "ESR1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased bone density",
+      "Reduced risk of vertebral fractures"
+    ],
+    "selectivity": "Selective for estrogen receptors in bone and breast tissue.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Postmenopausal osteoporosis",
+      "Breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Breast cancer",
+      "molecular_context": "ER+ HER2- ESR1-mutated metastatic breast cancer",
+      "proposed_rationale": "Targeted therapy for patients with limited treatment options.",
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Lasofoxifene clinical data and usage",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT00674453",
+      "NCT00163137",
+      "NCT00143273"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ESR1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 6918148,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6918148/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ESR1",
+        "pdb_id": "3ERT",
+        "alphafold_id": "P03372",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ESR1",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.bmcl.2007.11.042"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

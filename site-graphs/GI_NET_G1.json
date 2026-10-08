@@ -1,0 +1,94 @@
+{
+  "GI_NET_G1": {
+    "name": "GI neuroendocrine tumour, well-differentiated, G1",
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Diagnostic \u2014 confirms neuroendocrine differentiation"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "<3% by definition (G1)",
+        "clinical_use": "Defines grade; guides therapy"
+      },
+      {
+        "name": "SSTR2 (somatostatin receptor 2)",
+        "type": "IHC / 68Ga-DOTATATE PET",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Commonly positive in well-differentiated GI NETs, especially low-grade tumours",
+        "clinical_use": "DOTATATE PET for staging in SSTR-positive disease. Somatostatin analogues (octreotide, lanreotide \u2014 PROMID, CLARINET). PRRT (177Lu-DOTATATE \u2014 NETTER-1)"
+      },
+      {
+        "name": "Chromogranin A",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Often elevated, but variable and non-specific",
+        "clinical_use": "Adjunctive disease monitoring; false positives with PPIs, renal impairment, atrophic gastritis"
+      },
+      {
+        "name": "5-HIAA (24-hour urine)",
+        "type": "urine",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Elevated in serotonin-producing functional midgut NETs/carcinoid syndrome",
+        "clinical_use": "Diagnosis and monitoring of carcinoid syndrome (midgut NETs)"
+      },
+      {
+        "name": "MEN1 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Uncommon in GI NETs overall; most relevant in duodenal/gastric/pancreatic NET predisposition rather than typical small-bowel midgut NETs",
+        "clinical_use": "Genetic counselling if syndromic features, multifocal disease, young age, or family history; classically associated with pancreatic/duodenal NETs, pituitary, parathyroid"
+      },
+      {
+        "name": "CDKN1B",
+        "type": "somatic mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent but infrequent; reported in a minority of small bowel NETs",
+        "clinical_use": "Characteristic recurrent somatic alteration described in small bowel (midgut) well-differentiated NETs; not currently a routine predictive biomarker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Organoid (nested, trabecular) growth of monomorphic cells with 'salt and pepper' chromatin",
+      "variants": [
+        "gastric NET types 1-3",
+        "small bowel (midgut) \u2014 classical carcinoid",
+        "appendiceal",
+        "colorectal",
+        "goblet cell adenocarcinoma (mixed lineage \u2014 treated as adenocarcinoma)"
+      ],
+      "grading": "Ki-67 <3% and mitoses <2/2 mm\u00b2 by definition (G1)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically; low TMB",
+      "stromal_features": "Delicate fibrovascular stroma; hypervascular"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Gastrointestinal enterochromaffin cells (EC cells) and enterochromaffin-like cells (ECL) of diffuse neuroendocrine system",
+      "developmental_lineage": "Endoderm \u2014 GI tract; enterochromaffin cells arise from endodermal progenitors, not neural crest",
+      "differentiation_state": "Well-differentiated neuroendocrine \u2014 synaptophysin+, chromogranin+, often high SSTR2 expression, Ki-67 <3%",
+      "lineage_plasticity": "Position on well-differentiated end of GI NET spectrum; distinct site-specific hormone production (gastrin for gastric ECL-associated lesions, serotonin for midgut EC; hindgut NETs are often less functional)"
+    }
+  }
+}

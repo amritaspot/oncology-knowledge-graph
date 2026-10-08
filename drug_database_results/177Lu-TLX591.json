@@ -1,0 +1,119 @@
+{
+  "molecule_name": "177Lu-TLX591",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "TLX591",
+      "177Lu-TLX591"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical; lutetium-177-labeled TLX591"
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "177Lu-TLX591 is an investigational lutetium-177-labeled monoclonal antibody-based radiopharmaceutical that binds prostate-specific membrane antigen (PSMA) on prostate cancer cells and delivers beta radiation to PSMA-expressing tumors.",
+    "molecular_action": "Targeted binding to PSMA followed by delivery of beta-emitting lutetium-177 radiation to tumor sites.",
+    "targets": [
+      "FOLH1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Localized beta-radiation exposure to PSMA-expressing tumor cells",
+      "DNA damage",
+      "Tumor cell death"
+    ],
+    "selectivity": "Designed to target PSMA-expressing prostate cancer lesions.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": "Metastatic castration-resistant prostate cancer",
+    "clinical_settings": [
+      "Investigational use in advanced/metastatic prostate cancer"
+    ],
+    "scope": "Clinical development",
+    "reference_urls": [
+      "https://www.telixpharma.com/our-pipeline/therapeutics/tlx591-cdx/"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://www.telixpharma.com/our-pipeline/therapeutics/tlx591-cdx/",
+      "https://clinicaltrials.gov/"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/",
+      "https://www.telixpharma.com/our-pipeline/therapeutics/tlx591-cdx/"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Investigational precision-oncology radiopharmaceutical record for 177Lu-TLX591 based on publicly documented target/mechanism and verified clinical-development information only.",
+    "mechanism_doi_meaning": "DOIs for primary mechanistic evidence.",
+    "empty_mechanism_doi_meaning": "No specific DOI was confidently verified in the searched public sources.",
+    "null_meaning": "Null indicates the specific field was not established in verified public human data.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "None",
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT03511664",
+      "NCT04786847"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLH1"
+    ],
+    "pathways": [
+      "Radiation-induced DNA damage response"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Antibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

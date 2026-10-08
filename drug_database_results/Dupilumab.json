@@ -1,0 +1,162 @@
+{
+  "molecule_name": "Dupilumab",
+  "identifiers": {
+    "FDA_UNII": "0B1A0D1D5D",
+    "PubChem_CID": 57320206,
+    "CAS_number": "243202-44-1",
+    "NCI_Thesaurus_code": "C100202",
+    "development_codes": [
+      "Dupixent"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Dupixent"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Subcutaneous (SQ)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Dupilumab is a monoclonal antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling, which are key drivers of inflammation in asthma and other allergic conditions.",
+    "molecular_action": "Inhibits IL-4 and IL-13 receptor signaling pathways.",
+    "targets": [
+      "IL4",
+      "IL13"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduction in airway inflammation",
+      "Improvement in lung function",
+      "Decreased asthma exacerbations"
+    ],
+    "selectivity": "Selective for IL-4 and IL-13 pathways",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Asthma",
+      "Atopic Dermatitis"
+    ],
+    "scope": "Moderate to severe asthma and atopic dermatitis",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to Dupilumab or any of its components"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Injection site reactions",
+      "organ_system": "Skin",
+      "biological_explanation": "Local inflammatory response to the injection site.",
+      "mechanism_status": "Well-characterized",
+      "potential_consequences": [
+        "Discomfort",
+        "Swelling",
+        "Redness"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Conjunctivitis",
+      "organ_system": "Ocular",
+      "biological_explanation": "Increased IL-4 and IL-13 signaling may contribute to ocular inflammation.",
+      "mechanism_status": "Under investigation",
+      "potential_consequences": [
+        "Eye irritation",
+        "Discomfort"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Dupilumab's clinical use and development",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Not established",
+    "physical_half_life_days": 26.0,
+    "biological_half_life_hours": 14.0,
+    "clearance_route": [
+      "Subcutaneous",
+      "Intravenous"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT02573233",
+      "NCT04400318",
+      "NCT04417894"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "Dupilumab 200 mg every 2 weeks",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL4",
+      "IL13"
+    ],
+    "pathways": [
+      "IL-4 signaling pathway",
+      "IL-13 signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL4R",
+        "pdb_id": "5WGL",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "IL4R",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

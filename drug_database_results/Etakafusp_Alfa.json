@@ -1,0 +1,136 @@
+{
+  "molecule_name": "Etakafusp Alfa",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Etakafusp alfa is designed to enhance the immune response against tumors by targeting specific immune pathways.",
+    "molecular_action": "It is a fusion protein that combines an anti-PD-1 antibody with an IL-2 mutein, aimed at activating T cells and enhancing anti-tumor immunity.",
+    "targets": [
+      "PD-1",
+      "IL-2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased T cell activation",
+      "Enhanced anti-tumor response"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Triple Negative Breast Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Locally advanced solid tumors",
+      "Metastatic solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT07300475",
+      "NCT05653882"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD274",
+      "IL2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL2",
+        "pdb_id": "1M47",
+        "alphafold_id": "P60568",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "FAP",
+        "pdb_id": "1Z68",
+        "alphafold_id": "Q12884",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "IL2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.1,
+        "doi_or_source": "10.1073/pnas.0407383101"
+      },
+      {
+        "target_symbol": "FAP",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.jmb.2004.09.085"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lutetium-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Antibody-cytokine fusion protein",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Yttrium-90",
+    "imaging_modality": "SPECT"
+  }
+}

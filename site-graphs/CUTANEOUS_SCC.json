@@ -1,0 +1,65 @@
+{
+  "CUTANEOUS_SCC": {
+    "name": "Cutaneous squamous cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "PD-L1 / TMB",
+        "type": "IHC / genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "TMB very high (UV-signature); PD-L1 expression is variable",
+        "clinical_use": "Cemiplimab is approved for advanced (locally advanced or metastatic) cSCC; pembrolizumab is also approved/active in recurrent or metastatic and unresectable disease"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": ">80%",
+        "clinical_use": "Common UV-signature driver alteration"
+      },
+      {
+        "name": "CDKN2A, NOTCH1/2",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Additional recurrent driver events"
+      },
+      {
+        "name": "High-risk features (Brisbane scoring / NCCN high-risk criteria)",
+        "type": "clinical / pathologic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Depth >6 mm or beyond subcutaneous fat, perineural invasion, poor differentiation, immunosuppression, recurrence and other high-risk features guide management and adjuvant therapy consideration"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Squamous cell carcinoma with variable degree of keratinization arising from epidermis",
+      "variants": [
+        "keratinizing (well-differentiated)",
+        "non-keratinizing (poorly differentiated)",
+        "spindle cell (sarcomatoid, aggressive)",
+        "acantholytic",
+        "verrucous (indolent)",
+        "keratoacanthoma-like"
+      ],
+      "grading": "Well/moderately/poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Highly inflamed \u2014 very high UV-signature TMB; robust IO responses",
+      "stromal_features": "Desmoplastic; often perineural invasion in high-risk lesions"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Keratinocytes of stratum spinosum or basal layer of epidermis; some evidence for follicular stem cell origin",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Keratinizing squamous differentiation with variable maturation; p40+, p63+, high-molecular-weight cytokeratin+",
+      "lineage_plasticity": "Actinic keratosis \u2192 squamous cell carcinoma in situ (Bowen's) \u2192 invasive SCC sequence; field cancerization from UV drives multifocal disease; UV signature mutations disrupt lineage-fidelity genes (TP53, NOTCH1)"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "molecule_name": "Valproic Acid",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 3121,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Anticonvulsant",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Valproic Acid works by increasing the levels of certain neurotransmitters in the brain, which helps to stabilize mood and prevent seizures.",
+    "molecular_action": "Histone deacetylase inhibitor",
+    "targets": [
+      "HDAC"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased histone acetylation",
+      "Altered gene expression"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Neuroblastoma, Bone Sarcoma, Soft Tissue Sarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Bipolar Disorder",
+      "Seizure Disorders"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Liver disease"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Drowsiness",
+      "organ_system": "Central Nervous System",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Impaired motor function"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Valproic Acid in clinical trials and therapeutic applications.",
+    "mechanism_doi_meaning": "Mechanism of action references.",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 0.5,
+    "biological_half_life_hours": 9.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP2C9",
+      "CYP2C19"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT00742638",
+      "NCT02593643",
+      "NCT01204450"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "Not established",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HDAC"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 3121,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3121/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HDAC1",
+        "pdb_id": "4BKX",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.05,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "HDAC2",
+        "pdb_id": "4LXZ",
+        "alphafold_id": null,
+        "resolution_angstroms": 1.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HDAC1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      },
+      {
+        "target_symbol": "HDAC2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

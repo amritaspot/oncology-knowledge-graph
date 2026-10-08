@@ -1,0 +1,74 @@
+{
+  "NSCLC_LARGE_CELL": {
+    "name": "NSCLC \u2014 large cell carcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Wang X, Wang Z, Pan J, et al. Patterns of Extrathoracic Metastases in Different Histological Types of Lung Cancer. Front Oncol. 2020;10:715.",
+        "doi": "10.3389/fonc.2020.00715",
+        "study_type": "Population-based SEER analysis; n=159,241 lung cancer patients diagnosed 2010-2014",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 18.0
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 17.3
+        },
+        "HEPATOBILIARY": {
+          "frequency_pct": 13.8
+        },
+        "IMMUNE_HYPERSENSITIVITY": {
+          "frequency_pct": 8.2
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "Comprehensive NGS panel",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Recommended broadly in advanced NSCLC; many historical large-cell carcinomas are reclassified by IHC/molecular profiling and may harbor canonical NSCLC drivers including KRAS, EGFR, BRAF V600E, MET exon 14 skipping, ERBB2(HER2) mutations, ALK/ROS1/RET/NTRK fusions, and less commonly NRG1 fusions",
+        "clinical_use": "Test as for non-squamous NSCLC to identify targetable alterations and refine lineage; KRAS, EGFR, ALK, ROS1, BRAF, MET, RET, NTRK, ERBB2(HER2) and other guideline-supported biomarkers as identified"
+      },
+      {
+        "name": "PD-L1 (TPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Use for immunotherapy selection per metastatic NSCLC guidelines and regimen context"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; not established as consistently high specifically for true large cell carcinoma",
+        "clinical_use": "Not a routine standalone biomarker for NSCLC treatment selection in current standard practice"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Undifferentiated non-small-cell tumour without adeno or squamous features on morphology; diagnosis of exclusion (many reclassified with IHC)",
+      "variants": [
+        "large cell (residual after IHC exclusion)",
+        "large cell neuroendocrine (see separate PULMONARY_LCNEC entry)"
+      ],
+      "grading": "Poorly differentiated by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable",
+      "stromal_features": "Poorly characterised"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 undifferentiated NSCLC precursor without clear lineage differentiation",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Undifferentiated \u2014 no morphologic squamous, glandular, or neuroendocrine differentiation identifiable",
+      "lineage_plasticity": "Molecular reclassification identifies most as either adeno-like (TTF-1+) or squamous-like (p40+) by IHC/genomics \u2014 category has narrowed"
+    }
+  }
+}

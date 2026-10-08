@@ -1,0 +1,110 @@
+{
+  "ESOPHAGEAL_ADENOCARCINOMA": {
+    "name": "Esophageal adenocarcinoma",
+    "biomarkers": [
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC + ISH reflex",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~12-20%",
+        "clinical_use": "HER2+ (IHC 3+ or ISH-amplified): trastuzumab + chemo first-line (ToGA). Pembrolizumab + trastuzumab + chemo (KEYNOTE-811, gastric/GEJ extrapolation to HER2+ metastatic esophageal/GEJ adenocarcinoma in guidelines). T-DXd in later lines"
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u22651 in ~50-60%; CPS \u22655 in ~30-40%",
+        "clinical_use": "Nivolumab + chemo first-line in advanced HER2-negative esophageal/GEJ adenocarcinoma with greatest benefit at higher CPS (CheckMate 649/648 era practice); pembrolizumab + trastuzumab + chemo in HER2+ disease; adjuvant nivolumab after neoadjuvant chemoradiation and R0 resection with residual pathologic disease (CheckMate 577)"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-7%",
+        "clinical_use": "Pembrolizumab or dostarlimab in advanced MSI-H/dMMR disease; dMMR is uncommon in esophageal adenocarcinoma. 'May skip surgery' is not established standard for esophageal adenocarcinoma, and KEYNOTE-585 does not support that claim"
+      },
+      {
+        "name": "CLDN18.2 (Claudin 18.2)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~20-40%",
+        "clinical_use": "Zolbetuximab + chemo first-line for CLDN18.2-positive, HER2-negative advanced gastric/GEJ adenocarcinoma (SPOTLIGHT, GLOW); evidence is primarily gastric/GEJ rather than distal esophageal adenocarcinoma"
+      },
+      {
+        "name": "FGFR2 amplification / mutations",
+        "type": "copy number / mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~4-10% amplification; activating mutations are uncommon",
+        "clinical_use": "FGFR2b-targeted bemarituzumab remains investigational/in trials; no established approved FGFR-directed standard specifically for esophageal adenocarcinoma"
+      },
+      {
+        "name": "EBV",
+        "type": "ISH (EBER)",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Essentially absent or extremely rare in esophageal adenocarcinoma (far more relevant in gastric carcinoma)",
+        "clinical_use": "Not a routine biomarker in esophageal adenocarcinoma; if detected, may suggest gastric-type biology rather than typical Barrett-associated EAC"
+      },
+      {
+        "name": "TP53, KRAS, SMAD4",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "TP53 ~70-80%; KRAS ~10-15%; SMAD4 ~10-15%",
+        "clinical_use": "Common genomic alterations with mainly prognostic/biologic significance; no standard targeted therapy for most KRAS-altered EAC"
+      },
+      {
+        "name": "MET amplification",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2-10%",
+        "clinical_use": "Potential therapeutic target in selected advanced cases/trials; not a routine standard biomarker in localized disease"
+      },
+      {
+        "name": "EGFR amplification",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Recurrent CIN-type driver amplification; no established routine anti-EGFR standard specifically for EAC, but may support trial enrollment"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Glandular / tubular architecture arising from Barrett's metaplasia; often mucin-producing",
+      "variants": [
+        "tubular",
+        "papillary",
+        "mucinous",
+        "signet-ring cell (rare in esophagus, more in stomach)",
+        "adenosquamous"
+      ],
+      "grading": "Well / moderately / poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; MSI-H subsets are highly inflamed; EBV-associated disease is essentially not a meaningful esophageal adenocarcinoma subset; conventional Barrett-derived tumours are often less inflamed than MSI-H tumors",
+      "stromal_features": "Desmoplastic; often arises in background of Barrett's oesophagus with intestinal metaplasia"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Metaplastic intestinalized columnar epithelium in Barrett's esophagus",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative (through metaplastic transformation of native squamous-lined distal esophagus)",
+      "differentiation_state": "Intestinal-type glandular differentiation (often CDX2 positive; CK7/CK20 variable) reflecting Barrett's origin; distinct from native squamous",
+      "lineage_plasticity": "Chronic GERD drives squamous \u2192 columnar metaplasia/Barrett's \u2192 dysplasia \u2192 invasive adenocarcinoma \u2014 a striking lineage-switching cascade over years to decades"
+    }
+  }
+}

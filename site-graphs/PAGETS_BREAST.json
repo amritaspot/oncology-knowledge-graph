@@ -1,0 +1,53 @@
+{
+  "PAGETS_BREAST": {
+    "name": "Paget's disease of the breast",
+    "biomarkers": [
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "High (~80-100% in Paget cells)",
+        "clinical_use": "Guides treatment of underlying disease if invasive"
+      },
+      {
+        "name": "ER",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often negative in Paget cells despite ER+ in underlying tumour",
+        "clinical_use": "Underlying disease phenotype guides therapy"
+      },
+      {
+        "name": "CK7",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive in the vast majority of cases",
+        "clinical_use": "Distinguishes Paget cells from melanocytes / squamous cells"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large clear Paget cells with abundant pale cytoplasm scattered within the nipple/areolar epidermis",
+      "variants": [
+        "Paget disease with underlying invasive carcinoma",
+        "with DCIS only",
+        "isolated (no underlying disease \u2014 rare)"
+      ],
+      "grading": "Grade of underlying disease drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Eczematoid clinical appearance often mistaken for dermatitis",
+      "stromal_features": "Epidermal disruption; associated inflammation"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Usually ductal carcinoma cells (Paget cells) migrating within nipple epidermis; underlying source is most often invasive or in situ ductal carcinoma",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Retains ductal luminal/glandular differentiation (typically CK7+, often GCDFP-15+) with epidermal migration; distinct from primary epidermal disease",
+      "lineage_plasticity": "Represents migratory behaviour of ductal carcinoma cells within the epidermis \u2014 not transdifferentiation to squamous phenotype (Paget cells remain glandular)"
+    }
+  }
+}

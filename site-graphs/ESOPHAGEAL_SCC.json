@@ -1,0 +1,155 @@
+{
+  "ESOPHAGEAL_SCC": {
+    "name": "Esophageal squamous cell carcinoma",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Esophagus",
+      "cohort": {
+        "male_n": 1770,
+        "female_n": 489
+      },
+      "organ_involvement_pct": {
+        "HEPATOBILIARY": {
+          "male": 52,
+          "female": 43
+        },
+        "PULMONARY": {
+          "male": 34,
+          "female": 39
+        },
+        "MUSCULOSKELETAL": {
+          "male": 20,
+          "female": 16
+        },
+        "NEUROLOGIC": {
+          "male": 9,
+          "female": 9
+        },
+        "GASTROINTESTINAL": {
+          "male": 5,
+          "female": 5
+        },
+        "PULMONARY_PLEURA": {
+          "male": 4,
+          "female": 5
+        },
+        "ENDOCRINE": {
+          "male": 2,
+          "female": 3
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "PD-L1 (CPS by 22C3)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u226510 in ~45%",
+        "clinical_use": "Pembrolizumab + chemotherapy first-line advanced ESCC in tumors with PD-L1 CPS \u226510; nivolumab-based first-line therapy uses a different PD-L1 assay/definition in major trials and is not defined by 22C3 CPS. Adjuvant nivolumab (CheckMate 577) after neoadjuvant CRT and surgery if residual disease"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; not uniformly elevated",
+        "clinical_use": "Tissue-agnostic pembrolizumab if TMB-H"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~85-95%",
+        "clinical_use": "Very common truncal alteration; mainly biologic/prognostic, not standard therapy-selective"
+      },
+      {
+        "name": "CDKN2A",
+        "type": "loss",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Recurrent deletion/inactivation; prognostic/biologic"
+      },
+      {
+        "name": "NOTCH1",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Recurrent squamous-lineage alteration; prognostic/biologic"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare, typically <2% in ESCC",
+        "clinical_use": "Pembrolizumab if MSI-H/dMMR"
+      },
+      {
+        "name": "CCND1",
+        "type": "amplification",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Common hallmark driver amplification in ESCC; prognostic/biologic, not standard therapy-selective"
+      },
+      {
+        "name": "SOX2 / TP63",
+        "type": "amplification",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "SOX2 and/or TP63 amplification recurrent (~40-60% regionally at 3q26-28)",
+        "clinical_use": "Hallmark squamous-lineage driver region; biologic/prognostic"
+      },
+      {
+        "name": "PIK3CA",
+        "type": "mutation / amplification",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Recurrent pathway alteration; prognostic/biologic"
+      },
+      {
+        "name": "NFE2L2 / KEAP1 / CUL3 pathway",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent oxidative stress pathway alterations (~10-20% collectively)",
+        "clinical_use": "Recognized recurrent ESCC driver pathway; prognostic/biologic"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Keratinizing squamous cell carcinoma of the esophageal mucosa",
+      "variants": [
+        "conventional keratinizing",
+        "basaloid",
+        "spindle-cell (sarcomatoid)",
+        "verrucous"
+      ],
+      "grading": "Well / moderately / poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often inflamed \u2014 PD-L1 high in a substantial subset; tobacco/alcohol-associated tumors may show increased mutational burden, but TMB is variable rather than uniformly high",
+      "stromal_features": "Desmoplastic; central necrosis and cavitation in large tumours"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal cells of esophageal stratified squamous epithelium",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative (esophagus develops from primitive foregut)",
+      "differentiation_state": "Keratinizing squamous with characteristic intraepithelial neoplasia progression (mild \u2192 moderate \u2192 severe dysplasia \u2192 invasive SCC)",
+      "lineage_plasticity": "Field cancerization from tobacco/alcohol produces multifocal disease; chronic thermal injury (hot beverages) in high-incidence regions drives similar field effect"
+    }
+  }
+}

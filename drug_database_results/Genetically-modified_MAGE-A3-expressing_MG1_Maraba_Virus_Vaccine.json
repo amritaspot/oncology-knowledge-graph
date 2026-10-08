@@ -1,0 +1,100 @@
+{
+  "molecule_name": "Genetically-modified MAGE-A3-expressing MG1 Maraba Virus Vaccine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Oncolytic Virus Therapy",
+  "modality": "Vaccine / Oncolytic Virus",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "The vaccine uses a modified Maraba virus that selectively replicates in cancer cells, leading to their destruction while sparing normal cells.",
+    "molecular_action": "The genetically modified virus induces cytotoxicity in MAGE-A3-expressing cancer cells through selective replication and lysis.",
+    "targets": [
+      "MAGE-A3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cancer cell lysis",
+      "Induction of immune response"
+    ],
+    "selectivity": "Selective for MAGE-A3-expressing cancer cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "MAGE-A3-expressing solid tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Clinical trials for MAGE-A3-expressing tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Investigational drug in clinical trials",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "2023-10"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02285816"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MAGEA3"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

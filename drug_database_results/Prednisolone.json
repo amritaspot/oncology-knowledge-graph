@@ -1,0 +1,168 @@
+{
+  "molecule_name": "Prednisolone",
+  "identifiers": {
+    "FDA_UNII": "0D3A2S2A0D",
+    "PubChem_CID": 5755,
+    "CAS_number": "50-24-8",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Orapred",
+    "Prelone",
+    "Millipred"
+  ],
+  "drug_class": "Corticosteroid",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet, Solution",
+  "approved_countries": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Prednisolone works by suppressing the immune system and reducing inflammation.",
+    "molecular_action": "Prednisolone binds to glucocorticoid receptors, modulating gene expression and inhibiting inflammatory pathways.",
+    "targets": [
+      "NR3C1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced inflammation",
+      "Suppressed immune response"
+    ],
+    "selectivity": "Selective for glucocorticoid receptors",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Autoimmune diseases",
+      "Allergic reactions",
+      "Inflammatory conditions"
+    ],
+    "scope": "Used in various inflammatory and autoimmune conditions.",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Systemic fungal infections",
+      "Hypersensitivity to prednisolone"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Increased blood sugar levels",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Corticosteroids can induce insulin resistance.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Diabetes",
+        "Hyperglycemia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Weight gain",
+      "organ_system": "Metabolic",
+      "biological_explanation": "Corticosteroids can increase appetite and fat deposition.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Obesity",
+        "Metabolic syndrome"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Prednisolone as a corticosteroid used in various conditions.",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 3.5,
+    "biological_half_life_hours": 18.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT03543033",
+      "NCT01339455",
+      "NCT07357935"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "Varies based on condition",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "NR3C1"
+    ],
+    "pathways": [
+      "Glucocorticoid receptor signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 5755,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5755/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "NR3C1",
+        "pdb_id": "1M2Z",
+        "alphafold_id": "P04150",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "NR3C1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.bcp.2004.06.018"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

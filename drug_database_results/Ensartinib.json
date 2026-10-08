@@ -1,0 +1,125 @@
+{
+  "molecule_name": "Ensartinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 56960363,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "ALK Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Ensartinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), which is involved in the growth of certain types of cancer cells.",
+    "molecular_action": "Inhibits ALK signaling pathways, leading to reduced tumor cell proliferation.",
+    "targets": [
+      "ALK"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis in ALK-positive cells"
+    ],
+    "selectivity": "Highly selective for ALK",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-small cell lung cancer (NSCLC)",
+    "histology": "ALK-positive NSCLC",
+    "clinical_settings": [
+      "Neoadjuvant treatment",
+      "Advanced or metastatic disease"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06736561",
+      "NCT06563999",
+      "NCT03804541"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "225 mg",
+    "objective_response_rate_pct": 80.0,
+    "median_pfs_months": 26.2
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ALK"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 50922664,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/50922664/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ALK",
+        "pdb_id": "4CLI",
+        "alphafold_id": "Q9UM73",
+        "resolution_angstroms": 2.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ALK",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1158/1535-7163.MCT-17-0181"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

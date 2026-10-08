@@ -1,0 +1,74 @@
+{
+  "ANGIOSARCOMA": {
+    "name": "Angiosarcoma",
+    "biomarkers": [
+      {
+        "name": "MYC amplification (radiation-induced / post-lymphedema)",
+        "type": "FISH / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic of secondary angiosarcoma, especially post-radiation and also reported in Stewart-Treves syndrome",
+        "clinical_use": "Distinguishes secondary from primary angiosarcoma"
+      },
+      {
+        "name": "CIC-rearranged sarcoma / CIC-DUX4 fusion",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Not a characteristic finding in conventional angiosarcoma; rare reports should prompt consideration of alternative diagnosis",
+        "clinical_use": "Not a routine angiosarcoma biomarker; CIC-rearranged sarcoma is a distinct entity and should not be used as a standard angiosarcoma variant marker"
+      },
+      {
+        "name": "CD31, CD34, ERG, FLI1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive (endothelial markers), with CD31/ERG among the most sensitive/specific",
+        "clinical_use": "Endothelial differentiation panel"
+      },
+      {
+        "name": "PD-L1 / TMB (UV-associated cutaneous angiosarcoma)",
+        "type": "IHC / genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Higher TMB and UV mutational signature are enriched in cutaneous scalp/face angiosarcoma; PD-L1 expression is variable",
+        "clinical_use": "Supports potential sensitivity to immune checkpoint inhibition; pembrolizumab has activity in a subset"
+      },
+      {
+        "name": "TP53, PTPRB, PLCG1, KDR",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrently altered in subsets; no single mutation is uniformly common across all angiosarcomas",
+        "clinical_use": "Molecular characterization"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Malignant endothelial cells forming vascular channels, sheets, or solid growth; often extensive haemorrhage",
+      "variants": [
+        "cutaneous angiosarcoma (scalp/face, elderly)",
+        "post-radiation angiosarcoma",
+        "post-lymphedema (Stewart-Treves syndrome)",
+        "primary breast angiosarcoma",
+        "visceral (liver, spleen, heart)",
+        "soft tissue"
+      ],
+      "grading": "By degree of differentiation and mitotic index"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "UV-associated scalp/face variants often have higher TMB/UV-signature and may show better responses to immune checkpoint inhibition; radiation-induced (MYC-amplified) is biologically distinct and less well defined immunologically",
+      "stromal_features": "Malignant endothelial channels with cellular tufting; hemorrhagic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Endothelial cells (of blood vessels) or lymphatic endothelial cells for some variants",
+      "developmental_lineage": "Mesoderm \u2014 endothelial cells derive from mesodermal angioblasts",
+      "differentiation_state": "Malignant endothelial cells expressing endothelial markers (CD31+, CD34+, ERG+, factor VIII+); often forming abortive vascular channels",
+      "lineage_plasticity": "Multiple distinct entities united by endothelial differentiation: cutaneous scalp variant (UV-driven, high TMB), post-radiation (MYC amplification, distinct biology), post-lymphedema (Stewart-Treves), visceral (heart, liver, spleen)"
+    }
+  }
+}

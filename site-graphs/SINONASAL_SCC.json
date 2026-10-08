@@ -1,0 +1,62 @@
+{
+  "SINONASAL_SCC": {
+    "name": "Sinonasal squamous cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "HPV / p16",
+        "type": "ISH / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in a subset of sinonasal SCC, especially non-keratinizing tumors; p16 is an imperfect surrogate and prevalence varies by series",
+        "clinical_use": "HPV-associated multiphenotypic sinonasal carcinoma is a distinct entity, but in sinonasal SCC HPV-status is mainly diagnostically relevant in subsets and its prognostic advantage is less established than in oropharyngeal SCC"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common, particularly in HPV-negative sinonasal SCC",
+        "clinical_use": "Common tumor suppressor alteration; not a routinely used standalone clinical prognostic biomarker"
+      },
+      {
+        "name": "SMARCB1 (INI-1)",
+        "type": "IHC / loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset (SMARCB1-deficient sinonasal carcinoma is a distinct entity)",
+        "clinical_use": "Loss of INI-1 defines a distinct aggressive sinonasal carcinoma subtype"
+      },
+      {
+        "name": "EGFR",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent exon 20 insertion mutations reported in a substantial subset of inverted papilloma-associated sinonasal SCC",
+        "clinical_use": "Supports the molecular relationship of inverted papilloma and associated sinonasal SCC; hallmark driver in the inverted papilloma-associated subset"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Keratinizing SCC most common; also non-keratinizing",
+      "variants": [
+        "conventional keratinizing",
+        "non-keratinizing",
+        "SMARCB1-deficient sinonasal carcinoma (distinct entity)"
+      ],
+      "grading": "Traditional SCC grading"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Sinonasal epithelium (predominantly maxillary sinus and nasal cavity)",
+      "developmental_lineage": "Sinonasal mucosal epithelium",
+      "differentiation_state": "Keratinizing or non-keratinizing squamous",
+      "lineage_plasticity": "SMARCB1-deficient sinonasal carcinoma represents a distinct SWI/SNF-driven entity with undifferentiated/basaloid morphology"
+    }
+  }
+}

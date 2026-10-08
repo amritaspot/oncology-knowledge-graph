@@ -1,0 +1,115 @@
+{
+  "molecule_name": "Bleomycin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5360373,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "ABVD",
+    "BLEO",
+    "BLM"
+  ],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Biologic",
+  "route": "Intralesional",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Bleomycin works by causing breaks in DNA strands, leading to cell death, particularly in rapidly dividing cells such as cancer cells.",
+    "molecular_action": "Induces DNA strand breaks and inhibits DNA synthesis.",
+    "targets": [
+      "DNA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death in cancerous tissues"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Hodgkin's lymphoma, non-Hodgkin's lymphoma, testicular cancer, ovarian cancer, cervical cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Oncology"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Pulmonary toxicity",
+      "organ_system": "Respiratory",
+      "biological_explanation": "Bleomycin can cause lung damage due to its effects on pulmonary cells.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Pulmonary fibrosis",
+        "Pneumonitis"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Bleomycin's clinical applications and trials",
+    "mechanism_doi_meaning": "Indicates the scientific literature supporting the mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT07201766",
+      "NCT06744946",
+      "NCT06718192"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

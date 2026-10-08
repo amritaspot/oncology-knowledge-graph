@@ -1,0 +1,85 @@
+{
+  "molecule_name": "STAT3 Dual Phosphorylation Site Inhibitor YY201",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "YY201 inhibits the phosphorylation of STAT3 at two specific sites, preventing its activation and function.",
+    "molecular_action": "Inhibits Tyr705 and Ser727 phosphorylation of STAT3.",
+    "targets": [
+      "STAT3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of STAT3-mediated gene expression"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed/Refractory Lymphomas",
+      "Relapsed/Refractory Large Granular Lymphocytic Leukemia"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "YY201 drug profile and clinical study information.",
+    "mechanism_doi_meaning": "No DOI available for mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT06225856",
+      "NCT03240939"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "STAT3"
+    ],
+    "pathways": []
+  }
+}

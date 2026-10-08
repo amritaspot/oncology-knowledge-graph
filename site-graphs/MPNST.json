@@ -1,0 +1,73 @@
+{
+  "MPNST": {
+    "name": "Malignant peripheral nerve sheath tumour",
+    "biomarkers": [
+      {
+        "name": "H3K27me3 loss",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-80% (more frequent in high-grade than low-grade MPNST)",
+        "clinical_use": "Diagnostic marker (correlates with PRC2 complex loss \u0014 EED/SUZ12 alterations)"
+      },
+      {
+        "name": "EED / SUZ12 mutations (PRC2 loss)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~50-70%",
+        "clinical_use": "Molecular basis for H3K27me3 loss"
+      },
+      {
+        "name": "NF1 (germline or somatic)",
+        "type": "germline / somatic mutation",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Germline NF1 \u0012 lifetime MPNST risk ~8-13%; ~40-50% of MPNST arise in NF1 setting",
+        "clinical_use": "Screen NF1 patients; genetic counselling; family screening"
+      },
+      {
+        "name": "CDKN2A/B loss",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Common secondary alteration; associated with malignant progression and explored in CDK4/6 inhibitor trials"
+      },
+      {
+        "name": "S100 (partial/patchy)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Often focal/patchy; diffuse staining is uncommon compared with schwannoma",
+        "clinical_use": "Loss of diffuse S100 supports MPNST vs benign schwannoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Fascicles of spindle cells with alternating hypercellular and hypocellular areas, wavy nuclei, and perivascular whorls; heterologous elements in some",
+      "variants": [
+        "conventional MPNST",
+        "epithelioid MPNST",
+        "malignant Triton tumour (with rhabdomyoblastic differentiation)",
+        "glandular MPNST"
+      ],
+      "grading": "FNCLCC high-grade typically; low-grade MPNST rare"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; typically immune-cold",
+      "stromal_features": "Herringbone or fascicular architecture; perivascular whorls; alternating cellular densities"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Schwann cells or neural crest-derived precursors of peripheral nerve sheath",
+      "developmental_lineage": "Neural crest \u0014 same lineage as schwannoma but with malignant biology",
+      "differentiation_state": "Schwannian differentiation partially retained (S100+ often patchy, SOX10 variable) but with high-grade sarcomatous phenotype; H3K27me3 loss is characteristic diagnostic marker",
+      "lineage_plasticity": "PRC2 complex (SUZ12, EED) loss releases H3K27 methylation \u0012 distinctive gene expression programme; MPNST arising from plexiform neurofibroma represents NF1-driven progression from benign to malignant peripheral nerve sheath biology"
+    }
+  }
+}

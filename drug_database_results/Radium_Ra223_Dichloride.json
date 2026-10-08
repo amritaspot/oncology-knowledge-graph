@@ -1,0 +1,153 @@
+{
+  "molecule_name": "Radium Ra223 Dichloride",
+  "identifiers": {
+    "FDA_UNII": "3D1B1D1D1D",
+    "PubChem_CID": 117546,
+    "CAS_number": "[N/A]",
+    "NCI_Thesaurus_code": "[N/A]",
+    "development_codes": [
+      "Xofigo"
+    ],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Xofigo"
+  ],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Radioisotope",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "United States",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Radium Ra223 Dichloride emits alpha particles that selectively target and destroy cancer cells, particularly in bone metastases.",
+    "molecular_action": "Alpha-emitting radiopharmaceutical that targets bone metastases in prostate cancer.",
+    "targets": [
+      "Bone Metastases"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Destruction of cancer cells in bone",
+      "Reduction of pain associated with bone metastases"
+    ],
+    "selectivity": "High selectivity for bone tissue",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate Cancer",
+    "histology": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "clinical_settings": [
+      "Palliative care",
+      "Oncology"
+    ],
+    "scope": "Treatment of bone metastases in prostate cancer",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/radium-ra-223-dichloride"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Severe renal impairment"
+    ],
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/radium-ra-223-dichloride"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Radiation exposure can cause gastrointestinal irritation.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "Radiation therapy can lead to systemic fatigue.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Reduced quality of life"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT03016312",
+      "NCT04237584",
+      "NCT03896984"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in patients with mCRPC and symptomatic bone metastases."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and safety data for Radium Ra223 Dichloride",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 11.43,
+    "biological_half_life_hours": 0.5,
+    "clearance_route": [
+      "Urine"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03016312",
+      "NCT04237584",
+      "NCT03896984"
+    ],
+    "regulatory_designations": [
+      "FDA Approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "[N/A]",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "[N/A]"
+    ],
+    "pathways": [
+      "Bone Metastasis Pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "Ra223",
+    "emission_type": [
+      "alpha"
+    ],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

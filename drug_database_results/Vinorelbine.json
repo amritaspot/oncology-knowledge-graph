@@ -1,0 +1,159 @@
+{
+  "molecule_name": "Vinorelbine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5311497,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Vinca Alkaloid",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Vinorelbine works by inhibiting the ability of cancer cells to divide and grow.",
+    "molecular_action": "Inhibits microtubule formation, disrupting mitosis.",
+    "targets": [
+      "Tubulin"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell division",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-small cell lung cancer, breast cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant treatment",
+      "Palliative care"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to vinorelbine or any component of the formulation",
+      "Severe bone marrow suppression"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Neutropenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of bone marrow function leading to reduced white blood cell production.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of infection"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced emesis.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Vinorelbine's application in various cancers and its clinical trial status.",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from known pharmacological effects.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic metabolism"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT01410214",
+      "NCT00828074",
+      "NCT04825925"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TUBB",
+      "TUBA1A"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 241903,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/241903/SDF?record_type=3d",
+    "rotatable_bonds": 5,
+    "target_structures": [
+      {
+        "target_symbol": "TUBB",
+        "pdb_id": "6XKK",
+        "alphafold_id": "P07437",
+        "resolution_angstroms": 2.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Ala12",
+              "Gly13",
+              "Gly14",
+              "Thr15",
+              "Ser16"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TUBB",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 3.2,
+        "doi_or_source": "10.1016/j.bcp.2004.09.019"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "ESSENTIAL_THROMBOCYTHAEMIA": {
+    "name": "Essential thrombocythaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_features": [
+        "thrombocytosis (platelets >450\u00d710\u2079/L)"
+      ],
+      "key_complications": [
+        "thrombosis and paradoxically haemorrhage (acquired vWF deficiency at very high platelet counts)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "JAK2 V617F",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~50-60%",
+        "clinical_use": "Diagnostic. JAK2-mutant ET carries higher thrombosis risk than CALR-mutant"
+      },
+      {
+        "name": "CALR mutations (Type 1: 52-bp deletion; Type 2: 5-bp insertion)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~20-30%",
+        "clinical_use": "Better thrombosis profile than JAK2-mutant ET. Type 1/type 1-like CALR is more often associated with myelofibrotic progression; type 2/type 2-like is more common in ET"
+      },
+      {
+        "name": "MPL mutations (W515)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~3-5%",
+        "clinical_use": "Rarer alternative driver"
+      },
+      {
+        "name": "Triple-negative (JAK2/CALR/MPL-negative)",
+        "type": "molecular exclusion",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-15%",
+        "clinical_use": "Requires bone marrow biopsy for diagnosis; may have less favorable overall survival than driver-mutated ET in some series"
+      },
+      {
+        "name": "IPSET / IPSET-thrombosis",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Risk stratification for thrombosis (age, prior thrombosis, JAK2 status, cardiovascular risk factors)"
+      },
+      {
+        "name": "ASXL1, SRSF2, EZH2, IDH1/2 (HMR mutations)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Adverse; not part of standard IPSET-thrombosis risk stratification. Adverse mutations have been incorporated into some mutation-enhanced prognostic models for ET"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Marrow megakaryocytic hyperplasia with large mature megakaryocytes and hyperlobated nuclei; loose clustering; no significant reticulin fibrosis (distinguishes from prefibrotic PMF)",
+      "variants": [
+        "by driver: JAK2 (~50-60%), CALR (~20-30%), MPL (~3-5%), triple-negative (~10-15%)"
+      ],
+      "grading": "IPSET / IPSET-thrombosis risk scores"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per other MPNs; inflammatory driver signalling",
+      "stromal_features": "Marrow megakaryocytic hyperplasia; distinguishing from prefibrotic PMF requires careful reticulin assessment and megakaryocyte morphology"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC with megakaryocyte-lineage-biased clonal expansion",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (megakaryocytic bias)",
+      "differentiation_state": "Megakaryocytic hyperplasia with large mature megakaryocytes with hyperlobated nuclei; loose clustering; no significant reticulin fibrosis (distinguishes from prefibrotic PMF)",
+      "lineage_plasticity": "Driver mutation biology reflects distinct JAK-STAT activation mechanisms: JAK2 V617F (~50-60%, direct kinase activation), CALR (~20-30%, mutant calreticulin activates thrombopoietin receptor MPL), MPL (~3-5%, thrombopoietin receptor mutations), triple-negative (~10-15%); all converge on JAK-STAT hyperactivation biased toward megakaryocytic lineage"
+    }
+  }
+}

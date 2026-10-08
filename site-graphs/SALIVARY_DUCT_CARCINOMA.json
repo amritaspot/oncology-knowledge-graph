@@ -1,0 +1,72 @@
+{
+  "SALIVARY_DUCT_CARCINOMA": {
+    "name": "Salivary duct carcinoma",
+    "biomarkers": [
+      {
+        "name": "Androgen receptor (AR)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~70-95%",
+        "clinical_use": "Frequently positive and useful diagnostically; predictive for androgen deprivation therapy in recurrent/metastatic AR-positive disease (e.g., combined androgen blockade with bicalutamide plus an LHRH agonist)"
+      },
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~25-40%",
+        "clinical_use": "HER2 amplification/overexpression supports HER2-directed therapy in advanced disease, including trastuzumab-based regimens; trastuzumab deruxtecan has shown activity in HER2-positive salivary gland carcinomas"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~40-70%",
+        "clinical_use": "Common alteration in salivary duct carcinoma; mainly of biologic/prognostic significance rather than standard actionable use"
+      },
+      {
+        "name": "PIK3CA / PTEN",
+        "type": "mutation / loss",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Recurrent subset",
+        "clinical_use": "Alterations in the PI3K/AKT pathway are recurrent and may support enrollment in PI3K/AKT/mTOR-directed clinical trials"
+      },
+      {
+        "name": "HRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-30%",
+        "clinical_use": "Recurrent hotspot mutation in a subset of salivary duct carcinomas; may support consideration of pathway-directed clinical trials"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Resembles high-grade breast ductal carcinoma with cribriform, comedonecrosis, and papillary features",
+      "variants": [
+        "conventional",
+        "sarcomatoid",
+        "invasive micropapillary"
+      ],
+      "grading": "High-grade by definition; often with adjacent intraductal carcinoma/ex-pleomorphic adenoma or DCIS-like architecture"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; often less inflamed",
+      "stromal_features": "Desmoplastic, similar to breast ductal carcinoma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Excretory duct luminal cells of salivary glands",
+      "developmental_lineage": "Ectodermal oral epithelium-derived salivary gland ductal epithelium (including excretory/interlobular ducts)",
+      "differentiation_state": "Luminal/apocrine ductal differentiation with frequent AR expression; strong phenotypic parallel to apocrine breast carcinoma",
+      "lineage_plasticity": "Some tumours undergo sarcomatoid transformation"
+    }
+  }
+}

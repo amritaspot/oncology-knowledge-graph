@@ -1,0 +1,54 @@
+{
+  "MUCINOUS_BREAST": {
+    "name": "Mucinous breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "ER positive in the great majority (~90% or higher); PR commonly positive",
+        "clinical_use": "Endocrine therapy"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually negative; HER2 amplification/overexpression is rare (<5%)",
+        "clinical_use": "Rarely HER2+"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Typically low",
+        "clinical_use": "Prognostic"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Islands of tumour cells floating in pools of extracellular mucin",
+      "variants": [
+        "pure mucinous (>90% mucin content \u2014 best prognosis)",
+        "mixed mucinous (invasive component)",
+        "type A (paucicellular)",
+        "type B (hypercellular, often neuroendocrine features)"
+      ],
+      "grading": "Nottingham grade; usually grade 1-2"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Minimal inflammation typically",
+      "stromal_features": "Extensive extracellular mucin pools; delicate fibrovascular septa"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells with mucinous differentiation",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Well-differentiated luminal (usually ER+/PR+/HER2-) with abundant extracellular mucin; type B may show neuroendocrine differentiation",
+      "lineage_plasticity": "Type B mucinous with neuroendocrine differentiation reflects a convergent phenotype within breast carcinoma"
+    }
+  }
+}

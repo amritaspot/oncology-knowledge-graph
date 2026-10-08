@@ -1,0 +1,47 @@
+{
+  "TRACHEAL_CARCINOMA": {
+    "name": "Tracheal carcinoma",
+    "biomarkers": [
+      {
+        "name": "MYB / MYBL1 rearrangement including MYB-NFIB fusion (in adenoid cystic subtype)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "MYB activation/rearrangement in a majority of adenoid cystic carcinomas; MYB-NFIB fusion in a substantial subset (commonly reported around 40-60%)",
+        "clinical_use": "Supports diagnosis of adenoid cystic carcinoma; biology parallels salivary ACC"
+      },
+      {
+        "name": "PD-L1, TP53 (in tracheal SCC subtype)",
+        "type": "IHC / mutation",
+        "categories": [
+          "predictive",
+          "prognostic"
+        ],
+        "prevalence": "Not well defined specifically for primary tracheal SCC; TP53 alterations and variable PD-L1 expression have been reported, but site-specific prevalence is not established as for lung / head and neck SCC",
+        "clinical_use": "If needed clinically, biomarker workup generally follows principles used for anatomically and histologically similar SCCs, recognizing limited trachea-specific evidence"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Two dominant subtypes: squamous cell carcinoma and adenoid cystic carcinoma; together they account for most primary tracheal carcinomas",
+      "variants": [
+        "SCC",
+        "adenoid cystic carcinoma",
+        "mucoepidermoid",
+        "adenocarcinoma",
+        "carcinoid"
+      ],
+      "grading": "Follows relevant subtype grading (SCC or ACC)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Per histologic subtype",
+      "stromal_features": "SCC: desmoplastic. ACC: characteristic reduplicated basement membrane material"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Squamous cell carcinoma from tracheal surface epithelium/basal cells; adenoid cystic carcinoma from tracheal submucosal glands (analogous to salivary ACC)",
+      "developmental_lineage": "Endoderm \u2014 foregut (trachea forms from laryngotracheal tube)",
+      "differentiation_state": "SCC: keratinizing squamous; ACC: biphasic luminal + myoepithelial",
+      "lineage_plasticity": "Tracheal ACC shares core MYB-pathway biology with salivary ACC and can be regarded as the same trans-anatomic lineage-defined disease"
+    }
+  }
+}

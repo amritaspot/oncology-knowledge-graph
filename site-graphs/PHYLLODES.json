@@ -1,0 +1,62 @@
+{
+  "PHYLLODES": {
+    "name": "Phyllodes tumour",
+    "biomarkers": [
+      {
+        "name": "MED12 mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~45\u00120% overall (especially benign/borderline)",
+        "clinical_use": "Common in phyllodes tumours and also seen in fibroadenomas; supports fibroepithelial neoplasm biology but is not solely diagnostic"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20\u00150% overall, enriched in borderline/malignant tumours",
+        "clinical_use": "Associated with progression/malignant behaviour; not specific in isolation"
+      },
+      {
+        "name": "Ki-67, stromal atypia, mitoses, overgrowth",
+        "type": "morphologic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "WHO grading/classification (benign / borderline / malignant)"
+      },
+      {
+        "name": "ER, PR, HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Stromal component typically negative/non-contributory; epithelial component may retain ER/PR expression",
+        "clinical_use": "Helps distinguish from conventional breast carcinoma biology; no established role for HR / HER2-targeted therapy in phyllodes tumour"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Biphasic fibroepithelial neoplasm with characteristic leaf-like intracanalicular projections and stromal hypercellularity",
+      "variants": [
+        "benign",
+        "borderline",
+        "malignant"
+      ],
+      "grading": "WHO grading/classification: benign / borderline / malignant based on stromal cellularity, atypia, mitoses, overgrowth, and tumour border"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised \u0014 dominated by stromal biology",
+      "stromal_features": "Increased stromal cellularity; leaf-like architecture"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Stromal (mesenchymal) fibroblastic/periductal stromal cells of breast stroma; the epithelial component is benign entrapped mammary duct epithelium",
+      "developmental_lineage": "Mesoderm (stromal component) with entrapped ectoderm-derived mammary epithelium",
+      "differentiation_state": "Biphasic \u0014 leaf-like intracanalicular growth of stromal cells around benign epithelium; grade determined by stromal cellularity, atypia, mitoses, borders, and stromal overgrowth",
+      "lineage_plasticity": "Malignant phyllodes can develop heterologous sarcomatous differentiation (liposarcoma, chondrosarcoma, rhabdomyosarcoma) \u0014 evidence of mesenchymal lineage plasticity in the stromal component"
+    }
+  }
+}

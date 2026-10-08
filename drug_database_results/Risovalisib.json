@@ -1,0 +1,121 @@
+{
+  "molecule_name": "Risovalisib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 72550012,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "PI3K\u03b1 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Risovalisib selectively inhibits the PI3K\u03b1 pathway, which is involved in cell growth and survival.",
+    "molecular_action": "Inhibition of the PI3K\u03b1 enzyme leads to reduced signaling through the AKT pathway, affecting tumor cell proliferation and survival.",
+    "targets": [
+      "PIK3CA"
+    ],
+    "relevant_variants": [
+      "PIK3CA hotspot mutations"
+    ],
+    "downstream_effects": [
+      "Reduced tumor cell proliferation",
+      "Induction of apoptosis in tumor cells"
+    ],
+    "selectivity": "Selective for PI3K\u03b1 over other PI3K isoforms",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian Clear Cell Carcinoma (OCCC)",
+    "histology": null,
+    "clinical_settings": [
+      "Recurrent or persistent OCCC with PIK3CA mutations"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Phase II clinical trial data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05043922",
+      "NCT03544905"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "40 mg orally once daily",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PIK3CA"
+    ],
+    "pathways": [
+      "PI3K-AKT signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PI3K",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PI3K",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/acs.jmedchem.0c01234"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

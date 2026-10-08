@@ -1,0 +1,71 @@
+{
+  "SYNOVIAL_SARCOMA": {
+    "name": "Synovial sarcoma",
+    "biomarkers": [
+      {
+        "name": "SS18-SSX1 / SS18-SSX2 / SS18-SSX4 fusion (t(X;18))",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": ">95%",
+        "clinical_use": "Defining event; detected by molecular testing (e.g., FISH, RT-PCR, NGS); SS18-SSX/SSX fusion-specific or SS18-SSX surrogate antibody IHC may support diagnosis"
+      },
+      {
+        "name": "MRQ22 IHC (SS18-SSX)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Fusion-specific IHC surrogate"
+      },
+      {
+        "name": "TLE1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Frequently positive",
+        "clinical_use": "Supports diagnosis (though not specific)"
+      },
+      {
+        "name": "NY-ESO-1",
+        "type": "IHC / expression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~70\u201380% express",
+        "clinical_use": "Afamitresgene autoleucel (afami-cel) \u2014 TCR-T targeting MAGE-A4, not NY-ESO-1, in HLA-A*02+ synovial sarcoma. NY-ESO-1 expression is relevant to investigational TCR-T approaches (e.g., letetresgene autoleucel in trials)"
+      },
+      {
+        "name": "HLA-A*02:01",
+        "type": "HLA typing",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~50% in populations of European ancestry",
+        "clinical_use": "Required for selected TCR-T therapy eligibility"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Uniform spindle cells with variable glandular epithelial component; heterogeneous appearance despite name (does NOT arise from synovium)",
+      "variants": [
+        "monophasic (spindle cell only, most common)",
+        "biphasic (spindle + glandular epithelial)",
+        "poorly differentiated / small round cell (worst prognosis)"
+      ],
+      "grading": "FNCLCC grade; poorly differentiated variant is worst"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold \u2014 sparse TILs; but cancer-testis antigen expression can enable TCR-engineered T cell therapy",
+      "stromal_features": "Fibrous stroma with hemangiopericytoma-like vasculature; mast cells common; calcification in some"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 DOES NOT arise from synovium despite the name; likely mesenchymal precursor with bipotent epithelial-mesenchymal differentiation capacity",
+      "developmental_lineage": "Mesoderm \u2014 mesenchymal (bipotent for epithelial-like differentiation)",
+      "differentiation_state": "Monophasic (spindle only) or biphasic (spindle + epithelial glandular) with characteristic uniform spindle cell morphology; TLE1+, EMA+ variable",
+      "lineage_plasticity": "SS18-SSX1/SSX2/SSX4 fusion (t(X;18)) is defining \u2014 SS18 (SYT) is a chromatin-remodeling complex component, and the fusion disrupts BAF (SWI/SNF) complex composition; bipotent differentiation potential (spindle and epithelial) reflects fusion-driven chromatin state"
+    }
+  }
+}

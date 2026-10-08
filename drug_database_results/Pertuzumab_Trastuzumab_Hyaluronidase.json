@@ -1,0 +1,155 @@
+{
+  "molecule_name": "Pertuzumab, Trastuzumab, Hyaluronidase",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Monoclonal Antibodies",
+  "modality": "Biologic",
+  "route": "Subcutaneous",
+  "marketed_form": "Fixed-dose combination",
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Pertuzumab and trastuzumab are monoclonal antibodies that target the HER2 protein on cancer cells, inhibiting their growth and triggering immune responses.",
+    "molecular_action": "Binding to different epitopes of the HER2 protein, leading to inhibition of cell proliferation and induction of apoptosis.",
+    "targets": [
+      "HER2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell growth",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "HER2-positive breast cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Breast cancer treatment",
+      "Prostate cancer treatment"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Combination therapy for HER2-positive cancers",
+    "mechanism_doi_meaning": "Mechanism of action is based on the binding of monoclonal antibodies to HER2.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT04395508",
+      "NCT05238831",
+      "NCT05730712"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ERBB2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ERBB2",
+        "pdb_id": "1S78",
+        "alphafold_id": "P04626",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "ERBB2",
+        "pdb_id": "1N8Z",
+        "alphafold_id": "P04626",
+        "resolution_angstroms": 3.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "HYAL1",
+        "pdb_id": null,
+        "alphafold_id": "P15428",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "ERBB2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 97.0,
+        "doi_or_source": "10.1073/pnas.1734711100"
+      },
+      {
+        "target_symbol": "ERBB2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 500.0,
+        "doi_or_source": "10.1073/pnas.1734711100"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

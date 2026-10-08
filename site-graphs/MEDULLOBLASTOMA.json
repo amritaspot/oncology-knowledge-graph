@@ -1,0 +1,113 @@
+{
+  "MEDULLOBLASTOMA": {
+    "name": "Medulloblastoma",
+    "biomarkers": [
+      {
+        "name": "Molecular subgroups (WNT, SHH, Group 3, Group 4)",
+        "type": "methylation / transcriptomic profiling",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "WNT ~10%, SHH ~25-30%, Group 3 ~20-25%, Group 4 ~35-40%",
+        "clinical_use": "Defines the four consensus molecular subgroups and is central to diagnosis and risk stratification. WNT: excellent prognosis, de-escalation trials. SHH: variable prognosis, with TP53-mutant SHH conferring very high risk. Group 3: generally poorest prognosis, especially with MYC amplification. Group 4: intermediate prognosis. Guides risk-adapted therapy"
+      },
+      {
+        "name": "CTNNB1 (\u0003b2-catenin) \u0014 nuclear IHC",
+        "type": "IHC / mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic of most WNT-activated medulloblastomas",
+        "clinical_use": "Marker of WNT subgroup; typically correlates with CTNNB1 mutation"
+      },
+      {
+        "name": "MYC amplification",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Most characteristic of Group 3",
+        "clinical_use": "Very poor prognosis"
+      },
+      {
+        "name": "MYCN amplification",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Seen in SHH and Group 4",
+        "clinical_use": "Adverse prognostic feature, particularly in SHH and in subsets of Group 4"
+      },
+      {
+        "name": "TP53 mutation (germline in Li-Fraumeni)",
+        "type": "mutation",
+        "categories": [
+          "prognostic",
+          "diagnostic"
+        ],
+        "prevalence": "Primarily in SHH subgroup",
+        "clinical_use": "SHH-TP53-mutant defines a very high-risk subtype; consider germline testing for Li-Fraumeni syndrome"
+      },
+      {
+        "name": "PTCH1, SMO, SUFU mutations (SHH pathway)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "SHH subgroup",
+        "clinical_use": "Support classification as SHH-activated medulloblastoma; SMO inhibitors (vismodegib, sonidegib) are relevant mainly for tumors with upstream SHH-pathway activation such as PTCH1 or SMO alterations, but not generally for SUFU-mutant tumors"
+      },
+      {
+        "name": "ELP1 germline (SHH subgroup)",
+        "type": "germline",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-15% of pediatric SHH medulloblastoma",
+        "clinical_use": "Germline predisposition; family counselling"
+      },
+      {
+        "name": "Chromosome 6 loss / monosomy 6",
+        "type": "copy number",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in WNT subgroup",
+        "clinical_use": "Supportive marker for WNT-activated medulloblastoma"
+      },
+      {
+        "name": "Isochromosome 17q",
+        "type": "copy number",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common, especially in Group 4 and also seen in Group 3",
+        "clinical_use": "Characteristic recurrent cytogenetic alteration in non-WNT/non-SHH medulloblastoma, especially Group 4"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cell embryonal tumour of cerebellum with Homer-Wright rosettes, high mitotic and apoptotic index",
+      "variants": [
+        "classic medulloblastoma",
+        "desmoplastic/nodular (SHH-associated, better prognosis)",
+        "medulloblastoma with extensive nodularity (MBEN, infants, good prognosis)",
+        "large cell / anaplastic (poor prognosis, often associated with MYC amplification)"
+      ],
+      "grading": "All WHO grade 4; risk stratification by molecular subgroup + histology + metastasis + age"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Cold typically; molecular subgroups have distinct immune signatures",
+      "stromal_features": "Small round blue cell architecture; nodular pattern in desmoplastic variants"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Distinct precursor cells for each molecular subgroup: WNT (lower rhombic lip / dorsal brainstem progenitors), SHH (cerebellar granule neuron precursors), Group 3 (undetermined; proposed cerebellar stem/progenitor or photoreceptor-like lineage programs), Group 4 (likely glutamatergic lineage from upper rhombic lip / unipolar brush cell-related progenitors)",
+      "developmental_lineage": "Neuroectoderm \u0014 hindbrain (rhombic lip and external granule layer of developing cerebellum)",
+      "differentiation_state": "Undifferentiated embryonal small round blue cell tumour with variable neuronal differentiation (synaptophysin+ variable); Homer-Wright rosettes in some",
+      "lineage_plasticity": "Four distinct molecular subgroups reflect distinct cells of origin and lineage programmes: WNT (best prognosis, CTNNB1-mutant, classically midline/dorsal brainstem-related), SHH (SHH-pathway activated, TP53 status prognostic), Group 3 (worst prognosis, often MYC-amplified, photoreceptor gene expression), Group 4 (most common, frequently isochromosome 17q)"
+    }
+  }
+}

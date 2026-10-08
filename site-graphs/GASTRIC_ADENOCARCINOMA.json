@@ -1,0 +1,190 @@
+{
+  "GASTRIC_ADENOCARCINOMA": {
+    "name": "Gastric adenocarcinoma",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Stomach",
+      "cohort": {
+        "male_n": 4088,
+        "female_n": 2484
+      },
+      "organ_involvement_pct": {
+        "HEPATOBILIARY": {
+          "male": 56,
+          "female": 44
+        },
+        "GASTROINTESTINAL": {
+          "male": 23,
+          "female": 32
+        },
+        "GASTROINTESTINAL_OTHER": {
+          "male": 11,
+          "female": 13
+        },
+        "PULMONARY": {
+          "male": 14,
+          "female": 11
+        },
+        "MUSCULOSKELETAL": {
+          "male": 10,
+          "female": 10
+        },
+        "NEUROLOGIC": {
+          "male": 4,
+          "female": 3
+        },
+        "REPRODUCTIVE_GONADAL": {
+          "male": null,
+          "female": 6
+        },
+        "PULMONARY_PLEURA": {
+          "male": 4,
+          "female": 4
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC + ISH reflex",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-20% (higher in intestinal-type, GEJ)",
+        "clinical_use": "Trastuzumab + chemo first-line (ToGA); pembrolizumab + trastuzumab + chemo (KEYNOTE-811); T-DXd in later lines (DESTINY-Gastric)"
+      },
+      {
+        "name": "PD-L1 (CPS by 22C3)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CPS \u000b51 in ~60%; CPS \u000b55 in ~35%",
+        "clinical_use": "Nivolumab + chemo (CheckMate 649 \u0014 benefit CPS \u000b55); pembrolizumab combos"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~8-10% in advanced/metastatic disease; ~10-20% overall resected series",
+        "clinical_use": "Dramatic response to immune checkpoint inhibitors; consider IO-only first-line in selected advanced MSI-H disease; germline testing when Lynch syndrome is suspected"
+      },
+      {
+        "name": "EBV",
+        "type": "ISH (EBER)",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~8-10% (one of the 4 TCGA molecular subtypes)",
+        "clinical_use": "Better prognosis; frequent PD-L1/PD-L2 amplification; IO responsive"
+      },
+      {
+        "name": "CLDN18.2 (Claudin 18.2)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~25-40% depending on assay/cutoff",
+        "clinical_use": "Zolbetuximab + chemo (SPOTLIGHT, GLOW) \u0014 first-line CLDN18.2+ HER2- advanced"
+      },
+      {
+        "name": "FGFR2b / FGFR2 amplification",
+        "type": "IHC / copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "FGFR2 amplification ~3-7%; FGFR2b protein overexpression higher",
+        "clinical_use": "Bemarituzumab (anti-FGFR2b) in trials"
+      },
+      {
+        "name": "MET amplification",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~2-4%",
+        "clinical_use": "MET inhibitor trials; less established than in lung"
+      },
+      {
+        "name": "TCGA molecular subtypes: EBV, MSI, GS (genomically stable \u0014 usually diffuse/signet-ring), CIN (chromosomal instability)",
+        "type": "molecular classification",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "EBV ~9%, MSI ~22%, GS ~20%, CIN ~50%",
+        "clinical_use": "Emerging framework; guides IO and targeted therapy considerations"
+      },
+      {
+        "name": "CDH1 germline (hereditary diffuse gastric cancer)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Prophylactic gastrectomy for germline carriers; associated with lobular breast cancer risk"
+      },
+      {
+        "name": "CA 19-9, CEA",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Monitoring in metastatic disease when elevated at baseline"
+      },
+      {
+        "name": "NTRK1/2/3 fusion",
+        "type": "fusion testing (NGS or IHC + confirmatory molecular assay)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<1%)",
+        "clinical_use": "Tissue-agnostic TRK inhibitor therapy when present"
+      },
+      {
+        "name": "RET fusion",
+        "type": "fusion testing (NGS)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<1%)",
+        "clinical_use": "Potential eligibility for selective RET inhibitor therapy in rare fusion-positive cases"
+      },
+      {
+        "name": "KRAS G12C",
+        "type": "mutation testing (NGS)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Potential eligibility for KRAS G12C inhibitor therapy/trials in selected cases"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Two dominant Lauren patterns: intestinal-type (glandular, cohesive) and diffuse-type (poorly cohesive with signet-ring morphology, linitis plastica when extensive)",
+      "variants": [
+        "Lauren intestinal-type",
+        "Lauren diffuse-type (signet-ring, linitis plastica)",
+        "mixed",
+        "WHO subtypes: papillary, tubular, mucinous, poorly cohesive (including signet-ring)"
+      ],
+      "grading": "Well / moderately / poorly differentiated (WHO); Lauren classification also used"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Varies dramatically by TCGA subtype: EBV+ (hot, high PD-L1), MSI-H (hot, high TMB), GS (cold, diffuse-type), CIN (variable)",
+      "stromal_features": "Diffuse-type has extensive desmoplastic reaction (linitis plastica); intestinal-type more glandular"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Gastric mucosal epithelial cells (foveolar, mucous neck, or chief cells); diffuse-type may originate from isthmus stem cells",
+      "developmental_lineage": "Endoderm \u0014 foregut derivative (stomach from primitive foregut)",
+      "differentiation_state": "Intestinal-type (Lauren) \u0014 gland-forming, resembles colonic adenocarcinoma; Diffuse-type (Lauren) \u0014 signet ring cells with E-cadherin loss and discohesive growth",
+      "lineage_plasticity": "H. pylori-driven chronic gastritis \u001a atrophy \u001a intestinal metaplasia \u001a dysplasia \u001a intestinal-type adenocarcinoma (Correa cascade); diffuse-type from stem cells with CDH1 loss (independent pathway)"
+    }
+  }
+}

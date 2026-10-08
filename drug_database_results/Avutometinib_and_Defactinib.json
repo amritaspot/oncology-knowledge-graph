@@ -1,0 +1,160 @@
+{
+  "molecule_name": "Avutometinib and Defactinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "AVMAPKI",
+    "FAKZYNJA"
+  ],
+  "drug_class": "Combination Therapy",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": "Co-packaged",
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Avutometinib inhibits RAF/MEK signaling, while Defactinib inhibits FAK signaling.",
+    "molecular_action": "Avutometinib is a RAF-MEK inhibitor; Defactinib is a FAK inhibitor.",
+    "targets": [
+      "RAF",
+      "MEK",
+      "FAK"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Altered cell signaling"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Recurrent Low-Grade Serous Ovarian Cancer, Thyroid Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Solid tumors",
+      "RAS/MAPK pathway-driven cancers"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Avutometinib and Defactinib combination therapy",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT06072781",
+      "NCT05512208",
+      "NCT06007924"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BRAF",
+      "MAP2K1",
+      "PTK2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "RAF1",
+        "pdb_id": "4G0N",
+        "alphafold_id": "P04049",
+        "resolution_angstroms": 2.2,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Asp594",
+              "Phe595",
+              "Gly596"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      },
+      {
+        "target_symbol": "PTK2",
+        "pdb_id": "2JKK",
+        "alphafold_id": "Q05397",
+        "resolution_angstroms": 2.4,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Lys454",
+              "Glu500",
+              "Asp564"
+            ],
+            "druggability_score": 0.75
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "RAF1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 35.0,
+        "doi_or_source": "10.1021/jm3010829"
+      },
+      {
+        "target_symbol": "PTK2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 50.0,
+        "doi_or_source": "10.1021/jm3010829"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

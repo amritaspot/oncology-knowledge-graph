@@ -1,0 +1,110 @@
+{
+  "molecule_name": "Streptozocin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 29327,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Streptozocin is a chemotherapy drug that works by damaging the DNA of cancer cells, leading to cell death.",
+    "molecular_action": "Alkylating agent that primarily targets pancreatic islet cells.",
+    "targets": [
+      "Insulin-producing cells"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell death in insulin-producing tumors"
+    ],
+    "selectivity": "Selective for pancreatic islet cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Pancreatic neuroendocrine tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Used in the treatment of metastatic insulinoma and other pancreatic neuroendocrine tumors."
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Renal toxicity",
+      "organ_system": "Renal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hypoglycemia",
+      "organ_system": "Endocrine",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Streptozocin is primarily used in oncology for specific types of tumors.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for empty mechanisms.",
+    "null_meaning": "No data available for null fields.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2/3",
+    "nct_trials": [
+      "NCT01709123",
+      "NCT03758014",
+      "NCT03612232"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "INS"
+    ],
+    "pathways": []
+  }
+}

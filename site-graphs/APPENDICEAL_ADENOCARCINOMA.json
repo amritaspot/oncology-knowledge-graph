@@ -1,0 +1,108 @@
+{
+  "APPENDICEAL_ADENOCARCINOMA": {
+    "name": "Appendiceal adenocarcinoma",
+    "biomarkers": [
+      {
+        "name": "KRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~35-60% (common, especially in mucinous tumors)",
+        "clinical_use": "Predicts lack of benefit from anti-EGFR therapy in RAS-mutant disease"
+      },
+      {
+        "name": "GNAS",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~30-60% (especially in mucinous tumors / PMP-associated disease)",
+        "clinical_use": "Enriched in mucinous appendiceal neoplasms and adenocarcinomas; useful diagnostically"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20-40% (more frequent in high-grade and non-mucinous tumors)",
+        "clinical_use": "More common in aggressive non-mucinous / high-grade subtypes"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<5%)",
+        "clinical_use": "Predicts benefit from immune checkpoint inhibitors if MSI-H/dMMR"
+      },
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<5%; lower than colorectal adenocarcinoma)",
+        "clinical_use": "If present, may support use of BRAF-targeted therapy regimens extrapolated from colorectal cancer"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Trastuzumab-based therapy may be considered if amplified/overexpressed"
+      },
+      {
+        "name": "CEA, CA 19-9, CA 125",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Used for disease monitoring; CA 19-9 and CA-125 are often informative in mucinous / peritoneal disease"
+      },
+      {
+        "name": "RNF43",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-15% (more often in mucinous tumors)",
+        "clinical_use": "Recurrently altered in appendiceal mucinous neoplasia/adenocarcinoma; currently mainly of molecular characterization interest"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-15%",
+        "clinical_use": "As a RAS alteration, predicts lack of benefit from anti-EGFR therapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Adenocarcinoma of appendiceal mucosa; often mucin-producing",
+      "variants": [
+        "mucinous adenocarcinoma",
+        "non-mucinous (colonic-type)",
+        "signet-ring cell",
+        "goblet cell adenocarcinoma (previously 'goblet cell carcinoid')"
+      ],
+      "grading": "PSOGI/WHO grading incorporates cellularity, atypia, mitoses, and signet ring cell component; grading is especially important for mucinous peritoneal disease"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised; peritoneal spread pattern dominates",
+      "stromal_features": "Extensive extracellular mucin production; peritoneal implants are often paucicellular in low-grade mucinous disease"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Appendiceal mucosal epithelium (goblet cell adenocarcinoma may arise from crypt base progenitor cells with mixed neuroendocrine features)",
+      "developmental_lineage": "Endoderm \u2014 midgut derivative",
+      "differentiation_state": "Colonic-type adenocarcinoma resembles conventional colorectal adenocarcinoma; goblet cell adenocarcinoma has mixed glandular + neuroendocrine differentiation",
+      "lineage_plasticity": "Goblet cell adenocarcinoma represents a mixed lineage phenotype \u2014 a biphenotypic progenitor has been proposed to explain concurrent glandular and neuroendocrine differentiation"
+    }
+  }
+}

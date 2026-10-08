@@ -1,0 +1,71 @@
+{
+  "MERKEL_CELL_CARCINOMA": {
+    "name": "Merkel cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "Merkel cell polyomavirus (MCPyV)",
+        "type": "PCR / IHC (large T antigen)",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~80% MCPyV+",
+        "clinical_use": "Two pathways: MCPyV+ (integrated virus, lower TMB, often better prognosis) vs MCPyV- (UV-signature, very high TMB). Both are immunotherapy-responsive"
+      },
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1, CK20 (perinuclear dot)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Diagnostic panel \u2014 CK20 perinuclear dot pattern is characteristic"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "PD-L1 expression is not required for use of immune checkpoint inhibitors. Avelumab is approved for metastatic MCC (JAVELIN Merkel 200); pembrolizumab and nivolumab also show activity. Responses occur in both MCPyV+ and MCPyV- disease"
+      },
+      {
+        "name": "Antibody titre to MCPyV oncoproteins",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Present in a subset of patients with MCPyV+ MCC",
+        "clinical_use": "MCPyV oncoprotein antibody testing (eg, AMERK at some centres) can help recurrence surveillance in seropositive MCC"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very high in MCPyV-; low in MCPyV+",
+        "clinical_use": "Primarily biologic/pathogenetic characterization rather than a validated treatment-selection biomarker in MCC; both MCPyV- and MCPyV+ disease can respond to immunotherapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cell tumour in dermis with neuroendocrine morphology (salt-and-pepper chromatin, high mitotic and apoptotic index)",
+      "variants": [
+        "MCPyV-positive (integrated virus, lower TMB)",
+        "MCPyV-negative (UV-driven, very high TMB)"
+      ],
+      "grading": "High-grade neuroendocrine carcinoma by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Both viral and UV subtypes are immunotherapy-responsive but for different reasons \u2014 viral antigenicity in MCPyV+ disease and high UV-induced mutational/neoantigen burden in MCPyV- disease",
+      "stromal_features": "Dermal infiltrate; often ulceration; characteristic CK20 perinuclear dot pattern"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 Merkel cells (mechanoreceptor cells) proposed but not proven; experimental evidence has also supported epithelial progenitors/keratinocytic lineage or dermal fibroblast origin depending on subtype/model",
+      "developmental_lineage": "Ectodermal epithelial/neuroendocrine differentiation is generally favored for Merkel cells; a neural crest origin for normal Merkel cells has also been proposed historically",
+      "differentiation_state": "Neuroendocrine differentiation (synaptophysin+, chromogranin+, CK20+ with characteristic perinuclear dot pattern) with high proliferation and small round blue cell morphology",
+      "lineage_plasticity": "Two distinct pathogenic pathways with different antigen profiles: MCPyV+ (viral, integrated Merkel cell polyomavirus with truncated large T antigen) and MCPyV- (UV-driven, high TMB)"
+    }
+  }
+}

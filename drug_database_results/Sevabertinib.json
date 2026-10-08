@@ -1,0 +1,87 @@
+{
+  "molecule_name": "Sevabertinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 155234713,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Sevabertinib is an oral, reversible tyrosine kinase inhibitor that targets the HER2 receptor.",
+    "molecular_action": "Inhibits the activity of the HER2 receptor tyrosine kinase, leading to reduced cell proliferation and survival in HER2-mutant cancers.",
+    "targets": [
+      "HER2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Induction of apoptosis in HER2-mutant cells"
+    ],
+    "selectivity": "Selective for HER2 over other tyrosine kinases",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-small Cell Lung Cancer (NSCLC)",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced HER2-mutant NSCLC",
+      "Advanced solid tumors with HER2 mutations"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Sevabertinib's clinical development and mechanism of action.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT06452277",
+      "NCT06760819",
+      "NCT07753252"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ERBB2"
+    ],
+    "pathways": []
+  }
+}

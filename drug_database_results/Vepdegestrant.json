@@ -1,0 +1,106 @@
+{
+  "molecule_name": "Vepdegestrant",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 134562533,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ARV-471",
+      "PF-07850327"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Estrogen Receptor Degrader",
+  "modality": "Biologic / PROTAC",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Vepdegestrant is an oral drug that degrades the estrogen receptor using the ubiquitin-proteasome system.",
+    "molecular_action": "Targets and degrades estrogen receptors (ER) through a PROTAC mechanism.",
+    "targets": [
+      "Estrogen Receptor"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced estrogen receptor signaling",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": "Selective for wild-type and mutant estrogen receptors",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer",
+    "histology": "ER+/HER2-",
+    "clinical_settings": [
+      "Locally Advanced Breast Cancer",
+      "Metastatic Breast Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Vepdegestrant clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05463952",
+      "NCT05549505",
+      "NCT05732428"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ESR1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

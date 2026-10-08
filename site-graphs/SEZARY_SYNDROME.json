@@ -1,0 +1,87 @@
+{
+  "SEZARY_SYNDROME": {
+    "name": "S\u00e9zary syndrome",
+    "heme_involvement_pattern": {
+      "primary_compartment": "skin + peripheral_blood + lymph_nodes",
+      "characteristic_features": [
+        "erythroderma",
+        "circulating S\u00e9zary cells (clonal CD4+ T cells)",
+        "lymphadenopathy",
+        "pruritus (often intense)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Circulating S\u00e9zary cells (CD4+/CD7- or CD4+/CD26- by flow, \u22651000/\u03bcL)",
+        "type": "flow cytometry",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Diagnostic threshold; distinguishes S\u00e9zary from erythrodermic MF"
+      },
+      {
+        "name": "Clonal TCR rearrangement in blood + skin",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Identical clone in blood and skin supports S\u00e9zary syndrome"
+      },
+      {
+        "name": "CCR4",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Target for mogamulizumab in relapsed/refractory disease (MAVORIC)"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Brentuximab vedotin may be considered if CD30+"
+      },
+      {
+        "name": "TP53, TET2, DNMT3A, TNFAIP3 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent",
+        "clinical_use": "Molecular characterization"
+      },
+      {
+        "name": "Extracorporeal photopheresis (ECP) response",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Long-standing treatment modality for S\u00e9zary; often combined with IFN or bexarotene"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Circulating cerebriform (convoluted) T cells (S\u00e9zary cells) with erythroderma; lymph node infiltration and skin involvement",
+      "variants": [
+        "classic S\u00e9zary syndrome"
+      ],
+      "grading": "Advanced-stage CTCL by definition (typically stage IVA1-IVA2)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Leukaemic variant of CTCL with distinct blood biology; CCR4-directed mogamulizumab is an approved therapy for relapsed/refractory disease (MAVORIC)",
+      "stromal_features": "Erythroderma (diffuse skin involvement) with pruritus; circulating S\u00e9zary cells; lymphadenopathy"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Central memory CD4+ T cells (distinct from MF which is more often linked to skin-resident effector memory T cells) with skin tropism",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (central memory CD4+ T cells)",
+      "differentiation_state": "Central memory T cell phenotype (CD3+, CD4+, CD8-, CD27+, CD45RA-, CD62L+, CCR7 variable, CCR4+) \u2014 recirculating central memory phenotype distinct from skin-resident effector memory MF phenotype; characteristic cerebriform (convoluted) nuclei",
+      "lineage_plasticity": "Central memory T-cell origin explains distinctive leukaemic biology (recirculating cells rather than skin-resident); CCR4 expression enables mogamulizumab activity (MAVORIC); represents different cell of origin than MF despite overlapping morphology"
+    }
+  }
+}

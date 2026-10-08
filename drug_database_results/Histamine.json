@@ -1,0 +1,167 @@
+{
+  "molecule_name": "Histamine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 774,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antihistamine",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Histamine acts on histamine receptors to mediate various physiological responses, including immune responses.",
+    "molecular_action": "Histamine binds to H1, H2, H3, and H4 receptors, influencing allergic reactions, gastric acid secretion, and neurotransmission.",
+    "targets": [
+      "H1 receptor",
+      "H2 receptor",
+      "H3 receptor",
+      "H4 receptor"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Vasodilation",
+      "Increased vascular permeability",
+      "Neurotransmission modulation"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Allergy treatment",
+      "Anaphylaxis",
+      "Gastric acid disorders"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Various cancers",
+      "molecular_context": "Histamine's role in immune modulation and tumor microenvironment.",
+      "proposed_rationale": "Histamine may enhance antitumor immunity by modulating immune cell activity.",
+      "evidence_level": "Preclinical",
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to histamine or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Histamine as a therapeutic agent and its potential in oncology.",
+    "mechanism_doi_meaning": "Mechanism of action related to histamine receptors.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for the mechanism.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT00277433",
+      "NCT05504057",
+      "NCT01586091"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HRH1",
+      "HRH2",
+      "HRH3",
+      "HRH4"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 774,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/774/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HRH1",
+        "pdb_id": "3RZE",
+        "alphafold_id": "P35367",
+        "resolution_angstroms": 3.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "HRH2",
+        "pdb_id": "3P0G",
+        "alphafold_id": "P25021",
+        "resolution_angstroms": 2.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HRH1",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 3.2,
+        "doi_or_source": "10.1126/science.1201127"
+      },
+      {
+        "target_symbol": "HRH2",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.bcp.2010.12.005"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

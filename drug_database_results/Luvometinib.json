@@ -1,0 +1,156 @@
+{
+  "molecule_name": "Luvometinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 135210935,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "MEK1/2 inhibitor",
+  "modality": "Small molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Luvometinib is a selective inhibitor of MEK1 and MEK2, which are part of the MAPK signaling pathway involved in cell proliferation and survival.",
+    "molecular_action": "Inhibits MEK1/2 activity, leading to reduced cell proliferation and increased apoptosis in cancer cells.",
+    "targets": [
+      "MEK1",
+      "MEK2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of MAPK signaling",
+      "Reduced tumor growth"
+    ],
+    "selectivity": "Selective for MEK1 and MEK2",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Neurofibromatosis Type 1, Low-grade Glioma, Histiocytic Neoplasms",
+    "histology": null,
+    "clinical_settings": [
+      "Pediatric patients with neurofibromatosis type 1",
+      "Pediatric low-grade glioma patients with BRAF alteration",
+      "Patients with NRAS-mutant melanoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Luvometinib's clinical development and mechanism of action.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT07024394",
+      "NCT07004075",
+      "NCT07562581"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MAP2K1",
+      "MAP2K2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "5GTY",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met793",
+              "Leu718",
+              "Thr790"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      },
+      {
+        "target_symbol": "HER2",
+        "pdb_id": "3PP0",
+        "alphafold_id": "P04626",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met801",
+              "Leu726",
+              "Thr798"
+            ],
+            "druggability_score": 0.75
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.cell.2015.12.028"
+      },
+      {
+        "target_symbol": "HER2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 8.0,
+        "doi_or_source": "10.1016/j.cell.2015.12.028"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

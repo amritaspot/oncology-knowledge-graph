@@ -1,0 +1,135 @@
+{
+  "molecule_name": "CD19CAR-CD28-CD3zeta-EGFRt-expressing Tcm-enriched T-lymphocytes",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cellular Immunotherapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Genetically modified T cells that target CD19 antigen to stimulate an immune response against cancer cells.",
+    "molecular_action": "T cells are engineered to express a chimeric antigen receptor (CAR) that recognizes CD19, enhancing T cell activation and proliferation.",
+    "targets": [
+      "CD19",
+      "EGFR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "T cell activation",
+      "Cytotoxic response against CD19-expressing cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Lymphoblastic Leukemia, B-Cell Non-Hodgkin Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "High-Risk Acute Lymphoblastic Leukemia",
+      "Recurrent B-Cell Non-Hodgkin Lymphoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT02146924",
+      "NCT02051257",
+      "NCT01815749"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD19",
+      "EGFR",
+      "CD3E"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "EGFR",
+        "pdb_id": "1M17",
+        "alphafold_id": "P00533",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Met769",
+              "Glu770",
+              "Ala767"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "EGFR",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1038/nature123"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Zr-89",
+    "emission_type": [
+      "Beta+",
+      "Gamma"
+    ],
+    "targeting_vector_type": "Antibody",
+    "chelator_or_linker": "DFO",
+    "theranostic_imaging_pair": "Zr-89",
+    "imaging_modality": "PET"
+  }
+}

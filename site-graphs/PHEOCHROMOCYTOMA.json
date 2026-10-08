@@ -1,0 +1,103 @@
+{
+  "PHEOCHROMOCYTOMA": {
+    "name": "Pheochromocytoma",
+    "biomarkers": [
+      {
+        "name": "Plasma / urine fractionated metanephrines and normetanephrines",
+        "type": "serum / urine",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Typically elevated in functional tumors; marked elevation (commonly >=2\u0000d7 ULN) strongly supports diagnosis",
+        "clinical_use": "First-line diagnostic test. Plasma-free metanephrines have highest sensitivity"
+      },
+      {
+        "name": "Chromogranin A",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Often elevated, but nonspecific",
+        "clinical_use": "Supportive; also elevated in other NETs"
+      },
+      {
+        "name": "SDHB IHC / SDHx mutations (SDHA/B/C/D/AF2)",
+        "type": "IHC / germline mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "SDHx alterations account for a substantial subset of hereditary PPGL; SDHB is the SDHx gene most associated with metastatic risk",
+        "clinical_use": "SDHB loss on IHC screens for SDHx-related disease (except some SDHA-mutant tumors, which may require SDHA IHC as well). SDHB mutations confer the highest risk of metastatic disease; useful for hereditary risk assessment and family screening"
+      },
+      {
+        "name": "Genetic panel (SDHA/B/C/D, VHL, RET, NF1, TMEM127, MAX, FH, MDH2, GDNF, EPAS1/HIF2A, etc.)",
+        "type": "germline / somatic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~30-40% of pheochromocytoma/paraganglioma patients have an identifiable germline pathogenic variant",
+        "clinical_use": "Guide screening for syndromic associations (MEN2, VHL, NF1, hereditary paraganglioma). Determine risk of malignancy and other tumours"
+      },
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive",
+        "clinical_use": "Confirms neuroendocrine/chromaffin differentiation"
+      },
+      {
+        "name": "SSTR2",
+        "type": "IHC / 68Ga-DOTATATE PET",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Frequently positive, particularly in paragangliomas and many metastatic SDHx-related tumors",
+        "clinical_use": "DOTATATE PET is highly sensitive for staging and detection of metastatic disease; PRRT considered in metastatic disease"
+      },
+      {
+        "name": "MIBG (123I-MIBG) avidity",
+        "type": "nuclear imaging",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Often positive in pheochromocytoma; avidity is lower in some metastatic, dedifferentiated, and SDHx-related tumors",
+        "clinical_use": "Staging; 131I-MIBG therapy for MIBG-avid metastatic disease"
+      },
+      {
+        "name": "PASS score (Pheochromocytoma of the Adrenal gland Scaled Score)",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "PASS >=4 suggests adverse potential, but reproducibility and predictive accuracy are limited; metastasis remains the only definitive criterion for malignancy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Nests ('Zellballen' architecture) of chromaffin cells with basophilic granular cytoplasm, surrounded by sustentacular (S100+) cells",
+      "variants": [
+        "conventional pheochromocytoma",
+        "composite pheochromocytoma (with ganglioneuroma/neuroblastoma)"
+      ],
+      "grading": "PASS and GAPP scoring systems; no reliable histologic malignancy predictor \u0014 'malignant' pheochromocytoma is defined by metastasis to sites where chromaffin tissue is normally absent"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Characteristic 'Zellballen' architecture with delicate vascular network; sustentacular cells at nest periphery (S100+)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Chromaffin cells of adrenal medulla (catecholamine-producing)",
+      "developmental_lineage": "Neural crest \u0014 sympathetic ganglion precursors that migrate to adrenal medulla",
+      "differentiation_state": "Retains chromaffin cell differentiation (chromogranin+, synaptophysin+) with catecholamine production; nested (zellballen) pattern with sustentacular S100+ cells at nest periphery (parallels paraganglioma and olfactory neuroblastoma)",
+      "lineage_plasticity": "Major molecular groups include pseudohypoxia cluster (SDHx, VHL, EPAS1/HIF2A, FH \u0014 HIF pathway activation, more aggressive), kinase signalling cluster (RET, NF1, TMEM127, MAX, HRAS \u0014 MAPK/PI3K pathway activation), and a less common Wnt-altered subgroup (including MAML3 fusion)"
+    }
+  }
+}

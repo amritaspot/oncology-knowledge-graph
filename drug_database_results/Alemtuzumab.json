@@ -1,0 +1,167 @@
+{
+  "molecule_name": "Alemtuzumab",
+  "identifiers": {
+    "FDA_UNII": "FYS6T7F842",
+    "PubChem_CID": null,
+    "CAS_number": "216503-57-0",
+    "NCI_Thesaurus_code": "C1647",
+    "development_codes": [
+      "CAMPATH-1H"
+    ],
+    "identifier_scope": "Alemtuzumab"
+  },
+  "brand_names": [
+    "Campath",
+    "Lemtrada"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous",
+  "marketed_form": "Solution for injection",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Alemtuzumab is a monoclonal antibody that targets CD52, a protein present on the surface of mature lymphocytes, leading to their destruction.",
+    "molecular_action": "Binds to CD52 antigen on lymphocytes, leading to antibody-dependent cellular cytotoxicity and complement-mediated lysis.",
+    "targets": [
+      "CD52"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Lymphocyte depletion"
+    ],
+    "selectivity": "High",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Chronic Lymphocytic Leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed",
+      "Refractory"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "HIV infection",
+      "Active systemic infections"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Infusion reactions",
+      "organ_system": "Immune system",
+      "biological_explanation": "Cytokine release due to immune cell lysis",
+      "mechanism_status": "Known",
+      "potential_consequences": [
+        "Fever",
+        "Chills",
+        "Hypotension"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Infections",
+      "organ_system": "Immune system",
+      "biological_explanation": "Immunosuppression due to lymphocyte depletion",
+      "mechanism_status": "Known",
+      "potential_consequences": [
+        "Opportunistic infections",
+        "Reactivation of latent infections"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Thyroid disorders",
+        "Autoimmune conditions"
+      ],
+      "biological_explanation": "Immune dysregulation following lymphocyte depletion",
+      "mechanism_status": "Known"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive record for Alemtuzumab including clinical, biological, and pharmacokinetic data.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action references.",
+    "empty_mechanism_doi_meaning": "No specific DOIs provided for mechanism of action.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00003749",
+      "NCT00004219",
+      "NCT03132584",
+      "NCT00495755",
+      "NCT01172418"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD52"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CD52",
+        "pdb_id": null,
+        "alphafold_id": "P31358",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CD52",
+        "affinity_type": "Kd",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

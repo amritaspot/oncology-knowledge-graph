@@ -1,0 +1,127 @@
+{
+  "molecule_name": "Autologous BAFFR-targeting CAR T Cells",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "CAR T-cell therapy",
+  "modality": "Cellular Therapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "These CAR T cells target and kill B-cell tumors by recognizing the BAFFR protein on their surface.",
+    "molecular_action": "The CAR T cells are engineered to express a receptor that binds to the B-cell activating factor receptor (BAFFR), leading to the destruction of BAFFR-expressing cancer cells.",
+    "targets": [
+      "BAFFR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Selective toxicity in BAFFR-expressing tumor cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "B-cell hematologic malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or refractory B-cell acute lymphoblastic leukemia",
+      "Refractory marginal zone lymphoma",
+      "Refractory small lymphocytic lymphoma",
+      "B-Cell Non-Hodgkin Lymphoma",
+      "Recurrent Chronic Lymphocytic Leukemia",
+      "Recurrent Diffuse Large B-Cell Lymphoma",
+      "Recurrent Follicular Lymphoma",
+      "Recurrent Mantle Cell Lymphoma",
+      "Recurrent Marginal Zone Lymphoma",
+      "Recurrent Small Lymphocytic Lymphoma",
+      "Recurrent Transformed Chronic Lymphocytic Leukemia",
+      "Refractory Chronic Lymphocytic Leukemia",
+      "Refractory Diffuse Large B-Cell Lymphoma",
+      "Refractory Follicular Lymphoma",
+      "Refractory Mantle Cell Lymphoma",
+      "Refractory Marginal Zone Lymphoma",
+      "Refractory Small Lymphocytic Lymphoma",
+      "Refractory Transformed Chronic Lymphocytic Leukemia"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action for autologous BAFFR-targeting CAR T cells.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT06191887",
+      "NCT07758673",
+      "NCT07022197"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BAFFR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TNFRSF13C",
+        "pdb_id": null,
+        "alphafold_id": "Q96RJ3",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

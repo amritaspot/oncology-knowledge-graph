@@ -1,0 +1,61 @@
+{
+  "LIPOSARCOMA_MYXOID": {
+    "name": "Liposarcoma, myxoid",
+    "biomarkers": [
+      {
+        "name": "FUS-DDIT3 fusion (t(12;16)(q13;p11))",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~90\u201395%",
+        "clinical_use": "Diagnostic hallmark"
+      },
+      {
+        "name": "EWSR1-DDIT3 fusion (alternative)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5\u201310%",
+        "clinical_use": "Same clinical entity"
+      },
+      {
+        "name": "Round cell component (%)",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": ">5% round cells associates with worse prognosis and higher metastatic potential"
+      },
+      {
+        "name": "NY-ESO-1",
+        "type": "IHC / expression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Highly expressed",
+        "clinical_use": "TCR-engineered T cells (letetresgene autoleucel, afami-cel \u2014 afamitresgene autoleucel) \u2014 approved for advanced synovial sarcoma and being tested in myxoid liposarcoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Uniform round to spindle cells in myxoid stroma with characteristic 'chicken-wire' delicate arborising capillary network; scattered lipoblasts",
+      "variants": [
+        "classic myxoid (low round cell component)",
+        "round cell (>5% round cell component \u2014 higher grade)"
+      ],
+      "grading": "Round cell content drives prognosis \u2014 pure myxoid is low-grade; >5% round cell content is high-grade"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "NY-ESO-1 expression makes it a target for TCR-engineered T cell therapy",
+      "stromal_features": "Delicate 'chicken-wire' capillary network and myxoid extracellular matrix are pathognomonic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mesenchymal precursors with adipocytic differentiation potential; distinct fusion-driven lineage from WD/DD LPS",
+      "developmental_lineage": "Mesoderm \u2014 adipose tissue mesenchyme",
+      "differentiation_state": "Distinctive round to spindle cells in myxoid stroma with delicate 'chicken-wire' capillary network; scattered lipoblasts confirm adipocytic lineage; round cell component (>5%) reflects less differentiated state",
+      "lineage_plasticity": "FUS-DDIT3 (t(12;16)) or EWSR1-DDIT3 (t(12;22)) fusion drives distinct disease from WD/DD LPS \u2014 DDIT3 (CHOP) is a transcription factor normally activated in adipocyte differentiation stress response; the fusion locks it in aberrant transcriptional programme; round cell component represents higher-grade/less-differentiated cellular state"
+    }
+  }
+}

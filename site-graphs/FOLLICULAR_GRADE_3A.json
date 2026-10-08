@@ -1,0 +1,37 @@
+{
+  "FOLLICULAR_GRADE_3A": {
+    "name": "Follicular lymphoma, grade 3A",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + bone_marrow"
+    },
+    "biomarkers": [
+      {
+        "name": "Same as FOLLICULAR_GRADE_1_2",
+        "type": "various",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "See FOLLICULAR_GRADE_1_2; grade 3A commonly shares the canonical FL immunophenotype and genetics, including frequent t(14;18)(q32;q21)/IGH::BCL2 and BCL2 expression, with recurrent CREBBP, KMT2D, EZH2, TNFRSF14, EP300 and STAT6 alterations; however, t(14;18) and BCL2 expression are less consistently present than in grades 1-2."
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Follicular architecture with >15 centroblasts/HPF but with residual centrocytes",
+      "variants": [
+        "grade 3A follicular lymphoma"
+      ],
+      "grading": "Intermediate behaviour"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Overlap between indolent (grade 1-2) and aggressive (grade 3B/DLBCL) biology",
+      "stromal_features": "Follicular architecture with increased centroblasts"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Germinal centre B cells with increased centroblast component",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid",
+      "differentiation_state": "Follicular architecture preserved with residual centrocytes despite >15 centroblasts/HPF; retains germinal centre programme",
+      "lineage_plasticity": "Intermediate position between low-grade FL and grade 3B/DLBCL on differentiation/proliferation spectrum"
+    }
+  }
+}

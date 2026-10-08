@@ -1,0 +1,137 @@
+{
+  "molecule_name": "[177Lu]Lu-ABY-271",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ABY-271",
+      "[177Lu]Lu-ABY-271"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical based on the ABY-271 construct."
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "[177Lu]Lu-ABY-271 is an investigational lutetium-177-labeled affibody designed to bind fibroblast activation protein alpha on cancer-associated fibroblasts and deliver beta radiation to the tumor microenvironment.",
+    "molecular_action": "Targeted binding of the ABY-271 affibody moiety to fibroblast activation protein alpha (FAP), followed by localized beta-particle irradiation from lutetium-177.",
+    "targets": [
+      "Fibroblast activation protein alpha (FAP)"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Radiation-induced DNA damage in targeted tumor-associated stromal cells",
+      "Cross-fire irradiation of nearby tumor cells within the tumor microenvironment"
+    ],
+    "selectivity": "Designed to target FAP-expressing stromal elements in tumors; quantitative human selectivity metrics not established.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Breast Cancer",
+    "histology": "FAP-expressing malignancies / tumors with FAP-positive cancer-associated fibroblasts",
+    "clinical_settings": [
+      "Investigational theranostic/targeted radionuclide therapy research"
+    ],
+    "scope": "Preclinical/investigational",
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=ABY-271+lutetium",
+      "https://pubmed.ncbi.nlm.nih.gov/?term=%22177Lu%22+ABY-271",
+      "https://www.google.com/search?q=%22177Lu%22+%22ABY-271%22"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=ABY-271",
+      "https://pubmed.ncbi.nlm.nih.gov/?term=%22177Lu%22+ABY-271",
+      "https://clinicaltrials.gov/search?term=ABY-271"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=ABY-271+FAP",
+      "https://clinicaltrials.gov/search?term=%22177Lu%22+ABY-271"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Record reflects publicly identifiable information for the investigational radiopharmaceutical [177Lu]Lu-ABY-271. Human clinical efficacy, safety, and PK metrics were not established in the accessible literature/trial registries checked.",
+    "mechanism_doi_meaning": "DOIs listed only when a mechanism statement could be directly tied to a source.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no directly verified DOI was captured for that field during this compilation.",
+    "null_meaning": "Null indicates a specific field was searched for but not documented/verified in accessible public sources; empty arrays indicate no verified items were found.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT07081555"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FAP"
+    ],
+    "pathways": [
+      "Tumor microenvironment",
+      "Radiation-induced DNA damage"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HER2",
+        "pdb_id": "3N85",
+        "alphafold_id": "P04626",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HER2",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.33,
+        "doi_or_source": "10.1016/j.ejca.2011.09.010"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Affibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "[68Ga]Ga-ABY-271",
+    "imaging_modality": "PET"
+  }
+}

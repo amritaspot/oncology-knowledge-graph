@@ -1,0 +1,64 @@
+{
+  "METAPLASTIC_BREAST": {
+    "name": "Metaplastic breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR, HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually triple-negative (ER-/PR-/HER2-)",
+        "clinical_use": "Typically managed as triple-negative breast cancer when receptor-negative"
+      },
+      {
+        "name": "PIK3CA / PTEN / AKT pathway alterations",
+        "type": "mutation / loss",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Enriched versus unselected breast cancer; PI3K/AKT pathway alterations are common (often ~40-60% across series)",
+        "clinical_use": "Potential eligibility for PI3K/AKT pathway-directed clinical trials; not an established standard predictive biomarker specific to metaplastic breast carcinoma"
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often positive in a substantial subset; assay and cutoff dependent",
+        "clinical_use": "In metastatic triple-negative disease, pembrolizumab-based therapy may be used for PD-L1-positive tumors per TNBC indications"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; occasional tumors are TMB-high",
+        "clinical_use": "Tissue-agnostic pembrolizumab may apply if TMB-high by approved criteria"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Carcinoma with non-glandular (mesenchymal, squamous, spindle, chondroid) differentiation",
+      "variants": [
+        "squamous",
+        "spindle cell",
+        "matrix-producing (chondroid, osseous)",
+        "with heterologous mesenchymal elements",
+        "low-grade adenosquamous"
+      ],
+      "grading": "Usually high-grade; low-grade adenosquamous is exception"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; TILs often present but IO responses less predictable than typical TNBC",
+      "stromal_features": "Prominent mesenchymal or matrix-producing stroma is defining"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Usually a basal-like/claudin-low-associated breast carcinoma phenotype with mesenchymal or heterologous differentiation",
+      "developmental_lineage": "Ectoderm \u2014 mammary epithelium with metaplastic mesenchymal-like differentiation",
+      "differentiation_state": "Heterogeneous \u2014 spindle cell, squamous, chondroid, osseous, or mixed differentiation; most cases are receptor-negative and overlap with basal-like/claudin-low intrinsic profiles",
+      "lineage_plasticity": "Represents marked epithelial-mesenchymal transition with heterologous mesenchymal differentiation \u2014 retention of epithelial markers such as cytokeratins/p63 helps confirm epithelial origin despite mesenchymal appearance"
+    }
+  }
+}

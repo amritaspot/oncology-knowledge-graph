@@ -1,0 +1,89 @@
+{
+  "EWING_SARCOMA": {
+    "name": "Ewing sarcoma / Ewing family",
+    "biomarkers": [
+      {
+        "name": "EWSR1-FLI1 fusion (t(11;22))",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~85%",
+        "clinical_use": "Defining feature; FLI1 IHC and EWSR1 break-apart FISH as surrogates"
+      },
+      {
+        "name": "EWSR1-ERG fusion (t(21;22))",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Alternative fusion"
+      },
+      {
+        "name": "Other EWSR1 fusion partners (ETV1, ETV4, FEV)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "All within Ewing sarcoma"
+      },
+      {
+        "name": "CD99 (MIC2)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Diffuse strong membranous positive in most cases",
+        "clinical_use": "Classical diagnostic marker (not specific \u2014 also positive in lymphoblastic lymphoma, DSRCT, others)"
+      },
+      {
+        "name": "NKX2.2",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive in most cases",
+        "clinical_use": "More specific than CD99"
+      },
+      {
+        "name": "STAG2 loss",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15-20%",
+        "clinical_use": "Associated with adverse prognosis in some series"
+      },
+      {
+        "name": "CIC-DUX4, BCOR-CCNB3 (Ewing-like / undifferentiated round cell sarcomas)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Rare",
+        "clinical_use": "Distinct entities in WHO 2020 \u2014 NOT Ewing sarcoma; distinct behaviour"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cell tumour with sheets of uniform primitive cells, Homer-Wright rosettes in a subset",
+      "variants": [
+        "classical Ewing sarcoma (EWSR1-FLI1 or EWSR1-ERG)",
+        "atypical Ewing (large cell)",
+        "adamantinoma-like Ewing (with keratin expression)"
+      ],
+      "grading": "High-grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold \u2014 low TMB, sparse TILs; IO responses generally poor",
+      "stromal_features": "Sheets of small round blue cells with delicate vasculature; extensive necrosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 neural crest-derived mesenchymal stem cells proposed; some evidence for endothelial or mesenchymal progenitor origin",
+      "developmental_lineage": "Mesoderm \u2014 primitive mesenchymal (may have neural crest contribution)",
+      "differentiation_state": "Undifferentiated small round blue cell tumour with focal neural (Homer-Wright rosettes in subset) or epithelial differentiation possible; CD99+ (MIC2) diffuse membranous pattern is characteristic",
+      "lineage_plasticity": "EWSR1-FLI1 (~85%) or EWSR1-ERG (~5-10%) fusion is defining \u2014 creates chimeric transcription factor that reprograms mesenchymal precursors and disrupts normal lineage specification; the fusion binds GGAA microsatellites throughout genome producing aberrant enhancer activity"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "PINEAL_PARENCHYMAL": {
+    "name": "Pineal parenchymal tumour",
+    "biomarkers": [
+      {
+        "name": "DICER1 (germline; pineoblastoma)",
+        "type": "germline",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Subset of pineoblastoma",
+        "clinical_use": "DICER1 syndrome"
+      },
+      {
+        "name": "Methylation profiling",
+        "type": "methylation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Distinguishes pineoblastoma molecular subgroups, including miRNA-processing-altered/RB1-altered and MYC/FOXR2-associated groups"
+      },
+      {
+        "name": "RB1 (bilateral retinoblastoma + trilateral)",
+        "type": "germline",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset of pineoblastoma; classically associated with trilateral retinoblastoma",
+        "clinical_use": "Bilateral retinoblastoma + pineoblastoma \u2014 evaluate for germline RB1"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small round blue cell tumour (pineoblastoma) or more mature pineocytic differentiation (pineocytoma), with variable rosette formation",
+      "variants": [
+        "pineocytoma (WHO grade 1, indolent)",
+        "pineal parenchymal tumour of intermediate differentiation (grade 2 or 3)",
+        "pineoblastoma (grade 4, aggressive)",
+        "papillary tumour of pineal region (distinct entity)"
+      ],
+      "grading": "WHO grade 1 (pineocytoma) to 4 (pineoblastoma)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Pineocytic rosettes in low-grade; small round blue cell morphology in pineoblastoma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pineal parenchymal cells (pineocytes) \u2014 related to photoreceptor lineage from evolutionary/developmental perspective",
+      "developmental_lineage": "Neuroectoderm \u2014 pineal gland arises from the diencephalic roof; pineocytes share molecular features with retinal photoreceptors",
+      "differentiation_state": "Spectrum from mature (pineocytoma \u2014 retained pineocyte differentiation) to intermediate (pineal parenchymal tumour of intermediate differentiation) to embryonal (pineoblastoma \u2014 undifferentiated); synaptophysin+, chromogranin variable",
+      "lineage_plasticity": "Shared developmental relationship to retinal photoreceptor programs may help explain the association of pineoblastoma with germline RB1 in trilateral retinoblastoma, but pineoblastoma and retinoblastoma are distinct tumour entities rather than the same cell of origin"
+    }
+  }
+}

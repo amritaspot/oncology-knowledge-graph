@@ -1,0 +1,171 @@
+{
+  "molecule_name": "Rosuvastatin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 446157,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Statin",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Rosuvastatin works by inhibiting HMG-CoA reductase, an enzyme involved in cholesterol synthesis.",
+    "molecular_action": "Inhibition of HMG-CoA reductase",
+    "targets": [
+      "HMGCR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Decreased cholesterol levels",
+      "Reduced risk of cardiovascular disease"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Hyperlipidemia",
+      "Cardiovascular disease prevention"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Active liver disease",
+      "Pregnancy",
+      "Breastfeeding"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Muscle pain",
+      "organ_system": "Musculoskeletal",
+      "biological_explanation": "Statins can cause muscle damage in some patients.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Rhabdomyolysis"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Liver enzyme elevation",
+      "organ_system": "Hepatic",
+      "biological_explanation": "Statins can affect liver function tests.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Hepatotoxicity"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [
+    {
+      "interacting_group": "Midazolam",
+      "examples": [
+        "Increased plasma concentration of midazolam"
+      ],
+      "biological_basis": "Rosuvastatin may inhibit the metabolism of midazolam."
+    },
+    {
+      "interacting_group": "Digoxin",
+      "examples": [
+        "Increased digoxin levels"
+      ],
+      "biological_basis": "Rosuvastatin may affect the renal clearance of digoxin."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Rosuvastatin's clinical trials and pharmacological data.",
+    "mechanism_doi_meaning": "DOI links to studies explaining the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this mechanism.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 19.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP2C9",
+      "CYP2C19"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06111521",
+      "NCT04817904",
+      "NCT07692685"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "10-20 mg",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HMGCR"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HMGCR",
+        "pdb_id": "1HWK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.22,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HMGCR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.4,
+        "doi_or_source": "10.1016/S0021-9258(18)31206-2"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "molecule_name": "Bezuclastinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 75593308,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Bezuclastinib is a potent, type 1 tyrosine kinase inhibitor with selective activity against the KIT D816V mutation.",
+    "molecular_action": "Inhibits the activity of the mutated KIT receptor tyrosine kinase.",
+    "targets": [
+      "KIT"
+    ],
+    "relevant_variants": [
+      "KIT D816V"
+    ],
+    "downstream_effects": [],
+    "selectivity": "Selective for KIT D816V",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Gastrointestinal Stromal Tumors (GIST), Non-advanced Systemic Mastocytosis",
+    "histology": null,
+    "clinical_settings": [
+      "Phase 2 clinical trials for GIST and Non-advanced Systemic Mastocytosis"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Bezuclastinib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT05489237",
+      "NCT05208047",
+      "NCT06208748"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KIT"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "KIT",
+        "pdb_id": null,
+        "alphafold_id": "P10721",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "KIT",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.6,
+        "doi_or_source": "10.1016/j.ccell.2020.06.002"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "molecule_name": "SIRPa-4-1BBL Fusion Protein DSP107",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Fusion Protein",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A bi-functional fusion protein that inhibits the CD47/SIRP\u001alpha axis while activating the 4-1BB pathway to stimulate immune responses against tumors.",
+    "molecular_action": "Inhibits CD47 signaling and activates 4-1BB signaling.",
+    "targets": [
+      "CD47",
+      "SIRP\u001alpha",
+      "4-1BB"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Enhanced anti-tumor immune response"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Colorectal Cancer, Hematological Malignancies, Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Combination therapy with Atezolizumab",
+      "Monotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT07235293",
+      "NCT04937166",
+      "NCT04440735"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD47",
+      "SIRPA",
+      "TNFRSF9"
+    ],
+    "pathways": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "AML_WITH_MDS_RELATED_CHANGES": {
+    "name": "AML with MDS-related changes",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, ZRSR2 (MDS-related gene mutations)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defined as AML with myelodysplasia-related gene mutations in WHO 2022 / ICC 2022 when one or more of these mutations is present, in the appropriate clinicopathologic context",
+        "clinical_use": "Presence of one or more of these mutations supports classification as AML with myelodysplasia-related features/AML myelodysplasia-related, excluding cases with defining recurrent genetic abnormalities"
+      },
+      {
+        "name": "MDS-related cytogenetics (complex karyotype, -5/del(5q), -7/del(7q), i(17q)/t(17p), -13/del(13q), del(11q), del(12p)/t(12p), del(9q), idic(X)(q13), and certain other MDS-related abnormalities recognized by WHO/ICC)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in AML with myelodysplasia-related features",
+        "clinical_use": "Diagnostic classification feature and generally adverse-risk"
+      },
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Enriched in cases with complex karyotype and therapy-related or myelodysplasia-related AML compared with de novo AML",
+        "clinical_use": "Very adverse prognosis"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Blast proliferation with multilineage dysplasia (dysgranulopoiesis, dyserythropoiesis, dysmegakaryopoiesis) \u2014 background changes may resemble underlying MDS, although morphology alone is no longer sufficient for classification in WHO 2022/ICC 2022",
+      "variants": [
+        "AML with prior MDS or MDS/MPN history",
+        "AML with MDS-related cytogenetic abnormalities (complex, -5/del(5q), -7/del(7q), etc.)",
+        "AML with MDS-related gene mutations (ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, ZRSR2)"
+      ],
+      "grading": "Not graded; adverse-risk category"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per AML_NOS; often reflects underlying MDS marrow biology",
+      "stromal_features": "Bone marrow dysplasia; marrow may be hypercellular, normocellular, or hypocellular, and fibrosis can be present in some subsets"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC or committed myeloid progenitor arising in the setting of preceding clonal hematopoiesis, MDS, or MDS/MPN",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Myeloid maturation arrest with multilineage dysplasia; background changes often reflect antecedent MDS biology",
+      "lineage_plasticity": "Clonal evolution from MDS or MDS/MPN to AML through acquisition of additional driver lesions; common MDS-related mutations include ASXL1, BCOR, EZH2, RUNX1, SF3B1, SRSF2, STAG2, U2AF1, and ZRSR2"
+    }
+  }
+}

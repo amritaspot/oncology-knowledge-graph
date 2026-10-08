@@ -1,0 +1,42 @@
+{
+  "RHABDOMYOSARCOMA_PLEOMORPHIC": {
+    "name": "Rhabdomyosarcoma, pleomorphic",
+    "biomarkers": [
+      {
+        "name": "Complex karyotype (no specific fusion)",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Supports distinction from paediatric fusion-driven alveolar RMS; pleomorphic RMS lacks a recurrent defining fusion"
+      },
+      {
+        "name": "MyoD1, myogenin, desmin",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive for desmin and MyoD1; myogenin often focal/variable",
+        "clinical_use": "Confirms rhabdomyoblastic differentiation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Pleomorphic spindle and epithelioid cells with rhabdomyoblastic differentiation identifiable by IHC",
+      "variants": [
+        "conventional pleomorphic RMS"
+      ],
+      "grading": "High-grade by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised",
+      "stromal_features": "Pleomorphic cellular architecture; often extensive necrosis"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Adult mesenchymal cells with skeletal muscle differentiation potential \u2014 distinct from paediatric RMS biology",
+      "developmental_lineage": "Mesoderm \u2014 mesenchymal with rhabdomyoblastic differentiation",
+      "differentiation_state": "Pleomorphic spindle and epithelioid cells with rhabdomyoblastic differentiation identifiable by IHC (MyoD1+, myogenin variable)",
+      "lineage_plasticity": "Adult-onset entity with complex karyotype; distinct biology from paediatric RMS despite same rhabdomyoblastic differentiation; may represent skeletal muscle-directed differentiation of adult undifferentiated pleomorphic sarcoma"
+    }
+  }
+}

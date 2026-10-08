@@ -1,0 +1,103 @@
+{
+  "molecule_name": "225Ac-TR2205",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "225Ac-TR2205",
+      "TR2205"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical development code; publicly available identifier-level details are limited."
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "225Ac-TR2205 appears to be an investigational actinium-225-labeled targeted radiopharmaceutical designed to deliver alpha-particle radiation to tumor cells expressing its molecular target. However, the specific targeting ligand/protein target for TR2205 could not be verified from accessible public sources reviewed.",
+    "molecular_action": "Targeted delivery of actinium-225 with emission of cytotoxic alpha particles causing localized high-linear-energy-transfer DNA damage, including double-strand breaks, in bound/nearby cells. Specific receptor-binding target for TR2205 not verified.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "DNA double-strand breaks",
+      "Tumor cell death from alpha-particle irradiation"
+    ],
+    "selectivity": "Target selectivity depends on the undisclosed or unverified targeting moiety of TR2205.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Metastatic Triple-negative Breast Cancer (mTNBC)",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Investigational oncology radiopharmaceutical; specific tumor setting not verified from public sources reviewed.",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "This record is limited to information that could be stated with high confidence from sparse public-domain evidence for 225Ac-TR2205. No target-specific, indication-specific, or human clinical efficacy/safety metrics were verified.",
+    "mechanism_doi_meaning": "Listed DOI values correspond to direct supporting literature for the stated mechanism or toxicity mechanism.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no directly supporting DOI-identified source was verified for that field.",
+    "null_meaning": "Null indicates a specific value was not documented or could not be verified; empty arrays indicate no verified items were identified.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 9.92,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "EARLY_PHASE1",
+    "nct_trials": [
+      "NCT07340424"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": [
+      "DNA Damage Response"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "225Ac",
+    "emission_type": [
+      "Alpha"
+    ],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

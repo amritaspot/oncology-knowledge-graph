@@ -1,0 +1,122 @@
+{
+  "molecule_name": "Nemvaleukin Alfa",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ALKS 4230"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Cytokine",
+  "modality": "Biologic",
+  "route": "Subcutaneous (SQ)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Nemvaleukin alfa is an engineered cytokine that selectively activates CD8+ T cells and natural killer cells while minimizing the expansion of regulatory T cells.",
+    "molecular_action": "Selective binding to the intermediate-affinity interleukin-2 receptor (IL-2R) complex, preferentially activating immune effector cells.",
+    "targets": [
+      "IL-2R"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Activation of CD8+ T cells",
+      "Activation of natural killer (NK) cells"
+    ],
+    "selectivity": "Preferential activation of CD8+ T cells and NK cells with minimal regulatory T cell expansion.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Solid tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced melanoma",
+      "Platinum-resistant epithelial ovarian cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT02799095",
+      "NCT05092360",
+      "NCT04830124"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL2RA",
+        "pdb_id": null,
+        "alphafold_id": "P01589",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "IL2RB",
+        "pdb_id": null,
+        "alphafold_id": "P14784",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

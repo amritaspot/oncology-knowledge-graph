@@ -1,0 +1,138 @@
+{
+  "CLL_SLL": {
+    "name": "Chronic lymphocytic leukaemia / small lymphocytic lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "peripheral_blood + bone_marrow + lymph_nodes + spleen (CLL is the leukaemic presentation; SLL is nodal-predominant, same disease)",
+      "characteristic_extramedullary_sites": [
+        "nodes",
+        "spleen",
+        "liver",
+        "skin (leukaemia cutis, uncommon)"
+      ],
+      "staging_system": "Rai (0-IV) and Binet (A-C) staging systems."
+    },
+    "biomarkers": [
+      {
+        "name": "Immunophenotype (CD5+, CD19+, CD23+, dim CD20/CD22/sIg, CD200+)",
+        "type": "flow cytometry",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining (Matutes/CLL score \u22654)",
+        "clinical_use": "Distinguishes CLL from other small B-cell lymphomas (mantle cell CD5+ but typically CD23- and cyclin D1+/t(11;14))"
+      },
+      {
+        "name": "IGHV mutation status",
+        "type": "molecular (sequencing)",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~50% mutated (favourable), ~50% unmutated (adverse)",
+        "clinical_use": "Unmutated IGHV: shorter time to treatment, worse outcomes on chemoimmunotherapy \u2014 but BTK/BCL2 inhibitor-based therapy reduces much of this difference"
+      },
+      {
+        "name": "del(17p) / TP53",
+        "type": "FISH / mutation",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~5-10% at diagnosis; increases with relapsed/refractory disease (~20-40%)",
+        "clinical_use": "Most adverse biomarker category. Chemoimmunotherapy NOT recommended. Targeted therapy (BTK inhibitors \u2014 ibrutinib, acalabrutinib, zanubrutinib; venetoclax-based therapy) preferred"
+      },
+      {
+        "name": "del(11q) / ATM",
+        "type": "FISH / mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Historically adverse; associated with bulky lymphadenopathy"
+      },
+      {
+        "name": "Trisomy 12",
+        "type": "FISH / cytogenetic",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Intermediate risk"
+      },
+      {
+        "name": "del(13q) (sole)",
+        "type": "FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50-60% (most common; usually favourable)",
+        "clinical_use": "Favourable when sole abnormality"
+      },
+      {
+        "name": "BTK / PLCG2 mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Acquired resistance to covalent BTK inhibitors",
+        "clinical_use": "BTK C481 substitutions: resistance to covalent BTK inhibitors; consider non-covalent BTK inhibitor (e.g. pirtobrutinib) or venetoclax-based therapy. PLCG2: downstream resistance mechanism"
+      },
+      {
+        "name": "BCL2",
+        "type": "target",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Near-universal overexpression / dependence",
+        "clinical_use": "Therapeutic target for venetoclax; venetoclax + obinutuzumab (CLL14) is a fixed-duration first-line regimen"
+      },
+      {
+        "name": "MRD (flow cytometry, high-throughput sequencing)",
+        "type": "flow / molecular",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Established prognostic biomarker in modern trials; not routinely required to direct standard care in all settings",
+        "clinical_use": "Undetectable MRD (uMRD), usually defined at 10^-4 sensitivity, after venetoclax-based combinations is associated with improved PFS in trials such as MURANO and CLL14"
+      },
+      {
+        "name": "Karnofsky / CIRS (comorbidity assessment)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Comorbidity/fitness stratification for treatment choice, especially in older studies and some current regimen selection"
+      },
+      {
+        "name": "NOTCH1 / SF3B1 / BIRC3",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Recurrent subclonal drivers: NOTCH1 ~10-15%, SF3B1 ~10-20%, BIRC3 ~3-5% at diagnosis",
+        "clinical_use": "Associated with adverse biology/prognosis; NOTCH1 may predict reduced benefit from anti-CD20 type 1 antibodies in chemoimmunotherapy settings"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small mature-appearing lymphocytes with clumped chromatin ('soccer ball' or 'billiard ball' pattern) in peripheral blood; proliferation centres (pseudofollicles) in involved lymph nodes",
+      "variants": [
+        "CLL (leukaemic presentation with lymphocytosis \u22655\u00d710^9/L monoclonal B cells)",
+        "SLL (nodal-predominant with same immunophenotype but without absolute lymphocytosis)",
+        "MBL (monoclonal B-cell lymphocytosis \u2014 <5\u00d710^9/L, precursor)"
+      ],
+      "grading": "Rai and Binet clinical staging; not morphologically graded"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immunosuppressive (hypogammaglobulinaemia, T-cell dysfunction, autoimmune complications). BCL2 dependence underlies venetoclax activity. BTK inhibitors disrupt B-cell receptor signalling and microenvironmental support",
+      "stromal_features": "Proliferation centres (pseudofollicles with prolymphocytes and paraimmunoblasts) in involved nodes; classic 'proliferation centre' architecture"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature B cells with antigen-experienced phenotype; IGHV-mutated CLL is generally linked to post-germinal-centre memory B-cell-like origin (better prognosis), whereas IGHV-unmutated CLL is linked to naive/pre-germinal-centre-like B cells (worse prognosis)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature B cells)",
+      "differentiation_state": "Mature small B cells with characteristic immunophenotype (CD5+, CD19+, CD20 dim, CD23+, sIg dim) \u2014 recapitulates memory B-cell-like (IGHV-mutated) or naive-like (IGHV-unmutated) phenotype",
+      "lineage_plasticity": "IGHV mutation status reflects cell-of-origin biology and prognosis; Richter transformation to DLBCL (~2-10%) represents clonal evolution, often with TP53 disruption, CDKN2A/B loss, NOTCH1 activation and/or MYC alterations; rare transformation to Hodgkin-variant Richter"
+    }
+  }
+}

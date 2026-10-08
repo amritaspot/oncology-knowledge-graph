@@ -1,0 +1,93 @@
+{
+  "MYCOSIS_FUNGOIDES": {
+    "name": "Mycosis fungoides",
+    "heme_involvement_pattern": {
+      "primary_compartment": "skin",
+      "characteristic_progression": [
+        "patch \u001a plaque \u001a tumour \u001a lymph node \u001a visceral"
+      ],
+      "sanctuary_sites": [
+        "late-stage: viscera (liver, lung, spleen)"
+      ],
+      "staging_system": "TNMB (skin patches/plaques/tumours + nodes + blood + viscera). Different from Ann Arbor."
+    },
+    "biomarkers": [
+      {
+        "name": "CD3+, CD4+, CD8- with loss of pan-T markers (CD7 loss common)",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Aberrant T-cell phenotype supports MF over reactive dermatoses"
+      },
+      {
+        "name": "Clonal TCR-\u0003b3 rearrangement",
+        "type": "molecular",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in established MF, but detection is less sensitive in early-stage disease",
+        "clinical_use": "Same clonal population across skin/blood/nodes confirms MF; early-stage MF may be oligoclonal or nondiagnostic"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; more frequent in large-cell transformation than in conventional early MF",
+        "clinical_use": "Brentuximab vedotin (ALCANZA trial): approved for CD30-expressing MF/pcALCL after prior systemic therapy"
+      },
+      {
+        "name": "CCR4",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Frequently expressed in MF/CTCL, but prevalence is variable and not reliably ~90% in MF specifically",
+        "clinical_use": "Mogamulizumab (anti-CCR4) \u0014 approved for R/R MF and S\u0000e9zary syndrome (MAVORIC trial)"
+      },
+      {
+        "name": "TNMB staging (skin extent, nodal, blood, visceral)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Primary prognostic staging system guiding skin-directed versus systemic management; advanced stage (eg, tumours, significant nodal/blood/visceral involvement) generally warrants systemic therapy"
+      },
+      {
+        "name": "Large-cell transformation (LCT)",
+        "type": "morphology / IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Occurs in a subset of advanced or longstanding cases",
+        "clinical_use": "Defined by large cells comprising >25% of the infiltrate or forming microscopic nodules; adverse; often CD30+; may support brentuximab consideration"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small to medium-sized T cells with cerebriform (convoluted) nuclei infiltrating epidermis (epidermotropism) with formation of Pautrier microabscesses (intraepithelial lymphocyte aggregates)",
+      "variants": [
+        "classic MF (patch, plaque, tumour progression)",
+        "folliculotropic MF (often associated with more aggressive course than classic early MF)",
+        "pagetoid reticulosis (localised)",
+        "granulomatous slack skin (rare)",
+        "large-cell transformation (aggressive)"
+      ],
+      "grading": "TNMB staging (skin, node, blood, viscera)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Skin-tropic biology drives skin-directed therapy paradigm; CCR4 expression can enable mogamulizumab; CD30 expression in a subset enables brentuximab vedotin (ALCANZA)",
+      "stromal_features": "Epidermotropism with Pautrier microabscesses is classic; band-like dermal infiltrate in early lesions"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature skin-homing CD4+ memory T cells",
+      "developmental_lineage": "Mesoderm \u0014 lymphoid (skin-homing mature CD4+ T cells)",
+      "differentiation_state": "Skin-homing memory T-cell phenotype with characteristic cerebriform (convoluted) nuclei; commonly CD3+, CD4+, CD8-, CD45RO+, CCR4+, CLA+ (cutaneous lymphocyte antigen) \u0014 recapitulates skin-tropic memory T-cell biology",
+      "lineage_plasticity": "Skin-tropic biology drives skin-directed therapy paradigm; CCR4 expression in many cases supports mogamulizumab use; CD30 expression in a subset enables brentuximab vedotin (ALCANZA); large-cell transformation (>25% large cells or microscopic nodules of large cells) represents disease progression with worse outcome and often CD30+ phenotype"
+    }
+  }
+}

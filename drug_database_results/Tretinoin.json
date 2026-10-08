@@ -1,0 +1,129 @@
+{
+  "molecule_name": "Tretinoin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 444795,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Retinoid",
+  "modality": "Small Molecule",
+  "route": "Topical or Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Tretinoin works by affecting the growth of skin cells and is used to treat acne and other skin conditions.",
+    "molecular_action": "Tretinoin binds to retinoic acid receptors, influencing gene expression and promoting cell differentiation.",
+    "targets": [
+      "RARA",
+      "RARG"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Increased cell turnover",
+      "Decreased keratinization"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute promyelocytic leukemia (APL)",
+    "histology": null,
+    "clinical_settings": [
+      "Acne",
+      "Melanoma",
+      "Head and neck cancer",
+      "Adenoid cystic carcinoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Tretinoin's applications in various clinical settings and ongoing trials.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT05497310",
+      "NCT03287011",
+      "NCT06015152"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "RARA",
+      "RARG"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 444795,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/444795/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "RARA",
+        "pdb_id": "1XDK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "RARA",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1016/j.bmc.2004.06.015"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "molecule_name": "Prednisone",
+  "identifiers": {
+    "FDA_UNII": "0E8S1Q3Z1B",
+    "PubChem_CID": 5865,
+    "CAS_number": "53-03-2",
+    "NCI_Thesaurus_code": "C1001",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Deltasone",
+    "Meticorten",
+    "Orasone"
+  ],
+  "drug_class": "Corticosteroid",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablets",
+  "approved_countries": [
+    "United States",
+    "Canada",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Prednisone is a corticosteroid that reduces inflammation and suppresses the immune system.",
+    "molecular_action": "Prednisone is converted to prednisolone in the liver, which binds to glucocorticoid receptors and modulates gene expression, leading to anti-inflammatory and immunosuppressive effects.",
+    "targets": [
+      "NR3C1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced inflammation",
+      "Suppression of immune response"
+    ],
+    "selectivity": "Prednisone selectively binds to glucocorticoid receptors.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various cancers including lymphoma and leukemia",
+    "histology": "Diffuse Large B-cell Lymphoma",
+    "clinical_settings": [
+      "Chemotherapy regimens",
+      "Autoimmune disorders"
+    ],
+    "scope": "Oncology and immunology",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Systemic fungal infections",
+      "Hypersensitivity to prednisone"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Increased blood sugar levels",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Corticosteroids can induce insulin resistance and increase gluconeogenesis.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Hyperglycemia",
+        "Diabetes Mellitus"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Weight gain",
+      "organ_system": "Metabolic",
+      "biological_explanation": "Corticosteroids can cause fluid retention and increased appetite.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Obesity",
+        "Hypertension"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in various inflammatory and autoimmune conditions, as well as in cancer treatment regimens."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Prednisone as a corticosteroid used in oncology and other medical fields.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 3.5,
+    "biological_half_life_hours": 18.0,
+    "clearance_route": [
+      "Hepatic metabolism",
+      "Renal excretion"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05123040",
+      "NCT01414855",
+      "NCT06683885"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "20 mg daily",
+    "objective_response_rate_pct": 60.0,
+    "median_pfs_months": 12.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "NR3C1"
+    ],
+    "pathways": [
+      "Glucocorticoid receptor signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 5865,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5865/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

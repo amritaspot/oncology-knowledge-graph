@@ -1,0 +1,113 @@
+{
+  "CHL_NODULAR_SCLEROSIS": {
+    "name": "Classical HL, nodular sclerosis",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes (contiguous spread pattern)",
+      "characteristic_sites": [
+        "cervical / supraclavicular nodes",
+        "mediastinum (very common \u2014 bulky mediastinal mass characteristic)",
+        "para-aortic nodes"
+      ],
+      "sanctuary_sites": [
+        "CNS uncommon"
+      ],
+      "staging_system": "Lugano modification of Ann Arbor (I-IV, A/B symptoms). PET-adapted response assessment (Deauville)."
+    },
+    "biomarkers": [
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Near-universal on Reed-Sternberg cells",
+        "clinical_use": "Diagnostic hallmark. Brentuximab vedotin (anti-CD30 ADC) \u2014 approved for advanced-stage first-line (ECHELON-1: A+AVD improved modified PFS vs ABVD) and relapsed/refractory disease; A+AVD is an accepted front-line option for advanced disease"
+      },
+      {
+        "name": "CD15",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~75-85%",
+        "clinical_use": "Diagnostic support"
+      },
+      {
+        "name": "CD20",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually negative (or dim/subset)",
+        "clinical_use": "Distinguishes cHL from NLPHL (which is typically CD20+)"
+      },
+      {
+        "name": "PD-L1 amplification (9p24.1)",
+        "type": "FISH / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very common in cHL, especially 9p24.1 copy gain/amplification; not literally 95-100% by amplification testing",
+        "clinical_use": "9p24.1 alteration with PD-L1/PD-L2 overexpression is a hallmark of cHL and contributes to sensitivity to anti-PD-1 therapy (nivolumab, pembrolizumab). PD-1\u2013based regimens have shown strong efficacy in advanced disease, including nivolumab + AVD in SWOG S1826"
+      },
+      {
+        "name": "EBV (EBER ISH)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~10-25% in nodular sclerosis cHL (lower than mixed cellularity)",
+        "clinical_use": "EBV positivity is less common in nodular sclerosis than in mixed cellularity and is more often associated with older age and certain cHL subtypes"
+      },
+      {
+        "name": "Interim PET / Deauville score",
+        "type": "imaging",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "PET-adapted therapy (e.g., RATHL, EORTC H10): Deauville 1-3 at interim is generally considered PET-negative and may permit treatment de-escalation in selected protocols; Deauville 4-5 is PET-positive and may prompt escalation depending on regimen/study"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Emerging role for response assessment and minimal residual disease monitoring"
+      },
+      {
+        "name": "IPS (International Prognostic Score)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "For advanced-stage HL: albumin, Hb, sex, age, stage IV, WBC, lymphocyte count. Prognostic tool rather than a sole determinant of treatment intensity"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Sparse Reed-Sternberg cells and lacunar Hodgkin cells in a nodular pattern separated by broad collagen bands; extensive inflammatory background",
+      "variants": [
+        "syncytial variant",
+        "cellular phase"
+      ],
+      "grading": "No universally accepted histologic grading system; clinical staging is by Ann Arbor/Lugano, and IPS is used for advanced-stage prognostication"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Classical 'immune-inflamed but suppressed' paradigm \u2014 RS cells constitute <1% of tumour; the vast majority is dysregulated inflammatory infiltrate (T cells, eosinophils, plasma cells, macrophages); frequent 9p24.1 alteration with PD-L1/PD-L2 overexpression contributes to marked anti-PD-1 sensitivity",
+      "stromal_features": "Broad collagen bands partition tumour into nodules; lacunar cells with retracted cytoplasm in formalin-fixed tissue"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Crippled germinal centre B cells (Reed-Sternberg cells) that have lost B-cell receptor expression but escape apoptosis through EBV or recurrent pro-survival pathway alterations, especially NF-\u03baB and JAK-STAT pathway activation",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (germinal centre B cells)",
+      "differentiation_state": "Reed-Sternberg cells retain B-cell derivation but lose most B-cell markers (CD20 often negative or dim); express CD30, CD15, PAX5 (weak); lacunar variants have retracted cytoplasm in formalin fixation",
+      "lineage_plasticity": "Represents unusual B-cell state where germinal centre selection failure would normally trigger apoptosis, but pro-survival alterations (NF-\u03baB pathway activation, JAK-STAT activation, 9p24.1/PD-L1-PD-L2 copy gain or amplification) rescue crippled B cells; loss of B-cell programme (CD20, immunoglobulin) reflects lineage-relevant reprogramming"
+    }
+  }
+}

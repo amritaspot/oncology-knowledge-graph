@@ -1,0 +1,138 @@
+{
+  "SCLC": {
+    "name": "Small cell lung carcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Wang X, Wang Z, Pan J, et al. Patterns of Extrathoracic Metastases in Different Histological Types of Lung Cancer. Front Oncol. 2020;10:715.",
+        "doi": "10.3389/fonc.2020.00715",
+        "study_type": "Population-based SEER analysis; n=159,241 lung cancer patients diagnosed 2010-2014",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "HEPATOBILIARY": {
+          "frequency_pct": 31.5
+        },
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 23.3
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 16.7
+        },
+        "IMMUNE_HYPERSENSITIVITY": {
+          "frequency_pct": 10.6
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~75-95%",
+        "clinical_use": "Near-universal; hallmark of SCLC"
+      },
+      {
+        "name": "RB1",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~60-90%",
+        "clinical_use": "Very common; combined TP53 + RB1 inactivation defines canonical SCLC biology"
+      },
+      {
+        "name": "MYC amplification (MYC, MYCN, MYCL)",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20%",
+        "clinical_use": "Associates with MYC-driven biology, including SCLC-N enrichment; therapeutic implications such as Aurora kinase inhibitor sensitivity remain investigational"
+      },
+      {
+        "name": "DLL3",
+        "type": "IHC / expression",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~75-85% of SCLC",
+        "clinical_use": "Tarlatamab (BiTE targeting DLL3) approved for previously treated extensive-stage SCLC"
+      },
+      {
+        "name": "PD-L1 (TPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Generally low (TPS \u22651% in ~10-30%)",
+        "clinical_use": "Atezolizumab or durvalumab combined with chemotherapy first-line ES-SCLC regardless of PD-L1"
+      },
+      {
+        "name": "SLFN11",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Associated with response to DNA-damaging agents (including platinum/etoposide and PARP inhibitor strategies); investigational"
+      },
+      {
+        "name": "Molecular subtypes: SCLC-A (ASCL1), SCLC-N (NEUROD1), SCLC-P (POU2F3), SCLC-I (inflamed)",
+        "type": "transcription factor expression",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Approximate and cohort-dependent; SCLC-A is most common, SCLC-N and SCLC-I are intermediate-frequency, SCLC-P is least common",
+        "clinical_use": "Emerging framework guiding therapy \u2014 SCLC-I appears relatively more immunotherapy-responsive; SCLC-P often DLL3-low"
+      },
+      {
+        "name": "NSE (neuron-specific enolase)",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Response monitoring; not specific"
+      },
+      {
+        "name": "ProGRP (pro-gastrin-releasing peptide)",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "More specific than NSE for SCLC"
+      },
+      {
+        "name": "NOTCH family alterations",
+        "type": "mutation / pathway alteration",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20-25%",
+        "clinical_use": "Recurrent loss-of-function pathway alterations support neuroendocrine differentiation biology; not a routine clinical selection biomarker"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small cells with scant cytoplasm, high N:C ratio, salt-and-pepper chromatin, nuclear moulding, very high mitotic index, extensive crush artefact",
+      "variants": [
+        "pure SCLC",
+        "combined SCLC (with NSCLC component)",
+        "molecular subtypes: SCLC-A (ASCL1), SCLC-N (NEUROD1), SCLC-P (POU2F3), SCLC-I (inflamed)"
+      ],
+      "grading": "High-grade neuroendocrine carcinoma by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Traditionally 'cold' \u2014 MHC-I loss common; SCLC-I subtype is inflamed and relatively more IO-responsive",
+      "stromal_features": "Minimal stroma; extensive necrosis; Azzopardi phenomenon (DNA encrustation of vessel walls)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pulmonary neuroendocrine cells (PNEC) \u2014 cells of the diffuse neuroendocrine system in bronchial epithelium",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative with neuroendocrine differentiation",
+      "differentiation_state": "High-grade neuroendocrine \u2014 synaptophysin, chromogranin, INSM1, ASCL1 (SCLC-A) or NEUROD1 (SCLC-N); high proliferation with extensive necrosis",
+      "lineage_plasticity": "Four transcriptomic subtypes reflect distinct lineage states: SCLC-A (ASCL1+, classic neuroendocrine), SCLC-N (NEUROD1+, mixed), SCLC-P (POU2F3+, tuft cell-like, DLL3-low), SCLC-I (inflamed, relatively more IO-responsive)"
+    }
+  }
+}

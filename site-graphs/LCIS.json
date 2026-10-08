@@ -1,0 +1,53 @@
+{
+  "LCIS": {
+    "name": "Lobular carcinoma in situ",
+    "biomarkers": [
+      {
+        "name": "CDH1 / E-cadherin loss",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Present in most cases",
+        "clinical_use": "Distinguishes LCIS from DCIS"
+      },
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "ER >90%; PR frequently positive",
+        "clinical_use": "Tamoxifen or other endocrine risk-reduction strategies (especially in classical LCIS)"
+      },
+      {
+        "name": "Pleomorphic LCIS variant",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Managed more like DCIS with excision to negative margins"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small, monotonous discohesive cells expanding lobular units (dyshesion from E-cadherin loss)",
+      "variants": [
+        "classic LCIS (marker only)",
+        "pleomorphic LCIS (higher grade, managed as DCIS)",
+        "florid LCIS"
+      ],
+      "grading": "Classic LCIS considered a risk marker; pleomorphic and florid managed with excision"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Minimal inflammation typically",
+      "stromal_features": "Intact myoepithelium; expansion of lobular architecture"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells of lobular acinar units with E-cadherin loss (same lineage as invasive lobular)",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Luminal differentiation preserved with E-cadherin loss; distends acini without stromal invasion; myoepithelial layer intact",
+      "lineage_plasticity": "Bilateral risk marker rather than obligate precursor \u2014 represents a non-obligate precursor/risk lesion with clonal relationship to some invasive lobular carcinomas; pleomorphic LCIS has more advanced dedifferentiation"
+    }
+  }
+}

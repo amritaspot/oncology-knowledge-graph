@@ -1,0 +1,74 @@
+{
+  "THYMOMA": {
+    "name": "Thymoma",
+    "biomarkers": [
+      {
+        "name": "WHO histologic type (A, AB, B1, B2, B3)",
+        "type": "morphologic classification",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Primary prognostic classification; B3 more aggressive; type A most indolent"
+      },
+      {
+        "name": "TdT, CD5 (thymic epithelial cells)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Thymoma epithelial cells are typically CD5 negative; TdT highlights non-neoplastic immature thymocytes rather than neoplastic epithelial cells",
+        "clinical_use": "Helps distinguish thymoma from thymic carcinoma, in which epithelial cells more often express CD5; TdT supports the presence of accompanying immature thymocytes"
+      },
+      {
+        "name": "GTF2I mutation",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40% overall; enriched in type A and AB thymoma",
+        "clinical_use": "Characteristic molecular alteration of thymoma; associates with more indolent behaviour"
+      },
+      {
+        "name": "Anti-AChR antibodies (myasthenia gravis)",
+        "type": "serum",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~30-50% of thymoma patients have myasthenia gravis; anti-AChR antibodies are common in thymoma-associated MG",
+        "clinical_use": "Paraneoplastic MG common; management implications"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Predictive role in thymoma is not established; immune checkpoint inhibitors have shown activity in thymic epithelial tumors but thymoma carries a high risk of severe immune-related adverse events including myocarditis, myositis, and hepatitis"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Epithelial neoplasm of thymic epithelial cells with variable immature T-cell infiltrate",
+      "variants": [
+        "type A (spindle/oval)",
+        "type AB (mixed)",
+        "type B1 (lymphocyte-rich)",
+        "type B2 (mixed lymphocyte/epithelial)",
+        "type B3 (predominantly epithelial, atypical)"
+      ],
+      "grading": "WHO A/AB/B1/B2/B3 classification prognostic; Masaoka-Koga staging"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Rich in T-lymphoblasts (physiologic thymic function) \u2014 'inflamed' but with distinct biology from lymphocytic infiltrate in carcinomas",
+      "stromal_features": "Fibrous septa; medullary and cortical patterns depending on WHO type"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thymic epithelial cells (cortical or medullary)",
+      "developmental_lineage": "Endoderm (thymic epithelium from third pharyngeal pouch) with mesenchymal (neural crest) capsular contribution",
+      "differentiation_state": "Retains thymic epithelial differentiation \u2014 WHO subtypes A, AB, B1, B2, B3 reflect gradient from bland spindle cells to cortical-like \u2192 medullary-like architecture",
+      "lineage_plasticity": "Retention of thymic epithelial function drives inappropriate T-cell selection \u2192 paraneoplastic autoimmunity (myasthenia gravis, PRCA)"
+    }
+  }
+}

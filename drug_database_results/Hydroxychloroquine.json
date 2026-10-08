@@ -1,0 +1,170 @@
+{
+  "molecule_name": "Hydroxychloroquine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 3652,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Plaquenil"
+  ],
+  "drug_class": "Antimalarial",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": "Hydroxychloroquine sulfate",
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Hydroxychloroquine works by interfering with the communication of cells in the immune system and has antimalarial properties.",
+    "molecular_action": "Inhibits lysosomal function and modulates autophagy.",
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Malaria prevention and treatment",
+      "Rheumatoid arthritis",
+      "Lupus",
+      "Porphyria cutanea tarda"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [
+    {
+      "cancer": "Non-small Cell Lung Cancer",
+      "molecular_context": null,
+      "proposed_rationale": null,
+      "evidence_level": null,
+      "human_evidence": null,
+      "supporting_doi": [],
+      "negative_evidence": null,
+      "literature_review_status": null,
+      "limitations": []
+    }
+  ],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to hydroxychloroquine or chloroquine",
+      "Retinal damage"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Vomiting",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Headache",
+      "organ_system": "Nervous system",
+      "biological_explanation": null,
+      "mechanism_status": null,
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Used for malaria, rheumatoid arthritis, lupus, and porphyria cutanea tarda."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Hydroxychloroquine clinical and pharmacological data",
+    "mechanism_doi_meaning": "Mechanism of action references",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT05647330",
+      "NCT02466243",
+      "NCT04261517"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 3652,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3652/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "ACE2",
+        "pdb_id": "6M17",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "SARS-CoV-2 Spike",
+        "pdb_id": "6VSB",
+        "alphafold_id": null,
+        "resolution_angstroms": 3.46,
+        "experimental_method": "Cryo-EM",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "SARS-CoV-2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

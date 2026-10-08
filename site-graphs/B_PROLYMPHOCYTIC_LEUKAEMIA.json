@@ -1,0 +1,55 @@
+{
+  "B_PROLYMPHOCYTIC_LEUKAEMIA": {
+    "name": "B-cell prolymphocytic leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "peripheral_blood + bone_marrow + spleen"
+    },
+    "biomarkers": [
+      {
+        "name": "TP53 / del(17p)",
+        "type": "mutation / FISH",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common (~50%)",
+        "clinical_use": "Adverse; supports use of targeted therapy rather than chemoimmunotherapy in practice"
+      },
+      {
+        "name": "MYC rearrangements",
+        "type": "FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent but not universal",
+        "clinical_use": "May support aggressive biology, but is not by itself diagnostic and does not reliably distinguish from CLL"
+      },
+      {
+        "name": "Immunophenotype (CD5+/CD19+/CD20 bright/sIg bright, CD23 variable)",
+        "type": "flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Supports distinction from typical CLL/SLL (which more often shows dim CD20/sIg), but overlap exists and exclusion of mantle cell lymphoma is essential"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large lymphocytes (prolymphocytes \u2014 >55% of blood lymphs by historical definition) with prominent central nucleoli and moderate basophilic cytoplasm",
+      "variants": [
+        "historical de novo B-PLL / splenic B-cell leukemia with prominent nucleoli",
+        "prolymphocytic transformation of CLL (more common \u2014 de novo B-PLL is very rare and modern classification no longer fully retains classic B-PLL as a distinct entity)"
+      ],
+      "grading": "Not graded; clinically aggressive"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; targeted therapy paradigm increasingly used in practice",
+      "stromal_features": "Splenomegaly without significant lymphadenopathy is characteristic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature B cells (though the category has been reduced in modern classification, with many historical cases reclassified as CLL prolymphocytic transformation, leukemic mantle cell lymphoma, or splenic B-cell lymphoma/leukemia with prominent nucleoli)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature B cells)",
+      "differentiation_state": "Prolymphocytic differentiation with large lymphocytes (prolymphocytes \u2014 >55% of blood lymphocytes by historical definition) with prominent central nucleoli and moderate basophilic cytoplasm",
+      "lineage_plasticity": "Prolymphocytic transformation of CLL represents progression from mature small B cells to larger prolymphocytes; TP53 alterations are common and associated with aggressive biology; MYC rearrangements are reported in a subset"
+    }
+  }
+}

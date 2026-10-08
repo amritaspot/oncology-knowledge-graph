@@ -1,0 +1,128 @@
+{
+  "molecule_name": "OL-101",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Chimeric Antigen Receptor T Cell Therapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "OL-101 is a CAR-T therapy targeting BCMA and GPRC5D to treat multiple myeloma.",
+    "molecular_action": "Chimeric antigen receptor T cells are engineered to recognize and attack cancer cells expressing BCMA and GPRC5D.",
+    "targets": [
+      "B-Cell Maturation Antigen (BCMA)",
+      "G Protein-Coupled Receptor Class C Group 5 Member D (GPRC5D)"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory Multiple Myeloma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data for OL-101",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI provided",
+    "null_meaning": "No data available for this field",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT06644118",
+      "NCT05703867"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BCMA",
+      "GPRC5D"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PSMA",
+        "pdb_id": "6C1Z",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Lys68",
+              "Asp92",
+              "Tyr134"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PSMA",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm501239f"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Small Molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

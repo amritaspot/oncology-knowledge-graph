@@ -1,0 +1,133 @@
+{
+  "molecule_name": "Tovorafenib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 25161177,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Type II RAF Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Tovorafenib is a selective inhibitor that targets both monomeric and dimeric forms of RAF, which are involved in cell signaling pathways that promote cancer cell growth.",
+    "molecular_action": "Inhibits RAF kinases to disrupt the MAPK signaling pathway.",
+    "targets": [
+      "RAF1",
+      "BRAF"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": "Selective for both monomeric and dimeric forms of RAF",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Pediatric low-grade glioma with BRAF alterations",
+    "histology": null,
+    "clinical_settings": [
+      "Recurrent/Progressive Low-Grade Gliomas",
+      "Advanced Nonhematologic Malignancies"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Tovorafenib clinical data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "CNS-penetrant",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT02327169",
+      "NCT06381570",
+      "NCT05566795"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": 67.0,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "RAF1",
+      "BRAF"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BRAF",
+        "pdb_id": "6V1E",
+        "alphafold_id": "P15056",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Lys483",
+              "Asp594",
+              "Phe595"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "BRAF",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 13.0,
+        "doi_or_source": "10.1016/j.ccell.2020.01.001"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

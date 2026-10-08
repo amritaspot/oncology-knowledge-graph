@@ -1,0 +1,168 @@
+{
+  "molecule_name": "Rogaratinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 71611869,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "BAY1163877"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "FGFR Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Rogaratinib inhibits fibroblast growth factor receptors (FGFR), which are involved in tumor growth and survival.",
+    "molecular_action": "Inhibition of FGFR signaling pathways.",
+    "targets": [
+      "FGFR1",
+      "FGFR2",
+      "FGFR3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for FGFR",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Urothelial Carcinoma, Non-small Cell Lung Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Locally Advanced Urothelial Carcinoma",
+      "Metastatic Urothelial Carcinoma",
+      "Advanced Pretreated Squamous-cell Non-small Cell Lung Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03410693",
+      "NCT03762122",
+      "NCT03473756"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FGFR1",
+      "FGFR2",
+      "FGFR3"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FGFR1",
+        "pdb_id": "4WUM",
+        "alphafold_id": "P11362",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "FGFR2",
+        "pdb_id": "5UR7",
+        "alphafold_id": "P21802",
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "FGFR3",
+        "pdb_id": "5B7Y",
+        "alphafold_id": "P22607",
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "FGFR4",
+        "pdb_id": "6LZP",
+        "alphafold_id": "P22455",
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FGFR1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 2.5,
+        "doi_or_source": "10.1016/j.ejmech.2017.11.056"
+      },
+      {
+        "target_symbol": "FGFR2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 24.0,
+        "doi_or_source": "10.1016/j.ejmech.2017.11.056"
+      },
+      {
+        "target_symbol": "FGFR3",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 31.0,
+        "doi_or_source": "10.1016/j.ejmech.2017.11.056"
+      },
+      {
+        "target_symbol": "FGFR4",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 83.0,
+        "doi_or_source": "10.1016/j.ejmech.2017.11.056"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "molecule_name": "Anti-BCMA/CD38/CD3 Trispecific Antibody ABBV-2001",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ABBV-2001",
+      "ISB-2001"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "Biologic",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "ABBV-2001 is a trispecific antibody that engages T cells to target and kill multiple myeloma cells by binding to BCMA and CD38 on the cancer cells and CD3 on T cells.",
+    "molecular_action": "Trispecific T-cell engager targeting BCMA and CD38 on myeloma cells and CD3 on T cells.",
+    "targets": [
+      "BCMA",
+      "CD38",
+      "CD3"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed/Refractory Multiple Myeloma"
+    ],
+    "scope": null,
+    "reference_urls": [
+      "https://news.abbvie.com/2025-07-10-AbbVie-and-Ichnos-Glenmark-Innovation-IGI-Announce-Exclusive-Global-Licensing-Agreement-for-ISB-2001,-a-First-in-Class-CD38xBCMAxCD3-Trispecific-Antibody",
+      "https://delta.larvol.com/Products/",
+      "https://www.linkedin.com/posts/chabs-org_abbvie-and-ichnos-glenmark-innovation-igi-activity-7349066773595381761-uyDg",
+      "https://pmlive.com/abbvie-gains-rights-to-igis-phase-1-trispecific-engager-in-deal-worth-over-1-9bn/"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "The record focuses on the clinical development and mechanism of action of ABBV-2001, a trispecific antibody for multiple myeloma.",
+    "mechanism_doi_meaning": "DOIs related to the mechanism of action are not provided in the current data.",
+    "empty_mechanism_doi_meaning": "No specific DOIs are available for the mechanism of action at this time.",
+    "null_meaning": "Certain fields are null due to lack of specific data in the provided context.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT06892522"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TNFRSF17",
+      "CD38",
+      "CD3E"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BCMA",
+        "pdb_id": null,
+        "alphafold_id": "AF-Q02223-F1",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CD38",
+        "pdb_id": null,
+        "alphafold_id": "AF-P28907-F1",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "CD3",
+        "pdb_id": null,
+        "alphafold_id": "AF-P07766-F1",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

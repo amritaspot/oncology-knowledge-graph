@@ -1,0 +1,98 @@
+{
+  "MENINGIOMA": {
+    "name": "Meningioma",
+    "biomarkers": [
+      {
+        "name": "WHO grade (1, 2, 3)",
+        "type": "morphologic + molecular criteria",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Grade 1 ~80%, grade 2 ~15-20%, grade 3 ~1-3%",
+        "clinical_use": "Drives prognosis and adjuvant RT decisions"
+      },
+      {
+        "name": "NF2 mutations / loss of chromosome 22",
+        "type": "mutation / cytogenetic",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Most common driver; NF2 syndrome predisposes to multiple meningiomas and schwannomas"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Rare (~5% overall; enriched in higher-grade tumors) and upgrades to WHO grade 3 in CNS5",
+        "clinical_use": "Molecular criterion for grade 3 regardless of morphology"
+      },
+      {
+        "name": "CDKN2A/B homozygous deletion",
+        "type": "copy number",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Rare overall, enriched in aggressive tumors; upgrades to grade 3",
+        "clinical_use": "Molecular criterion for grade 3"
+      },
+      {
+        "name": "H3K27me3 loss",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Subset",
+        "clinical_use": "Adverse prognostic marker, particularly in higher-risk/grade 2 meningioma"
+      },
+      {
+        "name": "SMO, AKT1, PIK3CA, TRAF7, KLF4 mutations (non-NF2 subgroup)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Common in non-NF2 meningiomas; often location- and subtype-associated (especially skull base/olfactory groove; secretory subtype for TRAF7/KLF4)",
+        "clinical_use": "Molecular subclassification; potential targeted therapy trials"
+      },
+      {
+        "name": "Somatostatin receptor 2 (SSTR2)",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Highly expressed in most meningiomas",
+        "clinical_use": "Useful diagnostically by IHC; DOTATATE PET useful for post-op residual and recurrence; PRRT under clinical evaluation"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Meningothelial cells arising from arachnoid cap cells; whorls and psammoma bodies characteristic",
+      "variants": [
+        "meningothelial",
+        "fibrous",
+        "transitional",
+        "psammomatous",
+        "atypical (grade 2)",
+        "clear cell (grade 2)",
+        "chordoid (grade 2)",
+        "anaplastic (grade 3)",
+        "papillary (grade 3)",
+        "rhabdoid (grade 3)"
+      ],
+      "grading": "WHO grade 1, 2, or 3; molecular criteria (TERT, CDKN2A/B) can upgrade regardless of morphology"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Grade 1 minimally inflamed; grade 3 more inflammatory infiltrate",
+      "stromal_features": "Characteristic whorls; psammoma bodies (calcification); attachment to dura"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Meningothelial (arachnoid cap) cells of the leptomeninges",
+      "developmental_lineage": "Neural crest and mesoderm (dual embryonic contribution to meninges \u0014 cranial meninges from neural crest and mesoderm; spinal meninges predominantly from mesoderm)",
+      "differentiation_state": "Meningothelial differentiation (EMA+, SSTR2+, progesterone receptor+) with characteristic whorled architecture and psammoma bodies; variable morphologic subtypes (meningothelial, fibrous, transitional, psammomatous, angiomatous, microcystic, secretory, chordoid, clear cell, papillary, rhabdoid)",
+      "lineage_plasticity": "Molecular classification increasingly overrides morphology: NF2/22q loss (most common), TRAF7-KLF4 (secretory), AKT1 (skull base), SMO (skull base), POLR2A, PIK3CA, BAP1 (aggressive rhabdoid); CDKN2A/B loss and TERT promoter mutations define grade 3-like biology regardless of morphology"
+    }
+  }
+}

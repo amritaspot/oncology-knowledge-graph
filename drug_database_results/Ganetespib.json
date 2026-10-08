@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Ganetespib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 135564985,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "STA-9090"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Heat Shock Protein 90 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Ganetespib inhibits the heat shock protein 90 (HSP90), which is involved in the stabilization and function of many oncogenic proteins.",
+    "molecular_action": "Inhibition of HSP90 leads to degradation of client proteins that are essential for cancer cell survival.",
+    "targets": [
+      "HSP90"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cancer cell proliferation",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Ovarian Cancer, Acute Myeloid Leukemia (AML), Chronic Myeloid Leukemia (CML), Myelodysplastic Syndromes (MDS), Metastatic Pancreatic Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Recurrent Ovarian Cancer",
+      "Acute Myeloid Leukemia",
+      "Chronic Myeloid Leukemia",
+      "Myeloproliferative Disorders",
+      "Metastatic Pancreatic Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Ganetespib clinical trials and pharmacokinetics",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase III",
+    "nct_trials": [
+      "NCT01962948",
+      "NCT00858572",
+      "NCT01227018"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HSP90AA1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HSP90AA1",
+        "pdb_id": "4YKR",
+        "alphafold_id": "P07900",
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HSP90AA1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1021/jm300266r"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "molecule_name": "Pegylated Liposomal Doxorubicin Hydrochloride",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "ATI-0918",
+      "Caelyx",
+      "Dox-SL"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Caelyx",
+    "Doxil"
+  ],
+  "drug_class": "Chemotherapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Pegylated liposomal doxorubicin hydrochloride is a formulation of doxorubicin that is encapsulated in liposomes, which helps to reduce side effects and improve delivery to cancer cells.",
+    "molecular_action": "Inhibits DNA synthesis and function by intercalating into DNA and inhibiting topoisomerase II.",
+    "targets": [
+      "TOP2A"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer, Ovarian Cancer, Sarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced or Metastatic Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to doxorubicin or any component of the formulation",
+      "Severe liver impairment"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced nausea due to effects on the gastrointestinal tract.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Myelosuppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of bone marrow function leading to decreased blood cell production.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and safety data for Pegylated Liposomal Doxorubicin Hydrochloride.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Limited due to liposomal formulation.",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT01495884",
+      "NCT03268772",
+      "NCT06072781"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "50 mg/m2 every 28 days",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TOP2A"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

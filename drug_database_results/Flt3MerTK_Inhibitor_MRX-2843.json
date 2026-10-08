@@ -1,0 +1,135 @@
+{
+  "molecule_name": "Flt3/MerTK Inhibitor MRX-2843",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 89495685,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Inhibitor",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "MRX-2843 inhibits the FLT3 and MerTK pathways, which are involved in cancer cell survival and proliferation.",
+    "molecular_action": "Inhibition of FLT3 and MerTK signaling pathways.",
+    "targets": [
+      "FLT3",
+      "MerTK"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Decreased Mcl-1 and c-Myc protein levels",
+      "Reduced oxidative phosphorylation in FLT3-ITD AML cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Myeloid Leukemia (AML), Non-small Cell Lung Cancer (NSCLC)",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed/Refractory Acute Myeloid Leukemia",
+      "Advanced EGFR Mutant Non-small Cell Lung Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and pharmacological studies",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT04762199",
+      "NCT04946890",
+      "NCT03510104"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FLT3",
+      "MERTK"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FLT3",
+        "pdb_id": null,
+        "alphafold_id": "P36888",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "MERTK",
+        "pdb_id": null,
+        "alphafold_id": "Q12866",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FLT3",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 1.8,
+        "doi_or_source": "10.1158/1535-7163.MCT-19-0844"
+      },
+      {
+        "target_symbol": "MERTK",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 2.9,
+        "doi_or_source": "10.1158/1535-7163.MCT-19-0844"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

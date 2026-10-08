@@ -1,0 +1,96 @@
+{
+  "AML_WITH_RECURRENT_GENETIC_ABNORMALITIES": {
+    "name": "AML with recurrent genetic abnormalities",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "t(8;21) RUNX1-RUNX1T1",
+        "type": "fusion / cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "~5-10% of AML (core-binding factor AML)",
+        "clinical_use": "Favourable ELN risk; MRD monitoring by RQ-PCR. High-dose cytarabine consolidation. KIT co-mutation may portend higher relapse risk"
+      },
+      {
+        "name": "inv(16)(p13.1q22) or t(16;16) CBFB-MYH11",
+        "type": "fusion / cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "~5-8% of AML (core-binding factor AML)",
+        "clinical_use": "Favourable ELN risk; MRD monitoring by RQ-PCR. High-dose cytarabine consolidation"
+      },
+      {
+        "name": "NPM1 mutation",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "~25-35% of AML",
+        "clinical_use": "As per AML_NOS entry \u2014 favourable in the absence of adverse-risk genetic features; MRD monitoring by RT-qPCR/ddPCR is clinically used"
+      },
+      {
+        "name": "CEBPA biallelic / bZIP",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~5-10%",
+        "clinical_use": "Favourable; current classifications recognize in-frame bZIP CEBPA-mutated AML as favourable-risk"
+      },
+      {
+        "name": "KMT2A (MLL) rearrangements (t(9;11) and others)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~3-5% adult AML; higher in infant leukaemia and therapy-related",
+        "clinical_use": "Risk varies by partner gene: t(9;11)(p21.3;q23.3)/MLLT3-KMT2A is intermediate risk in ELN, whereas many other KMT2A rearrangements are adverse. Menin inhibitors (revumenib, ziftomenib) \u2014 active in KMT2Ar and NPM1-mutant AML"
+      },
+      {
+        "name": "NUP98 rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~2-5% of paediatric AML; rare in adults",
+        "clinical_use": "Adverse; menin inhibitor trials"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Blast morphology varies by underlying genetic subtype \u2014 CBF AML often shows granulocytic differentiation; inv(16)/CBFB-MYH11 characteristically shows myelomonocytic differentiation with abnormal eosinophils; NPM1-mutant often shows monocytic component; KMT2Ar often shows monoblastic differentiation",
+      "variants": [
+        "t(8;21)/RUNX1-RUNX1T1 (favourable, granulocytic maturation, often granulocytic sarcoma)",
+        "inv(16)/CBFB-MYH11 (favourable, myelomonocytic differentiation + abnormal eosinophils)",
+        "NPM1-mut (~25-35% of AML, cup-shaped nuclei, monocytic differentiation)",
+        "biallelic CEBPA / bZIP (favourable)",
+        "KMT2Ar (risk depends on fusion partner; often monoblastic)",
+        "NUP98r (paediatric-predominant, adverse)"
+      ],
+      "grading": "Not graded; genetic subtype defines risk group directly"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per AML_NOS; subtype-specific differences in immune interaction less well characterised",
+      "stromal_features": "Bone marrow infiltration; extramedullary disease (granulocytic sarcoma) more common in some subtypes (t(8;21))"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC or committed myeloid progenitor with defining genetic event; each genetic subtype has characteristic cell of origin",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Genetic subtype-specific: CBF AML retains granulocytic maturation (t(8;21) with granulocytic differentiation; inv(16) with myelomonocytic differentiation and abnormal eosinophils); NPM1-mutant often shows monocytic component with cup-shaped nuclei; KMT2Ar shows monoblastic differentiation with lineage promiscuity",
+      "lineage_plasticity": "Different genetic subtypes lock cells at different maturation states: CBF fusions (RUNX1-RUNX1T1, CBFB-MYH11) disrupt myeloid differentiation; NPM1 mislocalisation to cytoplasm is associated with monocytic differentiation and cup-shaped nuclei; KMT2A rearrangements can confer lineage plasticity"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "molecule_name": "BET/CBP/p300 Inhibitor EP31670",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 126582741,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "NEO2734"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "EP31670 inhibits the bromodomains of BET proteins and the histone acetyltransferases CBP and p300, potentially leading to antitumor effects.",
+    "molecular_action": "Inhibition of BET proteins and CBP/p300 HAT activity.",
+    "targets": [
+      "BET proteins",
+      "CBP",
+      "p300"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced tumor growth",
+      "Altered gene expression"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced solid tumors and hematological malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Phase 1 clinical trials"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data and mechanism of action",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT05488548"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "BRD2",
+      "BRD3",
+      "BRD4",
+      "CREBBP",
+      "EP300"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "BRD4",
+        "pdb_id": "5UEG",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "P86",
+              "N140",
+              "Y97"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      },
+      {
+        "target_symbol": "EP300",
+        "pdb_id": "4PZS",
+        "alphafold_id": null,
+        "resolution_angstroms": 1.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "C1438",
+              "Y1467",
+              "N1466"
+            ],
+            "druggability_score": 0.75
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "BRD4",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 50.0,
+        "doi_or_source": "10.1021/acs.jmedchem.6b00741"
+      },
+      {
+        "target_symbol": "EP300",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 100.0,
+        "doi_or_source": "10.1021/acs.jmedchem.6b00741"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

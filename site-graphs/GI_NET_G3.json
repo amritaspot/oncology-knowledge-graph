@@ -1,0 +1,52 @@
+{
+  "GI_NET_G3": {
+    "name": "GI neuroendocrine tumour, well-differentiated, G3",
+    "biomarkers": [
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": ">20% (definitional; WHO G3 well-differentiated NET typically 21-55%, though may be higher)",
+        "clinical_use": "Grade; distinguishes from G2 but does not by itself distinguish G3 NET from NEC"
+      },
+      {
+        "name": "Morphology (well-differentiated retained)",
+        "type": "morphology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Critical distinction from NEC \u2014 G3 NET retains organoid morphology; SSTR/DOTATATE avidity is common but not universal, and NEC may occasionally also show uptake"
+      },
+      {
+        "name": "SSTR2 expression",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often positive; more commonly retained than in NEC, but not universal",
+        "clinical_use": "Supports somatostatin receptor-targeted imaging and potential benefit from SSA/PRRT in appropriate cases"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Well-differentiated NET morphology (organoid growth, salt-and-pepper chromatin) but with high mitotic index / Ki-67",
+      "variants": [
+        "well-differentiated NET G3 (retains organoid morphology) \u2014 distinct from NEC"
+      ],
+      "grading": "Ki-67 >20% (with retained NET morphology)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically",
+      "stromal_features": "Retained NET vascular pattern"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Well-differentiated GI NET origin but with high proliferation state \u2014 same lineage as G1/G2",
+      "developmental_lineage": "Endoderm \u2014 GI tract",
+      "differentiation_state": "Retains WELL-differentiated neuroendocrine morphology and often SSTR2 expression BUT with Ki-67 >20% and high mitotic rate \u2014 this differentiation is critical distinction from NEC",
+      "lineage_plasticity": "Represents high-proliferation state within well-differentiated NET lineage, NOT dedifferentiation to NEC"
+    }
+  }
+}

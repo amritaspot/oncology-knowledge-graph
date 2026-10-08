@@ -1,0 +1,148 @@
+{
+  "molecule_name": "Momelotinib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 25062766,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "JAK inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Momelotinib is a JAK inhibitor that modulates the signaling pathways involved in hematopoiesis and immune response.",
+    "molecular_action": "Inhibits Janus kinase (JAK) 1 and JAK2, leading to reduced signaling through the JAK-STAT pathway.",
+    "targets": [
+      "JAK1",
+      "JAK2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced inflammation",
+      "Altered hematopoiesis"
+    ],
+    "selectivity": "Selective for JAK1 and JAK2",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Myelofibrosis",
+    "histology": null,
+    "clinical_settings": [
+      "Myelofibrosis",
+      "Chronic phase myelodysplastic syndromes",
+      "Chronic neutrophilic leukemia"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Grade 1/2 adverse events",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Commonly observed AEs are related to the modulation of hematopoiesis.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Anemia",
+        "Thrombocytopenia"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Momelotinib clinical data and safety profile",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT04176198",
+      "NCT01969838",
+      "NCT07071155"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "JAK1",
+      "JAK2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 25142104,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/25142104/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "JAK1",
+        "pdb_id": "5TTV",
+        "alphafold_id": "P23458",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      },
+      {
+        "target_symbol": "JAK2",
+        "pdb_id": "4C61",
+        "alphafold_id": "O60674",
+        "resolution_angstroms": 2.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "JAK1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 11.0,
+        "doi_or_source": "10.1021/jm400402q"
+      },
+      {
+        "target_symbol": "JAK2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 18.0,
+        "doi_or_source": "10.1021/jm400402q"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

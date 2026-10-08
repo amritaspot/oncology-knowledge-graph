@@ -1,0 +1,146 @@
+{
+  "molecule_name": "Cisplatin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5702198,
+    "CAS_number": "15663-27-1",
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Platinol"
+  ],
+  "drug_class": "Alkylating agent",
+  "modality": "Chemotherapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Cisplatin works by causing DNA cross-linking, which inhibits DNA replication and transcription, leading to cell death.",
+    "molecular_action": "Cisplatin binds to DNA, forming cross-links that prevent DNA replication.",
+    "targets": [
+      "DNA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA synthesis",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various cancers including testicular, ovarian, bladder, and lung cancer.",
+    "histology": null,
+    "clinical_settings": [
+      "Chemotherapy regimens for solid tumors"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Severe renal impairment",
+      "Hypersensitivity to cisplatin or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea and vomiting",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Cisplatin stimulates the chemoreceptor trigger zone in the brain.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nephrotoxicity",
+      "organ_system": "Renal",
+      "biological_explanation": "Cisplatin can cause damage to renal tubules.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Acute kidney injury"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Cisplatin clinical data and trial information",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 3.0,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT02921984",
+      "NCT05422690",
+      "NCT06056310"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "75 mg/m2",
+    "objective_response_rate_pct": 60.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TP53"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": "[Cl-].[Cl-].[NH3+][Pt]([NH3+])([Cl-])[Cl-]",
+    "pubchem_cid": 441203,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441203/SDF?record_type=3d",
+    "rotatable_bonds": 0,
+    "target_structures": [
+      {
+        "target_symbol": "DNA",
+        "pdb_id": "1AIO",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.6,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

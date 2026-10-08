@@ -1,0 +1,99 @@
+{
+  "ACRAL_MELANOMA": {
+    "name": "Acral melanoma",
+    "biomarkers": [
+      {
+        "name": "KIT",
+        "type": "mutation / amplification",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20% for activating mutations; copy-number gain/amplification also enriched",
+        "clinical_use": "KIT inhibitor therapy may be considered for selected activating KIT-mutant tumors (best evidence for imatinib; activity is mutation-dependent)"
+      },
+      {
+        "name": "BRAF V600",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20% (lower than non-acral cutaneous melanoma)",
+        "clinical_use": "BRAF/MEK inhibitors if present"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "No standard approved targeted therapy; may support clinical trial enrollment"
+      },
+      {
+        "name": "CDKN2A loss",
+        "type": "copy number / mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Adverse"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Typically lower than UV-driven cutaneous melanoma",
+        "clinical_use": "May contribute to generally lower response rates to immune checkpoint blockade than UV-driven cutaneous melanoma, but responses still occur"
+      },
+      {
+        "name": "PD-L1, LDH",
+        "type": "IHC / serum",
+        "categories": [
+          "predictive",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "As per cutaneous"
+      },
+      {
+        "name": "NF1",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Uncommon but recurrent",
+        "clinical_use": "No standard approved targeted therapy; may support clinical trial enrollment"
+      },
+      {
+        "name": "Structural variants / copy-number gains (CCND1, CDK4, MDM2, TERT)",
+        "type": "copy number / structural variant",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common relative to sun-exposed cutaneous melanoma",
+        "clinical_use": "Reflect characteristic acral melanoma biology; no routine biomarker-directed standard therapy solely on this basis"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Lentiginous proliferation of atypical melanocytes at dermoepidermal junction of palms, soles, or subungual skin",
+      "variants": [
+        "acral lentiginous melanoma (most common)",
+        "nodular acral",
+        "subungual (Hutchinson's sign)"
+      ],
+      "grading": "AJCC staging as per cutaneous"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often less inflamed than UV-driven cutaneous melanoma, with lower TMB and, on average, less robust immunotherapy responses, although meaningful responses still occur",
+      "stromal_features": "Dermal reaction similar to other melanomas"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Melanocytes of palms, soles, and nail beds (glabrous skin including subungual unit)",
+      "developmental_lineage": "Neural crest \u2014 melanocytes at acral sites",
+      "differentiation_state": "Melanocytic differentiation with same lineage markers as cutaneous melanoma; distinct anatomic subsite biology",
+      "lineage_plasticity": "Same MITF-based cell state model as cutaneous melanoma but with distinct genomic biology \u2014 copy-number alterations/structural variants (including CCND1, CDK4, MDM2, TERT and KIT) are more common than UV-signature point mutations; KIT-enriched biology enables KIT inhibitor therapy in a selected activating KIT-mutant subset"
+    }
+  }
+}

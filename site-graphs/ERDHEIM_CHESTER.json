@@ -1,0 +1,94 @@
+{
+  "ERDHEIM_CHESTER": {
+    "name": "Erdheim-Chester disease",
+    "heme_involvement_pattern": {
+      "primary_compartment": "systemic (histiocytic infiltration)",
+      "characteristic_organ_involvement": [
+        "bone (symmetric osteosclerosis of long bones \u2014 diaphyseal/metaphyseal \u2014 characteristic and highly suggestive)",
+        "retroperitoneum ('hairy kidney' \u2014 perirenal infiltration)",
+        "cardiovascular (peri-aortic sheathing \u2014 'coated aorta'; pericardial thickening)",
+        "CNS (including brain parenchyma and hypothalamic-pituitary involvement; pontine/cerebellar lesions can occur)",
+        "pulmonary (interstitial infiltrates, pleural effusions)",
+        "orbit (exophthalmos)",
+        "skin (xanthelasma)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "BRAF V600E",
+        "type": "mutation / IHC (VE1)",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~50-60%",
+        "clinical_use": "Vemurafenib highly active \u2014 approved for BRAF V600 mutation-positive ECD. Cobimetinib approved for adults with histiocytic neoplasms (including ECD)"
+      },
+      {
+        "name": "MAP2K1 (MEK1) mutations",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "MEK inhibitors such as cobimetinib and trametinib can be active"
+      },
+      {
+        "name": "NRAS, KRAS, ARAF, other MAPK pathway",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Subset of BRAF-wildtype cases",
+        "clinical_use": "MAPK pathway activation is very common in ECD; cobimetinib is approved for adults with histiocytic neoplasms"
+      },
+      {
+        "name": "CD68+, CD163+, Factor XIIIa+; CD1a and langerin NEGATIVE (unlike LCH)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Distinguishes ECD from LCH"
+      },
+      {
+        "name": "Symmetric osteosclerosis on bone scan / PET",
+        "type": "imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~95%",
+        "clinical_use": "Characteristic bilateral long-bone diaphyseal/metaphyseal osteosclerosis; PET-CT is useful for whole-body assessment"
+      },
+      {
+        "name": "CT imaging findings (hairy kidney, coated aorta, pericardial thickening)",
+        "type": "imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Characteristic",
+        "clinical_use": "Multi-organ imaging pattern is highly suggestive in the appropriate clinicopathologic context"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Foamy CD68+/CD163+ histiocytes with abundant lipid-laden cytoplasm in fibrous stroma; extensive multi-organ infiltration; xanthomatous appearance",
+      "variants": [
+        "classic ECD",
+        "mixed histiocytosis (ECD + LCH \u2014 overlap phenotype in some cases)"
+      ],
+      "grading": "Not graded; systemic disease severity drives management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "MAPK pathway activation is very common (BRAF V600E ~50-60%, other MAPK alterations in many of the remaining cases); vemurafenib is approved for BRAF V600-mutant ECD and cobimetinib is approved for adults with histiocytic neoplasms",
+      "stromal_features": "Foamy xanthomatous histiocytes in fibrous stroma; characteristic imaging includes symmetric long-bone osteosclerosis, 'hairy kidney' (perirenal infiltration), 'coated aorta' (periaortic sheathing), and pericardial thickening"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Monocyte-macrophage lineage (histiocytic/myeloid precursors) with MAPK pathway activation",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (monocyte-macrophage lineage)",
+      "differentiation_state": "Foamy histiocytic (macrophage) differentiation (CD68+, CD163+, factor XIIIa+) with lipid-laden cytoplasm; CD1a-negative (distinguishes from LCH); non-Langerhans phenotype",
+      "lineage_plasticity": "MAPK pathway activation is very common \u2014 BRAF V600E (~50-60%), with other MAPK pathway mutations in many remaining cases; shares molecular biology with LCH, and mixed histiocytosis (ECD + LCH) reflects shared MAPK biology across related histiocytic lineages"
+    }
+  }
+}

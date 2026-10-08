@@ -1,0 +1,176 @@
+{
+  "molecule_name": "177Lu-girentuximab",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": "C148494",
+    "development_codes": [],
+    "identifier_scope": "Radiolabeled form of girentuximab (lutetium Lu 177 girentuximab)"
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "177Lu-girentuximab is a radioimmunoconjugate in which the monoclonal antibody girentuximab binds carbonic anhydrase IX on tumor cells and delivers beta-emitting lutetium-177 radiation to CA9-expressing tissue.",
+    "molecular_action": "Girentuximab selectively binds CA9 (carbonic anhydrase IX). The attached radionuclide lutetium-177 emits beta particles that cause localized DNA damage and tumor cell killing.",
+    "targets": [
+      "CA9"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Targeted irradiation of CA9-expressing cells",
+      "DNA damage",
+      "Tumor cell death"
+    ],
+    "selectivity": "Selectivity is conferred by antibody binding to CA9-expressing cells, particularly clear cell renal cell carcinoma.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Clear Cell Renal Cell Carcinoma",
+    "histology": "Clear cell renal cell carcinoma",
+    "clinical_settings": [
+      "Investigational treatment in advanced/metastatic disease"
+    ],
+    "scope": "Investigational radiopharmaceutical studied primarily in CA9-positive clear cell renal cell carcinoma",
+    "reference_urls": [
+      "https://ncithesaurus.nci.nih.gov",
+      "https://pubmed.ncbi.nlm.nih.gov/22355053/"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Myelosuppression / hematologic toxicity",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Beta radiation from lutetium-177 can irradiate bone marrow, producing cytopenias.",
+      "mechanism_status": "Established for radiopharmaceutical class; reported in human study context for this agent",
+      "potential_consequences": [
+        "Anemia",
+        "Leukopenia",
+        "Thrombocytopenia",
+        "Infection risk",
+        "Bleeding risk"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "May reflect systemic effects of radioimmunotherapy and/or underlying malignancy.",
+      "mechanism_status": "Reported",
+      "potential_consequences": [
+        "Reduced functional status"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Infusion-related reaction",
+      "organ_system": "Immune system",
+      "biological_explanation": "Monoclonal antibody administration can trigger acute infusion reactions.",
+      "mechanism_status": "Plausible/class-based",
+      "potential_consequences": [
+        "Fever",
+        "Chills",
+        "Hypersensitivity symptoms"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Nausea",
+        "Vomiting",
+        "Transient liver enzyme abnormalities"
+      ],
+      "biological_explanation": "Non-specific systemic adverse effects reported with radioimmunotherapy exposure.",
+      "mechanism_status": "Reported"
+    }
+  ],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://ncithesaurus.nci.nih.gov",
+      "https://pubchem.ncbi.nlm.nih.gov"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://pubmed.ncbi.nlm.nih.gov/22355053/",
+      "https://clinicaltrials.gov/search?term=lutetium%20girentuximab"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "This record is specific to the radiolabeled agent 177Lu-girentuximab, not unconjugated girentuximab or other isotopically labeled forms.",
+    "mechanism_doi_meaning": "DOIs are included only when directly verified for mechanism or toxicity statements.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no directly verified DOI was captured for that specific field.",
+    "null_meaning": "Null indicates a specific requested datum was not verified in established human literature or authoritative labeling/sources.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "None",
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Reticuloendothelial",
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT05239533",
+      "NCT05663710",
+      "NCT07197580"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CA9"
+    ],
+    "pathways": [
+      "Hypoxia-inducible factor signalling",
+      "pH regulation"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CA9",
+        "pdb_id": null,
+        "alphafold_id": "P23284",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Antibody",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

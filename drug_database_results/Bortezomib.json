@@ -1,0 +1,130 @@
+{
+  "molecule_name": "Bortezomib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 387447,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Proteasome Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV) or Subcutaneous (SQ)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Bortezomib is a proteasome inhibitor that blocks the degradation of proteins, leading to an accumulation of pro-apoptotic factors and cell cycle regulators, which induces apoptosis in cancer cells.",
+    "molecular_action": "Inhibits the 20S subunit of the 26S proteasome complex.",
+    "targets": [
+      "Proteasome"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis in malignant cells",
+      "Inhibition of cell cycle progression"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Multiple Myeloma, Acute Myeloid Leukemia",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed/Refractory Multiple Myeloma",
+      "Relapsed/Refractory Acute Myeloid Leukemia"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Bortezomib clinical trials and usage",
+    "mechanism_doi_meaning": "Mechanism of action is derived from clinical trial data and literature.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT00793650",
+      "NCT01913730",
+      "NCT01174888"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PSMB5"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 387447,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/387447/SDF?record_type=3d",
+    "rotatable_bonds": 5,
+    "target_structures": [
+      {
+        "target_symbol": "PSMB5",
+        "pdb_id": "1RYP",
+        "alphafold_id": "P28074",
+        "resolution_angstroms": 2.35,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Thr1",
+              "Ala49",
+              "Gly47",
+              "Ser129"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PSMB5",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.6,
+        "doi_or_source": "10.1073/pnas.0407783102"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

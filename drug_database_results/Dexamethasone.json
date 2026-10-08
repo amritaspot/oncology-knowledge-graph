@@ -1,0 +1,156 @@
+{
+  "molecule_name": "Dexamethasone",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5743,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Corticosteroid",
+  "modality": "Small Molecule",
+  "route": "Oral, Intravenous, Intramuscular",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Dexamethasone is a corticosteroid that reduces inflammation and suppresses the immune response.",
+    "molecular_action": "Dexamethasone binds to the glucocorticoid receptor, leading to altered gene expression and reduced production of inflammatory mediators.",
+    "targets": [
+      "NR3C1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced inflammation",
+      "Suppression of immune response"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Various cancers including breast cancer, hematologic malignancies",
+    "histology": null,
+    "clinical_settings": [
+      "Chemotherapy-induced nausea and vomiting",
+      "Management of inflammation",
+      "Autoimmune conditions"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Systemic fungal infections",
+      "Hypersensitivity to dexamethasone"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Increased blood sugar levels",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Corticosteroids can induce insulin resistance.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Hyperglycemia",
+        "Potential development of diabetes"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Increased risk of infection",
+      "organ_system": "Immune",
+      "biological_explanation": "Suppression of immune response increases susceptibility to infections.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased incidence of infections"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Dexamethasone usage in oncology and other clinical settings.",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from pharmacological properties.",
+    "empty_mechanism_doi_meaning": "No specific DOI available for mechanism.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 36.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT07153614",
+      "NCT01339455",
+      "NCT01326585"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "10 mg",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "NR3C1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "NR3C1",
+        "pdb_id": "1M2Z",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "NR3C1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/S0960-0760(01)00185-4"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

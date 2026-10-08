@@ -1,0 +1,54 @@
+{
+  "CONJUNCTIVAL_SCC": {
+    "name": "Conjunctival squamous cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "HPV / p16",
+        "type": "ISH / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset; variable by geography and assay",
+        "clinical_use": "HPV may contribute in some cases, but p16 is not a definitive surrogate marker for HPV-driven disease in conjunctival SCC"
+      },
+      {
+        "name": "HIV status / immunosuppression",
+        "type": "clinical",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Higher in HIV+ and immunosuppressed patients",
+        "clinical_use": "OSSN is more common and can be more aggressive in HIV+ populations, especially in sub-Saharan Africa"
+      },
+      {
+        "name": "UV signature mutations (TP53, CDKN2A, TERT promoter)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Supports UV-driven pathogenesis; TP53, CDKN2A, and TERT promoter alterations are recurrent"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Squamous cell carcinoma arising from conjunctival epithelium, often at the limbus",
+      "variants": [
+        "conjunctival intraepithelial neoplasia (CIN, in-situ)",
+        "invasive SCC",
+        "spindle cell / sarcomatoid variant (aggressive)"
+      ],
+      "grading": "Well/moderately/poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "UV-driven high mutational burden in some cases; HPV-associated inflammatory features in a subset",
+      "stromal_features": "Substantia propria stroma; often with pterygium-like appearance"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Conjunctival epithelial cells, often arising at the limbal corneal-conjunctival junction",
+      "developmental_lineage": "Ectoderm \u0014 surface ectoderm derivative",
+      "differentiation_state": "Keratinizing or non-keratinizing squamous; CIN (conjunctival intraepithelial neoplasia) is a precursor lesion",
+      "lineage_plasticity": "CIN \u001a invasive SCC sequence at the limbal transition zone; HIV-associated immunosuppression is linked to increased incidence and progression; HPV involvement is reported in a subset"
+    }
+  }
+}

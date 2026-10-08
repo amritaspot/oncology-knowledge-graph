@@ -1,0 +1,73 @@
+{
+  "SMALL_BOWEL_ADENOCARCINOMA": {
+    "name": "Small bowel adenocarcinoma",
+    "biomarkers": [
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~5-35% overall (higher in duodenal tumors and Lynch-associated disease; generally enriched vs CRC)",
+        "clinical_use": "IO benefit \u2014 pembrolizumab; Lynch workup essential"
+      },
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-15%",
+        "clinical_use": "Trastuzumab-based therapy if amplified"
+      },
+      {
+        "name": "KRAS, NRAS, BRAF",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "KRAS ~40-55%; NRAS uncommon; BRAF V600E uncommon (generally <10%)",
+        "clinical_use": "RAS/RAF profiling is commonly performed, but anti-EGFR benefit in small bowel adenocarcinoma is not established as in CRC; BRAF V600E may support targeted therapy in selected cases"
+      },
+      {
+        "name": "CDX2, CK20",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Often positive (intestinal phenotype)",
+        "clinical_use": "Supports GI/intestinal origin in metastatic setting"
+      },
+      {
+        "name": "CA 19-9, CEA",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Monitoring when elevated"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Adenocarcinoma similar to colorectal \u2014 tubular / glandular architecture; duodenum most common location",
+      "variants": [
+        "duodenal",
+        "jejunal",
+        "ileal",
+        "ampullary \u2014 treated separately as ampullary carcinoma"
+      ],
+      "grading": "Well / moderately / poorly differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Higher MSI-H/dMMR rate than CRC in some subsets \u2192 more inflamed subset",
+      "stromal_features": "Desmoplastic, similar to other GI adenocarcinomas"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Small bowel enterocytes / intestinal stem cells at crypt base",
+      "developmental_lineage": "Endoderm \u2014 duodenum from foregut/midgut; jejunum and ileum from midgut",
+      "differentiation_state": "Intestinal-type glandular differentiation (often CDX2+/CK20+, sometimes MUC2+); resembles colorectal adenocarcinoma but with a distinct molecular profile",
+      "lineage_plasticity": "Can arise through an adenoma-carcinoma sequence, particularly in familial syndromes such as FAP, but with distinct molecular features and lower APC alteration frequency than CRC"
+    }
+  }
+}

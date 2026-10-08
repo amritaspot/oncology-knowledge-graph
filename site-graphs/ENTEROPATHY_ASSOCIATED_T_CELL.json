@@ -1,0 +1,68 @@
+{
+  "ENTEROPATHY_ASSOCIATED_T_CELL": {
+    "name": "Enteropathy-associated T-cell lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "small_intestine (jejunum)",
+      "characteristic_features": [
+        "celiac disease-associated",
+        "presents with perforation, obstruction, or refractory celiac symptoms"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "HLA-DQ2 / HLA-DQ8 (celiac genotype)",
+        "type": "HLA typing",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Common in EATL (celiac-associated), reflecting underlying celiac disease; not specific as a lymphoma biomarker",
+        "clinical_use": "Supports celiac association in EATL; not by itself sufficient to distinguish EATL from MEITL"
+      },
+      {
+        "name": "CD30",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often positive in EATL; variable",
+        "clinical_use": "May support consideration of brentuximab vedotin in CD30+ cases"
+      },
+      {
+        "name": "CD8+/CD56- (EATL) vs CD8+/CD56+ (MEITL)",
+        "type": "IHC / flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Helps distinguish EATL from MEITL; classic EATL is often CD8- and CD56-, whereas MEITL is typically CD8+ and CD56+"
+      },
+      {
+        "name": "STAT5B mutations (MEITL)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Recurrent in MEITL",
+        "clinical_use": "MEITL molecular characterization; supports JAK/STAT pathway involvement"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Intraepithelial T-cell infiltrate expanding into pleomorphic lymphoma with associated enteropathy (villous atrophy, intraepithelial lymphocytosis)",
+      "variants": [
+        "classic EATL (celiac-associated, HLA-DQ2/DQ8-associated, typically CD56-, often CD8-)",
+        "MEITL \u2014 monomorphic epitheliotropic intestinal TCL (not celiac-associated, typically CD8+/CD56+, more common in East Asia)"
+      ],
+      "grading": "Aggressive"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "EATL emerges from long-standing celiac disease and refractory celiac disease type II; JAK/STAT pathway activation is implicated in both EATL and MEITL",
+      "stromal_features": "Villous atrophy and intraepithelial lymphocytosis in surrounding mucosa (celiac features); often multifocal small bowel involvement"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Intraepithelial lymphocytes (IELs) of small intestinal mucosa",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (intraepithelial cytotoxic T cells of intestinal mucosa)",
+      "differentiation_state": "Cytotoxic T-cell differentiation with intraepithelial phenotype (CD103+, TIA-1+, granzyme B+); classic EATL is usually CD56- and often CD8-; MEITL is typically CD56+ and CD8+",
+      "lineage_plasticity": "Two distinct entities: classic EATL emerges from refractory celiac disease type II (RCDII) \u2014 chronic gluten-driven IEL clonal expansion \u2192 lymphomagenesis with IL-15/JAK-STAT pathway biology; MEITL (monomorphic epitheliotropic intestinal T-cell lymphoma) is a distinct entity not celiac-associated with recurrent STAT5B, JAK3, GNAI2, and SETD2 alterations"
+    }
+  }
+}

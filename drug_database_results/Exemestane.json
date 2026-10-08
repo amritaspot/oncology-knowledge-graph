@@ -1,0 +1,205 @@
+{
+  "molecule_name": "Exemestane",
+  "identifiers": {
+    "FDA_UNII": "0D1B1F1D1A",
+    "PubChem_CID": 60198,
+    "CAS_number": "107868-30-4",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Aromasin"
+  ],
+  "drug_class": "Aromatase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablets",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Exemestane works by inhibiting the aromatase enzyme, which is responsible for converting androgens into estrogens, thereby reducing estrogen levels in the body.",
+    "molecular_action": "Inhibition of aromatase enzyme activity leading to decreased estrogen production.",
+    "targets": [
+      "Aromatase"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced estrogen levels",
+      "Decreased tumor growth in hormone receptor-positive breast cancer"
+    ],
+    "selectivity": "Selective for aromatase enzyme",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast Cancer",
+    "histology": "Hormone Receptor Positive Breast Cancer",
+    "clinical_settings": [
+      "Adjuvant therapy in postmenopausal women",
+      "Metastatic breast cancer treatment"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://clinicaltrials.gov/ct2/show/NCT00687648",
+      "https://clinicaltrials.gov/ct2/show/NCT01240941",
+      "https://clinicaltrials.gov/ct2/show/NCT02676986"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to exemestane or any component of the formulation",
+      "Pregnancy",
+      "Severe liver impairment"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021100s034lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hot flashes",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Reduction in estrogen levels can lead to vasomotor symptoms.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Discomfort",
+        "Interference with daily activities"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "Hormonal changes may contribute to feelings of tiredness.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Reduced quality of life"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Nausea",
+        "Headache",
+        "Insomnia"
+      ],
+      "biological_explanation": "Common side effects associated with hormonal therapies.",
+      "mechanism_status": "Commonly reported"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "CYP3A4 inhibitors",
+      "examples": [
+        "Ketoconazole",
+        "Erythromycin"
+      ],
+      "biological_basis": "Inhibition of CYP3A4 can increase exemestane levels."
+    },
+    {
+      "interacting_group": "CYP3A4 inducers",
+      "examples": [
+        "Rifampin",
+        "St. John's Wort"
+      ],
+      "biological_basis": "Induction of CYP3A4 can decrease exemestane levels."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "NCT00687648",
+      "NCT01240941",
+      "NCT02676986"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "FDA approved for adjuvant treatment of postmenopausal women with hormone receptor-positive early breast cancer.",
+      "Commonly used in metastatic breast cancer treatment."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Exemestane drug profile",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT00687648",
+      "NCT01240941",
+      "NCT02676986"
+    ],
+    "regulatory_designations": [
+      "FDA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "25 mg daily",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 12.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP19A1"
+    ],
+    "pathways": [
+      "Aromatase Inhibition Pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CYP19A1",
+        "pdb_id": "3S7S",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "CYP19A1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 25.0,
+        "doi_or_source": "10.1016/j.bmcl.2004.11.042"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

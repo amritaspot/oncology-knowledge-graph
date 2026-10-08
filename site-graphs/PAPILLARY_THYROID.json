@@ -1,0 +1,145 @@
+{
+  "PAPILLARY_THYROID": {
+    "name": "Papillary thyroid carcinoma",
+    "metastasis_patterns": {
+      "source_ref": "DISIBIO_2008",
+      "source_category": "Thyroid",
+      "cohort": {
+        "primaries_n": 43,
+        "total_metastases_n": 96
+      },
+      "denominator_note": "Counts are individual metastatic lesions across 43 autopsied cases. % is lesion count / total mets (96), NOT % of patients with mets there. Read as approximate site involvement pattern in disseminated disease.",
+      "organ_involvement": {
+        "IMMUNE_HYPERSENSITIVITY": {
+          "lesion_count": 32,
+          "pct_of_mets": 33
+        },
+        "HEPATOBILIARY": {
+          "lesion_count": 22,
+          "pct_of_mets": 23
+        },
+        "PULMONARY": {
+          "lesion_count": 10,
+          "pct_of_mets": 10
+        },
+        "PULMONARY_PLEURA": {
+          "lesion_count": 4,
+          "pct_of_mets": 4
+        },
+        "MUSCULOSKELETAL": {
+          "lesion_count": 3,
+          "pct_of_mets": 3
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "BRAF V600E",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~40-60%",
+        "clinical_use": "Common driver in classic PTC and tall cell variant; associated with adverse clinicopathologic features and risk of recurrence in some series, though independent prognostic strength varies by cohort; predictive for BRAF-directed therapy in advanced BRAF V600E-mutant thyroid carcinoma, including dabrafenib/trametinib in anaplastic thyroid carcinoma and vemurafenib/dabrafenib use in selected RAI-refractory differentiated thyroid carcinoma; potential redifferentiation strategy"
+      },
+      {
+        "name": "RAS mutations (NRAS, HRAS, KRAS)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-20% (follicular-patterned / follicular variant enriched)",
+        "clinical_use": "Common in follicular-patterned PTC, especially follicular variant; molecular classification"
+      },
+      {
+        "name": "RET fusions (RET/PTC1, RET/PTC3)",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~5-15% sporadic adult PTC; higher in pediatric and radiation-associated tumors",
+        "clinical_use": "Oncogenic driver in a subset of PTC; selpercatinib and pralsetinib for RET fusion-positive advanced thyroid cancer"
+      },
+      {
+        "name": "NTRK fusions",
+        "type": "fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<5%",
+        "clinical_use": "Actionable driver in a small subset of PTC; larotrectinib, entrectinib (tissue-agnostic approvals)"
+      },
+      {
+        "name": "TERT promoter mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~5-15% in PTC (higher in aggressive histology and older patients)",
+        "clinical_use": "Adverse prognostic marker; especially unfavorable when co-occurring with BRAF V600E"
+      },
+      {
+        "name": "Thyroglobulin",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "Post-thyroidectomy and post-RAI surveillance marker for residual/recurrent differentiated thyroid carcinoma; unreliable if anti-Tg antibodies present"
+      },
+      {
+        "name": "Anti-thyroglobulin antibodies",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "~20-30% of thyroid cancer patients",
+        "clinical_use": "Interfere with Tg assay; serial trends can serve as a surrogate marker of persistent disease"
+      },
+      {
+        "name": "Afirma GSC / ThyroSeq / ThyGeNEXT+ThyraMIR",
+        "type": "multi-gene assay",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "Molecular tests for cytologically indeterminate (Bethesda III/IV) FNA \u2014 aid rule-out/rule-in decisions for surgery"
+      },
+      {
+        "name": "ALK fusions",
+        "type": "fusion",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "<2%",
+        "clinical_use": "Rare oncogenic driver in PTC; potentially actionable in advanced ALK fusion-positive thyroid carcinoma"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Papillary architecture with characteristic nuclear features (nuclear enlargement, overlapping, grooves, pseudoinclusions, powdery chromatin \u2014 'Orphan Annie eye')",
+      "variants": [
+        "classic papillary",
+        "follicular variant (encapsulated noninvasive FVPTC now often reclassified as NIFTP)",
+        "tall cell variant (aggressive)",
+        "columnar cell",
+        "diffuse sclerosing",
+        "hobnail variant"
+      ],
+      "grading": "Not formally graded; aggressive variants (tall cell, columnar, hobnail, solid) worse. Nuclear features are diagnostic hallmark"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often inflamed \u2014 lymphocytic infiltrate (Hashimoto-like) common",
+      "stromal_features": "Fibrovascular papillary cores; psammoma bodies (concentric calcifications)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Thyroid follicular epithelial cells",
+      "developmental_lineage": "Endoderm \u2014 thyroid diverticulum from the primitive pharyngeal floor/foramen cecum",
+      "differentiation_state": "Retains follicular differentiation \u2014 TSH-responsive, iodine-avid, thyroglobulin-producing; this differentiation is exploited therapeutically (RAI ablation, TSH suppression)",
+      "lineage_plasticity": "Progressive dedifferentiation drives poorly differentiated and anaplastic thyroid carcinoma \u2014 cumulative MAPK-pathway activation with additional alterations such as TERT promoter and TP53 can produce lineage regression; RAI-refractory disease reflects loss of iodine-avidity (NIS downregulation)"
+    }
+  }
+}

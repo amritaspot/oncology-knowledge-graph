@@ -1,0 +1,164 @@
+{
+  "molecule_name": "Dutasteride",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 6918296,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "5-alpha reductase inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Dutasteride inhibits the enzyme 5-alpha reductase, which converts testosterone to dihydrotestosterone (DHT), a hormone that contributes to prostate growth.",
+    "molecular_action": "Inhibition of 5-alpha reductase type I and II",
+    "targets": [
+      "SRD5A1",
+      "SRD5A2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced levels of dihydrotestosterone (DHT)",
+      "Decreased prostate size"
+    ],
+    "selectivity": "Inhibits both type I and type II isoforms of 5-alpha reductase",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Benign prostatic hyperplasia",
+      "Prostate cancer treatment"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to dutasteride or any component of the formulation",
+      "Pregnancy"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT01428869",
+      "NCT00399165",
+      "NCT00382356"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Dutasteride clinical and pharmacological data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT01428869",
+      "NCT00399165",
+      "NCT00382356"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "SRD5A1",
+      "SRD5A2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": "CC12CCC3C(C1CCC2C(=O)NC4=CC(=CC(=C4)C(F)(F)F)C(F)(F)F)CCC5C3(C=CC(=O)N5)C",
+    "pubchem_cid": 6918296,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6918296/SDF?record_type=3d",
+    "rotatable_bonds": 5,
+    "target_structures": [
+      {
+        "target_symbol": "SRD5A1",
+        "pdb_id": "7R13",
+        "alphafold_id": "P18405",
+        "resolution_angstroms": 2.8,
+        "experimental_method": "Cryo-EM",
+        "binding_pockets": [
+          {
+            "pocket_id": "Catalytic binding site",
+            "active_residues": [
+              "Glu57",
+              "Tyr91",
+              "Phe118",
+              "Trp201"
+            ],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "SRD5A2",
+        "pdb_id": "7R14",
+        "alphafold_id": "P31213",
+        "resolution_angstroms": 3.1,
+        "experimental_method": "Cryo-EM",
+        "binding_pockets": [
+          {
+            "pocket_id": "Catalytic binding site",
+            "active_residues": [
+              "Glu57",
+              "Tyr91",
+              "Phe118",
+              "Trp201"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "SRD5A1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 6.0,
+        "doi_or_source": "10.1016/S0022-5347(05)64230-0"
+      },
+      {
+        "target_symbol": "SRD5A2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.6,
+        "doi_or_source": "10.1016/S0022-5347(05)64230-0"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

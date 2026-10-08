@@ -1,0 +1,64 @@
+{
+  "MGUS": {
+    "name": "Monoclonal gammopathy of undetermined significance",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow",
+      "diagnostic_criteria": [
+        "M-protein <30 g/L",
+        "BM clonal plasma cells <10%",
+        "no CRAB (end-organ damage) or myeloma-defining biomarkers attributable to the plasma cell disorder"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Serum protein electrophoresis (SPEP) + immunofixation (IFE)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "Identifies and quantifies M-spike; IFE determines isotype (IgG, IgA, IgM, IgD, IgE, or light-chain only)"
+      },
+      {
+        "name": "Serum free light chains (FLC) + FLC ratio",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Universal workup",
+        "clinical_use": "Abnormal FLC ratio (\u0015/\u0003b) is a major risk factor for progression to MM or related plasma cell disorders and is part of standard diagnostic/risk assessment"
+      },
+      {
+        "name": "Mayo risk stratification (M-spike >15 g/L, non-IgG, abnormal FLC ratio)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Risk factors are serum M-protein >15 g/L, non-IgG isotype, and abnormal FLC ratio. Low-risk (0 factors): repeat at 6 months, then every 2-3 years if stable; higher risk: more frequent monitoring, with bone marrow biopsy/imaging considered based on risk and clinical features"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Minimal marrow plasma cell infiltrate (<10%) with monoclonal Ig production but no end-organ damage or myeloma-defining events",
+      "variants": [
+        "IgG MGUS (~70%)",
+        "IgA MGUS",
+        "light-chain MGUS",
+        "IgM MGUS (precursor to WM/lymphoma rather than MM)"
+      ],
+      "grading": "Not graded; Mayo risk stratification for progression"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Pre-malignant state \u0014 no myeloma-defining events; many of the same initiating events seen in MM (for non-IgM MGUS, including primary IgH translocations and hyperdiploidy) can be present without progression to symptomatic disease",
+      "stromal_features": "Marrow with scattered clonal plasma cells (<10%); no lytic bony lesions"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "For non-IgM MGUS: post-germinal center plasma cells with monoclonal Ig production but limited proliferation; for IgM MGUS: post-germinal center B cell/lymphoplasmacytic lineage",
+      "developmental_lineage": "Mesoderm \u0014 lymphoid (mature plasma cells for non-IgM MGUS; lymphoplasmacytic/B-cell lineage for IgM MGUS)",
+      "differentiation_state": "Terminal plasma cell differentiation with monoclonal Ig production in non-IgM MGUS; low tumour burden with preserved marrow function",
+      "lineage_plasticity": "Pre-malignant state with initiating events similar to MM in non-IgM MGUS but without progression to full disease phenotype; IgM MGUS is a distinct biologic entity that progresses to WM/lymphoma rather than MM"
+    }
+  }
+}

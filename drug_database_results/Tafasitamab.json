@@ -1,0 +1,88 @@
+{
+  "molecule_name": "Tafasitamab",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Monjuvi"
+  ],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Tafasitamab is a humanized Fc-modified cytolytic CD19-targeting monoclonal antibody that induces cell death in CD19-expressing B cells.",
+    "molecular_action": "Targets CD19 on B cells to mediate cytotoxicity.",
+    "targets": [
+      "CD19"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Induction of apoptosis in B cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Diffuse Large B-Cell Lymphoma, Follicular Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Used in combination with lenalidomide for treatment of adults with diffuse large B-cell lymphoma",
+      "Used in combination with lenalidomide and rituximab for follicular lymphoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Tafasitamab",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT04646395",
+      "NCT04978584",
+      "NCT07030699"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD19"
+    ],
+    "pathways": []
+  }
+}

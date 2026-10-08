@@ -1,0 +1,138 @@
+{
+  "molecule_name": "Tamoxifen",
+  "identifiers": {
+    "FDA_UNII": "D6KZ2S1B1D",
+    "PubChem_CID": 2733526,
+    "CAS_number": "10540-29-1",
+    "NCI_Thesaurus_code": "C123",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Nolvadex"
+  ],
+  "drug_class": "Selective Estrogen Receptor Modulator (SERM)",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Tablet",
+  "approved_countries": [
+    "United States",
+    "European Union",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Tamoxifen works by blocking estrogen receptors in breast tissue, which can help slow or stop the growth of certain types of breast tumors that need estrogen to grow.",
+    "molecular_action": "Tamoxifen is a selective estrogen receptor modulator (SERM) that binds to estrogen receptors, inhibiting estrogen's effects in breast tissue while acting as an estrogen agonist in other tissues.",
+    "targets": [
+      "ESR1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth in estrogen receptor-positive breast cancer"
+    ],
+    "selectivity": "Selective for estrogen receptors in breast tissue",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast cancer",
+    "histology": "Estrogen receptor-positive breast cancer",
+    "clinical_settings": [
+      "Adjuvant therapy for breast cancer",
+      "Treatment of metastatic breast cancer",
+      "Prevention of breast cancer in high-risk women"
+    ],
+    "scope": "Oncology",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "History of thromboembolic events",
+      "Pregnancy",
+      "Known hypersensitivity to tamoxifen"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Hot flashes",
+      "organ_system": "Endocrine",
+      "biological_explanation": "Tamoxifen alters estrogen levels, leading to vasomotor symptoms.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Discomfort",
+        "Impact on quality of life"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Increased risk of endometrial cancer",
+      "organ_system": "Reproductive",
+      "biological_explanation": "Tamoxifen acts as an estrogen agonist in the endometrium, potentially leading to hyperplasia and malignancy.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Endometrial cancer diagnosis",
+        "Surgical intervention"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Tamoxifen can irritate the gastrointestinal tract.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Discomfort",
+        "Potential for dehydration"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Tamoxifen is primarily used in the treatment of breast cancer and has a well-established safety profile.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available for this drug's mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Moderate",
+    "physical_half_life_days": 5.5,
+    "biological_half_life_hours": 14.0,
+    "clearance_route": [
+      "Hepatic metabolism"
+    ],
+    "cyp_metabolism": [
+      "CYP2D6",
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT00030147",
+      "NCT07256769",
+      "NCT01155063"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "20 mg daily",
+    "objective_response_rate_pct": 50.0,
+    "median_pfs_months": 24.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "ESR1"
+    ],
+    "pathways": [
+      "Estrogen signaling pathway"
+    ]
+  }
+}

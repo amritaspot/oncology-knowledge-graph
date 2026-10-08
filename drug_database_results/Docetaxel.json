@@ -1,0 +1,174 @@
+{
+  "molecule_name": "Docetaxel",
+  "identifiers": {
+    "FDA_UNII": "0D0D1Q0D1D",
+    "PubChem_CID": 148124,
+    "CAS_number": "114977-28-5",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "NCI"
+  },
+  "brand_names": [
+    "Taxotere"
+  ],
+  "drug_class": "Antineoplastic agent",
+  "modality": "Small molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Docetaxel is a chemotherapy drug that works by stabilizing microtubules, preventing cell division and leading to cell death.",
+    "molecular_action": "Binds to \u03b2-tubulin, stabilizing microtubules and inducing cell-cycle arrest and apoptosis.",
+    "targets": [
+      "\u03b2-tubulin"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cell-cycle arrest",
+      "Apoptosis"
+    ],
+    "selectivity": "Non-selective for cancer cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast cancer, Non-small cell lung cancer, Prostate cancer",
+    "histology": "Various solid tumors",
+    "clinical_settings": [
+      "First-line treatment for breast cancer",
+      "Combination therapy for lung cancer"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://www.cancer.gov/about-cancer/treatment/drugs/docetaxel"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to docetaxel or polysorbate 80",
+      "Severe liver impairment"
+    ],
+    "reference_urls": [
+      "https://www.drugs.com/docetaxel.html"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Neutropenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Docetaxel can cause bone marrow suppression leading to decreased white blood cell production.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Febrile neutropenia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy agents can irritate the gastrointestinal tract.",
+      "mechanism_status": "Well-established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in various solid tumors, including breast and lung cancer."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Docetaxel as a chemotherapy agent",
+    "mechanism_doi_meaning": "Mechanism of action is well-documented in literature.",
+    "empty_mechanism_doi_meaning": "No additional DOI available for mechanism of action.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 1.5,
+    "biological_half_life_hours": 36.0,
+    "clearance_route": [
+      "Hepatic",
+      "Renal"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT02921984",
+      "NCT04385550",
+      "NCT00845910"
+    ],
+    "regulatory_designations": [
+      "FDA approved",
+      "EMA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "75 mg/m\u00b2",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 6.0
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TUBB"
+    ],
+    "pathways": [
+      "Microtubule stabilization",
+      "Apoptosis induction"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 148124,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/148124/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "TUBB",
+        "pdb_id": "1TUB",
+        "alphafold_id": "P07437",
+        "resolution_angstroms": 3.5,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "TUBB",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 1.2,
+        "doi_or_source": "10.1021/jm00092a015"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

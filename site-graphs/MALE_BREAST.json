@@ -1,0 +1,62 @@
+{
+  "MALE_BREAST": {
+    "name": "Male breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "ER positive in ~90% or more; PR positive in ~70\u201380%",
+        "clinical_use": "Endocrine therapy is standard; tamoxifen is generally preferred in men with HR-positive disease (aromatase inhibitors are typically combined with GnRH suppression if used)"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5\u201315%",
+        "clinical_use": "HER2-positive disease is treated analogously to female HER2-positive breast cancer"
+      },
+      {
+        "name": "BRCA2 (germline)",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10% overall (BRCA2 far more common than BRCA1 in male breast cancer)",
+        "clinical_use": "PARP inhibitors in appropriate hereditary breast cancer settings; genetic counselling"
+      },
+      {
+        "name": "Androgen receptor (AR)",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": ">90%",
+        "clinical_use": "Commonly expressed; no established routine AR-directed therapy, though explored in trials"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Almost always invasive ductal NST or DCIS; ILC extremely rare because terminal lobular units are usually absent or rudimentary in the male breast",
+      "variants": [
+        "invasive ductal NST",
+        "DCIS",
+        "papillary variants (relatively enriched)"
+      ],
+      "grading": "Standard Nottingham grade"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Less studied than female disease",
+      "stromal_features": "Similar to female HR+ breast cancer"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Rudimentary male breast ductal epithelium (limited lobular development)",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Predominantly luminal and usually ER+/PR+; luminal A/B intrinsic subtype dominates, while lobular carcinoma and triple-negative/basal-like disease are uncommon",
+      "lineage_plasticity": "Restricted phenotypic spectrum because of limited male mammary tissue lineage repertoire"
+    }
+  }
+}

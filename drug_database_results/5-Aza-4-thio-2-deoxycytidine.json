@@ -1,0 +1,185 @@
+{
+  "molecule_name": "5-Aza-4'-thio-2'-deoxycytidine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 5270713,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": "C162531",
+    "development_codes": [
+      "ASTX030"
+    ],
+    "identifier_scope": "Identifiers refer to 5-aza-4'-thio-2'-deoxycytidine, an investigational nucleoside analogue also developed as ASTX030 in oral cedazuridine combination programs."
+  },
+  "brand_names": [],
+  "drug_class": "DNA methyltransferase inhibitor; hypomethylating agent; cytidine nucleoside analogue",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "5-Aza-4'-thio-2'-deoxycytidine is an investigational hypomethylating nucleoside analogue designed to inhibit DNA methylation after intracellular activation and incorporation into DNA, leading to trapping/depletion of DNA methyltransferases and re-expression of epigenetically silenced genes.",
+    "molecular_action": "Acts as a deoxycytidine analogue that is phosphorylated intracellularly and incorporated into DNA, where it forms covalent adducts with DNA methyltransferases, producing DNMT inhibition and genome hypomethylation.",
+    "targets": [
+      "DNA methyltransferases"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Global DNA hypomethylation",
+      "Depletion/trapping of DNMT enzymes",
+      "Re-expression of epigenetically silenced genes",
+      "Altered differentiation and apoptosis programs in malignant cells"
+    ],
+    "selectivity": "Class effect is primarily directed at DNMT family enzymes after DNA incorporation; isoform selectivity among DNMT paralogs was not clearly established in the located sources.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Myelodysplastic syndromes and chronic myelomonocytic leukemia",
+    "histology": "Myeloid neoplasms",
+    "clinical_settings": [
+      "Investigational treatment in adults with MDS or CMML"
+    ],
+    "scope": "Investigational, not approved",
+    "reference_urls": [
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/5-aza-4-thio-2-deoxycytidine",
+      "https://clinicaltrials.gov/study/NCT03306264"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Neutropenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Expected on-target/myelosuppressive toxicity of hypomethylating nucleoside analogues affecting proliferating marrow precursors.",
+      "mechanism_status": "Expected/clinical class effect",
+      "potential_consequences": [
+        "Infection risk",
+        "Dose interruption",
+        "Febrile neutropenia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Thrombocytopenia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Expected marrow suppression from cytidine analogue hypomethylating therapy.",
+      "mechanism_status": "Expected/clinical class effect",
+      "potential_consequences": [
+        "Bleeding risk",
+        "Transfusion requirement",
+        "Dose reduction or delay"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Anemia",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Expected suppression of erythroid precursors in the setting of myelosuppressive therapy and underlying myeloid disease.",
+      "mechanism_status": "Expected/clinical class effect",
+      "potential_consequences": [
+        "Fatigue",
+        "Transfusion requirement"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Gastrointestinal toxicity",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Reported/expected with oral nucleoside analogue therapy; precise mechanism not specifically established for this agent in located sources.",
+      "mechanism_status": "Reported/uncertain agent-specific mechanism",
+      "potential_consequences": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Reduced adherence"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fatigue",
+        "Constipation",
+        "Decreased appetite"
+      ],
+      "biological_explanation": "Common nonspecific adverse effects reported with hypomethylating therapy in myeloid malignancy studies/program descriptions; agent-specific mechanistic attribution not clearly established in located sources.",
+      "mechanism_status": "Reported"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Cytidine deaminase activity / cedazuridine coadministration",
+      "examples": [
+        "Cedazuridine"
+      ],
+      "biological_basis": "Cedazuridine inhibits cytidine deaminase to improve oral exposure of 5-aza-4'-thio-2'-deoxycytidine in combination development programs."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://ncithesaurus.nci.nih.gov",
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/5-aza-4-thio-2-deoxycytidine"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://clinicaltrials.gov/study/NCT03306264",
+      "https://www.astx.com/wp-content/uploads/2022/12/ASH-2022-ASTX030.pdf"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Record focuses on 5-aza-4'-thio-2'-deoxycytidine as an investigational oral hypomethylating agent, including data from development as ASTX030 with cedazuridine where explicitly attributable.",
+    "mechanism_doi_meaning": "Listed DOIs support mechanistic statements directly when available.",
+    "empty_mechanism_doi_meaning": "Empty DOI arrays indicate no directly verified DOI was confidently established for that specific statement during this compilation.",
+    "null_meaning": "Null means not verified in established human sources or not applicable.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT03306264"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "DNMT1",
+      "DNMT3A",
+      "DNMT3B"
+    ],
+    "pathways": [
+      "DNA methylation",
+      "Epigenetic regulation of gene expression"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

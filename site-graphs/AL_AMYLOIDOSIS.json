@@ -1,0 +1,101 @@
+{
+  "AL_AMYLOIDOSIS": {
+    "name": "AL amyloidosis",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow (clonal plasma cells producing amyloidogenic light chains)",
+      "characteristic_organ_involvement": [
+        "heart (restrictive cardiomyopathy \u2014 common presenting feature; cardiac involvement in ~50-70% at diagnosis)",
+        "kidney (nephrotic-range proteinuria)",
+        "liver (hepatomegaly)",
+        "GI tract",
+        "autonomic and peripheral nerves",
+        "soft tissue (macroglossia \u2014 highly suggestive/pathognomonic when present)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "Tissue biopsy with Congo red staining + green birefringence",
+        "type": "histology",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Universal",
+        "clinical_use": "Confirms amyloid deposition. Fat pad, rectum, kidney, or affected organ biopsy"
+      },
+      {
+        "name": "Amyloid typing (mass spectrometry preferred; IHC alternative)",
+        "type": "mass spectrometry / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Essential",
+        "clinical_use": "Distinguishes AL (light chain) from ATTR (transthyretin), AA (serum amyloid A), and rarer forms \u2014 critical because treatment differs"
+      },
+      {
+        "name": "Serum FLC + FLC ratio",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Usually abnormal; monoclonal light chain production is required for AL",
+        "clinical_use": "Difference between involved and uninvolved FLC (dFLC) is a Mayo staging component in revised systems and is used for haematologic response monitoring"
+      },
+      {
+        "name": "NT-proBNP + Troponin T (or hs-TnT)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Elevated in cardiac AL",
+        "clinical_use": "Cardiac staging is biomarker-based. In Mayo 2004, thresholds include NT-proBNP >332 pg/mL and cTnT >0.035 \u03bcg/L. In the European/Mayo 2012 modification, stage III is split using NT-proBNP >8500 pg/mL; in the revised Mayo 2012 system, dFLC \u2265180 mg/L is added to troponin and NT-proBNP to create stages I-IV"
+      },
+      {
+        "name": "CD38, t(11;14)",
+        "type": "IHC / FISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "CD38 commonly expressed on clonal plasma cells; t(11;14) ~40-60%",
+        "clinical_use": "Daratumumab (dara-CyBorD \u2014 ANDROMEDA) is a first-line standard. t(11;14) is enriched in AL and is associated with sensitivity to BCL2 inhibition; venetoclax is promising but not an established regulatory-standard therapy specifically for AL"
+      },
+      {
+        "name": "Cardiac MRI with LGE (late gadolinium enhancement)",
+        "type": "imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Diffuse subendocardial or transmural LGE is characteristic of cardiac amyloidosis"
+      },
+      {
+        "name": "Bone scintigraphy (99mTc-DPD/PYP/HMDP)",
+        "type": "nuclear imaging",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually strongly positive in ATTR; can be negative or occasionally positive in AL",
+        "clinical_use": "Grade 2-3 uptake with negative monoclonal workup strongly supports ATTR (often no biopsy needed). Helps distinguish ATTR from AL, but positive uptake does not by itself exclude AL when a monoclonal gammopathy is present"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Tissue deposition of amorphous eosinophilic material (light chain-derived amyloid) with characteristic apple-green birefringence under polarised light after Congo red staining",
+      "variants": [
+        "by involved organ: cardiac AL, renal AL, hepatic AL, GI AL, autonomic AL, systemic multiorgan AL"
+      ],
+      "grading": "Mayo cardiac staging (stage I-IV in revised systems) drives prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Underlying clonal plasma cell disorder produces amyloidogenic light chains \u2014 treatment targets the plasma cell clone (dara-CyBorD \u2014 ANDROMEDA); t(11;14) is enriched in AL and may predict venetoclax sensitivity",
+      "stromal_features": "Perivascular and diffuse amyloid deposition in affected organs; cardiac AL shows diffuse subendocardial or transmural LGE pattern on MRI"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Plasma cells producing amyloidogenic light chains \u2014 often small underlying clone (may be MGUS-level plasma cell burden)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (plasma cells)",
+      "differentiation_state": "Terminal plasma cell differentiation similar to MGUS/SMM (often low plasma cell burden); distinctive feature is production of amyloidogenic light chains (particularly lambda) that misfold and deposit as amyloid fibrils in tissues",
+      "lineage_plasticity": "Amyloidogenic light chain production is defining biology \u2014 biased immunoglobulin light chain variable gene usage has been associated with organ tropism, including cardiac involvement; t(11;14) is enriched in AL (~40-60%) compared with MM and may contribute to venetoclax sensitivity"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "NSCLC_SQUAMOUS": {
+    "name": "NSCLC \u2014 squamous cell carcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Wang X, Wang Z, Pan J, et al. Patterns of Extrathoracic Metastases in Different Histological Types of Lung Cancer. Front Oncol. 2020;10:715.",
+        "doi": "10.3389/fonc.2020.00715",
+        "study_type": "Population-based SEER analysis; n=159,241 lung cancer patients diagnosed 2010-2014",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 11.2
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 5.7
+        },
+        "HEPATOBILIARY": {
+          "frequency_pct": 6.2
+        },
+        "IMMUNE_HYPERSENSITIVITY": {
+          "frequency_pct": 3.9
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "PD-L1 (TPS by 22C3)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; TPS \u226550% in ~25-30%",
+        "clinical_use": "Pembrolizumab monotherapy (TPS \u226550%) or chemo-IO regardless of TPS"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Generally higher than adenocarcinoma (smoking-related)",
+        "clinical_use": "Associated with immunotherapy benefit, but not a routinely used standalone biomarker in NSCLC clinical decision-making"
+      },
+      {
+        "name": "FGFR1 amplification",
+        "type": "copy number",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Investigational; FGFR inhibitor trials, but no established standard-of-care FGFR-targeted therapy in lung SCC"
+      },
+      {
+        "name": "PIK3CA mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~7-15%",
+        "clinical_use": "Investigational; no established standard-of-care PI3K-targeted therapy in lung SCC"
+      },
+      {
+        "name": "EGFR",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<5% (uncommon in pure squamous histology; more likely in never-smokers, small biopsies, or mixed histology)",
+        "clinical_use": "If present, treat with EGFR-directed therapy per NSCLC guidelines"
+      },
+      {
+        "name": "NTRK / ALK / ROS1 / BRAF V600E / RET / MET ex14 / KRAS G12C / HER2",
+        "type": "various",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare individually in squamous NSCLC",
+        "clinical_use": "Comprehensive molecular testing may be considered in selected advanced-stage squamous cases; actionable alterations are uncommon but can guide matched targeted therapy when identified"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Squamous differentiation with keratinisation, keratin pearls, or intercellular bridges",
+      "variants": [
+        "keratinizing",
+        "non-keratinizing",
+        "basaloid (worst prognosis)"
+      ],
+      "grading": "Well / moderately / poorly differentiated by degree of keratinisation and pleomorphism"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often more inflamed than adeno (smoking-driven TMB); mixed 'inflamed' and 'excluded'",
+      "stromal_features": "Desmoplastic; central necrosis in large tumours"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal cells of bronchial epithelium (proximal airway) \u2014 squamous metaplasia of normal columnar epithelium is precursor",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Keratinizing squamous with intercellular bridges and keratin pearls; p40/p63 lineage markers positive",
+      "lineage_plasticity": "Field cancerization from smoking produces multifocal disease; central airway location reflects basal cell distribution"
+    }
+  }
+}

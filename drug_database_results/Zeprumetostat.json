@@ -1,0 +1,104 @@
+{
+  "molecule_name": "Zeprumetostat",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 135332280,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "EZH2 Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [
+    "China"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Zeprumetostat is a selective inhibitor of the enhancer of zeste homolog 2 (EZH2), which is involved in histone methylation and gene silencing.",
+    "molecular_action": "Inhibition of EZH2 activity leads to decreased histone methylation and reactivation of tumor suppressor genes.",
+    "targets": [
+      "EZH2"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reactivation of tumor suppressor genes",
+      "Inhibition of tumor growth"
+    ],
+    "selectivity": "Selective for EZH2",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Epithelial Ovarian Cancer, NK/T-Cell Lymphoma, Peripheral T-Cell Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory Cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Zeprumetostat clinical development and mechanism of action.",
+    "mechanism_doi_meaning": "No DOI available for the mechanism of action.",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT07339553",
+      "NCT07502768",
+      "NCT07724782"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "EZH2"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

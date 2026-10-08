@@ -1,0 +1,96 @@
+{
+  "SYSTEMIC_MASTOCYTOSIS": {
+    "name": "Systemic mastocytosis",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow (mast cell infiltrates)",
+      "characteristic_extramedullary_sites": [
+        "skin (cutaneous mastocytosis/urticaria pigmentosa, especially in indolent forms)",
+        "GI tract",
+        "liver",
+        "spleen",
+        "lymph nodes (more common in advanced/aggressive forms)",
+        "bone"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "KIT D816V",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~80-95%",
+        "clinical_use": "Diagnostic major molecular driver in most adult SM. Predictive because KIT D816V confers resistance to imatinib (mutation impairs binding). Avapritinib shows high activity in advanced SM; midostaurin also has activity."
+      },
+      {
+        "name": "Serum tryptase",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": ">20 ng/mL is a WHO/ICC minor criterion (unless explained by an associated myeloid neoplasm or hereditary alpha-tryptasemia)",
+        "clinical_use": "Diagnostic; disease burden/response monitoring; hereditary alpha-tryptasemia is an important confounder/differential"
+      },
+      {
+        "name": "KIT non-D816V mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare subset",
+        "clinical_use": "Imatinib may be effective in selected cases with imatinib-sensitive KIT mutations or wild-type KIT (e.g., K509I, F522C)"
+      },
+      {
+        "name": "Multilineage KIT D816V",
+        "type": "molecular",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common in advanced SM and SM-AHN",
+        "clinical_use": "Detection in non-mast-cell lineages supports multilineage involvement and is associated with more advanced disease biology and worse prognosis"
+      },
+      {
+        "name": "SRSF2, ASXL1, RUNX1 (S/A/R mutations)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common in advanced SM",
+        "clinical_use": "Adverse prognostic mutations; incorporated into mutation-adjusted prognostic models such as MARS"
+      },
+      {
+        "name": "IPSM / MARS score",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Risk stratification in SM; IPSM is used across non-advanced and advanced SM contexts, whereas MARS is specifically for advanced SM"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Multifocal dense infiltrates of spindle-shaped/atypical mast cells (\u226515 mast cells in aggregates) in bone marrow and/or other extracutaneous organs; mast cells are tryptase+, CD117+, and typically aberrantly CD25+ with or without CD2 and/or CD30 expression",
+      "variants": [
+        "indolent SM (ISM \u2014 most common; often cutaneous involvement, minimal organ dysfunction)",
+        "smouldering SM (SSM)",
+        "aggressive SM (ASM)",
+        "SM with associated haematological neoplasm (SM-AHN)",
+        "mast cell leukaemia (MCL \u2014 very aggressive)"
+      ],
+      "grading": "WHO/ICC categories span ISM, SSM, ASM, SM-AHN, and MCL"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Mast cell mediator release (histamine, tryptase, prostaglandins, leukotrienes and other mediators) drives systemic symptoms \u2014 flushing, urticaria, anaphylaxis, diarrhoea, hypotension",
+      "stromal_features": "Multifocal marrow mast cell aggregates with spindled morphology; bone remodeling abnormalities including osteopenia/osteoporosis or osteosclerosis can occur"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Haematopoietic stem/progenitor cell or mast cell precursor acquiring KIT D816V in many cases, particularly in advanced/multilineage disease",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic (mast cell lineage)",
+      "differentiation_state": "Multifocal dense infiltrates of spindle-shaped mast cells with atypical morphology; tryptase+, CD117+, aberrant CD25+ with or without CD2 and/or CD30 expression (aberrant expression distinguishes clonal from reactive mast cells)",
+      "lineage_plasticity": "KIT D816V drives constitutive KIT activation independent of SCF ligand. Disease severity spectrum (ISM \u2192 SSM \u2192 ASM \u2192 SM-AHN \u2192 MCL) reflects clonal evolution, and additional mutations such as SRSF2, ASXL1, and RUNX1 are characteristic of advanced SM"
+    }
+  }
+}

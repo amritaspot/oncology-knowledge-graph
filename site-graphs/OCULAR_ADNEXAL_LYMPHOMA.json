@@ -1,0 +1,37 @@
+{
+  "OCULAR_ADNEXAL_LYMPHOMA": {
+    "name": "Ocular adnexal lymphoma",
+    "biomarkers": [
+      {
+        "name": "See EXTRANODAL_MARGINAL_ZONE_MALT under B_CELL_NHL",
+        "type": "cross-reference",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~50\n80% are MALT",
+        "clinical_use": "Chlamydia psittaci association has been reported in some geographic regions, but prevalence is variable and inconsistent; doxycycline has been used in some early-stage ocular adnexal MALT lymphoma cases, while involved-site radiotherapy is a standard treatment for localized disease and rituximab-based therapy is used in selected cases"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small B lymphocytes with plasmacytic differentiation forming reactive lymphoid infiltrates in conjunctiva, lacrimal gland, or orbit",
+      "variants": [
+        "MALT lymphoma (~50\n80%)",
+        "follicular lymphoma",
+        "DLBCL",
+        "mantle cell lymphoma"
+      ],
+      "grading": "By WHO lymphoma classification"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "MALT arises in a setting of chronic antigenic stimulation with reactive follicles and monoclonal marginal zone B cells; Chlamydia psittaci association has been described in some regions but is not universal",
+      "stromal_features": "Lymphoepithelial lesions; lymphoid follicles"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Marginal zone B cells recruited to conjunctival or ocular adnexal tissue through chronic antigen exposure; Chlamydia psittaci has been implicated in some geographic regions",
+      "developmental_lineage": "Mesoderm \n haematopoietic (mature B lymphocytes)",
+      "differentiation_state": "Marginal zone B-cell differentiation with plasmacytic maturation; typically CD20+, CD5-, CD10-, CD23-",
+      "lineage_plasticity": "Same MALT lymphoma biology as extranodal marginal zone lymphomas of other sites (gastric, thyroid, salivary) \n chronic antigen stimulation drives clonal expansion"
+    }
+  }
+}

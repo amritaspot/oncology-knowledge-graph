@@ -1,0 +1,70 @@
+{
+  "PULMONARY_LCNEC": {
+    "name": "Large cell neuroendocrine carcinoma (pulmonary)",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Chen J, et al. Distant metastasis patterns among lung cancer subtypes and impact of primary tumor resection on survival in metastatic lung cancer using SEER database. Sci Rep. 2024.",
+        "pmc_id": "PMC11438988",
+        "study_type": "SEER population-based analysis",
+        "verified_date": "2026-09-11"
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "Chromogranin A, synaptophysin, INSM1",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually positive in at least one neuroendocrine marker; synaptophysin and INSM1 are commonly positive, chromogranin A is variable",
+        "clinical_use": "Confirms NE differentiation"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Usually high, often >40%",
+        "clinical_use": "Supports high-grade neuroendocrine carcinoma and helps distinguish from atypical carcinoid"
+      },
+      {
+        "name": "TP53, RB1",
+        "type": "mutation / loss",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Co-alteration enriched in the SCLC-like molecular subset; reported in a substantial subset of LCNEC but not universal",
+        "clinical_use": "Molecular subtyping: SCLC-like (TP53+RB1 co-alteration/loss) may benefit from platinum-etoposide (SCLC-like regimen); NSCLC-like tumors more often harbor NSCLC-type alterations and may be treated with NSCLC regimens"
+      },
+      {
+        "name": "KRAS, STK11, KEAP1",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "Enriched in the NSCLC-like molecular subset",
+        "clinical_use": "Molecular subtyping"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Large cells with neuroendocrine architecture (nests, palisading, rosettes) and NE marker positivity by IHC",
+      "variants": [
+        "classic LCNEC",
+        "combined LCNEC (with adeno or squamous)"
+      ],
+      "grading": "High-grade by definition; Ki-67 usually high and often >40%, mitoses >10/2 mm\u0000b2, necrosis common"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable; SCLC-like subset less inflamed",
+      "stromal_features": "Necrosis common"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pulmonary neuroendocrine cells (PNEC) are a plausible cell of origin for at least a subset; molecular studies support biologic heterogeneity with more than one evolutionary route",
+      "developmental_lineage": "Endoderm \u0014 foregut-derived pulmonary epithelium with neuroendocrine differentiation",
+      "differentiation_state": "High-grade neuroendocrine \u0014 synaptophysin and/or chromogranin/INSM1 positive, but with larger cells and more cytoplasm than SCLC, often with nucleolar prominence",
+      "lineage_plasticity": "Molecular studies reveal two distinct subgroups: SCLC-like (TP53+RB1 co-alteration/loss) and NSCLC-like (STK11, KEAP1, KRAS) \u0014 reflecting convergence from different lineage backgrounds toward similar morphology"
+    }
+  }
+}

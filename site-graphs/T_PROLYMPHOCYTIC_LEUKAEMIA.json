@@ -1,0 +1,87 @@
+{
+  "T_PROLYMPHOCYTIC_LEUKAEMIA": {
+    "name": "T-cell prolymphocytic leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "peripheral_blood + bone_marrow + spleen + liver + lymph_nodes + skin",
+      "characteristic_extramedullary_sites": [
+        "skin (papular/diffuse rash)",
+        "serous effusions (pleural, ascites)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "inv(14)(q11q32) or t(14;14) \u2014 TCL1A rearrangement",
+        "type": "cytogenetic / FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~60\u201380%",
+        "clinical_use": "Defining hallmark abnormality; TCL1A IHC can be used as a surrogate"
+      },
+      {
+        "name": "ATM mutations/deletions",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~70\u201380%",
+        "clinical_use": "Common genetic lesion; ATM dysfunction is frequent in T-PLL"
+      },
+      {
+        "name": "Immunophenotype (CD2+/CD3+/CD5+/CD7+; usually CD4+/CD8-, sometimes CD4/8 double+)",
+        "type": "flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Distinguishes from other mature T-cell leukaemias"
+      },
+      {
+        "name": "CD52",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "High in most cases",
+        "clinical_use": "Target of alemtuzumab \u2014 standard first-line therapy"
+      },
+      {
+        "name": "JAK-STAT pathway mutations (JAK1, JAK3, STAT5B)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~20\u201340%",
+        "clinical_use": "Recurrent cooperating lesions; rationale for JAK/STAT pathway inhibitor trials"
+      },
+      {
+        "name": "t(X;14)(q28;q11) or t(Y;14)(q12;q11) \u2014 MTCP1 rearrangement",
+        "type": "cytogenetic / FISH",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~20%",
+        "clinical_use": "Alternative hallmark driver in TCL1-family activation when TCL1A rearrangement is absent"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Small to medium-sized T-cells with irregular nuclei, visible nucleoli, and cytoplasmic 'blebs' or protrusions; marrow, blood, spleen, liver, lymph node, skin, and occasional effusion involvement",
+      "variants": [
+        "small cell variant",
+        "cerebriform (S\u00e9zary-like) variant"
+      ],
+      "grading": "Not graded; aggressive by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "CD52 expression commonly enables alemtuzumab therapy \u2014 the standard first-line despite associated infection risk",
+      "stromal_features": "Widespread infiltration \u2014 marrow, blood, spleen, liver, lymph nodes, skin, and serous effusions"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Mature post-thymic T cells (most often CD4+, less often CD4+CD8+ double positive, and occasionally CD8+) with distinctive TCL1-family activation",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mature post-thymic T cells)",
+      "differentiation_state": "Mature T-cell differentiation with small to medium-sized cells with irregular nuclei, visible nucleoli, and cytoplasmic 'blebs' or protrusions; TCL1A+ (or MTCP1+) enables leukaemogenesis",
+      "lineage_plasticity": "TCL1A activation (via 14q32 involvement with TCR loci) or MTCP1 activation drives this distinctive mature T-cell malignancy; JAK-STAT pathway mutations (JAK1, JAK3, STAT5B) are recurrent cooperating lesions"
+    }
+  }
+}

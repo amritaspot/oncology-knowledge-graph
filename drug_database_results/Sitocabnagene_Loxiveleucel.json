@@ -1,0 +1,85 @@
+{
+  "molecule_name": "Sitocabnagene Loxiveleucel",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "tak-007",
+      "tak 007",
+      "tak007"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "CAR-T Cell Therapy",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "A CAR-T therapy targeting CD19 to treat B-cell malignancies.",
+    "molecular_action": "Modulates CD19 on B-lymphocytes to induce cell-mediated cytotoxicity.",
+    "targets": [
+      "CD19"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Destruction of B-cells expressing CD19"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "B-cell Non-Hodgkin Lymphoma",
+    "histology": null,
+    "clinical_settings": [
+      "Relapsed or Refractory B-cell Non-Hodgkin Lymphoma"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical development status and mechanism of action.",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Active",
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD19"
+    ],
+    "pathways": []
+  }
+}

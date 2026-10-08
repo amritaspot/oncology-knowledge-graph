@@ -1,0 +1,102 @@
+{
+  "molecule_name": "Allogeneic BAFF-L-expressing CAR T Cells LMY-922",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "LMY-922"
+    ],
+    "identifier_scope": "Investigational"
+  },
+  "brand_names": [],
+  "drug_class": "Biologic",
+  "modality": "Cell Therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "LMY-922 is a CAR T cell therapy engineered to express BAFF-L, targeting B-cell activating factor receptors on malignant B cells.",
+    "molecular_action": "CAR T cells bind to BAFF receptors, leading to targeted cytotoxicity against B-cell malignancies.",
+    "targets": [
+      "BAFF-R",
+      "TACI",
+      "BCMA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Hodgkin Lymphoma, Chronic Lymphocytic Leukemia, Hairy Cell Leukemia, Multiple Myeloma",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Allogeneic BAFF-L-expressing CAR T Cells LMY-922",
+    "mechanism_doi_meaning": "DOIs for mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOIs were found for the mechanism of action.",
+    "null_meaning": "No data available or not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT07679919",
+      "NCT07729995"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TNFRSF13C",
+      "TNFRSF13B",
+      "TNFRSF17"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

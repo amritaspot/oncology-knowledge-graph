@@ -1,0 +1,69 @@
+{
+  "CHL_MIXED_CELLULARITY": {
+    "name": "Classical HL, mixed cellularity",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes",
+      "characteristic_sites": [
+        "peripheral nodes",
+        "spleen involvement more common than in NS",
+        "less mediastinal predominance"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "CD30, CD15, CD20 (typical cHL panel)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "CD30 positive in nearly all cases; CD15 positive in ~75-85%; CD20 variably positive in a minority of cases",
+        "clinical_use": "Diagnostic immunophenotype for cHL; CD30 is a therapeutic target in cHL"
+      },
+      {
+        "name": "EBV (EBER ISH)",
+        "type": "ISH",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~70%",
+        "clinical_use": "Higher than NS; associates with HIV and low-resource settings"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC / FISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "High expression is common in HRS cells; 9p24.1/PD-L1/PD-L2 alterations are frequent in cHL",
+        "clinical_use": "Nivolumab, pembrolizumab active"
+      },
+      {
+        "name": "Brentuximab vedotin (CD30-directed)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Standard as per cHL"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Reed-Sternberg cells and Hodgkin cells scattered in mixed inflammatory infiltrate without prominent fibrous banding",
+      "variants": [
+        "classic mixed cellularity"
+      ],
+      "grading": "Ann Arbor + IPS staging"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Mixed inflammatory infiltrate (T cells, histiocytes, eosinophils, plasma cells); EBV-driven immune interactions in ~70%",
+      "stromal_features": "Diffuse or interfollicular growth without dense fibrous banding"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Same crippled germinal centre B cells as other cHL subtypes; EBV-positive in ~70% of mixed cellularity (higher than NS)",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid",
+      "differentiation_state": "Same RS cell biology as NS-cHL; distinctive TME with mixed inflammatory infiltrate (T cells, histiocytes, eosinophils, plasma cells) without prominent fibrous banding",
+      "lineage_plasticity": "Same lineage principles as NS-cHL; EBV-driven cases show LMP1 expression which activates NF-\u03baB signalling \u2014 provides alternative pro-survival mechanism to somatic mutations"
+    }
+  }
+}

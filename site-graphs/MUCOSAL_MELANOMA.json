@@ -1,0 +1,70 @@
+{
+  "MUCOSAL_MELANOMA": {
+    "name": "Mucosal melanoma",
+    "biomarkers": [
+      {
+        "name": "KIT",
+        "type": "mutation / amplification",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-25% (enriched)",
+        "clinical_use": "KIT inhibitors such as imatinib in selected activating KIT alterations; nilotinib has also been studied"
+      },
+      {
+        "name": "BRAF",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-15% (lower than cutaneous)",
+        "clinical_use": "BRAF/MEK inhibitors if present"
+      },
+      {
+        "name": "NRAS",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "No standard targeted therapy; MEK inhibitor trials"
+      },
+      {
+        "name": "SF3B1",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-20% overall; enriched in some anatomic sites",
+        "clinical_use": "Molecular characterization"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "LOWER than cutaneous",
+        "clinical_use": "Generally lower immunotherapy responsiveness than cutaneous; combination nivolumab + ipilimumab often yields higher response than PD-1 monotherapy"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Atypical melanocytes at mucosal epithelium with invasive growth; often amelanotic",
+      "variants": [
+        "by site: sinonasal, oral, oesophageal, anorectal, genitourinary",
+        "morphologic: lentiginous, nested, spindle cell, epithelioid, amelanotic"
+      ],
+      "grading": "Standard melanoma criteria (Breslow less applicable at mucosal sites)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often less inflamed than cutaneous melanoma, with lower TMB and generally lower response rates to immune checkpoint blockade",
+      "stromal_features": "Mucosal architecture; no dermal appendages"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Melanocytes at mucosal surfaces (sinonasal, oral, oesophageal, anorectal, genitourinary)",
+      "developmental_lineage": "Neural crest \u0014 melanocytes migrated to mucosal sites",
+      "differentiation_state": "Melanocytic differentiation with variable pigmentation (often amelanotic); same lineage markers as cutaneous",
+      "lineage_plasticity": "Same MITF-based cell state model but with distinct genomic biology \u0014 KIT and SF3B1 enriched, BRAF less common, low TMB (UV-independent); phenotype switching contributes to resistance"
+    }
+  }
+}

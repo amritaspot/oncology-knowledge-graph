@@ -1,0 +1,119 @@
+{
+  "molecule_name": "NY-ESO-1-specific TCR Gene-transduced T Lymphocytes TBI-1301",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "TBI-1301",
+      "Mipetresgene Autoleucel"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Immunotherapy",
+  "modality": "Cellular Therapy",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "TBI-1301 is designed to target and kill cancer cells that express the NY-ESO-1 antigen using genetically modified T cells.",
+    "molecular_action": "TCR gene-transduced T lymphocytes recognize and bind to NY-ESO-1 antigen on tumor cells, leading to T cell activation and tumor cell lysis.",
+    "targets": [
+      "NY-ESO-1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Tumor cell death",
+      "Immune response activation"
+    ],
+    "selectivity": "Specific to NY-ESO-1 expressing tumors",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Synovial Sarcoma",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced or recurrent synovial sarcoma",
+      "Relapsed/refractory advanced or metastatic triple-negative breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT03250325",
+      "NCT05989828",
+      "NCT07174427"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and studies related to TBI-1301",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT03250325",
+      "NCT05989828",
+      "NCT07174427"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "NY-ESO-1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "NY-ESO-1",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

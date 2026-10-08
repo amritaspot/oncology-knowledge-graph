@@ -1,0 +1,51 @@
+{
+  "TUBULAR_BREAST": {
+    "name": "Tubular breast carcinoma",
+    "biomarkers": [
+      {
+        "name": "ER, PR",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": ">90% ER+ and typically PR+",
+        "clinical_use": "Endocrine therapy"
+      },
+      {
+        "name": "HER2",
+        "type": "IHC / ISH",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare (<5%)",
+        "clinical_use": "Almost always HER2-negative"
+      },
+      {
+        "name": "Grade (definitionally grade 1)",
+        "type": "morphology",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Excellent prognosis; chemotherapy typically not required if small and node-negative"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Well-formed angulated tubules with open lumens lined by a single cell layer",
+      "variants": [
+        "pure tubular (>90% tubule formation)"
+      ],
+      "grading": "Grade 1 by definition"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Minimal inflammation",
+      "stromal_features": "Elastotic stroma often present"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells with well-differentiated ductal phenotype",
+      "developmental_lineage": "Ectoderm \u2014 surface ectoderm derivative",
+      "differentiation_state": "Extremely well-differentiated \u2014 angulated tubules with single-cell layer; ER+/PR+/HER2- (nearly universal luminal A biology)",
+      "lineage_plasticity": "Represents most differentiated end of luminal breast cancer spectrum with retained ductal architecture"
+    }
+  }
+}

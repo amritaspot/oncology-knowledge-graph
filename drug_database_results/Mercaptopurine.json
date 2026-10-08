@@ -1,0 +1,159 @@
+{
+  "molecule_name": "Mercaptopurine",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 667490,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antimetabolite",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Mercaptopurine is a purine analog that interferes with DNA synthesis, inhibiting the proliferation of cells, particularly in rapidly dividing cancer cells.",
+    "molecular_action": "Inhibits purine metabolism and DNA synthesis.",
+    "targets": [
+      "TPMT",
+      "HPRT"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell division",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Acute Lymphoblastic Leukemia, Glioblastoma",
+    "histology": null,
+    "clinical_settings": [
+      "Cancer treatment",
+      "Autoimmune disease management"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to mercaptopurine",
+      "Severe liver impairment"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Bone marrow suppression",
+      "organ_system": "Hematologic",
+      "biological_explanation": "Inhibition of DNA synthesis affects rapidly dividing hematopoietic cells.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Increased risk of infection",
+        "Anemia",
+        "Thrombocytopenia"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Nausea and vomiting",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced effects on the gastrointestinal tract.",
+      "mechanism_status": null,
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Mercaptopurine clinical applications and trials",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Hepatic metabolism"
+    ],
+    "cyp_metabolism": [
+      "CYP2C8",
+      "CYP2C9"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT05014555",
+      "NCT00554710",
+      "NCT00866749"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TPMT",
+      "HPRT"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 667490,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/667490/SDF?record_type=3d",
+    "rotatable_bonds": 0,
+    "target_structures": [
+      {
+        "target_symbol": "HPRT1",
+        "pdb_id": "1D6N",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.9,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HPRT1",
+        "affinity_type": "Ki",
+        "affinity_value_nM": null,
+        "doi_or_source": null
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

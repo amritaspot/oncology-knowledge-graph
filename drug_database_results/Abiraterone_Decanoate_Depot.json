@@ -1,0 +1,102 @@
+{
+  "molecule_name": "Abiraterone Decanoate Depot",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Hormonal Agent",
+  "modality": "Small Molecule",
+  "route": "Intramuscular IM",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Abiraterone decanoate inhibits androgen biosynthesis.",
+    "molecular_action": "Inhibits CYP17A1, leading to decreased testosterone production.",
+    "targets": [
+      "CYP17A1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced androgen levels",
+      "Decreased tumor growth in androgen-dependent cancers"
+    ],
+    "selectivity": "Selective for CYP17A1",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic castration-resistant prostate cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "The record is based on available data up to October 2023 and focuses on the investigational agent 'Abiraterone Decanoate Depot'.",
+    "mechanism_doi_meaning": "DOIs related to the mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOIs are provided as the mechanism of action is not documented.",
+    "null_meaning": "Null values indicate that specific information is not documented or available.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 1.0,
+    "biological_half_life_hours": 24.0,
+    "clearance_route": [],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 1",
+    "nct_trials": [
+      "NCT04729114"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "1000 mg IM",
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CYP17A1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "molecule_name": "Triptorelin",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 25074470,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "GnRH agonist",
+  "modality": "Peptide",
+  "route": "Subcutaneous (SQ) or Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Triptorelin is a synthetic analog of gonadotropin-releasing hormone (GnRH) that inhibits the release of gonadotropins.",
+    "molecular_action": "Triptorelin binds to GnRH receptors in the pituitary gland, leading to decreased secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH).",
+    "targets": [
+      "GnRH receptor"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced testosterone production in males",
+      "Reduced estrogen production in females"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Prostate cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Hormonal therapy for prostate cancer",
+      "Endometriosis treatment",
+      "Precocious puberty"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to triptorelin or any component of the formulation"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Triptorelin clinical data and trials",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 4",
+    "nct_trials": [
+      "NCT01157754",
+      "NCT04854707",
+      "NCT03118830"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "GNRH1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 16129647,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16129647/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "GNRHR",
+        "pdb_id": "6FHT",
+        "alphafold_id": "P30968",
+        "resolution_angstroms": 3.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "GNRHR",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.2,
+        "doi_or_source": "10.1016/j.ejphar.2004.10.017"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

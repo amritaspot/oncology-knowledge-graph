@@ -1,0 +1,52 @@
+{
+  "GI_NET_G2": {
+    "name": "GI neuroendocrine tumour, well-differentiated, G2",
+    "biomarkers": [
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "3-20% (WHO G2 definition)",
+        "clinical_use": "Grade determinant"
+      },
+      {
+        "name": "SSTR2 expression",
+        "type": "IHC / DOTATATE PET",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Usually positive in well-differentiated GI NETs, though variable by primary site and tumor grade",
+        "clinical_use": "PRRT, SSA"
+      },
+      {
+        "name": "Chromogranin A",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "Often elevated, but variable by tumor burden, site, secretory activity, and assay factors",
+        "clinical_use": "Monitoring"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Same organoid growth as G1 but with higher proliferative index",
+      "variants": [
+        "as per GI_NET_G1"
+      ],
+      "grading": "Ki-67 3-20% and/or 2-20 mitoses/2 mm\u0000b2 (G2)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically",
+      "stromal_features": "Similar to G1"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "GI neuroendocrine cells; subtype varies by anatomic site (for example enterochromaffin cells in many midgut NETs and ECL cells in gastric ECL-cell NETs)",
+      "developmental_lineage": "Endoderm \u0014 GI tract",
+      "differentiation_state": "Well-differentiated neuroendocrine but with higher Ki-67 (3-20%) and/or mitoses (2-20/2 mm\u0000b2)",
+      "lineage_plasticity": "Intermediate position on well-differentiated GI NET spectrum"
+    }
+  }
+}

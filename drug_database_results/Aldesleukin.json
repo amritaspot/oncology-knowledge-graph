@@ -1,0 +1,183 @@
+{
+  "molecule_name": "Aldesleukin",
+  "identifiers": {
+    "FDA_UNII": "QDL8Q46P6E",
+    "PubChem_CID": 440067,
+    "CAS_number": "110942-02-4",
+    "NCI_Thesaurus_code": "C1439",
+    "development_codes": [],
+    "identifier_scope": "Aldesleukin"
+  },
+  "brand_names": [
+    "Proleukin"
+  ],
+  "drug_class": "Cytokine",
+  "modality": "Biologic",
+  "route": "Intravenous",
+  "marketed_form": "Solution for injection",
+  "approved_countries": [
+    "United States",
+    "European Union"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Aldesleukin is a recombinant form of interleukin-2 that stimulates the proliferation of T-cells and enhances the cytotoxicity of natural killer cells.",
+    "molecular_action": "Binds to the IL2 receptor, leading to T-cell proliferation and activation.",
+    "targets": [
+      "IL2RA",
+      "IL2RB",
+      "IL2RG"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "T-cell proliferation",
+      "NK cell activation"
+    ],
+    "selectivity": "High",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Renal Cell Carcinoma",
+    "histology": null,
+    "clinical_settings": [
+      "Metastatic"
+    ],
+    "scope": "Approved",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Organ allografts",
+      "Severe cardiac disease",
+      "Severe pulmonary disease"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Capillary leak syndrome",
+      "organ_system": "Cardiovascular",
+      "biological_explanation": "Increased vascular permeability leading to hypotension and edema.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Hypotension",
+        "Edema",
+        "Organ failure"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Cytokine release syndrome",
+      "organ_system": "Immune",
+      "biological_explanation": "Excessive immune activation leading to systemic inflammation.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Fever",
+        "Hypotension",
+        "Organ dysfunction"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Fever",
+        "Chills",
+        "Fatigue",
+        "Nausea",
+        "Vomiting"
+      ],
+      "biological_explanation": "Common side effects due to immune activation.",
+      "mechanism_status": "Established"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Corticosteroids",
+      "examples": [
+        "Prednisone"
+      ],
+      "biological_basis": "Corticosteroids may reduce the efficacy of Aldesleukin by suppressing immune activation."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive pharmacology and precision oncology record for Aldesleukin.",
+    "mechanism_doi_meaning": "DOIs for mechanisms of action are not provided in this record.",
+    "empty_mechanism_doi_meaning": "No DOIs are listed for mechanisms of action.",
+    "null_meaning": "Null indicates that specific data is not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 1.1,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT00001163",
+      "NCT00001164",
+      "NCT00000889",
+      "NCT00923390",
+      "NCT03928275"
+    ],
+    "regulatory_designations": [
+      "Orphan Drug"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "IL2RA",
+      "IL2RB",
+      "IL2RG"
+    ],
+    "pathways": [
+      "Cytokine Signaling in Immune system"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "IL2",
+        "pdb_id": "1M47",
+        "alphafold_id": "P60568",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "T_ALL": {
+    "name": "T-cell acute lymphoblastic leukaemia",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood",
+      "characteristic_extramedullary_sites": [
+        "mediastinum (thymic mass \u2014 common presenting feature)",
+        "lymph nodes",
+        "spleen",
+        "liver"
+      ],
+      "sanctuary_sites": [
+        "CNS",
+        "testis"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "T-cell immunophenotype (cCD3, CD5, CD7, CD1a, CD4, CD8, TdT)",
+        "type": "flow / IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "cCD3 is lineage-defining. TdT+ distinguishes from mature T-cell leukaemia/lymphoma"
+      },
+      {
+        "name": "NOTCH1 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~50\u201360%",
+        "clinical_use": "Common driver; often associated with favorable-risk biology, particularly when accompanied by FBXW7 mutation in some risk models. \u03b3-secretase inhibitors remain investigational"
+      },
+      {
+        "name": "FBXW7 mutations",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15\u201320%",
+        "clinical_use": "Often co-occurring with NOTCH1; in some treatment contexts may associate with favorable prognosis"
+      },
+      {
+        "name": "Molecular subtypes (TAL/LMO, HOXA, TLX1, TLX3)",
+        "type": "gene expression",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Distinct subgroups",
+        "clinical_use": "Distinct biology; TAL1/LMO-deregulated cases are common, especially in adults"
+      },
+      {
+        "name": "MRD (flow, NGS)",
+        "type": "flow / molecular",
+        "categories": [
+          "prognostic",
+          "monitoring"
+        ],
+        "prevalence": "Standard",
+        "clinical_use": "Post-induction and post-consolidation MRD is a major risk-stratification tool and may guide transplant decisions"
+      },
+      {
+        "name": "Nelarabine",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "T-cell-active chemotherapy used in T-ALL/T-LBL, particularly in relapsed/refractory disease and in some frontline regimens; not a validated biomarker"
+      },
+      {
+        "name": "Recurrent transcription factor rearrangements (TAL1, TLX1, TLX3, LMO1, LMO2, HOXA, NKX2-1/NKX2-2, MEF2C, MYB)",
+        "type": "structural / gene deregulation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common as a group",
+        "clinical_use": "Hallmark drivers of T-ALL biology that define molecular subgroups and developmental arrest states"
+      },
+      {
+        "name": "CDKN2A/CDKN2B deletions",
+        "type": "copy number alteration",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~50\u201370%",
+        "clinical_use": "Very common secondary lesions in T-ALL; contribute to leukemogenesis and risk stratification in some studies"
+      },
+      {
+        "name": "PTEN / PI3K-AKT pathway alterations",
+        "type": "mutation / deletion",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~10\u201320%",
+        "clinical_use": "Recurrent lesions associated with pathway activation and potential therapeutic relevance"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Lymphoblasts with T-cell immunophenotype (cCD3+, TdT+); often presents with anterior mediastinal mass in adolescents/young adults",
+      "variants": [
+        "T-lymphoblastic lymphoma (classically <25% marrow blasts with mass-dominant disease)",
+        "T-ALL (classically \u226525% marrow blasts; marrow-dominant)"
+      ],
+      "grading": "Not graded; molecular subtypes and MRD drive management"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Emerging CD5- and CD7-directed CAR-T strategies in trials; more challenging than B-cell targeting because of T-cell fratricide",
+      "stromal_features": "Marrow and thymic-mass infiltration; extramedullary sites include mediastinum, lymph nodes, spleen"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "T-cell precursors arrested at thymic developmental stage \u2014 cortical thymocyte is common, although cases span early/pro-T through more mature thymic stages",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (thymic T-cell developmental hierarchy)",
+      "differentiation_state": "T-cell lineage assignment (cCD3+, CD7+, TdT+) with maturation arrest at various thymic developmental stages: pro-T, pre-T, cortical thymocyte, medullary thymocyte; cortical thymocyte arrest is common (often CD4+CD8+ double positive with CD1a+)",
+      "lineage_plasticity": "T-cell developmental hierarchy dictates immunophenotype; NOTCH1 pathway activation is a central driver in many cases, while TAL1, LMO1/2, TLX1, TLX3, HOXA-related lesions and other transcription factor deregulation define distinct maturation arrest patterns"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "molecule_name": "Pazopanib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 10113978,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Tyrosine Kinase Inhibitor",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Pazopanib is a tyrosine kinase inhibitor that targets multiple receptor tyrosine kinases involved in tumor growth and angiogenesis.",
+    "molecular_action": "Inhibits VEGFR, PDGFR, and c-KIT signaling pathways.",
+    "targets": [
+      "VEGFR",
+      "PDGFR",
+      "c-KIT"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of tumor growth",
+      "Reduction of angiogenesis"
+    ],
+    "selectivity": "Selective for VEGFR, PDGFR, and c-KIT",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Soft Tissue Sarcoma, Breast Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Neoadjuvant therapy",
+      "Advanced cancer treatment"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Pazopanib clinical trials and pharmacokinetics",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 2",
+    "nct_trials": [
+      "NCT01418001",
+      "NCT00849472",
+      "NCT00363194"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "VEGFA",
+      "PDGFB",
+      "KIT"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": 10113978,
+    "sdf_download_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10113978/SDF?record_type=3d",
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "VEGFR2",
+        "pdb_id": "3BE2",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "PDGFRB",
+        "pdb_id": "4GL8",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.1,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "VEGFR2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 10.0,
+        "doi_or_source": "10.1021/jm800076n"
+      },
+      {
+        "target_symbol": "PDGFRB",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 30.0,
+        "doi_or_source": "10.1021/jm800076n"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

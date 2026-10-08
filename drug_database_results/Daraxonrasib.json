@@ -1,0 +1,105 @@
+{
+  "molecule_name": "Daraxonrasib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 164726578,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "RAS inhibitor",
+  "modality": "Small molecule",
+  "route": "Oral",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Daraxonrasib is designed to inhibit RAS signaling pathways, which are often mutated in various cancers, particularly pancreatic cancer.",
+    "molecular_action": "Inhibits RAS proteins to block downstream signaling pathways involved in cancer cell proliferation and survival.",
+    "targets": [
+      "KRAS"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of cell proliferation",
+      "Induction of apoptosis in RAS-addicted cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Pancreatic cancer",
+    "histology": "Metastatic pancreatic ductal adenocarcinoma",
+    "clinical_settings": [
+      "First-line treatment in combination with GnP",
+      "Second-line therapy after chemotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and drug development",
+    "mechanism_doi_meaning": "Mechanism of action is inferred from clinical trial data and drug design principles.",
+    "empty_mechanism_doi_meaning": "No DOI available for mechanism of action at this time.",
+    "null_meaning": "No data available for this field.",
+    "last_checked": "2026-04-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT07491445",
+      "NCT07756281",
+      "NCT07492680"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KRAS"
+    ],
+    "pathways": [
+      "RAS signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

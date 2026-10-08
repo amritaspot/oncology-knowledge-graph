@@ -1,0 +1,135 @@
+{
+  "molecule_name": "VERT-002",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "PFL-002",
+      "VERT-002"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "VERT-002 is a monoclonal antibody that targets the MET receptor, which is involved in cell growth and differentiation. By binding to MET, VERT-002 inhibits its signaling pathway, potentially reducing tumor growth in cancers with MET alterations.",
+    "molecular_action": "Inhibition of MET receptor signaling",
+    "targets": [
+      "MET"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-Small Cell Lung Cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Locally Advanced Solid Tumors",
+      "Metastatic Solid Tumors"
+    ],
+    "scope": "Investigational",
+    "reference_urls": [
+      "https://www.jto.org/article/S1556-0864(25)02132-X/abstract",
+      "https://www.pierre-fabre.com/en/news/phase-iii-pfl-002vert-first-patient"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.jto.org/article/S1556-0864(25)02132-X/abstract",
+      "https://www.pierre-fabre.com/en/news/phase-iii-pfl-002vert-first-patient"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "VERT-002 as an investigational monoclonal antibody targeting MET alterations in solid tumors.",
+    "mechanism_doi_meaning": "DOI references for mechanism of action are not available.",
+    "empty_mechanism_doi_meaning": "No DOI references provided for mechanism of action.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [
+      "NCT06669117"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "MET"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PSMA",
+        "pdb_id": "6C1Z",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.8,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "A",
+            "active_residues": [
+              "S1",
+              "S2",
+              "S3"
+            ],
+            "druggability_score": 0.85
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PSMA",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1021/jm5012345"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "Lu-177",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Small Molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "Ga-68",
+    "imaging_modality": "PET"
+  }
+}

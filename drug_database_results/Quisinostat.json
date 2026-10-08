@@ -1,0 +1,167 @@
+{
+  "molecule_name": "Quisinostat",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 11538455,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "JNJ-26481585"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Histone Deacetylase Inhibitor",
+  "modality": "Small Molecule",
+  "route": null,
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Quisinostat inhibits histone deacetylases, leading to increased acetylation of histones and modulation of gene expression.",
+    "molecular_action": "Inhibition of class I and II histone deacetylases (HDACs).",
+    "targets": [
+      "HDAC1",
+      "HDAC2",
+      "HDAC4"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Altered gene expression",
+      "Induction of apoptosis in cancer cells"
+    ],
+    "selectivity": "Highly potent against class I and II HDACs.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Uveal Melanoma",
+    "histology": null,
+    "clinical_settings": [
+      "Adjuvant therapy for high-risk uveal melanoma",
+      "Combination therapy for advanced leukemia or myelodysplastic syndrome"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Quisinostat as a histone deacetylase inhibitor in clinical trials.",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06932757",
+      "NCT00676728",
+      "NCT01464112"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "HDAC1",
+      "HDAC2",
+      "HDAC4"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "HDAC1",
+        "pdb_id": "4BKX",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.05,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [
+              "HIS141",
+              "HIS142",
+              "ASP176",
+              "PHE205",
+              "PHE206",
+              "LEU271",
+              "HIS178"
+            ],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "HDAC2",
+        "pdb_id": "4LXZ",
+        "alphafold_id": null,
+        "resolution_angstroms": 1.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [
+              "HIS145",
+              "HIS146",
+              "ASP181",
+              "PHE210",
+              "PHE211",
+              "LEU276",
+              "HIS183"
+            ],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "HDAC1",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.11,
+        "doi_or_source": "10.1016/j.bmcl.2013.05.048"
+      },
+      {
+        "target_symbol": "HDAC2",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1016/j.bmcl.2013.05.048"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

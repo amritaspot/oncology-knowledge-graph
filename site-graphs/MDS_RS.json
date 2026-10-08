@@ -1,0 +1,57 @@
+{
+  "MDS_RS": {
+    "name": "MDS with ring sideroblasts",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow"
+    },
+    "biomarkers": [
+      {
+        "name": "SF3B1 mutation",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~60-90% of MDS with ring sideroblasts / SF3B1-associated cases",
+        "clinical_use": "Defining feature in modern classification; associated with relatively favourable prognosis. WHO 2022 recognises 'MDS with low blasts and SF3B1 mutation' as a distinct entity; ring sideroblasts are not required when SF3B1 mutation is present"
+      },
+      {
+        "name": "Ring sideroblasts (Perls stain, \u226515% or \u22655% with SF3B1)",
+        "type": "cytochemistry",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Defining",
+        "clinical_use": "Diagnostic"
+      },
+      {
+        "name": "Luspatercept response",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Luspatercept (activin receptor ligand trap) is approved for anemia in lower-risk MDS with ring sideroblasts after ESA failure and, based on COMMANDS, also approved in some settings as first-line therapy for transfusion-dependent lower-risk MDS"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Erythroid dysplasia with ring sideroblasts (\u226515% of erythroid precursors, or \u22655% if SF3B1-mutant) on Perls iron stain \u2014 iron granules in mitochondria around erythroblast nucleus",
+      "variants": [
+        "MDS-RS-SLD (single lineage)",
+        "MDS-RS-MLD (multilineage)",
+        "WHO 2022: 'MDS with low blasts and SF3B1 mutation' (SF3B1-defined entity)"
+      ],
+      "grading": "Generally favourable risk relative to many other MDS subtypes, though risk depends on overall IPSS-R/IPSS-M and co-mutations"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not the paradigm; ineffective erythropoiesis is the pathophysiologic problem",
+      "stromal_features": "Ring sideroblasts pathognomonic (iron-loaded mitochondria around erythroblast nucleus)"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC with SF3B1 mutation causing distinctive splicing-driven dysregulation of erythroid differentiation",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "Erythroid dysplasia with distinctive ring sideroblasts (\u226515% of erythroid precursors, or \u22655% if SF3B1-mutant) \u2014 iron-loaded mitochondria around erythroblast nucleus indicating ineffective erythropoiesis with mitochondrial iron mishandling",
+      "lineage_plasticity": "SF3B1 splicing factor mutation reshapes RNA splicing programme; altered splicing of genes involved in mitochondrial function and heme/iron handling contributes to mitochondrial iron accumulation and ring sideroblast formation"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "NSCLC_ADENOSQUAMOUS": {
+    "name": "NSCLC \u2014 adenosquamous carcinoma",
+    "metastasis_patterns": {
+      "primary_source": {
+        "citation": "Yu Q, et al. Metastatic pattern and prognosis in patients with lung adenosquamous carcinoma: A SEER-based population study. Heliyon. 2024;10(10):e30945.",
+        "doi": "10.1016/j.heliyon.2024.e30945",
+        "study_type": "SEER population-based analysis; n=858 stage IV ASC patients diagnosed 2010-2018",
+        "verified_date": "2026-09-11"
+      },
+      "organ_involvement": {
+        "MUSCULOSKELETAL": {
+          "frequency_pct": 56.9
+        },
+        "PULMONARY": {
+          "frequency_pct": 37.6
+        },
+        "HEPATOBILIARY": {
+          "frequency_pct": 22.1
+        },
+        "NEUROLOGIC": {
+          "frequency_pct": 21.4
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "EGFR mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Reported in a substantial minority of pulmonary adenosquamous carcinomas; prevalence varies by cohort and ancestry, often overlapping adenocarcinoma more than pure SCC and commonly cited around ~15-30% in non-Asian/mixed series, with higher rates reported in some Asian cohorts",
+        "clinical_use": "EGFR TKI as per NSCLC if positive"
+      },
+      {
+        "name": "Comprehensive NGS panel",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Test full driver panel \u2014 pulmonary adenosquamous carcinoma can harbor canonical NSCLC drivers including EGFR, KRAS, ALK, ROS1, BRAF, MET exon 14 skipping, RET, NTRK, ERBB2/HER2, and others"
+      },
+      {
+        "name": "PD-L1 (TPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "IO per TPS"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Both adenocarcinoma and squamous cell carcinoma components; each \u226510% for diagnosis",
+      "variants": [
+        "adeno-predominant",
+        "squamous-predominant",
+        "balanced"
+      ],
+      "grading": "Component-specific; worst-differentiated component drives prognosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Variable per component",
+      "stromal_features": "Mixed patterns of each component"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 likely monoclonal in many cases with divergent glandular and squamous differentiation from a common precursor; collision tumour has been proposed but is less favored in molecular studies",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Dual differentiation \u2014 both glandular (adeno) and squamous components each comprising \u226510% of tumour",
+      "lineage_plasticity": "Bipotent/divergent differentiation pattern \u2014 some tumours show lineage switching or squamous transformation, including after targeted therapy"
+    }
+  }
+}

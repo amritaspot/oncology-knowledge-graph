@@ -1,0 +1,111 @@
+{
+  "molecule_name": "7MW3711",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "7MW3711"
+    ],
+    "identifier_scope": "Investigational development code"
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-drug conjugate",
+  "modality": "ADC",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "7MW3711 is an investigational antibody-drug conjugate reported to target B7-H3 on tumor cells and deliver a cytotoxic payload after binding and internalization.",
+    "molecular_action": "B7-H3-directed monoclonal antibody conjugated to a cytotoxic payload; binding to B7-H3-expressing cells is intended to trigger internalization and intracellular payload release, leading to tumor cell death.",
+    "targets": [
+      "B7-H3 (CD276)"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Target-mediated internalization",
+      "Intracellular payload release",
+      "Cytotoxic tumor cell killing"
+    ],
+    "selectivity": "Intended for B7-H3-expressing tumors; quantitative selectivity data not established in the retrieved public record.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": "Advanced/metastatic B7-H3-expressing solid tumors",
+    "clinical_settings": [],
+    "scope": "Investigational oncology use",
+    "reference_urls": [
+      "https://clinicaltrials.gov/search?term=7MW3711"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "https://clinicaltrials.gov/search?term=7MW3711"
+    ],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Publicly available investigational summary for 7MW3711 with strict nulls for unverified quantitative clinical or PK fields.",
+    "mechanism_doi_meaning": "DOIs are listed only when a mechanism-specific primary literature source was identified and verified.",
+    "empty_mechanism_doi_meaning": "An empty DOI array means no verified DOI was identified in the retrieved public record.",
+    "null_meaning": "Null indicates that a specific field was not established in verified public sources at the time of review.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06721117",
+      "NCT06008366",
+      "NCT06008379",
+      "NCT07466160"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CD276"
+    ],
+    "pathways": [
+      "Immune checkpoint pathways",
+      "Antibody-drug conjugate internalization and payload-mediated cytotoxicity"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

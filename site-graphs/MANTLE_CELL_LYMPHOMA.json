@@ -1,0 +1,142 @@
+{
+  "MANTLE_CELL_LYMPHOMA": {
+    "name": "Mantle cell lymphoma",
+    "heme_involvement_pattern": {
+      "primary_compartment": "lymph_nodes + bone_marrow + peripheral_blood + spleen + GI_tract",
+      "characteristic_extranodal_sites": [
+        "GI tract (lymphomatous polyposis \u2014 colon and small bowel; often occult)",
+        "Waldeyer's ring",
+        "CNS (relapse setting, uncommon overall)"
+      ],
+      "sanctuary_sites": [
+        "CNS (blastoid variant has higher CNS relapse risk)"
+      ]
+    },
+    "biomarkers": [
+      {
+        "name": "t(11;14)(q13;q32) IGH-CCND1 \u2192 cyclin D1 overexpression",
+        "type": "FISH / IHC (cyclin D1)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": ">95%",
+        "clinical_use": "Defining event in the great majority of cases. Cyclin D1 IHC is diagnostic in most cases. Rare cyclin D1-negative MCL exists (often with CCND2 or CCND3 rearrangements)"
+      },
+      {
+        "name": "SOX11",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~80-90%",
+        "clinical_use": "Usually positive in classic nodal MCL. SOX11-negative cases are enriched in leukaemic non-nodal MCL, which is often more indolent and may be suitable for watch-and-wait in selected patients"
+      },
+      {
+        "name": "CD5+, CD19+, CD20+ (bright), CD23-, CD200-",
+        "type": "flow",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Typical",
+        "clinical_use": "Typical immunophenotype helps distinguish from CLL, although a subset of MCL may show CD23 positivity and/or dim CD200 expression"
+      },
+      {
+        "name": "TP53 mutation",
+        "type": "mutation / IHC",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Very adverse; associated with poor outcomes after standard immunochemotherapy. Also associated with inferior outcomes with covalent BTK inhibitors; cellular therapy or clinical trial is often preferred in eligible patients"
+      },
+      {
+        "name": "Ki-67 index",
+        "type": "IHC",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Higher Ki-67 is adverse; Ki-67 \u226530% is commonly used as a high-risk threshold and is incorporated into MIPI-c/MIPI-b biologic models. Blastoid/pleomorphic variants often have very high Ki-67"
+      },
+      {
+        "name": "MIPI / MIPI-b (biological)",
+        "type": "clinical composite",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Age, ECOG, LDH, WBC; biologic variants incorporate Ki-67 (commonly termed MIPI-c). Guides risk stratification and treatment intensity"
+      },
+      {
+        "name": "BTK inhibitor response (ibrutinib, acalabrutinib, zanubrutinib, pirtobrutinib)",
+        "type": "clinical",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Established standard in relapsed/refractory disease. Pirtobrutinib (non-covalent BTK inhibitor) is active after covalent BTK inhibitor failure"
+      },
+      {
+        "name": "BTK C481S mutations",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Acquired resistance",
+        "clinical_use": "A recognized mechanism of resistance to covalent BTK inhibitors; pirtobrutinib can retain activity after such resistance"
+      },
+      {
+        "name": "CD19",
+        "type": "IHC / flow",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Near-universal",
+        "clinical_use": "Brexucabtagene autoleucel (ZUMA-2) \u2014 CD19 CAR-T approved for R/R MCL after prior BTK inhibitor exposure/failure"
+      },
+      {
+        "name": "BCL2",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Venetoclax has activity alone and in combination in R/R MCL, but BCL2 IHC expression is not a validated predictive biomarker for routine selection"
+      },
+      {
+        "name": "Blastoid / pleomorphic variant",
+        "type": "morphology",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~10-20%",
+        "clinical_use": "Aggressive; high Ki-67; associated with higher CNS relapse risk"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Monomorphic small to medium-sized B cells with irregular nuclei effacing mantle zone; multiple growth patterns",
+      "variants": [
+        "classic MCL (mantle zone, nodular, diffuse growth)",
+        "small cell variant (indolent-appearing)",
+        "marginal zone-like MCL",
+        "blastoid variant (aggressive, high Ki-67)",
+        "pleomorphic variant (aggressive, large pleomorphic cells)",
+        "leukaemic non-nodal MCL (often SOX11-, indolent, better prognosis)"
+      ],
+      "grading": "Not formally graded; blastoid/pleomorphic are aggressive variants"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "BCR signalling dependency contributes to BTK inhibitor sensitivity; anti-apoptotic dependence contributes to venetoclax activity; CD19 CAR-T (brexucabtagene) is established after BTK inhibitor failure",
+      "stromal_features": "Multiple architectural patterns (mantle zone, nodular, diffuse); lymphomatous polyposis in GI tract"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Naive-like B cells of pre-germinal centre stage (mantle zone B cells) with t(11;14)/CCND1 rearrangement",
+      "developmental_lineage": "Mesoderm \u2014 lymphoid (mantle zone B cells)",
+      "differentiation_state": "Mantle zone B-cell differentiation with characteristic CD5+, CD19+, CD20 bright+, CD10-, CD23- immunophenotype; SOX11 nuclear expression is characteristic of typical MCL",
+      "lineage_plasticity": "Two biologic forms are recognized: typical MCL (usually SOX11+, often IGHV-unmutated, more aggressive, nodal-predominant) vs leukaemic non-nodal MCL (often SOX11-, often IGHV-mutated, more indolent \u2014 consistent with a memory-like/post-germinal-centre program); TP53 alterations drive aggressive behaviour and treatment resistance"
+    }
+  }
+}

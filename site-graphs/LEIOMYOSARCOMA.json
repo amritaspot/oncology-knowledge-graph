@@ -1,0 +1,63 @@
+{
+  "LEIOMYOSARCOMA": {
+    "name": "Leiomyosarcoma",
+    "biomarkers": [
+      {
+        "name": "SMA, desmin, h-caldesmon",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Frequently positive",
+        "clinical_use": "Smooth muscle differentiation panel"
+      },
+      {
+        "name": "TP53, RB1, ATRX",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "TP53 ~30-50%; RB1 ~40-50%; ATRX ~20-30%",
+        "clinical_use": "Common alterations in leiomyosarcoma; ATRX loss associates with ALT (alternative lengthening of telomeres)"
+      },
+      {
+        "name": "ER, PR (uterine LMS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable in uterine LMS",
+        "clinical_use": "AI (letrozole) has activity in ER+ uterine LMS"
+      },
+      {
+        "name": "BRCA1/2 (subset)",
+        "type": "germline",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare/small subset (including some uterine LMS)",
+        "clinical_use": "PARP inhibitor trials"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Fascicles of eosinophilic spindle cells with blunt-ended (cigar-shaped) nuclei; smooth muscle differentiation",
+      "variants": [
+        "conventional leiomyosarcoma",
+        "epithelioid leiomyosarcoma",
+        "myxoid leiomyosarcoma",
+        "inflammatory leiomyosarcoma"
+      ],
+      "grading": "FNCLCC (French Federation) grading based on differentiation, mitoses, necrosis"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Typically immune-cold; sparse TILs; IO responses generally poor",
+      "stromal_features": "Fascicular smooth muscle architecture; areas of necrosis in high-grade tumours"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Smooth muscle cells (or their mesenchymal precursors) \u2014 at multiple anatomic sites",
+      "developmental_lineage": "Mesoderm \u2014 smooth muscle mesenchyme",
+      "differentiation_state": "Smooth muscle differentiation (desmin+, SMA+, h-caldesmon+, calponin+) with fascicular architecture of eosinophilic spindle cells with cigar-shaped nuclei",
+      "lineage_plasticity": "Distinct anatomic sites (uterine, retroperitoneal, soft tissue, cutaneous, vascular) have distinct molecular biology despite shared smooth muscle differentiation; retroperitoneal often shows RB1/TP53 co-loss"
+    }
+  }
+}

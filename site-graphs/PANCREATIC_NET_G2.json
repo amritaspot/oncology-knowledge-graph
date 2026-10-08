@@ -1,0 +1,45 @@
+{
+  "PANCREATIC_NET_G2": {
+    "name": "Pancreatic neuroendocrine tumour, G2",
+    "biomarkers": [
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "3-20%",
+        "clinical_use": "WHO grade determinant for well-differentiated pancreatic NET G2"
+      },
+      {
+        "name": "Same suite as PANCREATIC_NET_G1",
+        "type": "various",
+        "categories": [
+          "diagnostic",
+          "predictive",
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Chromogranin A + synaptophysin + INSM1 diagnostic; SSTR2 predictive for somatostatin analogue imaging/therapy and PRRT; functional hormones as applicable; MEN1/VHL germline in appropriate context"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Same organoid growth as G1 pNET but with higher proliferation",
+      "variants": [
+        "as per PANCREATIC_NET_G1"
+      ],
+      "grading": "Ki-67 3-20%"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Similar to G1 pNET; generally immune-cold",
+      "stromal_features": "Similar to G1"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Pancreatic islet cells with intermediate proliferation state",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Well-differentiated neuroendocrine but with Ki-67 3-20%",
+      "lineage_plasticity": "Intermediate position on well-differentiated pancreatic NET spectrum"
+    }
+  }
+}

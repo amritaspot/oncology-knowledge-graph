@@ -1,0 +1,138 @@
+{
+  "molecule_name": "Anti-c-Kit/MMAE Antibody-Drug Conjugate NN3201",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "NN3201"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Antibody-Drug Conjugate",
+  "modality": "ADC",
+  "route": "Intravenous",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "NN3201 is an antibody-drug conjugate that targets the c-Kit receptor on cancer cells, delivering the cytotoxic agent MMAE to disrupt microtubules and inhibit tumor growth.",
+    "molecular_action": "The 2G4 antibody component of NN3201 binds to the c-Kit receptor, facilitating internalization and delivery of MMAE, which disrupts microtubule dynamics.",
+    "targets": [
+      "c-Kit"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Microtubule disruption",
+      "Inhibition of SCF-driven signaling"
+    ],
+    "selectivity": "High affinity for c-Kit (KD = 0.19 pM)",
+    "doi": [
+      "10.1158/1535-7163.MCT-25-0396"
+    ]
+  },
+  "typical_use": {
+    "cancer": "Solid tumors expressing c-Kit",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors",
+      "Metastatic solid tumors"
+    ],
+    "scope": "Investigational",
+    "reference_urls": [
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-c-kit-mmae-antibody-drug-conjugate-nn3201"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/anti-c-kit-mmae-antibody-drug-conjugate-nn3201",
+      "https://aacrjournals.org/mct/article/doi/10.1158/1535-7163.MCT-25-0396/765896/Preclinical-Antitumor-Efficacy-of-a-Novel-Anti-c",
+      "https://www.medchemexpress.com/nn3201.html",
+      "https://aacrjournals.org/cancerres/article/84/6_Supplement/3142/735445/Abstract-3142-NN3201-a-novel-c-Kit-targeting-ADC"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive data on NN3201 as an investigational ADC targeting c-Kit.",
+    "mechanism_doi_meaning": "The DOI provides detailed preclinical efficacy and pharmacokinetic data.",
+    "empty_mechanism_doi_meaning": "No additional DOIs were found for mechanism of action.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I",
+    "nct_trials": [
+      "NCT06805825"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "KIT"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "KIT",
+        "pdb_id": "1T45",
+        "alphafold_id": "P10721",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "Val654",
+              "Asp810",
+              "Phe811"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "KIT",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 0.5,
+        "doi_or_source": "10.1016/j.jmb.2004.09.085"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": "MMAE",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "AML_THERAPY_RELATED": {
+    "name": "Therapy-related AML",
+    "heme_involvement_pattern": {
+      "primary_compartment": "bone_marrow + peripheral_blood"
+    },
+    "biomarkers": [
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~20-40% (higher than de novo AML)",
+        "clinical_use": "Very adverse; strongly associated with poor outcome in t-AML"
+      },
+      {
+        "name": "Complex and monosomal karyotype, -5/-7 abnormalities",
+        "type": "cytogenetic",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "Adverse; classically associated with alkylating agent/radiation-related cases"
+      },
+      {
+        "name": "KMT2A (MLL) rearrangements",
+        "type": "fusion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Subset of cases, classically associated with prior topoisomerase II inhibitor exposure and short latency",
+        "clinical_use": "Defines a recurrent fusion subtype; relevant to menin inhibitor trials"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "AML morphology (as per AML_NOS) with clinical history of prior cytotoxic exposure",
+      "variants": [
+        "alkylating agent-related (long latency 5-10y, -5/-7, TP53, complex karyotype, preceded by MDS phase)",
+        "topoisomerase II inhibitor-related (short latency 1-3y, KMT2A rearrangements, no preceding MDS phase, often monocytic differentiation)"
+      ],
+      "grading": "Not graded; adverse risk"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "As per AML_NOS; often reflects prior treatment-induced clonal haematopoiesis",
+      "stromal_features": "Dysplastic marrow common; cellularity variable"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "HSC or committed myeloid progenitor with prior cytotoxic exposure history",
+      "developmental_lineage": "Mesoderm \u2014 haematopoietic",
+      "differentiation_state": "AML morphology similar to de novo AML but with enrichment for adverse cytogenetics (TP53, complex, -5/-7 for alkylator-related) or characteristic fusions (KMT2A for topoisomerase II-related)",
+      "lineage_plasticity": "Two distinct pathways reflect different mechanisms: alkylating agent-related (long latency 5-10 years, TP53-driven, often preceded by MDS phase); topoisomerase II inhibitor-related (short latency 1-3 years, KMT2A rearrangements, no preceding MDS phase, often monocytic differentiation)"
+    }
+  }
+}

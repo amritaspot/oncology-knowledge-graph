@@ -1,0 +1,227 @@
+{
+  "INVASIVE_DUCTAL_NST": {
+    "name": "Invasive ductal carcinoma / no special type",
+    "metastasis_patterns": {
+      "source_ref": "RIIHIMAKI_2018",
+      "source_category": "Breast",
+      "cohort": {
+        "female_n": 25594
+      },
+      "organ_involvement_pct": {
+        "MUSCULOSKELETAL": {
+          "female": 55
+        },
+        "HEPATOBILIARY": {
+          "female": 36
+        },
+        "PULMONARY": {
+          "female": 30
+        },
+        "NEUROLOGIC": {
+          "female": 16
+        },
+        "PULMONARY_PLEURA": {
+          "female": 13
+        },
+        "DERMATOLOGIC": {
+          "female": 9
+        },
+        "GASTROINTESTINAL": {
+          "female": 5
+        },
+        "GASTROINTESTINAL_OTHER": {
+          "female": 3
+        },
+        "REPRODUCTIVE_GONADAL": {
+          "female": 1
+        },
+        "ENDOCRINE": {
+          "female": 1
+        }
+      }
+    },
+    "biomarkers": [
+      {
+        "name": "ER (oestrogen receptor)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~70-80% of invasive breast cancer overall",
+        "clinical_use": "Positive: endocrine therapy indicated (tamoxifen premenopausal; AI \u00b1 OFS postmenopausal/premenopausal as appropriate; SERD elacestrant if ESR1-mut in advanced HR+/HER2- disease). Prognostic (better than ER-neg). ASCO/CAP threshold: \u22651% positive nuclei; 1-10% is reported as ER-low positive"
+      },
+      {
+        "name": "PR (progesterone receptor)",
+        "type": "IHC",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~60-70%",
+        "clinical_use": "Adds prognostic weight beyond ER; ER+/PR- disease is less endocrine-responsive than ER+/PR+"
+      },
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC + ISH reflex",
+        "categories": [
+          "diagnostic",
+          "predictive"
+        ],
+        "prevalence": "~15-20% HER2-positive; HER2-low is common (~45-55% of metastatic breast cancer overall)",
+        "clinical_use": "HER2+ (IHC 3+ or ISH-amplified): trastuzumab, pertuzumab, T-DM1, T-DXd, tucatinib. HER2-low: T-DXd in unresectable/metastatic disease after prior chemotherapy. HER2-ultralow: T-DXd has shown benefit in HR-positive metastatic disease"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a (continuous marker)",
+        "clinical_use": "Prognostic in HR+ disease; used in monarchE trial selection, although current adjuvant abemaciclib use does not require Ki-67 testing in many jurisdictions/guidelines; no universal threshold"
+      },
+      {
+        "name": "BRCA1 / BRCA2 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~5-10% overall; higher in TNBC, young age, family history",
+        "clinical_use": "PARP inhibitors: olaparib (adjuvant OlympiA in high-risk HER2-negative gBRCA; also metastatic); talazoparib (metastatic). Also implications for risk-reducing surgery and family screening"
+      },
+      {
+        "name": "PIK3CA",
+        "type": "mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~35-45% of HR+/HER2-",
+        "clinical_use": "Alpelisib + fulvestrant in HR+/HER2-/PIK3CA-mut after endocrine progression; inavolisib-based therapy is also supported in this setting"
+      },
+      {
+        "name": "ESR1 mutations",
+        "type": "mutation (mostly acquired)",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~30-40% of ER+/HER2- metastatic disease after AI exposure",
+        "clinical_use": "Elacestrant (oral SERD) \u2014 approved in ESR1-mut ER+/HER2- advanced/metastatic disease after endocrine progression"
+      },
+      {
+        "name": "AKT1 / PIK3CA / PTEN alterations",
+        "type": "mutation / loss",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~40-50% collectively in HR+/HER2- advanced disease",
+        "clinical_use": "Capivasertib + fulvestrant in HR+/HER2- advanced disease with PI3K/AKT/PTEN pathway alteration (CAPItello-291)"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "<2% of breast cancer",
+        "clinical_use": "Pembrolizumab (tissue-agnostic) if MSI-H/dMMR \u2014 rare in breast"
+      },
+      {
+        "name": "PD-L1 (SP142 for TNBC IC; CPS 22C3)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~35-45% of metastatic TNBC are PD-L1 positive by CPS \u226510",
+        "clinical_use": "Pembrolizumab + chemotherapy in metastatic TNBC with CPS \u226510 (22C3, KEYNOTE-355). Atezolizumab with nab-paclitaxel used PD-L1 IC by SP142 in some regions historically; US indication was withdrawn"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Generally low; TMB-high is uncommon",
+        "clinical_use": "Tissue-agnostic pembrolizumab if TMB-high (\u226510 mut/Mb)"
+      },
+      {
+        "name": "Oncotype DX (21-gene recurrence score)",
+        "type": "multi-gene assay",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "Chemo benefit prediction in HR+/HER2-/node-negative and selected node-positive disease. In node-negative disease, postmenopausal patients with RS 0-25 generally do not benefit from chemotherapy, whereas chemotherapy is recommended for RS \u226526; interpretation differs by age/menopausal status and nodal status"
+      },
+      {
+        "name": "MammaPrint (70-gene assay)",
+        "type": "multi-gene assay",
+        "categories": [
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Prognostic genomic assay with MINDACT evidence to help identify clinically high-risk patients who may forgo chemotherapy if genomically low risk"
+      },
+      {
+        "name": "CA 15-3, CEA",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "May assist monitoring in metastatic disease in conjunction with clinical/radiographic assessment; not recommended for routine early-stage surveillance"
+      },
+      {
+        "name": "Circulating tumor DNA (ctDNA)",
+        "type": "cfDNA",
+        "categories": [
+          "monitoring",
+          "predictive"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Useful in advanced disease for noninvasive genotyping and tracking alterations such as ESR1, PIK3CA, and ERBB2; MRD detection after curative-intent therapy remains investigational and is not yet standard of care"
+      },
+      {
+        "name": "PALB2 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~1-3% overall",
+        "clinical_use": "Hereditary breast cancer susceptibility gene with therapeutic relevance in metastatic disease; PARP inhibitor sensitivity is supported, although approvals are more limited than for gBRCA"
+      },
+      {
+        "name": "NTRK1 / NTRK2 / NTRK3 fusions",
+        "type": "gene fusion",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Very rare in common invasive breast carcinoma",
+        "clinical_use": "Larotrectinib or entrectinib for NTRK fusion-positive unresectable/metastatic solid tumors; secretory breast carcinoma is the classic breast subtype with ETV6::NTRK3 fusion"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Invasive glandular structures (ducts, tubules, cords, sheets) with variable architecture; heterogeneous",
+      "variants": [
+        "invasive ductal NST (~70-80% of breast cancer)",
+        "with medullary features",
+        "with neuroendocrine differentiation",
+        "with apocrine differentiation"
+      ],
+      "grading": "Nottingham combined histologic grade (Elston-Ellis): tubule formation + nuclear pleomorphism + mitotic count \u2192 grade 1-3"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Highly variable by molecular subtype \u2014 TNBC most inflamed; luminal A least; HER2+ and TNBC are the principal breast cancer settings with established immunotherapy use",
+      "stromal_features": "Desmoplastic stroma with cancer-associated fibroblasts; TILs increasingly quantified"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Luminal epithelial cells of terminal duct-lobular units (TDLU); intrinsic subtypes reflect distinct cell-state programs rather than simple one-to-one cell-of-origin assignments",
+      "developmental_lineage": "Ectoderm (mammary bud from milk line \u2014 surface ectoderm)",
+      "differentiation_state": "Intrinsic subtypes reflect luminal vs basal differentiation states: luminal A/B (ER+, GATA3+, FOXA1+ luminal programme), HER2-enriched, basal-like (often CK5/6+, EGFR+, basal cytokeratin programme), claudin-low (EMT-like)",
+      "lineage_plasticity": "Basal-like tumors, including many TNBCs, may arise from luminal progenitors rather than mature basal/myoepithelial cells; endocrine resistance can involve luminal-to-basal lineage plasticity"
+    }
+  }
+}

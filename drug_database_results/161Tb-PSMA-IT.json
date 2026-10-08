@@ -1,0 +1,116 @@
+{
+  "molecule_name": "161Tb-PSMA-I&T",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Radioligand Therapy",
+  "modality": "Theranostic Radioligand",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "Targets prostate-specific membrane antigen (PSMA) and delivers radiation to cancer cells.",
+    "molecular_action": "Binds to PSMA receptors and emits beta particles and Auger electrons.",
+    "targets": [
+      "PSMA"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Cellular damage to prostate cancer cells"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": "Adenocarcinoma of the prostate",
+    "clinical_settings": [
+      "Patients with progressive mCRPC previously treated with androgen receptor pathway inhibitors and taxane chemotherapy"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Clinical trial data",
+    "mechanism_doi_meaning": "No DOI available for mechanism of action.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase I/II",
+    "nct_trials": [],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLH1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "FOLH1",
+        "pdb_id": null,
+        "alphafold_id": "P42788",
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "FOLH1",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 5.6,
+        "doi_or_source": "10.2967/jnumed.118.215236"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": "161Tb",
+    "emission_type": [
+      "beta",
+      "gamma"
+    ],
+    "targeting_vector_type": "small molecule",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": "177Lu",
+    "imaging_modality": "SPECT"
+  }
+}

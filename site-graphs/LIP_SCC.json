@@ -1,0 +1,52 @@
+{
+  "LIP_SCC": {
+    "name": "Lip squamous cell carcinoma",
+    "biomarkers": [
+      {
+        "name": "TP53",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "Common",
+        "clinical_use": "UV-signature mutations characteristic"
+      },
+      {
+        "name": "TMB",
+        "type": "genomic",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Often high (UV-signature)",
+        "clinical_use": "Tissue-agnostic pembrolizumab indication if TMB-H"
+      },
+      {
+        "name": "PD-L1",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable",
+        "clinical_use": "Not an established required biomarker for cutaneous-type lip SCC; PD-1 inhibitors are used in advanced disease without a mandatory PD-L1 threshold"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Well-differentiated keratinizing SCC, UV-driven",
+      "variants": [
+        "conventional keratinizing",
+        "verrucous"
+      ],
+      "grading": "Usually low-grade / well-differentiated"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Often inflamed (UV-induced neoantigen load)",
+      "stromal_features": "Solar elastosis (chronic UV damage) in adjacent stroma"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Basal keratinocytes of vermillion border of lower lip (typical) or upper lip",
+      "developmental_lineage": "Ectoderm (surface ectoderm) \u2014 behaves like cutaneous SCC of sun-exposed skin",
+      "differentiation_state": "Keratinizing squamous, usually well-differentiated",
+      "lineage_plasticity": "Actinic cheilitis is the field-cancerization precursor lesion"
+    }
+  }
+}

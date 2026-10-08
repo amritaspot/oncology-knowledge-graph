@@ -1,0 +1,64 @@
+{
+  "MEDULLARY_THYROID": {
+    "name": "Medullary thyroid carcinoma",
+    "biomarkers": [
+      {
+        "name": "RET mutations (germline in MEN2A/2B/FMTC; somatic in sporadic)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic",
+          "prognostic",
+          "predictive"
+        ],
+        "prevalence": "~95-98% germline in hereditary; ~40-65% somatic in sporadic (M918T most common and associated with aggressive behavior)",
+        "clinical_use": "Selpercatinib and pralsetinib highly effective in RET-mutant advanced MTC; genetic counselling and prophylactic thyroidectomy in MEN2 kindreds"
+      },
+      {
+        "name": "RAS mutations (HRAS, KRAS)",
+        "type": "mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~10-25% of sporadic cases, enriched in RET-wildtype tumors",
+        "clinical_use": "Alternative driver"
+      },
+      {
+        "name": "Calcitonin",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "n/a (assay)",
+        "clinical_use": "Definitive diagnostic marker for MTC; calcitonin doubling time is a key prognostic factor; monitoring post-thyroidectomy"
+      },
+      {
+        "name": "CEA",
+        "type": "serum",
+        "categories": [
+          "monitoring"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Complementary monitoring; CEA doubling time is also prognostic"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Nested or trabecular growth of polygonal to spindle cells with amyloid stroma (calcitonin-derived amyloid)",
+      "variants": [
+        "sporadic",
+        "hereditary (MEN2A, MEN2B, FMTC)"
+      ],
+      "grading": "International MTC grading system (mitoses, necrosis, Ki-67 proliferation)"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Poorly characterised; less inflamed than PTC",
+      "stromal_features": "Distinctive amyloid stroma (calcitonin-derived) \u2014 pathognomonic when present"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Parafollicular C cells (calcitonin-producing) of thyroid",
+      "developmental_lineage": "Ultimobranchial body-derived C cells; distinct from endoderm-derived follicular epithelium of other major thyroid cancers",
+      "differentiation_state": "Retains C-cell neuroendocrine differentiation with calcitonin and CEA production",
+      "lineage_plasticity": "Neuroendocrine phenotype is usually preserved; sporadic RET M918T mutation is associated with more aggressive behaviour and parallels MEN2B germline biology"
+    }
+  }
+}

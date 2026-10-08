@@ -1,0 +1,170 @@
+{
+  "molecule_name": "Gedatolisib",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": 44516953,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "PF-05212384"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [
+    "Revtorpyk"
+  ],
+  "drug_class": "Pan-PI3K/mTOR inhibitor",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [
+    "United States"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Gedatolisib inhibits the PI3K and mTOR pathways, which are involved in cell growth and survival.",
+    "molecular_action": "Inhibition of PI3K and mTOR signaling pathways.",
+    "targets": [
+      "PI3K",
+      "mTOR"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Reduced cell proliferation",
+      "Induction of apoptosis"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Breast cancer",
+    "histology": null,
+    "clinical_settings": [
+      "Advanced solid tumors",
+      "Triple-negative breast cancer",
+      "Hormone receptor-positive breast cancer"
+    ],
+    "scope": null,
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT02069158",
+      "NCT03243331",
+      "NCT03400254"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "FDA approved for HR+/HER2- advanced breast cancer after endocrine therapy."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Clinical trials and FDA approval information.",
+    "mechanism_doi_meaning": "No specific DOI available for the mechanism.",
+    "empty_mechanism_doi_meaning": "No DOI available.",
+    "null_meaning": "No data available.",
+    "last_checked": "October 2023"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase 3",
+    "nct_trials": [
+      "NCT02069158",
+      "NCT03243331",
+      "NCT03400254"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "PIK3CA",
+      "MTOR"
+    ],
+    "pathways": [
+      "PI3K/AKT/mTOR signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "PIK3CA",
+        "pdb_id": "4JPS",
+        "alphafold_id": "P42336",
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "LYS802",
+              "ASP933",
+              "GLU849"
+            ],
+            "druggability_score": 0.8
+          }
+        ]
+      },
+      {
+        "target_symbol": "MTOR",
+        "pdb_id": "4JT6",
+        "alphafold_id": "P42345",
+        "resolution_angstroms": 2.7,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": "1",
+            "active_residues": [
+              "LYS2187",
+              "ASP2357",
+              "GLU2190"
+            ],
+            "druggability_score": 0.75
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "PIK3CA",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 0.8,
+        "doi_or_source": "10.1021/jm301756t"
+      },
+      {
+        "target_symbol": "MTOR",
+        "affinity_type": "IC50",
+        "affinity_value_nM": 1.0,
+        "doi_or_source": "10.1021/jm301756t"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

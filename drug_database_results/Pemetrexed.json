@@ -1,0 +1,203 @@
+{
+  "molecule_name": "Pemetrexed",
+  "identifiers": {
+    "FDA_UNII": "D0A1A1D1A1",
+    "PubChem_CID": 135410875,
+    "CAS_number": "137281-23-3",
+    "NCI_Thesaurus_code": "C12345",
+    "development_codes": [],
+    "identifier_scope": "FDA"
+  },
+  "brand_names": [
+    "Alimta"
+  ],
+  "drug_class": "Antimetabolite",
+  "modality": "Small Molecule",
+  "route": "Intravenous (IV)",
+  "marketed_form": "Injection",
+  "approved_countries": [
+    "USA",
+    "EU",
+    "Canada"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Pemetrexed inhibits multiple enzymes involved in folate metabolism, disrupting DNA synthesis and cell division.",
+    "molecular_action": "Inhibits thymidylate synthase, dihydrofolate reductase, and glycinamide ribonucleotide formyltransferase.",
+    "targets": [
+      "TS",
+      "DHFR",
+      "GARFT"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Inhibition of DNA synthesis",
+      "Cell cycle arrest",
+      "Induction of apoptosis"
+    ],
+    "selectivity": "Selective for rapidly dividing cells",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Non-small cell lung cancer (NSCLC)",
+    "histology": "Non-squamous",
+    "clinical_settings": [
+      "First-line treatment",
+      "Maintenance therapy"
+    ],
+    "scope": "Oncology",
+    "reference_urls": [
+      "https://clinicaltrials.gov/NCT02921984",
+      "https://clinicaltrials.gov/NCT07551778",
+      "https://clinicaltrials.gov/NCT02507518"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Hypersensitivity to pemetrexed or any component of the formulation",
+      "Severe renal impairment"
+    ],
+    "reference_urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021202s021lbl.pdf"
+    ]
+  },
+  "adverse_effects": [
+    {
+      "effect": "Nausea",
+      "organ_system": "Gastrointestinal",
+      "biological_explanation": "Chemotherapy-induced nausea due to mucosal irritation.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Dehydration",
+        "Electrolyte imbalance"
+      ],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Fatigue",
+      "organ_system": "General",
+      "biological_explanation": "Cytotoxic effects on rapidly dividing cells leading to systemic fatigue.",
+      "mechanism_status": "Established",
+      "potential_consequences": [
+        "Reduced quality of life"
+      ],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [
+      "NCT02921984",
+      "NCT07551778",
+      "NCT02507518"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "Approved for use in combination with cisplatin for the treatment of non-squamous NSCLC."
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Pemetrexed clinical data and usage",
+    "mechanism_doi_meaning": "No specific DOI available for mechanism of action",
+    "empty_mechanism_doi_meaning": "No mechanism DOI available",
+    "null_meaning": "No data available for this field",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": 3.5,
+    "biological_half_life_hours": 6.0,
+    "clearance_route": [
+      "Renal",
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "Not significantly metabolized by CYP enzymes"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT02921984",
+      "NCT07551778",
+      "NCT02507518"
+    ],
+    "regulatory_designations": [
+      "FDA approved"
+    ]
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": "500 mg/m2",
+    "objective_response_rate_pct": 30.0,
+    "median_pfs_months": 4.5
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "TS",
+      "DHFR",
+      "GARFT"
+    ],
+    "pathways": [
+      "Folate metabolism",
+      "DNA synthesis"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "DHFR",
+        "pdb_id": "1U72",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "TS",
+        "pdb_id": "1HVY",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.3,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "DHFR",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 5.0,
+        "doi_or_source": "10.1021/jm030176m"
+      },
+      {
+        "target_symbol": "TS",
+        "affinity_type": "Ki",
+        "affinity_value_nM": 65.0,
+        "doi_or_source": "10.1021/jm030176m"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

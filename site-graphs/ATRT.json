@@ -1,0 +1,62 @@
+{
+  "ATRT": {
+    "name": "Atypical teratoid/rhabdoid tumour",
+    "biomarkers": [
+      {
+        "name": "SMARCB1 (INI-1) loss",
+        "type": "IHC / mutation / deletion",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~90-95%",
+        "clinical_use": "Defining feature in most ATRTs; loss of nuclear INI1 expression supports diagnosis. Germline testing is recommended to evaluate rhabdoid tumour predisposition syndrome"
+      },
+      {
+        "name": "SMARCA4 (BRG1) loss",
+        "type": "IHC / mutation",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "~2-5% (subset of SMARCB1-intact/INI-1-retained cases)",
+        "clinical_use": "Alternative defining driver in a small subset; loss of BRG1 supports ATRT diagnosis when SMARCB1 is retained"
+      },
+      {
+        "name": "Methylation subgroups (ATRT-TYR, ATRT-SHH, ATRT-MYC)",
+        "type": "methylation profiling",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Molecular subclassification with clinicobiologic and prognostic associations; ATRT-TYR often occurs in younger children and has relatively more favorable outcomes, ATRT-SHH is intermediate, and ATRT-MYC is generally associated with less favorable outcomes"
+      },
+      {
+        "name": "SMARCB1 germline",
+        "type": "germline",
+        "categories": [
+          "screening"
+        ],
+        "prevalence": "~25-35%",
+        "clinical_use": "Rhabdoid tumour predisposition syndrome \u2014 surveillance and family counseling"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Rhabdoid cells (large eccentric nuclei with prominent nucleoli and eosinophilic paranuclear cytoplasmic inclusions) mixed with primitive neuroectodermal or teratoid/epithelial/mesenchymal components",
+      "variants": [
+        "ATRT-TYR (younger children/infants, tyrosinase expression, relatively better prognosis)",
+        "ATRT-SHH (intermediate)",
+        "ATRT-MYC (less favorable prognosis)"
+      ],
+      "grading": "WHO grade 4"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Not well characterised; SMARCB1 loss may affect immune signalling",
+      "stromal_features": "Rhabdoid morphology diagnostic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Uncertain \u2014 proposed neural progenitor/early embryonal precursor cells with SMARCB1 loss driving a distinctive undifferentiated phenotype",
+      "developmental_lineage": "Neuroectoderm \u2014 CNS",
+      "differentiation_state": "Undifferentiated / rhabdoid \u2014 polymorphic small round blue cells with rhabdoid cells; multi-lineage IHC (cytokeratin+, GFAP+, EMA+, SMA+ \u2014 often positive for markers of multiple lineages simultaneously)",
+      "lineage_plasticity": "SMARCB1 (INI-1) loss disrupts the SWI/SNF chromatin remodelling complex, contributing to lineage infidelity/plasticity with concurrent expression of markers from multiple lineages"
+    }
+  }
+}

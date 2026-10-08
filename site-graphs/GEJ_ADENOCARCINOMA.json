@@ -1,0 +1,62 @@
+{
+  "GEJ_ADENOCARCINOMA": {
+    "name": "Gastro-esophageal junction adenocarcinoma",
+    "biomarkers": [
+      {
+        "name": "HER2 (ERBB2)",
+        "type": "IHC + ISH reflex",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~15-25% (generally higher in GEJ than distal gastric)",
+        "clinical_use": "As per GASTRIC_ADENOCARCINOMA"
+      },
+      {
+        "name": "PD-L1 (CPS)",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Variable; broadly similar to gastric/esophageal adenocarcinoma depending on CPS cutoff",
+        "clinical_use": "Same combinations as gastric adeno"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~3-8% (lower than distal gastric; uncommon in GEJ)",
+        "clinical_use": "IO benefit"
+      },
+      {
+        "name": "CLDN18.2",
+        "type": "IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "~30-40%",
+        "clinical_use": "Zolbetuximab if HER2- and CLDN18.2+"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Adenocarcinoma at the junction, sharing features with distal esophageal adenocarcinoma and proximal gastric adenocarcinoma",
+      "variants": [
+        "Siewert type I (distal esophagus, treated as esophageal)",
+        "Siewert type II (true junction)",
+        "Siewert type III (proximal stomach, treated as gastric)"
+      ],
+      "grading": "Standard adenocarcinoma grading; Lauren classification may be applied, though GEJ tumors are commonly intestinal-type"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Intermediate between esophageal and gastric \u2014 HER2 enrichment (~15-25%)",
+      "stromal_features": "Desmoplastic"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Metaplastic intestinal epithelium at gastroesophageal junction (similar to esophageal adeno) or gastric cardia epithelium",
+      "developmental_lineage": "Endoderm \u2014 foregut derivative",
+      "differentiation_state": "Intestinal-type glandular differentiation predominantly; HER2 more commonly overexpressed than in distal gastric",
+      "lineage_plasticity": "Same GERD/Barrett's-driven metaplasia biology as esophageal adenocarcinoma for Siewert I and many Siewert II tumors; more classic gastric cardia biology for Siewert III"
+    }
+  }
+}

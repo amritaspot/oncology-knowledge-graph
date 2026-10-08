@@ -1,0 +1,131 @@
+{
+  "ADRENOCORTICAL_CARCINOMA": {
+    "name": "Adrenocortical carcinoma",
+    "biomarkers": [
+      {
+        "name": "SF-1 (steroidogenic factor 1)",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Positive in most ACCs",
+        "clinical_use": "Distinguishes adrenal cortical neoplasms from RCC and many other adrenal/retroperitoneal masses"
+      },
+      {
+        "name": "Melan-A, calretinin, inhibin",
+        "type": "IHC",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Frequently positive (steroidogenic/adrenocortical markers)",
+        "clinical_use": "Supports adrenal cortical origin"
+      },
+      {
+        "name": "Ki-67",
+        "type": "IHC",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "Not a component of the original Weiss score; often used as an adjunct in distinguishing adenoma from carcinoma and is a major prognostic marker (higher = worse). A cutoff around >5% supports malignancy in indeterminate cases, and Ki-67 is incorporated into grading/prognostic stratification"
+      },
+      {
+        "name": "Weiss score",
+        "type": "morphologic (composite)",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "n/a",
+        "clinical_use": "\u00053 of 9 criteria supports malignancy"
+      },
+      {
+        "name": "TP53 (germline)",
+        "type": "germline mutation",
+        "categories": [
+          "diagnostic",
+          "screening"
+        ],
+        "prevalence": "Li-Fraumeni syndrome association; enriched in paediatric ACC, with very high prevalence in southern Brazilian paediatric series due to founder TP53 p.R337H",
+        "clinical_use": "Genetic counselling; family screening"
+      },
+      {
+        "name": "CTNNB1 (\u0003b2-catenin)",
+        "type": "mutation",
+        "categories": [
+          "prognostic"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "WNT/\u0003b2-catenin pathway activation is common and is associated with adverse biology/prognosis"
+      },
+      {
+        "name": "IGF2 overexpression",
+        "type": "expression / methylation",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": ">80%",
+        "clinical_use": "Very common molecular hallmark in ACC; related to 11p15 alterations/loss of imprinting. Target of prior IGF-axis therapeutic trials"
+      },
+      {
+        "name": "Serum steroids (cortisol, DHEA-S, aldosterone, sex steroids)",
+        "type": "serum",
+        "categories": [
+          "diagnostic",
+          "monitoring"
+        ],
+        "prevalence": "~40-60% functional at diagnosis",
+        "clinical_use": "Establish functional status (Cushing syndrome, androgen excess/virilisation, less often aldosterone or estrogen excess). Cortisol excess is associated with worse prognosis. Steroid profiles by mass spectrometry are emerging"
+      },
+      {
+        "name": "Urinary steroid metabolomics (24h urine or LC-MS)",
+        "type": "urine",
+        "categories": [
+          "diagnostic"
+        ],
+        "prevalence": "Distinctive pattern in ACC",
+        "clinical_use": "Emerging diagnostic tool differentiating ACC from adenoma"
+      },
+      {
+        "name": "MSI / dMMR",
+        "type": "PCR / IHC",
+        "categories": [
+          "predictive"
+        ],
+        "prevalence": "Rare in sporadic ACC; Lynch-associated cases exist",
+        "clinical_use": "Pembrolizumab if MSI-H/dMMR"
+      },
+      {
+        "name": "ZNRF3",
+        "type": "mutation / deletion",
+        "categories": [
+          "diagnostic",
+          "prognostic"
+        ],
+        "prevalence": "~15-25%",
+        "clinical_use": "Recurrent ACC driver affecting WNT signaling; part of the molecular hallmark landscape"
+      }
+    ],
+    "histomorphological_subtype": {
+      "primary_pattern": "Nests, trabeculae, or diffuse sheets of polygonal cells with eosinophilic to clear cytoplasm; nuclear atypia, mitoses, capsular/vascular invasion",
+      "variants": [
+        "conventional ACC",
+        "oncocytic ACC",
+        "myxoid ACC",
+        "sarcomatoid ACC (worst prognosis)"
+      ],
+      "grading": "Weiss criteria (\u00053 of 9 features supports malignancy); ENSAT stage; Ki-67 is the main proliferation-based prognostic marker and is used in grading/prognostic stratification, although cutoffs vary across studies and guidelines"
+    },
+    "tumor_microenvironment": {
+      "immune_context": "Immune-cold typically; hypercortisolism in functional tumours further suppresses immune infiltrate",
+      "stromal_features": "Delicate fibrovascular stroma; extensive necrosis in high-grade tumours"
+    },
+    "cellular_states_and_lineage": {
+      "cell_of_origin": "Adrenal cortical cells (zona fasciculata, glomerulosa, or reticularis)",
+      "developmental_lineage": "Mesoderm \u0014 intermediate mesoderm (adrenal cortex from urogenital ridge, distinct from neural crest-derived medulla)",
+      "differentiation_state": "Retains steroidogenic differentiation (inhibin+, SF-1+, calretinin+, Melan-A+/MART-1+); often produces steroid hormones (most commonly cortisol and/or androgens, less often aldosterone or oestrogens) driving clinical syndromes",
+      "lineage_plasticity": "Transcriptomic subtypes reflect biologically distinct states, including more proliferative/aggressive groups with dedifferentiation; WNT/\u0003b2-catenin activation is a major subset. TP53 alterations are common in aggressive disease; ATRX alterations are reported but are not established as the defining driver of the most aggressive subset"
+    }
+  }
+}

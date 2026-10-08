@@ -1,0 +1,121 @@
+{
+  "molecule_name": "Anti-Caprin-1 Monoclonal Antibody TRK-950",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "TRK-950"
+    ],
+    "identifier_scope": null
+  },
+  "brand_names": [],
+  "drug_class": "Monoclonal Antibody",
+  "modality": "Biologic",
+  "route": "Intravenous (IV)",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "TRK-950 is a humanized monoclonal antibody that targets the CAPRIN-1 protein on cancer cells, leading to immune cell engagement and antitumor effects.",
+    "molecular_action": "Mediates antibody-dependent cellular phagocytosis and cytotoxicity by targeting CAPRIN-1.",
+    "targets": [
+      "CAPRIN-1"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [],
+    "selectivity": "Targets CAPRIN-1 expressed on cancer cells but not on normal cells.",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Advanced Solid Tumors",
+    "histology": null,
+    "clinical_settings": [
+      "Monotherapy",
+      "Combination Therapy"
+    ],
+    "scope": "Investigational",
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40557916/",
+      "https://link.springer.com/article/10.1007/s10637-026-01609-z",
+      "https://pubmed.ncbi.nlm.nih.gov/41979863/",
+      "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.2525"
+    ]
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": [
+      "https://pubmed.ncbi.nlm.nih.gov/40557916/",
+      "https://link.springer.com/article/10.1007/s10637-026-01609-z",
+      "https://pubmed.ncbi.nlm.nih.gov/41979863/",
+      "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.2525"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "TRK-950 as an investigational drug targeting CAPRIN-1 in solid tumors.",
+    "mechanism_doi_meaning": "DOIs for studies detailing the mechanism of action of TRK-950.",
+    "empty_mechanism_doi_meaning": "No specific DOIs provided for mechanism of action.",
+    "null_meaning": "Information not available or not applicable.",
+    "last_checked": "2023-10-15"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": null,
+    "biological_half_life_hours": null,
+    "clearance_route": [],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "Phase II",
+    "nct_trials": [
+      "NCT06038578",
+      "NCT02990481",
+      "NCT03872947"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "CAPRIN1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "CAPRIN1",
+        "pdb_id": null,
+        "alphafold_id": null,
+        "resolution_angstroms": null,
+        "experimental_method": null,
+        "binding_pockets": []
+      }
+    ],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

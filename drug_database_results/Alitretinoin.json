@@ -1,0 +1,227 @@
+{
+  "molecule_name": "Alitretinoin",
+  "identifiers": {
+    "FDA_UNII": "1UA8E65KDZ",
+    "PubChem_CID": 15051,
+    "CAS_number": "5300-03-8",
+    "NCI_Thesaurus_code": "C1117",
+    "development_codes": [],
+    "identifier_scope": "global"
+  },
+  "brand_names": [
+    "Toctino",
+    "Panretin"
+  ],
+  "drug_class": "Retinoid",
+  "modality": "Small Molecule",
+  "route": "Oral",
+  "marketed_form": "Capsule",
+  "approved_countries": [
+    "Canada",
+    "European Union",
+    "United Kingdom"
+  ],
+  "mechanism_of_action": {
+    "plain_language": "Alitretinoin binds to and activates retinoid receptors, which regulate gene expression involved in cell differentiation and proliferation.",
+    "molecular_action": "Agonist of retinoic acid receptors (RARs) and retinoid X receptors (RXRs).",
+    "targets": [
+      "RARA",
+      "RARB",
+      "RARG",
+      "RXRA",
+      "RXRB",
+      "RXRG"
+    ],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Regulation of gene expression",
+      "Induction of cell differentiation",
+      "Inhibition of cell proliferation"
+    ],
+    "selectivity": "Non-selective",
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": null,
+    "histology": null,
+    "clinical_settings": [
+      "Chronic hand eczema unresponsive to topical corticosteroids"
+    ],
+    "scope": "Dermatological",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [
+      "Pregnancy",
+      "Liver dysfunction",
+      "Hyperlipidemia",
+      "Hypothyroidism"
+    ],
+    "reference_urls": []
+  },
+  "adverse_effects": [
+    {
+      "effect": "Headache",
+      "organ_system": "Nervous system",
+      "biological_explanation": "Unknown",
+      "mechanism_status": "observed",
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Dry skin",
+      "organ_system": "Integumentary system",
+      "biological_explanation": "Retinoids can reduce sebum production and alter skin barrier function.",
+      "mechanism_status": "observed",
+      "potential_consequences": [],
+      "mechanism_doi": []
+    },
+    {
+      "effect": "Hyperlipidemia",
+      "organ_system": "Metabolic system",
+      "biological_explanation": "Retinoids can alter lipid metabolism.",
+      "mechanism_status": "observed",
+      "potential_consequences": [],
+      "mechanism_doi": []
+    }
+  ],
+  "other_reported_adverse_effects": [
+    {
+      "effects": [
+        "Mucocutaneous reactions",
+        "Photosensitivity"
+      ],
+      "biological_explanation": "Retinoids can affect skin and mucous membranes.",
+      "mechanism_status": "observed"
+    }
+  ],
+  "drug_interactions": [
+    {
+      "interacting_group": "Tetracyclines",
+      "examples": [
+        "Doxycycline",
+        "Minocycline"
+      ],
+      "biological_basis": "Increased risk of intracranial hypertension."
+    },
+    {
+      "interacting_group": "Vitamin A supplements",
+      "examples": [],
+      "biological_basis": "Increased risk of hypervitaminosis A."
+    }
+  ],
+  "reference_urls": {
+    "identifiers": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/Alitretinoin",
+      "https://www.drugbank.ca/drugs/DB00523"
+    ],
+    "approved_uses_and_reported_safety_effects": [
+      "https://www.ema.europa.eu/en/medicines/human/EPAR/toctino",
+      "https://www.medicines.org.uk/emc/product/570/smpc"
+    ]
+  },
+  "data_notes": {
+    "record_scope": "Comprehensive drug profile for Alitretinoin including pharmacology, clinical use, and safety.",
+    "mechanism_doi_meaning": "DOIs for mechanism of action studies.",
+    "empty_mechanism_doi_meaning": "No specific DOIs available for mechanism of action.",
+    "null_meaning": "Data not available or not applicable.",
+    "last_checked": "2023-10-01"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": "Low",
+    "physical_half_life_days": null,
+    "biological_half_life_hours": 2.0,
+    "clearance_route": [
+      "Hepatic"
+    ],
+    "cyp_metabolism": [
+      "CYP3A4"
+    ]
+  },
+  "clinical_development": {
+    "highest_phase": "Approved",
+    "nct_trials": [
+      "NCT03026946",
+      "NCT01231854",
+      "NCT00380770"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "RARA",
+      "RARB",
+      "RARG",
+      "RXRA",
+      "RXRB",
+      "RXRG"
+    ],
+    "pathways": [
+      "Retinoic acid signaling pathway"
+    ]
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [
+      {
+        "target_symbol": "RARA",
+        "pdb_id": "1XDK",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      },
+      {
+        "target_symbol": "RXRA",
+        "pdb_id": "1FBY",
+        "alphafold_id": null,
+        "resolution_angstroms": 2.0,
+        "experimental_method": "X-ray diffraction",
+        "binding_pockets": [
+          {
+            "pocket_id": null,
+            "active_residues": [],
+            "druggability_score": null
+          }
+        ]
+      }
+    ],
+    "binding_affinities": [
+      {
+        "target_symbol": "RARA",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 10.0,
+        "doi_or_source": "10.1016/S0960-0760(01)00199-9"
+      },
+      {
+        "target_symbol": "RXRA",
+        "affinity_type": "Kd",
+        "affinity_value_nM": 50.0,
+        "doi_or_source": "10.1016/S0960-0760(01)00199-9"
+      }
+    ]
+  },
+  "radiotheranostics": {
+    "radionuclide": null,
+    "emission_type": [],
+    "targeting_vector_type": null,
+    "chelator_or_linker": null,
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}

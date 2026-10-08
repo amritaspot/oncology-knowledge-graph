@@ -1,0 +1,103 @@
+{
+  "molecule_name": "177Lu-P17-088",
+  "identifiers": {
+    "FDA_UNII": null,
+    "PubChem_CID": null,
+    "CAS_number": null,
+    "NCI_Thesaurus_code": null,
+    "development_codes": [
+      "177Lu-P17-088",
+      "Lu-177 P17-088"
+    ],
+    "identifier_scope": "Investigational radiopharmaceutical development code"
+  },
+  "brand_names": [],
+  "drug_class": "Radiopharmaceutical",
+  "modality": "Targeted radionuclide therapy",
+  "route": "Intravenous IV",
+  "marketed_form": null,
+  "approved_countries": [],
+  "mechanism_of_action": {
+    "plain_language": "177Lu-P17-088 appears to be an investigational lutetium-177 radiopharmaceutical. Publicly accessible source material sufficient to verify the molecular target, binding scaffold, and tumor-selective mechanism was not identified.",
+    "molecular_action": null,
+    "targets": [],
+    "relevant_variants": [],
+    "downstream_effects": [
+      "Beta-particle radiation delivery to bound or localized tissues if target engagement occurs"
+    ],
+    "selectivity": null,
+    "doi": []
+  },
+  "typical_use": {
+    "cancer": "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "histology": null,
+    "clinical_settings": [],
+    "scope": "Insufficient publicly verifiable evidence to assign a specific cancer indication or treatment setting.",
+    "reference_urls": []
+  },
+  "potential_repurposed_uses": [],
+  "contraindications": {
+    "items": [],
+    "reference_urls": []
+  },
+  "adverse_effects": [],
+  "other_reported_adverse_effects": [],
+  "drug_interactions": [],
+  "reference_urls": {
+    "identifiers": [],
+    "approved_uses_and_reported_safety_effects": []
+  },
+  "data_notes": {
+    "record_scope": "Sparse-record summary based on the absence of sufficiently verifiable public clinical/pharmacology details for 177Lu-P17-088.",
+    "mechanism_doi_meaning": "DOIs listed only when directly supporting mechanism or mechanistic toxicology statements.",
+    "empty_mechanism_doi_meaning": "No directly supporting DOI was identified in publicly accessible sources reviewed.",
+    "null_meaning": "Null indicates that a specific field could not be verified from reliable public sources and was not inferred.",
+    "last_checked": "2026-09-13"
+  },
+  "pharmacokinetics": {
+    "bbb_penetration": null,
+    "physical_half_life_days": 6.65,
+    "biological_half_life_hours": null,
+    "clearance_route": [
+      "Renal"
+    ],
+    "cyp_metabolism": []
+  },
+  "clinical_development": {
+    "highest_phase": "PHASE2",
+    "nct_trials": [
+      "NCT05603559",
+      "NCT07562438"
+    ],
+    "regulatory_designations": []
+  },
+  "quantitative_efficacy": {
+    "recommended_phase_2_dose": null,
+    "objective_response_rate_pct": null,
+    "median_pfs_months": null
+  },
+  "standardized_ontologies": {
+    "hgnc_target_symbols": [
+      "FOLH1"
+    ],
+    "pathways": []
+  },
+  "structural_data_3d": {
+    "smiles_3d": null,
+    "pubchem_cid": null,
+    "sdf_download_url": null,
+    "rotatable_bonds": null,
+    "target_structures": [],
+    "binding_affinities": []
+  },
+  "radiotheranostics": {
+    "radionuclide": "177Lu",
+    "emission_type": [
+      "Beta"
+    ],
+    "targeting_vector_type": "Peptide",
+    "chelator_or_linker": "DOTA",
+    "theranostic_imaging_pair": null,
+    "imaging_modality": null
+  }
+}
